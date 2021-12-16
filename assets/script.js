@@ -105,10 +105,12 @@ file.onreadystatechange = function () {
 }
 
 updateSubTotal();
+
 function updateSubTotal() {
   var table = document.getElementById("imdbpolls");
-  let subTotal = Array.from(table.rows).slice(1).reduce((total, row) => {
-    return total + parseFloat(row.cells[3].innerHTML);
-  }, 0);
+  var subTotal = 0;
+  for (var i = 1; i < table.rows.length; i++) {
+    subTotal = subTotal + parseFloat(table.rows[i].cells[3].innerHTML);
+  }
   console.log(subTotal)
 }
