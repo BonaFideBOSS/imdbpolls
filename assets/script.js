@@ -129,10 +129,10 @@ file.onreadystatechange = function () {
       });
     });
 
+
     // ====================================================
     // ==================== STATISTICS ====================
     // ====================================================
-
     const monthsOne = {};
     const monthsTwo = {};
     const monthsThree = {};
