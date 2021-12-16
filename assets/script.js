@@ -2280,61 +2280,61 @@ for (var i = 0; i < mydata.polls.length; i++) {
   console.log(year)
 }
 
-  const months = [
-    'January',
-    'February',
-    'March',
-    'April',
-    'May',
-    'June',
-    'July',
-    'August',
-    'September',
-    'October',
-    'November',
-    'December'
-  ];
+const months = [
+  'January',
+  'February',
+  'March',
+  'April',
+  'May',
+  'June',
+  'July',
+  'August',
+  'September',
+  'October',
+  'November',
+  'December'
+];
 
-  const dataOne = {
-    labels: months,
-    datasets: [{
-      label: 'Polls Published in 2019',
-      backgroundColor: '#ffc107',
-      borderColor: '',
-      data: [0, 0, 0, 0, 0, 0, 0, polls2019Aug, 0, 0, polls2019Nov, polls2019Dec],
-    }]
-  };
-  const dataTwo = {
-    labels: months,
-    datasets: [{
-      label: 'Polls Published in 2020',
-      backgroundColor: '#0d6efd',
-      borderColor: '',
-      data: [polls2020Jan, polls2020Feb, polls2020Mar, polls2020Apr, polls2020May, polls2020Jun, polls2020Jul, polls2020Aug, polls2020Sep, polls2020Oct, polls2020Nov, polls2020Dec],
-    }]
-  };
-  const dataThree = {
-    labels: months,
-    datasets: [{
-      label: 'Polls Published in 2021',
-      backgroundColor: '#dc3545',
-      borderColor: '',
-      data: [polls2021Jan, polls2021Feb, polls2021Mar, polls2021Apr, polls2021May, polls2021Jun, polls2021Jul, polls2021Aug, polls2021Sep, polls2021Oct, polls2021Nov, polls2021Dec],
-    }]
-  };
+const dataOne = {
+  labels: months,
+  datasets: [{
+    label: 'Polls Published in 2019',
+    backgroundColor: '#ffc107',
+    borderColor: '',
+    data: [0, 0, 0, 0, 0, 0, 0, polls2019Aug, 0, 0, polls2019Nov, polls2019Dec],
+  }]
+};
+const dataTwo = {
+  labels: months,
+  datasets: [{
+    label: 'Polls Published in 2020',
+    backgroundColor: '#0d6efd',
+    borderColor: '',
+    data: [polls2020Jan, polls2020Feb, polls2020Mar, polls2020Apr, polls2020May, polls2020Jun, polls2020Jul, polls2020Aug, polls2020Sep, polls2020Oct, polls2020Nov, polls2020Dec],
+  }]
+};
+const dataThree = {
+  labels: months,
+  datasets: [{
+    label: 'Polls Published in 2021',
+    backgroundColor: '#dc3545',
+    borderColor: '',
+    data: [polls2021Jan, polls2021Feb, polls2021Mar, polls2021Apr, polls2021May, polls2021Jun, polls2021Jul, polls2021Aug, polls2021Sep, polls2021Oct, polls2021Nov, polls2021Dec],
+  }]
+};
 
-  const chartOne = {
-    type: 'bar',
-    data: dataOne,
-    options: {}
-  };
-  const chartTwo = {
-    type: 'bar',
-    data: dataTwo,
-    options: {}
-  };
-  const chartThree = {
-    type: 'bar',
-    data: dataThree,
-    options: {}
-  };
+const chartOne = {
+  type: 'bar',
+  data: dataOne,
+  options: {}
+};
+const chartTwo = {
+  type: 'bar',
+  data: dataTwo,
+  options: {}
+};
+const chartThree = {
+  type: 'bar',
+  data: dataThree,
+  options: {}
+};
