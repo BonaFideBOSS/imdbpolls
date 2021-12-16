@@ -265,9 +265,11 @@ file.onreadystatechange = function () {
       type: 'bar',
       data: dataOne,
       options: {
-        title: {
-          display: true,
-          text: "Polls Published in 2019"
+        plugins: {
+          title: {
+            display: true,
+            text: "Polls Published in 2019"
+          }
         }
       }
     };
@@ -275,9 +277,14 @@ file.onreadystatechange = function () {
       type: 'bar',
       data: dataTwo,
       options: {
-        title: {
-          display: true,
-          text: "Polls Published in 2020"
+        plugins: {
+          title: {
+            display: true,
+            text: "Polls Published in 2019"
+          },
+          legend: {
+            display: false
+          }
         }
       }
     };
@@ -285,9 +292,11 @@ file.onreadystatechange = function () {
       type: 'bar',
       data: dataThree,
       options: {
-        title: {
-          display: true,
-          text: "Polls Published in 2021"
+        plugins: {
+          title: {
+            display: true,
+            text: "Polls Published in 2019"
+          }
         }
       }
     };
@@ -2363,12 +2372,18 @@ for (var i = 0; i < mydata.polls.length; i++) {
   var year = mydata.polls[i].date.split('/')[0]
   var month = mydata.polls[i].date.split('/')[1]
   var day = mydata.polls[i].date.split('/')[2]
-  if (year == 2019) {
+  if (year == 2021) {
     test.push(month)
   }
 }
-const counts = [];
+const counts = {};
 test.forEach(function (x) {
   counts[x] = (counts[x] || 0) + 1;
 });
-console.log(counts.sort())
+function sortObj(obj) {
+  return Object.keys(obj).sort().reduce(function (result, key) {
+    result[key] = obj[key];
+    return result;
+  }, {});
+}
+console.log(sortObj(counts))
