@@ -5,7 +5,7 @@ file.onreadystatechange = function () {
   if (this.readyState == 4 && this.status == 200) {
     var mydata = JSON.parse(file.responseText)
 
-    var totalVotes = mydata.votes
+    var totalVotes = mydata.totalpolls
     var lastUpdated = mydata.lastUpdated
     var totalHomepagePolls = mydata.totalHomepagePolls
 

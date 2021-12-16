@@ -9,6 +9,7 @@ from bs4 import BeautifulSoup
 
 totalpolls = 0
 totalvotes = 0
+totalhomepagepolls = 0
 lastupdated = ''
 
 # Read
@@ -38,6 +39,9 @@ for i in data['polls']:
     voteCountRaw = scrape.select_one('.poll.results h2').text[11:-7]
     voteCount = voteCountRaw.replace(',','').strip()
 
+    if i['homepage'].lower() == 'yes':
+        totalhomepagepolls = totalhomepagepolls + 1
+
     i['title'] = pollTitle
     i['votes'] = int(voteCount)
     totalvotes += int(voteCount)
@@ -46,6 +50,7 @@ for i in data['polls']:
     print('-----> Progress: '+ str(totalpolls - currentPoll),end='\r')
 
 data['totalvotes'] = totalvotes
+data['totalhomepagepolls'] = totalhomepagepolls
 
 #Save
 file = open('imdbpolls.txt','w')
