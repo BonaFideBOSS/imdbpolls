@@ -16,8 +16,13 @@ a {
 }
 
 #imdbpolls thead,
-#imdbpolls tfoot {
+#imdbpolls tfoot,
+#imdbpolls tbody tr td {
   text-align: center;
+}
+
+#imdbpolls tbody tr td:nth-child(2) {
+  text-align: left !important;
 }
 
 footer img {
