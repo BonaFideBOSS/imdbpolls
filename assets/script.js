@@ -151,7 +151,6 @@ file.onreadystatechange = function () {
     });
 
     Chart.defaults.elements.bar.borderWidth = 0;
-    Chart.defaults.font.size = 20
 
     const dataOne = {
       labels: Object.keys(pollineachyear),
@@ -190,7 +189,10 @@ file.onreadystatechange = function () {
         plugins: {
           title: {
             display: true,
-            text: "Poll Published Each Year"
+            text: "Poll Published Each Year",
+            font: {
+              size: 20
+            }
           },
           legend: {
             display: false
@@ -206,6 +208,9 @@ file.onreadystatechange = function () {
           title: {
             display: true,
             text: "Polls Published in 2019",
+            font: {
+              size: 20
+            }
           },
           legend: {
             display: false
@@ -220,7 +225,10 @@ file.onreadystatechange = function () {
         plugins: {
           title: {
             display: true,
-            text: "Polls Published in 2020"
+            text: "Polls Published in 2020",
+            font: {
+              size: 20
+            }
           },
           legend: {
             display: false
@@ -235,7 +243,10 @@ file.onreadystatechange = function () {
         plugins: {
           title: {
             display: true,
-            text: "Polls Published in 2021"
+            text: "Polls Published in 2021",
+            font: {
+              size: 20
+            }
           },
           legend: {
             display: false
