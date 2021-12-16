@@ -191,7 +191,7 @@ file.onreadystatechange = function () {
             display: true,
             text: "Poll Published Each Year",
             font: {
-              size: 20
+              size: 16
             }
           },
           legend: {
@@ -209,7 +209,7 @@ file.onreadystatechange = function () {
             display: true,
             text: "Polls Published in 2019",
             font: {
-              size: 20
+              size: 16
             }
           },
           legend: {
@@ -227,7 +227,7 @@ file.onreadystatechange = function () {
             display: true,
             text: "Polls Published in 2020",
             font: {
-              size: 20
+              size: 16
             }
           },
           legend: {
@@ -245,7 +245,7 @@ file.onreadystatechange = function () {
             display: true,
             text: "Polls Published in 2021",
             font: {
-              size: 20
+              size: 16
             }
           },
           legend: {
