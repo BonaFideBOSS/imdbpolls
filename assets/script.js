@@ -1,3 +1,4 @@
+var pollyears = []
 var polls2019 = 0
 var polls2019Months = []
 var polls2020 = 0
@@ -54,6 +55,7 @@ file.onreadystatechange = function () {
       var year = mydata.polls[i].date.split('/')[0]
       var month = mydata.polls[i].date.split('/')[1].replace(/^0+/, '')
       var day = mydata.polls[i].date.split('/')[2].replace(/^0+/, '')
+      pollyears.push(year)
       if (year == 2019) {
         polls2019Months.push(month)
       } else if (year == 2020) {
@@ -134,6 +136,7 @@ file.onreadystatechange = function () {
     const monthsOne = {};
     const monthsTwo = {};
     const monthsThree = {};
+    const pollineachyear = {};
     polls2019Months.forEach(function (x) {
       monthsOne[x] = (monthsOne[x] || 0) + 1;
     });
@@ -143,9 +146,12 @@ file.onreadystatechange = function () {
     polls2021Months.forEach(function (x) {
       monthsThree[x] = (monthsThree[x] || 0) + 1;
     });
+    pollyears.forEach(function (x) {
+      pollineachyear[x] = (pollineachyear[x] || 0) + 1;
+    });
 
     const dataOne = {
-      labels: monthsChecker(Object.values(monthsOne)),
+      labels: monthsChecker(Object.keys(monthsOne)),
       datasets: [{
         label: '',
         backgroundColor: '#ffc107',
@@ -154,7 +160,7 @@ file.onreadystatechange = function () {
       }]
     };
     const dataTwo = {
-      labels: monthsChecker(Object.values(monthsTwo)),
+      labels: monthsChecker(Object.keys(monthsTwo)),
       datasets: [{
         label: '',
         backgroundColor: '#0d6efd',
@@ -163,7 +169,7 @@ file.onreadystatechange = function () {
       }]
     };
     const dataThree = {
-      labels: monthsChecker(Object.values(monthsThree)),
+      labels: monthsChecker(Object.keys(monthsThree)),
       datasets: [{
         label: '',
         backgroundColor: '#dc3545',
@@ -172,12 +178,12 @@ file.onreadystatechange = function () {
       }]
     };
     const dataFour = {
-      labels: months,
+      labels: Object.keys(pollineachyear),
       datasets: [{
         label: '',
         backgroundColor: '#dc3545',
         borderColor: '',
-        data: [polls2021Jan, polls2021Feb, polls2021Mar, polls2021Apr, polls2021May, polls2021Jun, polls2021Jul, polls2021Aug, polls2021Sep, polls2021Oct, polls2021Nov, polls2021Dec],
+        data: Object.values(pollineachyear),
       }]
     };
 
@@ -2299,16 +2305,13 @@ for (var i = 0; i < mydata.polls.length; i++) {
   var year = mydata.polls[i].date.split('/')[0]
   var month = mydata.polls[i].date.split('/')[1].replace(/^0+/, '')
   var day = mydata.polls[i].date.split('/')[2].replace(/^0+/, '')
-  if (year == 2019) {
-    test.push(month)
-  }
-
+  test.push(year)
 }
 const counts = {};
 test.forEach(function (x) {
   counts[x] = (counts[x] || 0) + 1;
 });
-console.log(Object.keys(counts));
+console.log(Object.values(counts));
 
 function monthsChecker(months) {
   const monthsArray = []
