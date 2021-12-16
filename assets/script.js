@@ -233,6 +233,21 @@ file.onreadystatechange = function () {
         }
       }
     };
+    const yearChart = {
+      type: 'pie',
+      data: dataFour,
+      options: {
+        plugins: {
+          title: {
+            display: true,
+            text: "Polls Published in 2021"
+          },
+          legend: {
+            display: false
+          }
+        }
+      }
+    };
 
     new Chart(
       document.getElementById('MonthChartOne'),
@@ -245,6 +260,10 @@ file.onreadystatechange = function () {
     new Chart(
       document.getElementById('MonthChartThree'),
       monthChartThree
+    );
+    new Chart(
+      document.getElementById('YearChart'),
+      yearChart
     );
   }
 }
