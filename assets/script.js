@@ -153,38 +153,53 @@ file.onreadystatechange = function () {
     Chart.defaults.elements.bar.borderWidth = 0;
 
     const dataOne = {
+      labels: Object.keys(pollineachyear),
+      datasets: [{
+        backgroundColor: ['#ffc107', '#0d6efd', '#dc3545'],
+        borderWidth: '0',
+        data: Object.values(pollineachyear),
+      }]
+    };
+    const dataTwo = {
       labels: monthsChecker(Object.keys(monthsOne)),
       datasets: [{
         backgroundColor: '#ffc107',
         data: Object.values(monthsOne),
       }]
     };
-    const dataTwo = {
+    const dataThree = {
       labels: monthsChecker(Object.keys(monthsTwo)),
       datasets: [{
         backgroundColor: '#0d6efd',
         data: Object.values(monthsTwo),
       }]
     };
-    const dataThree = {
+    const dataFour = {
       labels: monthsChecker(Object.keys(monthsThree)),
       datasets: [{
         backgroundColor: '#dc3545',
         data: Object.values(monthsThree),
       }]
     };
-    const dataFour = {
-      labels: Object.keys(pollineachyear),
-      datasets: [{
-        backgroundColor: ['#ffc107','#0d6efd','#dc3545'],
-        borderWidth: '0',
-        data: Object.values(pollineachyear),
-      }]
-    };
 
+    const yearChart = {
+      type: 'pie',
+      data: dataOne,
+      options: {
+        plugins: {
+          title: {
+            display: true,
+            text: "Poll Published Each Year"
+          },
+          legend: {
+            display: false
+          }
+        }
+      }
+    };
     const monthChartOne = {
       type: 'bar',
-      data: dataOne,
+      data: dataTwo,
       options: {
         plugins: {
           title: {
@@ -200,7 +215,7 @@ file.onreadystatechange = function () {
     };
     const monthChartTwo = {
       type: 'bar',
-      data: dataTwo,
+      data: dataThree,
       options: {
         plugins: {
           title: {
@@ -215,21 +230,6 @@ file.onreadystatechange = function () {
     };
     const monthChartThree = {
       type: 'bar',
-      data: dataThree,
-      options: {
-        plugins: {
-          title: {
-            display: true,
-            text: "Polls Published in 2021"
-          },
-          legend: {
-            display: false
-          }
-        }
-      }
-    };
-    const yearChart = {
-      type: 'pie',
       data: dataFour,
       options: {
         plugins: {
@@ -245,6 +245,10 @@ file.onreadystatechange = function () {
     };
 
     new Chart(
+      document.getElementById('YearChart'),
+      yearChart
+    );
+    new Chart(
       document.getElementById('MonthChartOne'),
       monthChartOne
     );
@@ -255,10 +259,6 @@ file.onreadystatechange = function () {
     new Chart(
       document.getElementById('MonthChartThree'),
       monthChartThree
-    );
-    new Chart(
-      document.getElementById('YearChart'),
-      yearChart
     );
   }
 }
