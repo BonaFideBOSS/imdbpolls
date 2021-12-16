@@ -2041,6 +2041,7 @@ file.send();
 file.onreadystatechange = function () {
   if (this.readyState == 4 && this.status == 200) {
     var mydata = file.responseText
+    console.log(mydata)
     var table = document.getElementById('imdbpolls')
     var tableHeader = document.createElement('thead')
     var header = document.createElement('tr')
