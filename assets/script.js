@@ -140,7 +140,18 @@ file.onreadystatechange = function () {
           polls2021Dec = polls2021Dec + 1
         }
       }
-      stats();
+      new Chart(
+        document.getElementById('chartOne'),
+        chartOne
+      );
+      new Chart(
+        document.getElementById('chartTwo'),
+        chartTwo
+      );
+      new Chart(
+        document.getElementById('chartThree'),
+        chartThree
+      );
 
       for (var j = 0; j < 1; j++) {
         var cell1 = document.createElement('td')
@@ -2269,7 +2280,6 @@ for (var i = 0; i < mydata.polls.length; i++) {
   console.log(year)
 }
 
-function stats() {
   const months = [
     'January',
     'February',
@@ -2328,17 +2338,3 @@ function stats() {
     data: dataThree,
     options: {}
   };
-
-  new Chart(
-    document.getElementById('chartOne'),
-    chartOne
-  );
-  new Chart(
-    document.getElementById('chartTwo'),
-    chartTwo
-  );
-  new Chart(
-    document.getElementById('chartThree'),
-    chartThree
-  );
-}
