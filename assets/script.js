@@ -189,7 +189,7 @@ file.onreadystatechange = function () {
         plugins: {
           title: {
             display: true,
-            text: "Poll Published Each Year",
+            text: "Polls Published Each Year",
             font: {
               size: 16
             }
