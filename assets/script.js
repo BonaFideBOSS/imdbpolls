@@ -78,69 +78,66 @@ file.onreadystatechange = function () {
       var year = mydata.polls[i].date.split('/')[0]
       var month = mydata.polls[i].date.split('/')[1]
       var day = mydata.polls[i].date.split('/')[2]
-
-      for (var i = 0; i < totalPolls; i++) {
-        if (year == 2019) {
-          polls2019 = polls2019 + 1
-          if (month == 08) {
-            polls2019Aug = polls2019Aug + 1
-          } else if (month == 11) {
-            polls2019Nov = polls2019Nov + 1
-          } else if (month == 12) {
-            polls2019Dec = polls2019Dec + 1
-          }
-        } else if (year == 2020) {
-          if (month == 01) {
-            polls2020Jan = polls2020Jan + 1
-          } else if (month == 02) {
-            polls2020Feb = polls2020Feb + 1
-          } else if (month == 03) {
-            polls2020Mar = polls2020Mar + 1
-          } else if (month == 04) {
-            polls2020Apr = polls2020Apr + 1
-          } else if (month == 05) {
-            polls2020May = polls2020May + 1
-          } else if (month == 06) {
-            polls2020Jun = polls2020Jun + 1
-          } else if (month == 07) {
-            polls2020Jul = polls2020Jul + 1
-          } else if (month == 08) {
-            polls2020Aug = polls2020Aug + 1
-          } else if (month == 09) {
-            polls2020Sep = polls2020Sep + 1
-          } else if (month == 10) {
-            polls2020Oct = polls2020Oct + 1
-          } else if (month == 11) {
-            polls2020Nov = polls2020Nov + 1
-          } else if (month == 12) {
-            polls2020Dec = polls2020Dec + 1
-          }
-        } else if (year == 2021) {
-          if (month == 01) {
-            polls2021Jan = polls2021Jan + 1
-          } else if (month == 02) {
-            polls2021Feb = polls2021Feb + 1
-          } else if (month == 03) {
-            polls2021Mar = polls2021Mar + 1
-          } else if (month == 04) {
-            polls2021Apr = polls2021Apr + 1
-          } else if (month == 05) {
-            polls2021May = polls2021May + 1
-          } else if (month == 06) {
-            polls2021Jun = polls2021Jun + 1
-          } else if (month == 07) {
-            polls2021Jul = polls2021Jul + 1
-          } else if (month == 08) {
-            polls2021Aug = polls2021Aug + 1
-          } else if (month == 09) {
-            polls2021Sep = polls2021Sep + 1
-          } else if (month == 10) {
-            polls2021Oct = polls2021Oct + 1
-          } else if (month == 11) {
-            polls2021Nov = polls2021Nov + 1
-          } else if (month == 12) {
-            polls2021Dec = polls2021Dec + 1
-          }
+      if (year == 2019) {
+        polls2019 = polls2019 + 1
+        if (month == 08) {
+          polls2019Aug = polls2019Aug + 1
+        } else if (month == 11) {
+          polls2019Nov = polls2019Nov + 1
+        } else if (month == 12) {
+          polls2019Dec = polls2019Dec + 1
+        }
+      } else if (year == 2020) {
+        if (month == 01) {
+          polls2020Jan = polls2020Jan + 1
+        } else if (month == 02) {
+          polls2020Feb = polls2020Feb + 1
+        } else if (month == 03) {
+          polls2020Mar = polls2020Mar + 1
+        } else if (month == 04) {
+          polls2020Apr = polls2020Apr + 1
+        } else if (month == 05) {
+          polls2020May = polls2020May + 1
+        } else if (month == 06) {
+          polls2020Jun = polls2020Jun + 1
+        } else if (month == 07) {
+          polls2020Jul = polls2020Jul + 1
+        } else if (month == 08) {
+          polls2020Aug = polls2020Aug + 1
+        } else if (month == 09) {
+          polls2020Sep = polls2020Sep + 1
+        } else if (month == 10) {
+          polls2020Oct = polls2020Oct + 1
+        } else if (month == 11) {
+          polls2020Nov = polls2020Nov + 1
+        } else if (month == 12) {
+          polls2020Dec = polls2020Dec + 1
+        }
+      } else if (year == 2021) {
+        if (month == 01) {
+          polls2021Jan = polls2021Jan + 1
+        } else if (month == 02) {
+          polls2021Feb = polls2021Feb + 1
+        } else if (month == 03) {
+          polls2021Mar = polls2021Mar + 1
+        } else if (month == 04) {
+          polls2021Apr = polls2021Apr + 1
+        } else if (month == 05) {
+          polls2021May = polls2021May + 1
+        } else if (month == 06) {
+          polls2021Jun = polls2021Jun + 1
+        } else if (month == 07) {
+          polls2021Jul = polls2021Jul + 1
+        } else if (month == 08) {
+          polls2021Aug = polls2021Aug + 1
+        } else if (month == 09) {
+          polls2021Sep = polls2021Sep + 1
+        } else if (month == 10) {
+          polls2021Oct = polls2021Oct + 1
+        } else if (month == 11) {
+          polls2021Nov = polls2021Nov + 1
+        } else if (month == 12) {
+          polls2021Dec = polls2021Dec + 1
         }
       }
 
@@ -153,7 +150,7 @@ file.onreadystatechange = function () {
 
         var rank = document.createTextNode(i + 1)
         var link = document.createElement('a')
-        var title = document.createTextNode(mydata.polls[i].url)
+        var title = document.createTextNode(mydata.polls[i].title)
         link.appendChild(title)
         link.href = mydata.polls[i].url
         var date = document.createTextNode(mydata.polls[i].date)
