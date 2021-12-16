@@ -17,13 +17,11 @@ file.onreadystatechange = function () {
     var h3 = document.createElement('th')
     var h4 = document.createElement('th')
     var h5 = document.createElement('th')
-
     var title1 = document.createTextNode('#')
     var title2 = document.createTextNode('Title')
     var title3 = document.createTextNode('Date')
     var title4 = document.createTextNode('Votes')
     var title5 = document.createTextNode('Homepage')
-
     h1.appendChild(title1)
     h2.appendChild(title2)
     h3.appendChild(title3)
@@ -77,11 +75,9 @@ file.onreadystatechange = function () {
     f1.setAttributeNode(att);
     var f2 = document.createElement('th')
     var f3 = document.createElement('th')
-
     var foot1 = document.createTextNode('Total')
     var foot2 = document.createTextNode(totalVotes)
     var foot3 = document.createTextNode(totalHomepagePolls)
-
     f1.appendChild(foot1)
     f2.appendChild(foot2)
     f3.appendChild(foot3)
@@ -93,8 +89,6 @@ file.onreadystatechange = function () {
     var tableCaption = document.createElement('caption')
     var caption = document.createTextNode('Data as of '+lastUpdated)
     tableCaption.appendChild(caption)
-
-
     table.appendChild(tableHeader)
     table.appendChild(tableBody)
     table.appendChild(tableFooter)
