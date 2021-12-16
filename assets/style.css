@@ -3,6 +3,41 @@ body {
   padding: 0;
 }
 
-main {
-  margin-top: 2rem;
+a {
+  text-decoration: none;
+}
+
+.navbar .container {
+  border-radius: 10px;
+}
+
+.logo {
+  padding: 1rem 2rem;
+}
+
+footer img {
+  width: 100px;
+  border-radius: 5px;
+}
+
+
+@media only screen and (max-width: 767px) {
+  .navbar .container {
+    display: flex;
+    justify-content: center;
+  }
+
+  .logo {
+    padding: 1rem 0;
+  }
+
+  footer .container {
+    display: grid !important;
+    justify-content: center !important;
+    text-align: center !important;
+    gap: 10px;
+  }
+  footer .container div:last-child {
+    text-align: center !important;
+  }
 }
