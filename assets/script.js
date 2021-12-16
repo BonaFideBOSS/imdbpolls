@@ -91,7 +91,7 @@ file.onreadystatechange = function () {
     tableFooter.appendChild(footer)
 
     var tableCaption = document.createElement('caption')
-    var caption = document.createTextNode(lastUpdated)
+    var caption = document.createTextNode('Data as of '+lastUpdated)
     tableCaption.appendChild(caption)
 
 
