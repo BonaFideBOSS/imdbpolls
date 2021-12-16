@@ -150,6 +150,8 @@ file.onreadystatechange = function () {
       pollineachyear[x] = (pollineachyear[x] || 0) + 1;
     });
 
+    Chart.defaults.elements.bar.borderWidth = 0;
+
     const dataOne = {
       labels: monthsChecker(Object.keys(monthsOne)),
       datasets: [{
