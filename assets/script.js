@@ -151,6 +151,7 @@ file.onreadystatechange = function () {
     });
 
     Chart.defaults.elements.bar.borderWidth = 0;
+    Chart.defaults.font.size = 20
 
     const dataOne = {
       labels: Object.keys(pollineachyear),
@@ -205,7 +206,6 @@ file.onreadystatechange = function () {
           title: {
             display: true,
             text: "Polls Published in 2019",
-            fullSize: true
           },
           legend: {
             display: false
