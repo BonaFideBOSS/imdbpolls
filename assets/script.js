@@ -104,13 +104,9 @@ file.onreadystatechange = function () {
   }
 }
 
-updateSubTotal();
 
-function updateSubTotal() {
-  var table = document.getElementById("imdbpolls");
-  var subTotal = 0;
-  for (var i = 1; i < table.rows.length; i++) {
-    subTotal = subTotal + parseFloat(table.rows[i].cells[3].innerHTML);
-  }
-  console.log(subTotal)
+var table = document.getElementById("imdbpolls");
+var subTotal;
+for (var i = 1; i < table.rows.length; i++) {
+  subTotal = subTotal + parseInt(table.rows[i].cells[3].innerHTML);
 }
