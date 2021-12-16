@@ -252,33 +252,33 @@ file.onreadystatechange = function () {
       }]
     };
 
-    const chartOne = {
+    const monthChartOne = {
       type: 'bar',
       data: dataOne,
       options: {}
     };
-    const chartTwo = {
+    const monthChartTwo = {
       type: 'bar',
       data: dataTwo,
       options: {}
     };
-    const chartThree = {
+    const monthChartThree = {
       type: 'bar',
       data: dataThree,
       options: {}
     };
 
     new Chart(
-      document.getElementById('chartOne'),
-      chartOne
+      document.getElementById('MonthChartOne'),
+      monthChartOne
     );
     new Chart(
-      document.getElementById('chartTwo'),
-      chartTwo
+      document.getElementById('MonthChartTwo'),
+      monthChartTwo
     );
     new Chart(
-      document.getElementById('chartThree'),
-      chartThree
+      document.getElementById('MonthChartThree'),
+      monthChartThree
     );
   }
 }
