@@ -5,9 +5,14 @@ file.onreadystatechange = function () {
   if (this.readyState == 4 && this.status == 200) {
     var mydata = JSON.parse(file.responseText)
 
+    var totalPolls = mydata.totalpolls
     var totalVotes = mydata.totalvotes
     var lastUpdated = mydata.lastupdated
     var totalHomepagePolls = mydata.totalhomepagepolls
+
+    $('#cardtotalpolls').html(totalPolls)
+    $('#cardtotalvotes').html(totalVotes)
+    $('#cardtotalhp').html(totalHomepagePolls)
 
     var table = document.getElementById('imdbpolls')
     var tableHeader = document.createElement('thead')
@@ -72,12 +77,12 @@ file.onreadystatechange = function () {
     var f1 = document.createElement('th')
     f1.setAttribute("colspan", "3")
     var f2 = document.createElement('th')
-    f2.setAttribute("id", "totalvotes")
+    f2.setAttribute("id", "tabletotalvotes")
     var f3 = document.createElement('th')
-    f3.setAttribute("id", "totalHomepagePolls")
+    f3.setAttribute("id", "tabletotalHomepagePolls")
     var foot1 = document.createTextNode('Total')
-    var foot2 = document.createTextNode(totalVotes)
-    var foot3 = document.createTextNode(totalHomepagePolls)
+    var foot2 = document.createTextNode('')
+    var foot3 = document.createTextNode('')
     f1.appendChild(foot1)
     f2.appendChild(foot2)
     f3.appendChild(foot3)
@@ -102,11 +107,4 @@ file.onreadystatechange = function () {
       });
     });
   }
-}
-
-
-var table = document.getElementById("imdbpolls");
-var subTotal;
-for (var i = 1; i < table.rows.length; i++) {
-  subTotal = subTotal + parseInt(table.rows[i].cells[3].innerHTML);
 }
