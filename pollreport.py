@@ -14,7 +14,7 @@ lastupdated = ''
 
 # Read
 print('-----> Reading old data.')
-file = open('imdbpolls.txt','r')
+file = open('imdbpolls.json','r')
 data = json.load(file)
 totalpolls = len(data['polls'])
 file.close()
@@ -53,7 +53,7 @@ data['totalvotes'] = totalvotes
 data['totalhomepagepolls'] = totalhomepagepolls
 
 #Save
-file = open('imdbpolls.txt','w')
+file = open('imdbpolls.json','w')
 json.dump(data,file)
 file.close()
 print('-----> Data updated successfully.')

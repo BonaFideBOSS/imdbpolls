@@ -1,5 +1,5 @@
 const file = new XMLHttpRequest();
-file.open("GET", "imdbpolls.txt");
+file.open("GET", "imdbpolls.json");
 file.send();
 file.onreadystatechange = function () {
   if (this.readyState == 4 && this.status == 200) {
