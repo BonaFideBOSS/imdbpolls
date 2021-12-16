@@ -227,7 +227,7 @@ file.onreadystatechange = function () {
     const dataOne = {
       labels: months,
       datasets: [{
-        label: 'Polls Published in 2019',
+        label: '<b>Polls Published in 2019</b>',
         backgroundColor: '#ffc107',
         borderColor: '',
         data: [0, 0, 0, 0, 0, 0, 0, polls2019Aug, 0, 0, polls2019Nov, polls2019Dec],
