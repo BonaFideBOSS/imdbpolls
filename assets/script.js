@@ -70,9 +70,7 @@ file.onreadystatechange = function () {
     var tableFooter = document.createElement('tfoot')
     var footer = document.createElement('tr')
     var f1 = document.createElement('th')
-    var att = document.createAttribute("colspan");
-    att.value = "3";
-    f1.setAttributeNode(att);
+    f1.setAttributeNode('colspan', '2');
     var f2 = document.createElement('th')
     f2.setAttribute("id", "totalvotes")
     var f3 = document.createElement('th')
