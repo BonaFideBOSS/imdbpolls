@@ -1,51 +1,30 @@
 import os
+import json
+from datetime import datetime
+from pytz import timezone
+tz = timezone('EST')
 
-file = open('imdbpolls.txt').read().splitlines()
-pollURL = ''
-pollDate = ''
-customDate = ''
-homepage = ''
-newlist = []
-for i, val in enumerate(file):
-    pollURL = val.split(',')[0]
-    pollDate = val.split(',')[1]
-    isHighlighted = val.split(',')[2]
-    
-    year = (pollDate.split('-')[2])
-    month = (pollDate.split('-')[1])
-    day = (pollDate.split('-')[0])
-    if month == "Jan":
-        month = '01'
-    elif month == "Feb":
-        month = '02'
-    elif month == "Mar":
-        month = '03'
-    elif month == "Apr":
-        month = '04'
-    elif month == "May":
-        month = '05'    
-    elif month == "Jun":
-        month = '06'
-    elif month == "Jul":
-        month = '07'
-    elif month == "Aug":
-        month = '08'
-    elif month == "Sep":
-        month = '09'
-    elif month == "Oct":
-        month = '10'
-    elif month == "Nov":
-        month = '11'
-    else:
-        month = '12'
-    customDate = (year +'/'+ month +'/'+ day)
-    
-    if isHighlighted == 'YeHighlight':
-        homepage = 'Yes'
-    else:
-        homepage= 'No'
-    newlist.append({"url":pollURL,
-                       "title":"",
-                       "date":customDate,
-                       "homepage":homepage})
-print(newlist)
+totalpolls = ''
+totalvotes = ''
+lastupdated = ''
+
+# Read
+file = open('imdbpolls.txt','r')
+data = json.load(file)
+totalpolls = len(data['polls'])
+file.close()
+
+#Update
+data['totalpolls'] = totalpolls
+data['lastupdated'] = datetime.now(tz).strftime("%A, %B %d, %Y - %H:%M %Z")
+
+for i in data['polls']:
+    polllink = i['url']
+    print(polllink)
+
+#Save
+file = open('imdbpolls.txt','w')
+json.dump(data,file)
+file.close()
+
+

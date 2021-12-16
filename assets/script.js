@@ -68,7 +68,9 @@ file.onreadystatechange = function () {
     table.appendChild(tableBody)
 
     $(document).ready(function () {
-      $(table).DataTable();
+      $(table).DataTable({
+        "order": [[ 3, "desc" ]]
+      });
     });
   }
 }
