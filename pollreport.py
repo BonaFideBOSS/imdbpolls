@@ -16,8 +16,15 @@ lastupdated = ''
 print('-----> Reading old data.')
 file = open('imdbpolls.json','r')
 data = json.load(file)
-totalpolls = len(data['polls'])
 file.close()
+#Backup
+print('-----> Creating backup.')
+backup = open('imdbpolls_backup.json','w')
+json.dump(data,backup)
+file.close()
+print('-----> Backup created.')
+
+totalpolls = len(data['polls'])
 print('-----> Total Polls: ' + str(totalpolls))
 
 #Update
