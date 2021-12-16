@@ -80,7 +80,7 @@ file.onreadystatechange = function () {
     f2.setAttribute("id", "tabletotalvotes")
     var f3 = document.createElement('th')
     f3.setAttribute("id", "tabletotalHomepagePolls")
-    var foot1 = document.createTextNode('Total')
+    var foot1 = document.createTextNode('')
     var foot2 = document.createTextNode('')
     var foot3 = document.createTextNode('')
     f1.appendChild(foot1)
