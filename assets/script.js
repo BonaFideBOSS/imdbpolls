@@ -153,36 +153,29 @@ file.onreadystatechange = function () {
     const dataOne = {
       labels: monthsChecker(Object.keys(monthsOne)),
       datasets: [{
-        label: '',
         backgroundColor: '#ffc107',
-        borderColor: '',
         data: Object.values(monthsOne),
       }]
     };
     const dataTwo = {
       labels: monthsChecker(Object.keys(monthsTwo)),
       datasets: [{
-        label: '',
         backgroundColor: '#0d6efd',
-        borderColor: '',
         data: Object.values(monthsTwo),
       }]
     };
     const dataThree = {
       labels: monthsChecker(Object.keys(monthsThree)),
       datasets: [{
-        label: '',
         backgroundColor: '#dc3545',
-        borderColor: '',
         data: Object.values(monthsThree),
       }]
     };
     const dataFour = {
       labels: Object.keys(pollineachyear),
       datasets: [{
-        label: '',
         backgroundColor: ['#ffc107','#0d6efd','#dc3545'],
-        borderColor: '',
+        borderWidth: '0',
         data: Object.values(pollineachyear),
       }]
     };
