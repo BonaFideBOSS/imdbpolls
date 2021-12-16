@@ -104,6 +104,7 @@ file.onreadystatechange = function () {
   }
 }
 
+updateSubTotal()
 function updateSubTotal() {
   var table = document.getElementById("imdbpolls");
   let subTotal = Array.from(table.rows).slice(1).reduce((total, row) => {
