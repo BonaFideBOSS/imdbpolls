@@ -74,7 +74,9 @@ file.onreadystatechange = function () {
     att.value = "3";
     f1.setAttributeNode(att);
     var f2 = document.createElement('th')
+    f2.setAttribute("id", "totalvotes")
     var f3 = document.createElement('th')
+    f3.setAttribute("id", "totalHomepagePolls")
     var foot1 = document.createTextNode('Total')
     var foot2 = document.createTextNode(totalVotes)
     var foot3 = document.createTextNode(totalHomepagePolls)
@@ -87,7 +89,7 @@ file.onreadystatechange = function () {
     tableFooter.appendChild(footer)
 
     var tableCaption = document.createElement('caption')
-    var caption = document.createTextNode('Data as of '+lastUpdated)
+    var caption = document.createTextNode('Data as of ' + lastUpdated)
     tableCaption.appendChild(caption)
     table.appendChild(tableHeader)
     table.appendChild(tableBody)
