@@ -153,7 +153,7 @@ file.onreadystatechange = function () {
 
         var rank = document.createTextNode(i + 1)
         var link = document.createElement('a')
-        var title = document.createTextNode(mydata.polls[i].title)
+        var title = document.createTextNode(mydata.polls[i].url)
         link.appendChild(title)
         link.href = mydata.polls[i].url
         var date = document.createTextNode(mydata.polls[i].date)
