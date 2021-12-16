@@ -1,4 +1,8 @@
-[{
+{
+  "totalpolls": "",
+  "totalvotes": "",
+  "lastupdated": "",
+  "polls": [{
       'url': 'https://www.imdb.com/poll/2DlcNDRF1dk/',
       'title': '',
       'date': '2019/08/31',
@@ -2029,3 +2033,4 @@
       'votes': ''
     }
   ]
+}
