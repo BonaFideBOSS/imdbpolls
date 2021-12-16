@@ -268,7 +268,11 @@ file.onreadystatechange = function () {
         plugins: {
           title: {
             display: true,
-            text: "Polls Published in 2019"
+            text: "Polls Published in 2019",
+            fullSize: true
+          },
+          legend: {
+            display: false
           }
         }
       }
@@ -280,7 +284,7 @@ file.onreadystatechange = function () {
         plugins: {
           title: {
             display: true,
-            text: "Polls Published in 2019"
+            text: "Polls Published in 2020"
           },
           legend: {
             display: false
@@ -295,7 +299,10 @@ file.onreadystatechange = function () {
         plugins: {
           title: {
             display: true,
-            text: "Polls Published in 2019"
+            text: "Polls Published in 2021"
+          },
+          legend: {
+            display: false
           }
         }
       }
@@ -2380,10 +2387,4 @@ const counts = {};
 test.forEach(function (x) {
   counts[x] = (counts[x] || 0) + 1;
 });
-function sortObj(obj) {
-  return Object.keys(obj).sort().reduce(function (result, key) {
-    result[key] = obj[key];
-    return result;
-  }, {});
-}
-console.log(sortObj(counts))
+console.log();
