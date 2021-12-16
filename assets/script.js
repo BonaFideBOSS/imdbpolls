@@ -5,6 +5,10 @@ file.onreadystatechange = function () {
   if (this.readyState == 4 && this.status == 200) {
     var mydata = JSON.parse(file.responseText)
 
+    var totalVotes = mydata.votes
+    var lastUpdated = mydata.lastUpdated
+    var totalHomepagePolls = mydata.totalHomepagePolls
+
     var table = document.getElementById('imdbpolls')
     var tableHeader = document.createElement('thead')
     var header = document.createElement('tr')
@@ -64,12 +68,43 @@ file.onreadystatechange = function () {
       }
       tableBody.appendChild(row)
     }
+
+    var tableFooter = document.createElement('tfoot')
+    var footer = document.createElement('tr')
+    var f1 = document.createElement('th')
+    var att = document.createAttribute("colspan");
+    att.value = "3";
+    f1.setAttributeNode(att);
+    var f2 = document.createElement('th')
+    var f3 = document.createElement('th')
+
+    var foot1 = document.createTextNode('Total')
+    var foot2 = document.createTextNode(totalVotes)
+    var foot3 = document.createTextNode(totalHomepagePolls)
+
+    f1.appendChild(foot1)
+    f2.appendChild(foot2)
+    f3.appendChild(foot3)
+    footer.appendChild(f1)
+    footer.appendChild(f2)
+    footer.appendChild(f3)
+    tableFooter.appendChild(footer)
+
+    var tableCaption = document.createElement('caption')
+    var caption = document.createTextNode(lastUpdated)
+    tableCaption.appendChild(caption)
+
+
     table.appendChild(tableHeader)
     table.appendChild(tableBody)
+    table.appendChild(tableFooter)
+    table.appendChild(tableCaption)
 
     $(document).ready(function () {
       $(table).DataTable({
-        "order": [[ 3, "desc" ]]
+        "order": [
+          [3, "desc"]
+        ]
       });
     });
   }
