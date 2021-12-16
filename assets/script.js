@@ -181,7 +181,7 @@ file.onreadystatechange = function () {
       labels: Object.keys(pollineachyear),
       datasets: [{
         label: '',
-        backgroundColor: '#dc3545',
+        backgroundColor: ['#ffc107','#0d6efd','#dc3545'],
         borderColor: '',
         data: Object.values(pollineachyear),
       }]
