@@ -73,6 +73,7 @@ file.onreadystatechange = function () {
 
         var rank = document.createTextNode(i + 1)
         var link = document.createElement('a')
+        $(link).attr('target', '_blank');
         var title = document.createTextNode(mydata.polls[i].title)
         link.appendChild(title)
         link.href = mydata.polls[i].url
