@@ -158,10 +158,18 @@ file.onreadystatechange = function () {
     });
 
     // ===== MILESTONES =====
+    const footer = (tooltipItems) => {
+      let sum = 0;
+      tooltipItems.forEach(function (tooltipItem) {
+        sum += tooltipItem.parsed.y;
+      });
+      return 'Next Milestone: ' + sum;
+    };
+
     var m1 = Math.ceil(totalPolls / 50) * 50;
     $('#m1Text').html(((totalPolls / m1) * 100).toFixed(2) + '%')
     const milestoneOne = {
-      labels: ['Polls Published', 'Poll Milestone'],
+      labels: ['Polls Published', 'Polls needed to reach next milestone'],
       datasets: [{
         backgroundColor: ['#0dcaf0', '#212529'],
         borderWidth: '0',
@@ -171,7 +179,7 @@ file.onreadystatechange = function () {
     var m2 = Math.ceil(totalVotes / 50000) * 50000;
     $('#m2Text').html(((totalVotes / m2) * 100).toFixed(2) + '%')
     const milestoneTwo = {
-      labels: ['Votes Gained', 'Votes Milestone'],
+      labels: ['Votes Gained', 'Votes needed to reach next milestone'],
       datasets: [{
         backgroundColor: ['#0dcaf0', '#212529'],
         borderWidth: '0',
@@ -181,7 +189,7 @@ file.onreadystatechange = function () {
     var m3 = Math.ceil(totalHomepagePolls / 10) * 10;
     $('#m3Text').html(((totalHomepagePolls / m3) * 100).toFixed(2) + '%')
     const milestoneThree = {
-      labels: ['Homepage Features', 'Homepage Milestone'],
+      labels: ['Featured Polls', 'More features needed'],
       datasets: [{
         backgroundColor: ['#0dcaf0', '#212529'],
         borderWidth: '0',
@@ -194,8 +202,20 @@ file.onreadystatechange = function () {
       data: milestoneOne,
       options: {
         plugins: {
+          title: {
+            display: true,
+            text: "Polls",
+            font: {
+              size: 16
+            }
+          },
           legend: {
-            position: 'bottom'
+            display: false
+          },
+          tooltip: {
+            callbacks: {
+              footer: footer,
+            }
           }
         }
       }
@@ -205,8 +225,20 @@ file.onreadystatechange = function () {
       data: milestoneTwo,
       options: {
         plugins: {
+          title: {
+            display: true,
+            text: "Votes",
+            font: {
+              size: 16
+            }
+          },
           legend: {
-            position: 'bottom'
+            display: false
+          },
+          tooltip: {
+            callbacks: {
+              footer: footer,
+            }
           }
         }
       }
@@ -216,8 +248,20 @@ file.onreadystatechange = function () {
       data: milestoneThree,
       options: {
         plugins: {
+          title: {
+            display: true,
+            text: "Homepage Features",
+            font: {
+              size: 16
+            }
+          },
           legend: {
-            position: 'bottom'
+            display: false
+          },
+          tooltip: {
+            callbacks: {
+              footer: footer,
+            }
           }
         }
       }
