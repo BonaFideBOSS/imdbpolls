@@ -168,7 +168,7 @@ file.onreadystatechange = function () {
     var m2 = Math.ceil(totalVotes / 50000) * 50000;
     $('#m2Text').html(((totalVotes / m2) * 100).toFixed(2) + '%')
     const milestoneTwo = {
-      labels: ['Votes Gaines', 'Votes Milestone'],
+      labels: ['Votes Gained', 'Votes Milestone'],
       datasets: [{
         backgroundColor: ['#0dcaf0', '#212529'],
         borderWidth: '0',
