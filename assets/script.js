@@ -155,11 +155,11 @@ file.onreadystatechange = function () {
     });
 
 
-
     const dataOne = {
       labels: Object.keys(pollineachyear),
       datasets: [{
-        backgroundColor: '#198754',
+        backgroundColor: 'rgb(25, 135, 84,.5)',
+        borderColor: '#198754',
         data: Object.values(pollineachyear),
       }]
     };
