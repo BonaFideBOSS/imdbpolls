@@ -160,7 +160,6 @@ file.onreadystatechange = function () {
       labels: Object.keys(pollineachyear),
       datasets: [{
         backgroundColor: '#198754',
-        // borderWidth: '',
         data: Object.values(pollineachyear),
       }]
     };
