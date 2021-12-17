@@ -441,7 +441,7 @@ file.onreadystatechange = function () {
     );
   }
 
-  $('pre-loader').attr('hidden', true)
+  $('#pre-loader').attr('hidden', true)
 }
 
 function monthsChecker(months) {
