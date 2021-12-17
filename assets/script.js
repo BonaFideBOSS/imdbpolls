@@ -57,7 +57,7 @@ file.onreadystatechange = function () {
       $('#latest-poll .card-header span').html(latestPoll.date)
       $('#latest-poll .card-title').html(latestPoll.title)
       $('#latest-poll .card-text span').html(latestPoll.votes)
-      $('#latest-poll a').attr("href",latestPoll.date)
+      $('#latest-poll a').attr("href",latestPoll.url)
 
       if (highestVote < mydata.polls[i].votes) {
         highestVote = mydata.polls[i].votes
