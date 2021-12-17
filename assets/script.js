@@ -74,6 +74,7 @@ file.onreadystatechange = function () {
       } else if (mydata.polls[i].votes >= 10000) {
         tenk = tenk + 1
       }
+
       $('#1kvotes').html(onek)
       $('#5kvotes').html(fivek)
       $('#10kvotes').html(tenk)
