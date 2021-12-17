@@ -15,7 +15,7 @@ a {
   padding: 1rem 2rem;
 }
 
-.card {
+.card,.card-header {
   border: none;
 }
 
