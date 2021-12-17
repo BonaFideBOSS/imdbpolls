@@ -17,6 +17,8 @@ file.onreadystatechange = function () {
     var totalVotes = mydata.totalvotes
     var lastUpdated = mydata.lastupdated
     var totalHomepagePolls = mydata.totalhomepagepolls
+    var highestVote = 0
+    var highestVotedPoll;
 
     $('#cardtotalpolls').html(totalPolls)
     $('#cardtotalvotes').html(totalVotes)
@@ -52,8 +54,6 @@ file.onreadystatechange = function () {
     for (var i = 0; i < mydata.polls.length; i++) {
       var row = document.createElement('tr')
 
-      var highestVote = 0
-      var highestVotedPoll;
       if (highestVote < mydata.polls[i].votes) {
         highestVote = mydata.polls[i].votes
         highestVotedPoll = mydata.polls[i].title
@@ -86,7 +86,7 @@ file.onreadystatechange = function () {
         link.target = '_blank'
         var date = document.createTextNode(mydata.polls[i].date)
         var votes = document.createTextNode(mydata.polls[i].votes)
-        
+
 
         var homepage = document.createTextNode(mydata.polls[i].homepage)
 
