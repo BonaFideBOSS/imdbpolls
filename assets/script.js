@@ -137,6 +137,7 @@ file.onreadystatechange = function () {
     //Default Settings
     //Chart.defaults.elements.bar.borderWidth = 0;
     Chart.defaults.plugins.tooltip.displayColors = false;
+    Chart.defaults.plugins.tooltip.intersect = false;
 
     const monthsOne = {};
     const monthsTwo = {};
