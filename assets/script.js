@@ -439,9 +439,9 @@ file.onreadystatechange = function () {
       document.getElementById('MonthChartThree'),
       monthChartThree
     );
-  }
 
-  $('#pre-loader').attr('hidden', true)
+    $('#pre-loader').attr('hidden', true)
+  }
 }
 
 function monthsChecker(months) {
