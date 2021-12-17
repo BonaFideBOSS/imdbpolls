@@ -17,8 +17,6 @@ file.onreadystatechange = function () {
     var totalVotes = mydata.totalvotes
     var lastUpdated = mydata.lastupdated
     var totalHomepagePolls = mydata.totalhomepagepolls
-    var highestVote = 0
-    var highestVotedPoll = ''
 
     $('#cardtotalpolls').html(totalPolls)
     $('#cardtotalvotes').html(totalVotes)
@@ -54,6 +52,13 @@ file.onreadystatechange = function () {
     for (var i = 0; i < mydata.polls.length; i++) {
       var row = document.createElement('tr')
 
+      var highestVote = 0
+      var highestVotedPoll;
+      if (highestVote < mydata.polls[i].votes) {
+        highestVote = mydata.polls[i].votes
+        highestVotedPoll = mydata.polls[i].title
+      }
+
       var year = mydata.polls[i].date.split('/')[0]
       var month = mydata.polls[i].date.split('/')[1].replace(/^0+/, '')
       var day = mydata.polls[i].date.split('/')[2].replace(/^0+/, '')
@@ -81,11 +86,7 @@ file.onreadystatechange = function () {
         link.target = '_blank'
         var date = document.createTextNode(mydata.polls[i].date)
         var votes = document.createTextNode(mydata.polls[i].votes)
-
-        if (highestVote < votes) {
-          highestVote = votes
-          highestVotedPoll = title
-        }
+        
 
         var homepage = document.createTextNode(mydata.polls[i].homepage)
 
