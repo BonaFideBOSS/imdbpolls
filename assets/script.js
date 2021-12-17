@@ -56,8 +56,6 @@ file.onreadystatechange = function () {
       var latestPoll = mydata.polls[i];
       $('#latest-poll .card-header span').html(latestPoll.date)
 
-      var row = document.createElement('tr')
-
       if (highestVote < mydata.polls[i].votes) {
         highestVote = mydata.polls[i].votes
         highestVotedPoll = mydata.polls[i].title
@@ -75,6 +73,7 @@ file.onreadystatechange = function () {
         polls2021Months.push(month)
       }
 
+      var row = document.createElement('tr')
       for (var j = 0; j < 1; j++) {
         var cell1 = document.createElement('td')
         var cell2 = document.createElement('td')
