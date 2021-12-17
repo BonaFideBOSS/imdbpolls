@@ -62,18 +62,17 @@ file.onreadystatechange = function () {
 
       if (firstpolldate > mydata.polls[i].date) {
         firstpolldate = mydata.polls[i].date
+        $('#firstpolldate').html(firstpolldate)
       }
       if (lastpolldate < mydata.polls[i].date) {
         lastpolldate = mydata.polls[i].date
+        $('#lastpolldate').html(lastpolldate)
         var latestPoll = mydata.polls[i];
         $('#latest-poll .card-header span').html(new Date(latestPoll.date).toDateString())
         $('#latest-poll .card-title').html(latestPoll.title)
         $('#latest-poll .card-text span').html(latestPoll.votes)
         $('#latest-poll a').attr("href", latestPoll.url)
       }
-      $('#firstpolldate').html(firstpolldate)
-      $('#lastpolldate').html(lastpolldate)
-
 
       if (highestVote < mydata.polls[i].votes) {
         highestVote = mydata.polls[i].votes
