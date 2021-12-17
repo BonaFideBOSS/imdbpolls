@@ -74,6 +74,9 @@ file.onreadystatechange = function () {
       } else if (mydata.poll[i].votes >= 10000) {
         tenk = tenk + 1
       }
+      $('#1kvotes').html(onek)
+      $('#5kvotes').html(fivek)
+      $('#10kvotes').html(tenk)
 
       var year = mydata.polls[i].date.split('/')[0]
       var month = mydata.polls[i].date.split('/')[1].replace(/^0+/, '')
@@ -120,10 +123,6 @@ file.onreadystatechange = function () {
       }
       tableBody.appendChild(row)
     }
-
-    $('#1kvotes').html(onek)
-    $('#5kvotes').html(fivek)
-    $('#10kvotes').html(tenk)
 
     var tableFooter = document.createElement('tfoot')
     var footer = document.createElement('tr')
