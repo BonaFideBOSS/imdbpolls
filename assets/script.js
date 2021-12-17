@@ -202,12 +202,9 @@ file.onreadystatechange = function () {
       data: milestoneOne,
       options: {
         plugins: {
-          title: {
-            display: true,
-            text: "Polls",
-            font: {
-              size: 16
-            }
+          interaction: {
+            intersect: false,
+            mode: 'index',
           },
           legend: {
             display: false
@@ -225,12 +222,9 @@ file.onreadystatechange = function () {
       data: milestoneTwo,
       options: {
         plugins: {
-          title: {
-            display: true,
-            text: "Votes",
-            font: {
-              size: 16
-            }
+          interaction: {
+            intersect: false,
+            mode: 'index',
           },
           legend: {
             display: false
@@ -248,12 +242,9 @@ file.onreadystatechange = function () {
       data: milestoneThree,
       options: {
         plugins: {
-          title: {
-            display: true,
-            text: "Homepage Features",
-            font: {
-              size: 16
-            }
+          interaction: {
+            intersect: false,
+            mode: 'index',
           },
           legend: {
             display: false
