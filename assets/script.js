@@ -195,7 +195,7 @@ file.onreadystatechange = function () {
       options: {
         plugins: {
           legend: {
-            position: 'left'
+            position: 'bottom'
           }
         }
       }
@@ -206,7 +206,7 @@ file.onreadystatechange = function () {
       options: {
         plugins: {
           legend: {
-            position: 'left'
+            position: 'bottom'
           }
         }
       }
@@ -217,7 +217,7 @@ file.onreadystatechange = function () {
       options: {
         plugins: {
           legend: {
-            position: 'left'
+            position: 'bottom'
           }
         }
       }
