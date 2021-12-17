@@ -158,22 +158,22 @@ file.onreadystatechange = function () {
     const milestoneOne = {
       labels: ['Polls Published', 'Poll Milestone'],
       datasets: [{
-        backgroundColor: '#0dcaf0',
-        data: [totalPolls, (Math.ceil(totalPolls / 50) * 50)],
+        backgroundColor: ['#0dcaf0','#212529'],
+        data: [totalPolls, ((Math.ceil(totalPolls / 50) * 50) - totalPolls)],
       }]
     };
     const milestoneTwo = {
       labels: ['Votes Gaines', 'Votes Milestone'],
       datasets: [{
-        backgroundColor: '#0dcaf0',
-        data: [totalVotes, (Math.ceil(totalVotes / 50000) * 50000)],
+        backgroundColor: ['#0dcaf0','#212529'],
+        data: [totalVotes, ((Math.ceil(totalVotes / 50000) * 50000) - totalVotes)],
       }]
     };
     const milestoneThree = {
       labels: ['Homepage Features', 'Homepage Milestone'],
       datasets: [{
-        backgroundColor: '#0dcaf0',
-        data: [totalHomepagePolls, (Math.ceil(totalHomepagePolls / 10) * 10)],
+        backgroundColor: ['#0dcaf0','#212529'],
+        data: [totalHomepagePolls, ((Math.ceil(totalHomepagePolls / 10) * 10) - totalHomepagePolls)],
       }]
     };
 

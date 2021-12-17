@@ -25,6 +25,10 @@ a {
   text-align: left !important;
 }
 
+.milestones canvas {
+  width: 75%;
+}
+
 footer img {
   width: 100px;
   border-radius: 5px;
@@ -39,6 +43,10 @@ footer img {
 
   .logo {
     padding: 1rem 0;
+  }
+
+  .milestones canvas {
+    width: auto !important;
   }
 
   footer .container {
