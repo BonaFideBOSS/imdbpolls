@@ -19,13 +19,17 @@ file.onreadystatechange = function () {
     var totalHomepagePolls = mydata.totalhomepagepolls
     var highestVote = 0
     var highestVotedPoll;
+    var lowestVote = Number.MAX_VALUE;
     var onek = 0
     var fivek = 0
     var tenk = 0
+    var firstpolldate = new Date()
+    var lastpolldate = new Date(0);
 
     $('#cardtotalpolls').html(totalPolls)
     $('#cardtotalvotes').html(totalVotes)
     $('#cardtotalhp').html(totalHomepagePolls)
+    $('#avgvotes').html(Math.round(totalVotes / totalPolls))
 
     var table = document.getElementById('imdbpolls')
     var tableHeader = document.createElement('thead')
@@ -56,7 +60,15 @@ file.onreadystatechange = function () {
 
     for (var i = 0; i < mydata.polls.length; i++) {
 
-      var latestPoll = mydata.polls[i];
+      if (firstpolldate > mydata.polls[i].date) {
+        firstpolldate = mydata.polls[i].date
+      }
+      if (lastpolldate < mydata.polls[i].date) {
+        lastpolldate = mydata.polls[i].date
+        var latestPoll = mydata.polls[i];
+      }
+      $('#firstpolldate').html(firstpolldate)
+      $('#lastpolldate').html(lastpolldate)
       $('#latest-poll .card-header span').html(new Date(latestPoll.date).toDateString())
       $('#latest-poll .card-title').html(latestPoll.title)
       $('#latest-poll .card-text span').html(latestPoll.votes)
@@ -65,6 +77,11 @@ file.onreadystatechange = function () {
       if (highestVote < mydata.polls[i].votes) {
         highestVote = mydata.polls[i].votes
         highestVotedPoll = mydata.polls[i].title
+      }
+
+
+      if (lowestVote >= mydata.polls[i].votes) {
+        lowestVote = mydata.polls[i].votes
       }
 
       if (mydata.polls[i].votes >= 1000) {
@@ -79,6 +96,8 @@ file.onreadystatechange = function () {
       $('#1kvotes').html(onek)
       $('#5kvotes').html(fivek)
       $('#10kvotes').html(tenk)
+      $('#maxvotes').html(highestVote)
+      $('#minvotes').html(lowestVote)
 
       var year = mydata.polls[i].date.split('/')[0]
       var month = mydata.polls[i].date.split('/')[1].replace(/^0+/, '')

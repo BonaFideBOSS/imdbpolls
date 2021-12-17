@@ -64,32 +64,6 @@
           </div>
         </div>
       </div>
-      <div class="row mb-5">
-        <div class="col-lg-4 col-md-6 col-12 mb-3">
-          <div class="card text-dark text-center bg-light">
-            <div class="card-header">Polls With 1K+ Votes</div>
-            <div class="card-body">
-              <h1 id="1kvotes" class="card-title"></h1>
-            </div>
-          </div>
-        </div>
-        <div class="col-lg-4 col-md-6 col-12 mb-3">
-          <div class="card text-dark text-center bg-light">
-            <div class="card-header">Polls With 5K+ Votes</div>
-            <div class="card-body">
-              <h1 id="5kvotes" class="card-title"></h1>
-            </div>
-          </div>
-        </div>
-        <div class="col-lg-4 col-12 mb-3">
-          <div class="card text-dark text-center bg-light">
-            <div class="card-header">Polls With 10K+ Votes</div>
-            <div class="card-body">
-              <h1 id="10kvotes" class="card-title"></h1>
-            </div>
-          </div>
-        </div>
-      </div>
 
       <div class="table-responsive">
         <h4>IMDb Polls</h4>
@@ -136,9 +110,78 @@
             </div>
           </div>
         </div>
-        <div class="row justify-content-center align-items-center">
+
+        <div class="row mb-5 justify-content-center align-items-center">
           <h4>Statistics</h4>
           <hr>
+          <div class="col-lg-3 col-4 mb-3">
+            <div class="card text-dark text-center bg-light">
+              <div class="card-header">Polls With 1K+ Votes</div>
+              <div class="card-body">
+                <h1 id="1kvotes" class="card-title"></h1>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-3 col-4 mb-3">
+            <div class="card text-dark text-center bg-light">
+              <div class="card-header">Polls With 5K+ Votes</div>
+              <div class="card-body">
+                <h1 id="5kvotes" class="card-title"></h1>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-3 col-4 mb-3">
+            <div class="card text-dark text-center bg-light">
+              <div class="card-header">Polls With 10K+ Votes</div>
+              <div class="card-body">
+                <h1 id="10kvotes" class="card-title"></h1>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-3 col-4 mb-3">
+            <div class="card text-dark text-center bg-light">
+              <div class="card-header">Max Votes</div>
+              <div class="card-body">
+                <h1 id="maxvotes" class="card-title"></h1>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-3 col-4 mb-3">
+            <div class="card text-dark text-center bg-light">
+              <div class="card-header">Least Votes</div>
+              <div class="card-body">
+                <h1 id="minvotes" class="card-title"></h1>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-3 col-4 mb-3">
+            <div class="card text-dark text-center bg-light">
+              <div class="card-header">Average Votes</div>
+              <div class="card-body">
+                <h1 id="avgvotes" class="card-title"></h1>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-3 col-4 mb-3">
+            <div class="card text-dark text-center bg-light">
+              <div class="card-header">First Poll Date</div>
+              <div class="card-body">
+                <h1 id="firstpolldate" class="card-title"></h1>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-3 col-4 mb-3">
+            <div class="card text-dark text-center bg-light">
+              <div class="card-header">Last Poll Date</div>
+              <div class="card-body">
+                <h1 id="lastpolldate" class="card-title"></h1>
+              </div>
+            </div>
+          </div>
+        </div>
+
+
+        <div class="row justify-content-center align-items-center">
           <div class="col-lg-6 col-12 mb-4"><canvas id="YearChart"></canvas></div>
           <div class="col-lg-6 col-12 mb-4"><canvas id="MonthChartOne"></canvas></div>
           <div class="col-lg-6 col-12 mb-4"><canvas id="MonthChartTwo"></canvas></div>
