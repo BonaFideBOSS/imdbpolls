@@ -54,7 +54,7 @@ file.onreadystatechange = function () {
     for (var i = 0; i < mydata.polls.length; i++) {
 
       var latestPoll = mydata.polls[i];
-      $('#latest-poll .card-header span').html(latestPoll.date)
+      $('#latest-poll .card-header span').html(new Date(latestPoll.date).toDateString())
       $('#latest-poll .card-title').html(latestPoll.title)
       $('#latest-poll .card-text span').html(latestPoll.votes)
       $('#latest-poll a').attr("href",latestPoll.url)
