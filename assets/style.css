@@ -68,9 +68,6 @@ footer img {
 @media only screen and (max-width: 512px) {
   #latest-poll img {
     float: none;
-  }
-  #latest-poll .img {
-    display: flex;
-    justify-content: center;
+    width: 50px;
   }
 }
