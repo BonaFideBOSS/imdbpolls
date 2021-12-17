@@ -156,7 +156,7 @@ file.onreadystatechange = function () {
     const dataOne = {
       labels: Object.keys(pollineachyear),
       datasets: [{
-        backgroundColor: ['#ffc107', '#0d6efd', '#dc3545'],
+        backgroundColor: '#198754',
         borderWidth: '0',
         data: Object.values(pollineachyear),
       }]
@@ -184,7 +184,7 @@ file.onreadystatechange = function () {
     };
 
     const yearChart = {
-      type: 'pie',
+      type: 'line',
       data: dataOne,
       options: {
         plugins: {
