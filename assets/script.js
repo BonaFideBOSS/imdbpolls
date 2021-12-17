@@ -134,6 +134,9 @@ file.onreadystatechange = function () {
     // ====================================================
     // ==================== STATISTICS ====================
     // ====================================================
+    //Default Settings
+    // Chart.defaults.elements.bar.borderWidth = 0;
+    
     const monthsOne = {};
     const monthsTwo = {};
     const monthsThree = {};
@@ -151,7 +154,7 @@ file.onreadystatechange = function () {
       pollineachyear[x] = (pollineachyear[x] || 0) + 1;
     });
 
-    Chart.defaults.elements.bar.borderWidth = 0;
+    
 
     const dataOne = {
       labels: Object.keys(pollineachyear),
