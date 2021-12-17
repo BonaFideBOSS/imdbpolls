@@ -199,7 +199,7 @@ file.onreadystatechange = function () {
           },
           tooltip: {
             callbacks: {
-              footer: 'Next Milestone: ' + (m1),
+              footer: ('Next Milestone: ' + (m1)),
             }
           }
         }
@@ -215,7 +215,7 @@ file.onreadystatechange = function () {
           },
           tooltip: {
             callbacks: {
-              footer: 'Next Milestone: ' + (m2),
+              footer: ('Next Milestone: ' + (m2)),
             }
           }
         }
@@ -231,7 +231,7 @@ file.onreadystatechange = function () {
           },
           tooltip: {
             callbacks: {
-              footer: 'Next Milestone: ' + (m3),
+              footer: ('Next Milestone: ' + (m3)),
             }
           }
         }
