@@ -192,7 +192,13 @@ file.onreadystatechange = function () {
     const milestoneChartOne = {
       type: 'doughnut',
       data: milestoneOne,
-      options: {}
+      options: {
+        plugins: {
+          legend: {
+            position: 'left'
+          }
+        }
+      }
     };
     const milestoneChartTwo = {
       type: 'doughnut',
@@ -200,7 +206,7 @@ file.onreadystatechange = function () {
       options: {
         plugins: {
           legend: {
-            display: false
+            position: 'left'
           }
         }
       }
@@ -211,7 +217,7 @@ file.onreadystatechange = function () {
       options: {
         plugins: {
           legend: {
-            display: false
+            position: 'left'
           }
         }
       }
