@@ -19,6 +19,9 @@ file.onreadystatechange = function () {
     var totalHomepagePolls = mydata.totalhomepagepolls
     var highestVote = 0
     var highestVotedPoll;
+    var onek = 0
+    var fivek = 0
+    var tenk = 0
 
     $('#cardtotalpolls').html(totalPolls)
     $('#cardtotalvotes').html(totalVotes)
@@ -57,11 +60,19 @@ file.onreadystatechange = function () {
       $('#latest-poll .card-header span').html(new Date(latestPoll.date).toDateString())
       $('#latest-poll .card-title').html(latestPoll.title)
       $('#latest-poll .card-text span').html(latestPoll.votes)
-      $('#latest-poll a').attr("href",latestPoll.url)
+      $('#latest-poll a').attr("href", latestPoll.url)
 
       if (highestVote < mydata.polls[i].votes) {
         highestVote = mydata.polls[i].votes
         highestVotedPoll = mydata.polls[i].title
+      }
+
+      if (mydata.poll[i].votes >= 1000) {
+        onek = onek + 1
+      } else if (mydata.poll[i].votes >= 5000) {
+        fivek = fivek + 1
+      } else if (mydata.poll[i].votes >= 10000) {
+        tenk = tenk + 1
       }
 
       var year = mydata.polls[i].date.split('/')[0]
@@ -109,6 +120,10 @@ file.onreadystatechange = function () {
       }
       tableBody.appendChild(row)
     }
+
+    $('#1kvotes').html(onek)
+    $('#5kvotes').html(fivek)
+    $('#10kvotes').html(tenk)
 
     var tableFooter = document.createElement('tfoot')
     var footer = document.createElement('tr')
