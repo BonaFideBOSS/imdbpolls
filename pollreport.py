@@ -54,7 +54,7 @@ for i in data['polls']:
     totalvotes += int(voteCount)
     
     currentPoll = currentPoll + 1
-    print('-----> Progress: '+ str(totalpolls - currentPoll),end='\r')
+    print('-----> Progress: '+ str(currentPoll),end='\r')
 
 data['totalvotes'] = totalvotes
 data['totalhomepagepolls'] = totalhomepagepolls
