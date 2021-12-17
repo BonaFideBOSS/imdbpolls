@@ -218,7 +218,7 @@ file.onreadystatechange = function () {
           tooltip: {
             callbacks: {
               footer: function () {
-                return 'Next Milestone: ' + m1 + '\nHighest Voted Poll: ' + highestVotedPoll
+                return 'Next Milestone: ' + m1
               },
             }
           }
@@ -272,7 +272,7 @@ file.onreadystatechange = function () {
           tooltip: {
             callbacks: {
               footer: function () {
-                return 'Next Milestone: ' + m4
+                return 'Next Milestone: ' + m4 + '\nHighest Voted Poll: ' + highestVotedPoll
               },
             }
           }
