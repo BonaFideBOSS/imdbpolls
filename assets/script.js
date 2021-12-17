@@ -158,14 +158,6 @@ file.onreadystatechange = function () {
     });
 
     // ===== MILESTONES =====
-    const Chartfooter = (tooltipItems) => {
-      let sum = 0;
-      tooltipItems.forEach(function (tooltipItem) {
-        sum += tooltipItem.parsed.y;
-      });
-      return 'Next Milestone: ' + sum;
-    };
-
     var m1 = Math.ceil(totalPolls / 50) * 50;
     $('#m1Text').html(((totalPolls / m1) * 100).toFixed(2) + '%')
     const milestoneOne = {
@@ -202,16 +194,12 @@ file.onreadystatechange = function () {
       data: milestoneOne,
       options: {
         plugins: {
-          interaction: {
-            intersect: false,
-            mode: 'index',
-          },
           legend: {
             display: false
           },
           tooltip: {
             callbacks: {
-              footer: Chartfooter,
+              footer: 'Next Milestone: ' + (m1),
             }
           }
         }
@@ -222,16 +210,12 @@ file.onreadystatechange = function () {
       data: milestoneTwo,
       options: {
         plugins: {
-          interaction: {
-            intersect: false,
-            mode: 'index',
-          },
           legend: {
             display: false
           },
           tooltip: {
             callbacks: {
-              footer: Chartfooter,
+              footer: 'Next Milestone: ' + (m2),
             }
           }
         }
@@ -242,16 +226,12 @@ file.onreadystatechange = function () {
       data: milestoneThree,
       options: {
         plugins: {
-          interaction: {
-            intersect: false,
-            mode: 'index',
-          },
           legend: {
             display: false
           },
           tooltip: {
             callbacks: {
-              footer: Chartfooter,
+              footer: 'Next Milestone: ' + (m3),
             }
           }
         }
