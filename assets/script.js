@@ -161,6 +161,7 @@ file.onreadystatechange = function () {
       labels: ['Polls Published', 'Poll Milestone'],
       datasets: [{
         backgroundColor: ['#0dcaf0', '#212529'],
+        borderWidth: '0',
         data: [totalPolls, (m1 - totalPolls)],
       }]
     };
@@ -170,6 +171,7 @@ file.onreadystatechange = function () {
       labels: ['Votes Gaines', 'Votes Milestone'],
       datasets: [{
         backgroundColor: ['#0dcaf0', '#212529'],
+        borderWidth: '0',
         data: [totalVotes, (m2 - totalVotes)],
       }]
     };
@@ -179,6 +181,7 @@ file.onreadystatechange = function () {
       labels: ['Homepage Features', 'Homepage Milestone'],
       datasets: [{
         backgroundColor: ['#0dcaf0', '#212529'],
+        borderWidth: '0',
         data: [totalHomepagePolls, (m3 - totalHomepagePolls)],
       }]
     };
