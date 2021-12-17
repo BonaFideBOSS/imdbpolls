@@ -1,15 +1,15 @@
-var pollyears = []
-var polls2019 = 0
-var polls2019Months = []
-var polls2020 = 0
-var polls2020Months = []
-var polls2021 = 0
-var polls2021Months = []
-
 const file = new XMLHttpRequest();
 file.open("GET", "imdbpolls.json");
 file.send();
 file.onreadystatechange = function () {
+  var pollyears = []
+  var polls2019 = 0
+  var polls2019Months = []
+  var polls2020 = 0
+  var polls2020Months = []
+  var polls2021 = 0
+  var polls2021Months = []
+
   if (this.readyState == 4 && this.status == 200) {
     var mydata = JSON.parse(file.responseText)
 
@@ -17,6 +17,8 @@ file.onreadystatechange = function () {
     var totalVotes = mydata.totalvotes
     var lastUpdated = mydata.lastupdated
     var totalHomepagePolls = mydata.totalhomepagepolls
+    var highestVote = 0
+    var highestVotedPoll = ''
 
     $('#cardtotalpolls').html(totalPolls)
     $('#cardtotalvotes').html(totalVotes)
@@ -79,6 +81,12 @@ file.onreadystatechange = function () {
         link.target = '_blank'
         var date = document.createTextNode(mydata.polls[i].date)
         var votes = document.createTextNode(mydata.polls[i].votes)
+
+        if (highestVote < votes) {
+          highestVote = votes
+          highestVotedPoll = title
+        }
+
         var homepage = document.createTextNode(mydata.polls[i].homepage)
 
         cell1.appendChild(rank)
@@ -188,6 +196,16 @@ file.onreadystatechange = function () {
         data: [totalHomepagePolls, (m3 - totalHomepagePolls)],
       }]
     };
+    var m4 = Math.ceil(highestVote / 5000) * 5000;
+    $('#m4Text').html(((highestVote / m4) * 100).toFixed(2) + '%')
+    const milestoneFour = {
+      labels: ['Highest Vote', 'Votes needed to reach next milestone'],
+      datasets: [{
+        backgroundColor: ['#0dcaf0', '#212529'],
+        borderWidth: '0',
+        data: [highestVote, (m4 - highestVote)],
+      }]
+    };
 
     const milestoneChartOne = {
       type: 'doughnut',
@@ -200,7 +218,7 @@ file.onreadystatechange = function () {
           tooltip: {
             callbacks: {
               footer: function () {
-                return 'Next Milestone: ' + m1
+                return 'Next Milestone: ' + m1 + '\nHighest Voted Poll: ' + highestVotedPoll
               },
             }
           }
@@ -237,6 +255,24 @@ file.onreadystatechange = function () {
             callbacks: {
               footer: function () {
                 return 'Next Milestone: ' + m3
+              },
+            }
+          }
+        }
+      }
+    };
+    const milestoneChartFour = {
+      type: 'doughnut',
+      data: milestoneFour,
+      options: {
+        plugins: {
+          legend: {
+            display: false
+          },
+          tooltip: {
+            callbacks: {
+              footer: function () {
+                return 'Next Milestone: ' + m4
               },
             }
           }
@@ -358,6 +394,10 @@ file.onreadystatechange = function () {
     new Chart(
       document.getElementById('milestoneThree'),
       milestoneChartThree
+    );
+    new Chart(
+      document.getElementById('milestoneFour'),
+      milestoneChartFour
     );
     new Chart(
       document.getElementById('YearChart'),
