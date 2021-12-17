@@ -158,6 +158,10 @@ file.onreadystatechange = function () {
     });
 
     // ===== MILESTONES =====
+    function chartFooter(params) {
+      return 'Next Milestone: ' + params
+    }
+
     var m1 = Math.ceil(totalPolls / 50) * 50;
     $('#m1Text').html(((totalPolls / m1) * 100).toFixed(2) + '%')
     const milestoneOne = {
@@ -199,7 +203,7 @@ file.onreadystatechange = function () {
           },
           tooltip: {
             callbacks: {
-              footer: ('Next Milestone: ' + (m1)),
+              footer: chartFooter(m1),
             }
           }
         }
@@ -215,7 +219,7 @@ file.onreadystatechange = function () {
           },
           tooltip: {
             callbacks: {
-              footer: ('Next Milestone: ' + (m2)),
+              footer: chartFooter(m2),
             }
           }
         }
@@ -231,7 +235,7 @@ file.onreadystatechange = function () {
           },
           tooltip: {
             callbacks: {
-              footer: ('Next Milestone: ' + (m3)),
+              footer: chartFooter(m3),
             }
           }
         }
