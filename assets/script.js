@@ -154,7 +154,63 @@ file.onreadystatechange = function () {
       pollineachyear[x] = (pollineachyear[x] || 0) + 1;
     });
 
+    // ===== MILESTONES =====
+    const milestoneOne = {
+      labels: ['Polls Published', 'Poll Milestone'],
+      datasets: [{
+        backgroundColor: '#0dcaf0',
+        data: [totalPolls, (Math.ceil(totalPolls / 50) * 50)],
+      }]
+    };
+    const milestoneTwo = {
+      labels: ['Votes Gaines', 'Votes Milestone'],
+      datasets: [{
+        backgroundColor: '#0dcaf0',
+        data: [totalVotes, (Math.ceil(totalVotes / 50000) * 50000)],
+      }]
+    };
+    const milestoneThree = {
+      labels: ['Homepage Features', 'Homepage Milestone'],
+      datasets: [{
+        backgroundColor: '#0dcaf0',
+        data: [totalHomepagePolls, (Math.ceil(totalHomepagePolls / 10) * 10)],
+      }]
+    };
 
+    const milestoneChartOne = {
+      type: 'doughnut',
+      data: milestoneOne,
+      options: {
+        plugins: {
+          legend: {
+            display: false
+          }
+        }
+      }
+    };
+    const milestoneChartTwo = {
+      type: 'doughnut',
+      data: milestoneTwo,
+      options: {
+        plugins: {
+          legend: {
+            display: false
+          }
+        }
+      }
+    };
+    const milestoneChartThree = {
+      type: 'doughnut',
+      data: milestoneThree,
+      options: {
+        plugins: {
+          legend: {
+            display: false
+          }
+        }
+      }
+    };
+    // ===== STATISTICS =====
     const dataOne = {
       labels: Object.keys(pollineachyear),
       datasets: [{
@@ -258,6 +314,18 @@ file.onreadystatechange = function () {
       }
     };
 
+    new Chart(
+      document.getElementById('milestoneOne'),
+      milestoneChartOne
+    );
+    new Chart(
+      document.getElementById('milestoneTwo'),
+      milestoneChartTwo
+    );
+    new Chart(
+      document.getElementById('milestoneThree'),
+      milestoneChartThree
+    );
     new Chart(
       document.getElementById('YearChart'),
       yearChart
