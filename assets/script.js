@@ -148,6 +148,7 @@ file.onreadystatechange = function () {
     Chart.defaults.plugins.tooltip.displayColors = false;
     Chart.defaults.plugins.tooltip.intersect = false;
     Chart.defaults.plugins.tooltip.padding = '10';
+    Chart.defaults.plugins.tooltip.footerMarginTop = '15';
 
     const monthsOne = {};
     const monthsTwo = {};
