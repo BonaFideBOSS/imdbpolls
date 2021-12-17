@@ -73,6 +73,10 @@ file.onreadystatechange = function () {
         $('#latest-poll .card-text span').html(latestPoll.votes)
         $('#latest-poll a').attr("href", latestPoll.url)
       }
+      const oneDay = 24 * 60 * 60 * 1000;
+      var pollingdays = Math.round(Math.abs((new Date(firstpolldate) - new Date(lastpolldate)) / oneDay));
+      $('#avgvotesdaily').html(Math.round(totalVotes / pollingdays))
+
 
       if (highestVote < mydata.polls[i].votes) {
         highestVote = mydata.polls[i].votes
