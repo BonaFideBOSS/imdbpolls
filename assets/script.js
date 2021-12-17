@@ -155,25 +155,31 @@ file.onreadystatechange = function () {
     });
 
     // ===== MILESTONES =====
+    var m1 = Math.ceil(totalPolls / 50) * 50;
+    $('#m1Text').html(((totalPolls / m1) * 100).toFixed(2) + '%')
     const milestoneOne = {
       labels: ['Polls Published', 'Poll Milestone'],
       datasets: [{
         backgroundColor: ['#0dcaf0', '#212529'],
-        data: [totalPolls, ((Math.ceil(totalPolls / 50) * 50) - totalPolls)],
+        data: [totalPolls, (m1 - totalPolls)],
       }]
     };
+    var m2 = Math.ceil(totalVotes / 50000) * 50000;
+    $('#m2Text').html(((totalVotes / m2) * 100).toFixed(2) + '%')
     const milestoneTwo = {
       labels: ['Votes Gaines', 'Votes Milestone'],
       datasets: [{
         backgroundColor: ['#0dcaf0', '#212529'],
-        data: [totalVotes, ((Math.ceil(totalVotes / 50000) * 50000) - totalVotes)],
+        data: [totalVotes, (m2 - totalVotes)],
       }]
     };
+    var m3 = Math.ceil(totalHomepagePolls / 10) * 10;
+    $('#m3Text').html(((totalHomepagePolls / m3) * 100).toFixed(2) + '%')
     const milestoneThree = {
       labels: ['Homepage Features', 'Homepage Milestone'],
       datasets: [{
         backgroundColor: ['#0dcaf0', '#212529'],
-        data: [totalHomepagePolls, ((Math.ceil(totalHomepagePolls / 10) * 10) - totalHomepagePolls)],
+        data: [totalHomepagePolls, (m3 - totalHomepagePolls)],
       }]
     };
 
