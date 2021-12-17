@@ -78,12 +78,9 @@ file.onreadystatechange = function () {
         highestVote = mydata.polls[i].votes
         highestVotedPoll = mydata.polls[i].title
       }
-
-
       if (lowestVote >= mydata.polls[i].votes) {
         lowestVote = mydata.polls[i].votes
       }
-
       if (mydata.polls[i].votes >= 1000) {
         onek = onek + 1
       }
