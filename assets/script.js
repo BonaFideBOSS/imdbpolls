@@ -67,11 +67,11 @@ file.onreadystatechange = function () {
         highestVotedPoll = mydata.polls[i].title
       }
 
-      if (mydata.poll[i].votes >= 1000) {
+      if (mydata.polls[i].votes >= 1000) {
         onek = onek + 1
-      } else if (mydata.poll[i].votes >= 5000) {
+      } else if (mydata.polls[i].votes >= 5000) {
         fivek = fivek + 1
-      } else if (mydata.poll[i].votes >= 10000) {
+      } else if (mydata.polls[i].votes >= 10000) {
         tenk = tenk + 1
       }
       $('#1kvotes').html(onek)
