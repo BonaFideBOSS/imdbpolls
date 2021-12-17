@@ -440,6 +440,8 @@ file.onreadystatechange = function () {
       monthChartThree
     );
   }
+
+  $('pre-loader').attr('hidden', true)
 }
 
 function monthsChecker(months) {
