@@ -441,6 +441,7 @@ file.onreadystatechange = function () {
     );
 
     $('#pre-loader').attr('hidden', true)
+    $('main').attr('hidden', false)
   }
 }
 
