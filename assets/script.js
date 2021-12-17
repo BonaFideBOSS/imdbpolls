@@ -60,11 +60,11 @@ file.onreadystatechange = function () {
 
     for (var i = 0; i < mydata.polls.length; i++) {
 
-      if (firstpolldate > new Date(mydata.polls[i].date)) {
+      if (new Date(firstpolldate) > new Date(mydata.polls[i].date)) {
         firstpolldate = mydata.polls[i].date
         $('#firstpolldate').html(firstpolldate)
       }
-      if (lastpolldate < new Date(mydata.polls[i].date)) {
+      if (new Date(lastpolldate) < new Date(mydata.polls[i].date)) {
         lastpolldate = mydata.polls[i].date
         $('#lastpolldate').html(lastpolldate)
         var latestPoll = mydata.polls[i];
