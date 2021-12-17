@@ -52,6 +52,10 @@ file.onreadystatechange = function () {
     var tableBody = document.createElement('tbody')
 
     for (var i = 0; i < mydata.polls.length; i++) {
+
+      var latestPoll = mydata.polls[i];
+      $('#latest-poll .card-header span').html(latestPoll.date)
+
       var row = document.createElement('tr')
 
       if (highestVote < mydata.polls[i].votes) {
@@ -148,7 +152,7 @@ file.onreadystatechange = function () {
     Chart.defaults.plugins.tooltip.displayColors = false;
     Chart.defaults.plugins.tooltip.intersect = false;
     Chart.defaults.plugins.tooltip.padding = '10';
-    Chart.defaults.plugins.tooltip.footerMarginTop = '15';
+    Chart.defaults.plugins.tooltip.footerMarginTop = 15;
 
     const monthsOne = {};
     const monthsTwo = {};
