@@ -26,7 +26,8 @@ a {
 }
 
 .milestones canvas {
-  width: 75%;
+  width: 250px;
+  height: 250px;
 }
 
 footer img {
