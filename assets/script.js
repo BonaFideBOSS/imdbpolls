@@ -175,7 +175,6 @@ file.onreadystatechange = function () {
 
     $(document).ready(function () {
       $(table).DataTable({
-        responsive: true,
         "order": [
           [3, "desc"]
         ]
