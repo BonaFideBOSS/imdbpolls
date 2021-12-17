@@ -158,7 +158,7 @@ file.onreadystatechange = function () {
     });
 
     // ===== MILESTONES =====
-    const footer = (tooltipItems) => {
+    const Chartfooter = (tooltipItems) => {
       let sum = 0;
       tooltipItems.forEach(function (tooltipItem) {
         sum += tooltipItem.parsed.y;
@@ -214,7 +214,7 @@ file.onreadystatechange = function () {
           },
           tooltip: {
             callbacks: {
-              footer: footer,
+              footer: Chartfooter,
             }
           }
         }
@@ -237,7 +237,7 @@ file.onreadystatechange = function () {
           },
           tooltip: {
             callbacks: {
-              footer: footer,
+              footer: Chartfooter,
             }
           }
         }
@@ -260,7 +260,7 @@ file.onreadystatechange = function () {
           },
           tooltip: {
             callbacks: {
-              footer: footer,
+              footer: Chartfooter,
             }
           }
         }
