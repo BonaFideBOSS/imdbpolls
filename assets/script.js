@@ -208,9 +208,11 @@ file.onreadystatechange = function () {
         var votesresult = 0;
         var hpresult = 0;
         for (var i = 0; i < row.length; i++) {
-          votesresult += parseInt(row[i].querySelectorAll('td')[3].innerHTML)
-          if ((row[i].querySelectorAll('td')[4].innerHTML).toLowerCase() == "yes") {
-            hpresult = hpresult + 1
+          if (row[i].querySelectorAll('td')[0].classList.contains('dataTables_empty')) {} else {
+            votesresult += parseInt(row[i].querySelectorAll('td')[3].innerHTML)
+            if ((row[i].querySelectorAll('td')[4].innerHTML).toLowerCase() == "yes") {
+              hpresult = hpresult + 1
+            }
           }
         }
         $('#tabletotalvotes').html(votesresult)
