@@ -80,7 +80,15 @@ file.onreadystatechange = function () {
       var pollingdays = Math.round(Math.abs((new Date(firstpolldate) - new Date(lastpolldate)) / oneDay));
       $('#avgvotesdaily').html(Math.round(totalVotes / pollingdays))
 
-
+      if (mydata.polls[i].votes >= 1000) {
+        onek = onek + 1
+      }
+      if (mydata.polls[i].votes >= 5000) {
+        fivek = fivek + 1
+      }
+      if (mydata.polls[i].votes >= 10000) {
+        tenk = tenk + 1
+      }
       if (highestVote < mydata.polls[i].votes) {
         highestVote = mydata.polls[i].votes
         highestVotedPoll = mydata.polls[i].title
@@ -90,15 +98,6 @@ file.onreadystatechange = function () {
         lowestVote = mydata.polls[i].votes
         lowestVotedPoll = mydata.polls[i].title
         lowestVotedPollURL = mydata.polls[i].url
-      }
-      if (mydata.polls[i].votes >= 1000) {
-        onek = onek + 1
-      }
-      if (mydata.polls[i].votes >= 5000) {
-        fivek = fivek + 1
-      }
-      if (mydata.polls[i].votes >= 10000) {
-        tenk = tenk + 1
       }
       $('#1kvotes').html(onek)
       $('#5kvotes').html(fivek)
