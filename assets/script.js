@@ -186,7 +186,7 @@ file.onreadystatechange = function () {
 
       var select = document.querySelectorAll('#imdbpolls_length select')
       var search = document.querySelectorAll('#imdbpolls_filter input')
-      var sorting = document.querySelectorAll('#imdbpolls_filter .sorting')
+      var sorting = document.querySelectorAll('#imdbpolls thead .sorting')
       var paginate = document.querySelectorAll('#imdbpolls_paginate')
 
       tableTotal()
