@@ -205,7 +205,7 @@ file.onreadystatechange = function () {
         var hpresult = 0;
         for (var i = 0; i < row.length; i++) {
           votesresult += parseInt(row[i].querySelectorAll('td')[3].innerHTML)
-          if (row[i].querySelectorAll('td')[4].innerHTML == "Yes") {
+          if ((row[i].querySelectorAll('td')[4].innerHTML).toLowerCase() == "yes") {
             hpresult = hpresult + 1
           }
         }
