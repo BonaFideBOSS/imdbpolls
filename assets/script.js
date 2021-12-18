@@ -61,7 +61,7 @@ file.onreadystatechange = function () {
 
     var tableBody = document.createElement('tbody')
 
-    var dates = []
+    var maxdates = []
     for (var i = 0; i < mydata.polls.length; i++) {
 
       dates.push(mydata.polls[i].date)
@@ -161,13 +161,13 @@ file.onreadystatechange = function () {
     var mf = 1;
     var m = 0;
     var mostpollitem;
-    for (var i = 0; i < dates.length; i++) {
-      for (var j = i; j < dates.length; j++) {
-        if (dates[i] == dates[j])
+    for (var i = 0; i < maxdates.length; i++) {
+      for (var j = i; j < maxdates.length; j++) {
+        if (maxdates[i] == maxdates[j])
           m++;
         if (mf < m) {
           mf = m;
-          mostpollitem = dates[i];
+          mostpollitem = maxdates[i];
         }
       }
       m = 0;
