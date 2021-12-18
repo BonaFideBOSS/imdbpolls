@@ -186,6 +186,7 @@ file.onreadystatechange = function () {
 
       var select = document.querySelectorAll('#imdbpolls_length select')
       var search = document.querySelectorAll('#imdbpolls_filter input')
+      var sorting = document.querySelectorAll('#imdbpolls_filter .sorting')
       var paginate = document.querySelectorAll('#imdbpolls_paginate')
 
       tableTotal()
@@ -193,6 +194,9 @@ file.onreadystatechange = function () {
         tableTotal()
       })
       $(search).on('input', function () {
+        tableTotal()
+      })
+      $(sorting).on('click', function () {
         tableTotal()
       })
       $(paginate).on('click', function () {
@@ -211,7 +215,6 @@ file.onreadystatechange = function () {
         }
         $('#tabletotalvotes').html(votesresult)
         $('#tabletotalHomepagePolls').html(hpresult)
-
       }
     });
 
