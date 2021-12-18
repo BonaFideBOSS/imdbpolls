@@ -61,8 +61,10 @@ file.onreadystatechange = function () {
 
     var tableBody = document.createElement('tbody')
 
+    var dates = []
     for (var i = 0; i < mydata.polls.length; i++) {
 
+      dates.push(mydata.polls[i].date)
       if (new Date(firstpolldate) > new Date(mydata.polls[i].date)) {
         firstpolldate = mydata.polls[i].date
         $('#firstpolldate').html(new Date(firstpolldate).toDateString())
@@ -89,6 +91,20 @@ file.onreadystatechange = function () {
       if (mydata.polls[i].votes >= 10000) {
         tenk = tenk + 1
       }
+      var mf = 1;
+      var m = 0;
+      var item;
+      for (var i = 0; i < dates.length; i++) {
+        for (var j = i; j < dates.length; j++) {
+          if (dates[i] == dates[j])
+            m++;
+          if (mf < m) {
+            mf = m;
+            item = dates[i];
+          }
+        }
+        m = 0;
+      }
       if (highestVote < mydata.polls[i].votes) {
         highestVote = mydata.polls[i].votes
         highestVotedPoll = mydata.polls[i].title
@@ -99,6 +115,7 @@ file.onreadystatechange = function () {
         lowestVotedPoll = mydata.polls[i].title
         lowestVotedPollURL = mydata.polls[i].url
       }
+      $('#mostpollsinaday').html(mf)
       $('#1kvotes').html(onek)
       $('#5kvotes').html(fivek)
       $('#10kvotes').html(tenk)
