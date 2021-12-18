@@ -93,14 +93,14 @@ file.onreadystatechange = function () {
       }
       var mf = 1;
       var m = 0;
-      var item;
+      var mostpollitem;
       for (var i = 0; i < dates.length; i++) {
         for (var j = i; j < dates.length; j++) {
           if (dates[i] == dates[j])
             m++;
           if (mf < m) {
             mf = m;
-            item = dates[i];
+            mostpollitem = dates[i];
           }
         }
         m = 0;
