@@ -19,7 +19,10 @@ file.onreadystatechange = function () {
     var totalHomepagePolls = mydata.totalhomepagepolls
     var highestVote = 0
     var highestVotedPoll;
+    var highestVotedPollURL;
     var lowestVote = Number.MAX_VALUE;
+    var lowestVotedPoll;
+    var lowestVotedPollURL;
     var onek = 0
     var fivek = 0
     var tenk = 0
@@ -81,9 +84,12 @@ file.onreadystatechange = function () {
       if (highestVote < mydata.polls[i].votes) {
         highestVote = mydata.polls[i].votes
         highestVotedPoll = mydata.polls[i].title
+        highestVotedPollURL = mydata.polls[i].url
       }
       if (lowestVote >= mydata.polls[i].votes) {
         lowestVote = mydata.polls[i].votes
+        lowestVotedPoll = mydata.polls[i].title
+        lowestVotedPollURL = mydata.polls[i].url
       }
       if (mydata.polls[i].votes >= 1000) {
         onek = onek + 1
@@ -99,6 +105,10 @@ file.onreadystatechange = function () {
       $('#10kvotes').html(tenk)
       $('#maxvotes').html(highestVote)
       $('#minvotes').html(lowestVote)
+      $('#highestvotedpoll .card-title').html(highestVotedPoll)
+      $('#highestvotedpoll .card-header a').attr("href", highestVotedPollURL)
+      $('#lowestvotedpoll .card-title').html(lowestVotedPoll)
+      $('#lowestvotedpoll .card-header a').attr("href", lowestVotedPollURL)
 
       var year = mydata.polls[i].date.split('/')[0]
       var month = mydata.polls[i].date.split('/')[1].replace(/^0+/, '')
