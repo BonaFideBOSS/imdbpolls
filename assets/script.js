@@ -512,3 +512,14 @@ function monthsChecker(months) {
   }
   return monthsArray
 }
+
+tableTotal();
+
+$('#imdbpolls_length select').on('change', function () {
+  tableTotal();
+})
+
+function tableTotal() {
+  var polltable = document.getElementById('imdbpolls')
+  console.log(polltable.rows.length)
+}
