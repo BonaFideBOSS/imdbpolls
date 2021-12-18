@@ -64,7 +64,6 @@ file.onreadystatechange = function () {
     var dates = []
     for (var i = 0; i < mydata.polls.length; i++) {
 
-      dates.push(mydata.polls[i].date)
       if (new Date(firstpolldate) > new Date(mydata.polls[i].date)) {
         firstpolldate = mydata.polls[i].date
         $('#firstpolldate').html(new Date(firstpolldate).toDateString())
@@ -91,6 +90,7 @@ file.onreadystatechange = function () {
       if (mydata.polls[i].votes >= 10000) {
         tenk = tenk + 1
       }
+      dates.push(mydata.polls[i].date)
       var mf = 1;
       var m = 0;
       var mostpollitem;
