@@ -158,21 +158,21 @@ file.onreadystatechange = function () {
       tableBody.appendChild(row)
     }
 
-    var mf = 1;
-    var m = 0;
+    var maxpolldates = 1;
+    var maxdatecount = 0;
     var mostpollitem;
     for (var i = 0; i < maxdates.length; i++) {
       for (var j = i; j < maxdates.length; j++) {
         if (maxdates[i] == maxdates[j])
-          m++;
-        if (mf < m) {
-          mf = m;
+          maxdatecount++;
+        if (maxpolldates < maxdatecount) {
+          maxpolldates = maxdatecount;
           mostpollitem = maxdates[i];
         }
       }
-      m = 0;
+      maxdatecount = 0;
     }
-    $('#mostpollsinaday').html(mf)
+    $('#mostpollsinaday').html(maxpolldates)
     $('#daywithmostpolls').html(new Date(mostpollitem).toDateString())
 
     var tableFooter = document.createElement('tfoot')
