@@ -116,6 +116,7 @@ file.onreadystatechange = function () {
         lowestVotedPollURL = mydata.polls[i].url
       }
       $('#mostpollsinaday').html(mf)
+      $('#daywithmostpolls').html(new Date(mostpollitem.date).toDateString())
       $('#1kvotes').html(onek)
       $('#5kvotes').html(fivek)
       $('#10kvotes').html(tenk)
