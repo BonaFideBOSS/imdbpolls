@@ -61,10 +61,10 @@ file.onreadystatechange = function () {
 
     var tableBody = document.createElement('tbody')
 
-    var maxdates = []
+    var polldates = []
     for (var i = 0; i < mydata.polls.length; i++) {
 
-      dates.push(mydata.polls[i].date)
+      polldates.push(mydata.polls[i].date)
       if (new Date(firstpolldate) > new Date(mydata.polls[i].date)) {
         firstpolldate = mydata.polls[i].date
         $('#firstpolldate').html(new Date(firstpolldate).toDateString())
@@ -161,13 +161,13 @@ file.onreadystatechange = function () {
     var maxpolldates = 1;
     var maxdatecount = 0;
     var mostpollitem;
-    for (var i = 0; i < maxdates.length; i++) {
-      for (var j = i; j < maxdates.length; j++) {
-        if (maxdates[i] == maxdates[j])
+    for (var i = 0; i < polldates.length; i++) {
+      for (var j = i; j < polldates.length; j++) {
+        if (polldates[i] == polldates[j])
           maxdatecount++;
         if (maxpolldates < maxdatecount) {
           maxpolldates = maxdatecount;
-          mostpollitem = maxdates[i];
+          mostpollitem = polldates[i];
         }
       }
       maxdatecount = 0;
