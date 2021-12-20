@@ -166,22 +166,27 @@
 
       <section id="preview">
         <div class="container mt-5">
-          <h4>Live Preview</h4>
+          <h4>Live Preview
+            <span id="reset-btn" title="Clear" data-bs-toggle="tooltip" data-bs-placement="bottom">
+              <i class="bi bi-arrow-repeat fs-5"></i>
+            </span>
+        </div>
+        </h4>
 
-          <div class="row">
-            <div class="col-lg-6 col-12 mb-3">
-              <textarea id="userinput" class="form-control">Type [b]here[/b]...</textarea>
-            </div>
-            <div class="col-lg-6 col-12">
-              <div id="livepreview" class="bg-light border border-1 p-1">Type <b>here</b>...</div>
-              <p class="text-muted pt-2">
-                Note: The output may not be the same as on IMDb.</p>
-            </div>
-
+        <div class="row">
+          <div class="col-lg-6 col-12 mb-3">
+            <textarea id="userinput" class="form-control" rows="8"></textarea>
+          </div>
+          <div class="col-lg-6 col-12 mb-3">
+            <div id="livepreview" class="bg-light border border-1 p-1"></div>
+            <p class="text-muted pt-2">
+              Note: The output may not be the same as on IMDb.</p>
           </div>
 
         </div>
-      </section>
+
+    </div>
+    </section>
 
     </div>
   </main>

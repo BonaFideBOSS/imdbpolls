@@ -18,7 +18,20 @@ if (toastTrigger) {
 var userinput = document.getElementById('userinput')
 var livepreview = document.getElementById('livepreview')
 
+$(window).on('load', function () {
+  userinput.value = 'Type [b]here[/b]...'
+  livepreview.innerHTML = 'Type <b>here</b>...'
+})
+
+$('#reset-btn').on('click', function () {
+  userinput.value = ''
+  livepreview.innerHTML = ''
+})
+
 $(userinput).on('input', function () {
+  if (this.value.length == 0) {
+    livepreview.innerHTML = ''
+  }
   markdown();
 });
 
@@ -49,10 +62,13 @@ function markdown() {
   marked = marked.replaceAll('[spoiler]', '<span class="spoiler"><span>')
   marked = marked.replaceAll('[/spoiler]', '</span></span>')
 
-  marked = marked.replaceAll('[url]', '<a class="markuplink">')
-  marked = marked.replaceAll('[/url]', '</a>')
 
   urls = marked.match(/(?:(?:https?|ftp|file):\/\/|www\.|ftp\.)(?:\([-A-Z0-9+&@#\/%=~_|$?!:,.]*\)|[-A-Z0-9+&@#\/%=~_|$?!:,.])*(?:\([-A-Z0-9+&@#\/%=~_|$?!:,.]*\)|[A-Z0-9+&@#\/%=~_|$])/igm)
+  marked = marked.replaceAll('[url]', '<a class="markuplink">')
+  marked = marked.replaceAll(/\[\/url\]|\[\/link\]/g, '</a>')
+  marked = marked.replaceAll(/\[url=.*\]/g, '<a class="markuplink">')
+  marked = marked.replaceAll(/\[link=.*\]/g, '<a class="markuplink">')
+
   var markuplink = document.querySelectorAll('.markuplink')
   for (var i = 0; i < markuplink.length; i++) {
     markuplink[i].setAttribute('href', urls[i])
