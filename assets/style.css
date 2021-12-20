@@ -13,6 +13,10 @@ a {
   border-radius: 10px;
 }
 
+.navbar span {
+  cursor: pointer;
+}
+
 .logo {
   padding: 1rem 2rem;
 }
@@ -26,7 +30,8 @@ a {
   float: right;
 }
 
-.btn {
+.btn,
+.btn-close {
   box-shadow: none !important;
 }
 
@@ -78,4 +83,36 @@ footer img {
     float: none;
     width: 50px;
   }
+}
+
+#imdb-markup table tbody tr td:first-child {
+  font-family: monospace;
+}
+
+#imdb-markup .spoiler {
+  background-image: url(../img/imdbspoiler.gif);
+  background-size: contain;
+  border: 1px solid red;
+}
+
+#imdb-markup .spoiler span {
+  visibility: hidden;
+}
+
+#imdb-markup .spoiler:hover {
+  background: none;
+  border: none;
+}
+
+#imdb-markup .spoiler:hover span {
+  visibility: visible;
+}
+
+#imdb-markup textarea {
+  box-shadow: none;
+  height: 100%;
+}
+
+#imdb-markup #livepreview {
+  height: 100%;
 }
