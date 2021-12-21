@@ -21,7 +21,7 @@ file.close()
 print('-----> Creating backup.')
 backup = open('imdbpolls_backup.json','w')
 json.dump(data,backup)
-file.close()
+backup.close()
 print('-----> Backup created.')
 
 totalpolls = len(data['polls'])
@@ -31,6 +31,7 @@ print('-----> Total Polls: ' + str(totalpolls))
 print('-----> Updating data.')
 data['totalpolls'] = totalpolls
 data['lastupdated'] = datetime.now(tz).strftime("%A, %B %d, %Y - %H:%M %Z")
+data['rawdate'] = str(datetime.now(tz))
 
 currentPoll = 0
 for i in data['polls']:

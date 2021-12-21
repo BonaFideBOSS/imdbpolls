@@ -16,6 +16,7 @@ file.onreadystatechange = function () {
     var totalPolls = mydata.totalpolls
     var totalVotes = mydata.totalvotes
     var lastUpdated = mydata.lastupdated
+    var rawDate = mydata.rawdate
     var totalHomepagePolls = mydata.totalhomepagepolls
     var highestVote = 0
     var highestVotedPoll;
@@ -195,7 +196,7 @@ file.onreadystatechange = function () {
     tableFooter.appendChild(footer)
 
     var tableCaption = document.createElement('caption')
-    var caption = document.createTextNode('Data as of ' + lastUpdated)
+    var caption = document.createTextNode('Data as of ' + lastUpdated + ' (' + timelapse(rawDate) + ')')
     tableCaption.appendChild(caption)
     table.appendChild(tableHeader)
     table.appendChild(tableBody)
@@ -575,4 +576,40 @@ function monthsChecker(months) {
     }
   }
   return monthsArray
+}
+
+
+function timelapse(date) {
+  var currentDateTime = new Date()
+  var difference = Math.abs(currentDateTime - new Date(date))
+
+  var mm = difference;
+  var sec = Math.ceil(difference / (1000))
+  var min = Math.ceil(difference / (1000 * 60))
+  var hr = Math.round(difference / (1000 * 60 * 60))
+  var day = Math.round(difference / (1000 * 60 * 60 * 24))
+  var month = Math.round(difference / (1000 * 60 * 60 * 24 * 30))
+  var year = Math.round(difference / (1000 * 60 * 60 * 24 * 30 * 12))
+
+  difference = mm + ' milliseconds ago';
+  if (sec >= 1 && sec < 60) {
+    var text = (sec > 1) ? ' seconds ago' : ' second ago'
+    difference = sec + text;
+  } else if (min >= 1 && min < 60) {
+    var text = (min > 1) ? ' minutes ago' : ' minute ago'
+    difference = min + text;
+  } else if (hr >= 1 && hr < 24) {
+    var text = (hr > 1) ? ' hours ago' : ' hour ago'
+    difference = hr + text
+  } else if (day >= 1 && day < 30) {
+    var text = (day > 1) ? ' days ago' : ' day ago'
+    difference = day + text
+  } else if (month >= 1 && month < 12) {
+    var text = (month > 1) ? ' months ago' : ' month ago'
+    difference = month + text
+  } else if (year >= 1) {
+    var text = (year > 1) ? ' years ago' : ' year ago'
+    difference = year + text
+  }
+  return difference
 }
