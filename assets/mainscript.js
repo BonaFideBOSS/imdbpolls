@@ -26,7 +26,7 @@ file.onreadystatechange = function () {
     for (var i = 0; i < polls.length; i++) {
       $(tablebody).append('<tr><td>' + (i + 1) + '</td>' +
         '<td nowrap><a href="' + polls[i].url + '" target=""_blank>' + polls[i].title + '</a></td>' +
-        '<td><a href="imdbpolls/user#' + polls[i].authorid + '" target="_blank">' + polls[i].author + '</a></td>' +
+        '<td><a href="user#' + polls[i].authorid + '" target="_blank">' + polls[i].author + '</a></td>' +
         '<td>' + polls[i].date + '</td>' +
         '<td>' + polls[i].votes.toLocaleString() + '</td>' +
         '<td>' + polls[i].featured + '</td></tr>')
