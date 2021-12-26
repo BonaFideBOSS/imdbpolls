@@ -1,0 +1,317 @@
+<html>
+
+<head>
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+  <title>IMDb Polls</title>
+  <link rel="shortcut icon" href="img/imdbpoll.png" type="image/x-icon">
+
+
+  <link rel="stylesheet" href="assets/bootstrap.min.css">
+  <link rel="stylesheet" href="assets/datatables.min.css">
+  <link rel="stylesheet" href="assets/style.css">
+</head>
+
+<body>
+  <nav class="navbar navbar-light">
+    <div class="container bg-light">
+      <a class="navbar-brand d-flex align-items-center">
+        <img class="userprofilepic" src="img/imdbpoll.png" width="50px" height="50px">
+        <div class="username logo fw-bolder fs-1 bg-light">IMDb Polls</div>
+      </a>
+    </div>
+  </nav>
+
+  <div class="data-loader loader-one my-5">
+    <div>
+      <img src="img/loader.gif" width="100px">
+      <h3>Loading data...</h3>
+    </div>
+  </div>
+
+  <main>
+    <div class="container my-4">
+
+      <!-- Featued Poll -->
+      <div id="latest-poll" class="card text-dark bg-light">
+        <div class="card-header d-flex justify-content-between"><b>⭐ Latest Poll</b><span class="text-muted"></span>
+        </div>
+        <div class="card-body">
+          <div class="img mb-1">
+            <img src="img/imdbpoll.png" width="100px">
+          </div>
+          <h3 class="card-title"></h3>
+          <p class="card-text text-muted"><strong><span>...</span></strong> and more users have already cast their vote!
+            Don't wait, <strong>vote now!</strong></p>
+          <a class="btn btn-warning" target="_blank">Vote</a>
+        </div>
+      </div>
+
+      <!-- Featured Items -->
+      <div class="row my-5 justify-content-center align-items-center">
+
+        <div class="col-lg-4 col-md-6 col-12 mb-3">
+          <div class="card text-dark text-center bg-light">
+            <div class="card-header">Total Polls</div>
+            <div class="card-body">
+              <h1 id="cardtotalpolls" class="card-title"></h1>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-lg-4 col-md-6 col-12 mb-3">
+          <div class="card text-dark text-center bg-light">
+            <div class="card-header">Total Votes</div>
+            <div class="card-body">
+              <h1 id="cardtotalvotes" class="card-title"></h1>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-lg-4 col-md-6 col-12 mb-3">
+          <div class="card text-dark text-center bg-light">
+            <div class="card-header">Total Homepage Polls</div>
+            <div class="card-body">
+              <h1 id="cardtotalhp" class="card-title"></h1>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <h4><i class="bi bi-kanban"></i> IMDb Polls</h4>
+      <hr>
+      <div class="custom-filter mb-3 d-flex flex-wrap gap-3">
+        <div>
+          <label>Year:</label>
+          <select id="year-filter" class="form-select">
+            <option value="">All</option>
+          </select>
+        </div>
+        <div>
+          <label>Featured:</label>
+          <select id="hp-filter" class="form-select">
+            <option value="">All</option>
+            <option>Yes</option>
+            <option>No</option>
+          </select>
+        </div>
+      </div>
+      <div class="table-responsive">
+        <table id="imdbpolls" class="stripe hover polltable"></table>
+      </div>
+    </div>
+
+    <!-- Statistics -->
+    <section class="statistics mt-5">
+      <div class="container">
+
+        <h4><i class="bi bi-graph-up"></i> Milestones</h4>
+        <hr>
+
+        <div class="data-loader loader-two my-5">
+          <img src="img/loader.gif" width="100px">
+        </div>
+
+        <div class="milestones row mb-5 justify-content-center align-items-center">
+          <div class="col-lg-3 col-6 mb-3">
+            <div class="position-relative">
+              <canvas id="milestoneOne"></canvas>
+              <div class="position-absolute top-50 start-50 translate-middle">
+                <h3 id="m1Text"></h3>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-3 col-6 mb-3">
+            <div class="position-relative">
+              <canvas id="milestoneTwo"></canvas>
+              <div class="position-absolute top-50 start-50 translate-middle">
+                <h3 id="m2Text"></h3>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-3 col-6 mb-3">
+            <div class="position-relative">
+              <canvas id="milestoneThree"></canvas>
+              <div class="position-absolute top-50 start-50 translate-middle">
+                <h3 id="m3Text"></h3>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-3 col-6 mb-3">
+            <div class="position-relative">
+              <canvas id="milestoneFour"></canvas>
+              <div class="position-absolute top-50 start-50 translate-middle">
+                <h3 id="m4Text"></h3>
+              </div>
+            </div>
+          </div>
+
+        </div>
+
+        <div class="row mb-5 justify-content-center align-items-center">
+          <h4><i class="bi bi-bar-chart"></i> Statistics</h4>
+          <hr>
+          <div class="col-lg-3 col-md-4 col-6 mb-3">
+            <div class="card text-dark text-center bg-light">
+              <div class="card-header">Max Votes</div>
+              <div class="card-body">
+                <h1 id="maxvotes" class="card-title"></h1>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-3 col-md-4 col-6 mb-3">
+            <div class="card text-dark text-center bg-light">
+              <div class="card-header">Least Votes</div>
+              <div class="card-body">
+                <h1 id="minvotes" class="card-title"></h1>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-3 col-md-4 col-6 mb-3">
+            <div class="card text-dark text-center bg-light">
+              <div class="card-header">Average Votes</div>
+              <div class="card-body">
+                <h1 id="avgvotes" class="card-title"></h1>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-3 col-md-4 col-6 mb-3">
+            <div class="card text-dark text-center bg-light">
+              <div class="card-header">Average Votes Per Day</div>
+              <div class="card-body">
+                <h1 id="avgvotesdaily" class="card-title"></h1>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-3 col-md-4 col-6 mb-3">
+            <div class="card text-dark text-center bg-light">
+              <div class="card-header">Most Polls in a Day</div>
+              <div class="card-body">
+                <h1 id="mostpollsinaday" class="card-title"></h1>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-3 col-md-4 col-6 mb-3">
+            <div class="card text-dark text-center bg-light">
+              <div class="card-header">Polls With 1K+ Votes</div>
+              <div class="card-body">
+                <h1 id="1kvotes" class="card-title"></h1>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-3 col-md-4 col-6 mb-3">
+            <div class="card text-dark text-center bg-light">
+              <div class="card-header">Polls With 5K+ Votes</div>
+              <div class="card-body">
+                <h1 id="5kvotes" class="card-title"></h1>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-3 col-md-4 col-6 mb-3">
+            <div class="card text-dark text-center bg-light">
+              <div class="card-header">Polls With 10K+ Votes</div>
+              <div class="card-body">
+                <h1 id="10kvotes" class="card-title"></h1>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-4 col-md-6 col-12 mb-3">
+            <div class="card text-dark text-center bg-light">
+              <div class="card-header">First Poll Date</div>
+              <div class="card-body">
+                <h3 id="firstpolldate" class="card-title"></h3>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-4 col-md-6 col-12 mb-3">
+            <div class="card text-dark text-center bg-light">
+              <div class="card-header">Last Poll Date</div>
+              <div class="card-body">
+                <h3 id="lastpolldate" class="card-title"></h3>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-4 col-md-6 col-12 mb-3">
+            <div class="card text-dark text-center bg-light">
+              <div class="card-header">Day With Most Polls</div>
+              <div class="card-body">
+                <h3 id="daywithmostpolls" class="card-title"></h3>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-6 col-12 mb-3">
+            <div id="highestvotedpoll" class="card text-dark text-center bg-light">
+              <div class="card-header">Highest Voted Poll
+                <a class="text-dark" target="_blank"><i class="bi bi-box-arrow-up-right"></i></a></div>
+              <div class="card-body">
+                <h5 class="card-title"></h5>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-6 col-12 mb-3">
+            <div id="lowestvotedpoll" class="card text-dark text-center bg-light">
+              <div class="card-header">Lowest Voted Poll
+                <a class="text-dark" target="_blank"><i class="bi bi-box-arrow-up-right"></i></a></div>
+              <div class="card-body">
+                <h4 class="card-title"></h4>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="data-loader loader-three my-5">
+          <img src="img/loader.gif" width="100px">
+        </div>
+
+        <div class="charts row justify-content-center align-items-center">
+          <div class="col-lg-6 col-12 mb-4"><canvas id="YearChart"></canvas></div>
+          <div class="col-lg-6 col-12 mb-4" hidden><canvas id="2013MonthChart"></canvas></div>
+          <div class="col-lg-6 col-12 mb-4" hidden><canvas id="2014MonthChart"></canvas></div>
+          <div class="col-lg-6 col-12 mb-4" hidden><canvas id="2015MonthChart"></canvas></div>
+          <div class="col-lg-6 col-12 mb-4" hidden><canvas id="2016MonthChart"></canvas></div>
+          <div class="col-lg-6 col-12 mb-4" hidden><canvas id="2017MonthChart"></canvas></div>
+          <div class="col-lg-6 col-12 mb-4" hidden><canvas id="2018MonthChart"></canvas></div>
+          <div class="col-lg-6 col-12 mb-4" hidden><canvas id="2019MonthChart"></canvas></div>
+          <div class="col-lg-6 col-12 mb-4" hidden><canvas id="2020MonthChart"></canvas></div>
+          <div class="col-lg-6 col-12 mb-4" hidden><canvas id="2021MonthChart"></canvas></div>
+          <div class="col-lg-6 col-12 mb-4" hidden><canvas id="2022MonthChart"></canvas></div>
+        </div>
+
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <div class="container d-flex justify-content-between align-items-end py-5">
+
+      <div>
+        <h6 class="text-muted">Author</h6>
+        <h5 class="username">IMDb Polls</h5>
+        <img class="userprofilepic" src="img/imdbpoll.png">
+      </div>
+
+      <div>
+        <img src="img/imdblogo_one.png">
+      </div>
+
+      <div class="text-end">
+        <h6 class="text-muted"></h6>
+        <a href="https://www.imdb.com/" target="_blank">IMDb</a>
+        <br>
+        <a class="userprofile" target="_blank">IMDb Profile</a>
+        <br>
+        <a href="https://community-imdb.sprinklr.com/" target="_blank">IMDb Community</a>
+        <br>
+        <a class="" href="markup" target="_blank"><i class="bi bi-pencil-square"></i> IMDb Markup</a>
+      </div>
+    </div>
+  </footer>
+
+  <script src="assets/bootstrap.bundle.min.js"></script>
+  <script src="assets/jquery-3.6.0.min.js"></script>
+  <script src="assets/datatables.min.js"></script>
+  <script src="assets/chart.js"></script>
+  <script src="assets/userscript.js"></script>
+</body>
+
+</html>
