@@ -128,7 +128,6 @@ file.onreadystatechange = function () {
         '<td>' + polls[i].featured + '</td>' +
         '<td>' + polls[i].status + '</td></tr>')
     }
-
     $(tablecaption).html('Data as of ' + pollData.lastupdated + ' (' + timelapse(pollData.rawdate) + ')')
 
     var authoroptions = yearoptions = '<option value="">All</option>';
