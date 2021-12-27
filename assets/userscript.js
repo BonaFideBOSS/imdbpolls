@@ -163,7 +163,7 @@ file.onreadystatechange = function () {
       }
 
       $(tableBody).append('<tr><td>' + (i + 1) + '</td>' +
-        '<td nowrap><a href="' + userData[i].url + '" target=""_blank>' + userData[i].title + '</a></td>' +
+        '<td nowrap><a href="' + userData[i].url + '" target="_blank">' + userData[i].title + '</a></td>' +
         '<td>' + userData[i].date + '</td>' +
         '<td>' + userData[i].votes.toLocaleString() + '</td>' +
         '<td>' + userData[i].featured + '</td>' +
