@@ -218,6 +218,10 @@ file.onreadystatechange = function () {
         var selectedValue = $(this).val();
         polltable.columns(4).search(selectedValue).draw();
       });
+      $('#status-filter').on('change', function () {
+        var selectedValue = $(this).val();
+        polltable.columns(5).search(selectedValue).draw();
+      });
 
       var select = document.querySelectorAll('#imdbpolls_length select')
       var search = document.querySelectorAll('#imdbpolls_filter input')
