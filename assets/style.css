@@ -15,6 +15,11 @@ main {
   display: none;
 }
 
+#imdb-markup,
+#errorpage {
+  display: unset;
+}
+
 a {
   text-decoration: none;
 }
