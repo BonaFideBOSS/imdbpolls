@@ -43,8 +43,9 @@ file.onreadystatechange = function () {
       return user['authorid'] === userID
     })
 
+    document.title = 'IMDb Polls by ' + userData[0].author
     $('.username').html(userData[0].author)
-    $('.userprofile').attr("href", 'https://www.imdb.com/user/' + userID)
+    $('.userprofile,.navbar-brand').attr("href", 'https://www.imdb.com/user/' + userID)
     if (authorData[0].avatar != "") {
       $('.userprofilepic').attr("src", authorData[0].avatar)
     }
@@ -78,142 +79,95 @@ file.onreadystatechange = function () {
     $('#avgvotes').html(Math.round(totalVotes / totalPolls))
 
     var table = document.getElementById('imdbpolls')
-    var tableHeader = document.createElement('thead')
-    var header = document.createElement('tr')
-    var h1 = document.createElement('th')
-    var h2 = document.createElement('th')
-    var h3 = document.createElement('th')
-    var h4 = document.createElement('th')
-    var h5 = document.createElement('th')
-    var title1 = document.createTextNode('#')
-    var title2 = document.createTextNode('Title')
-    var title3 = document.createTextNode('Date')
-    var title4 = document.createTextNode('Votes')
-    var title5 = document.createTextNode('Featured')
-    h1.appendChild(title1)
-    h2.appendChild(title2)
-    h3.appendChild(title3)
-    h4.appendChild(title4)
-    h5.appendChild(title5)
-    header.appendChild(h1)
-    header.appendChild(h2)
-    header.appendChild(h3)
-    header.appendChild(h4)
-    header.appendChild(h5)
-    tableHeader.appendChild(header)
-
-    var tableBody = document.createElement('tbody')
+    var tableBody = table.getElementsByTagName('tbody')[0]
+    var tablecaption = table.getElementsByTagName('caption')[0]
 
     var polldates = []
     for (var i = 0; i < userData.length; i++) {
-      if (userData[i].status != "Inactive" && userData[i].status != "Closed") {
-        polldates.push(userData[i].date)
-        if (new Date(firstpolldate) > new Date(userData[i].date)) {
-          firstpolldate = userData[i].date
-          $('#firstpolldate').html(new Date(firstpolldate).toDateString())
-        }
-        if (new Date(lastpolldate) < new Date(userData[i].date)) {
-          lastpolldate = userData[i].date
-          $('#lastpolldate').html(new Date(lastpolldate).toDateString())
-          var latestPoll = userData[i];
-          $('#latest-poll .card-header span').html(new Date(latestPoll.date).toDateString())
-          $('#latest-poll .card-title').html(latestPoll.title)
-          $('#latest-poll .card-text span').html(latestPoll.votes)
-          $('#latest-poll a').attr("href", latestPoll.url)
-        }
-        const oneDay = 24 * 60 * 60 * 1000;
-        var pollingdays = Math.round(Math.abs((new Date(firstpolldate) - new Date(lastpolldate)) / oneDay));
-        $('#avgvotesdaily').html(Math.round(totalVotes / pollingdays))
+      polldates.push(userData[i].date)
+      if (new Date(firstpolldate) > new Date(userData[i].date)) {
+        firstpolldate = userData[i].date
+        $('#firstpolldate').html(new Date(firstpolldate).toDateString())
+        $('#authorsfirstpoll .card-title').html(userData[i].title)
+        $('#authorsfirstpoll a').attr("href", userData[i].url)
+      }
+      if (new Date(lastpolldate) < new Date(userData[i].date)) {
+        lastpolldate = userData[i].date
+        $('#lastpolldate').html(new Date(lastpolldate).toDateString())
+        var latestPoll = userData[i];
+        $('#latest-poll .card-header span').html(new Date(latestPoll.date).toDateString())
+        $('#latest-poll .card-title').html(latestPoll.title)
+        $('#latest-poll .card-text span').html(latestPoll.votes)
+        $('#latest-poll a').attr("href", latestPoll.url)
+      }
+      const oneDay = 24 * 60 * 60 * 1000;
+      var pollingdays = Math.round(Math.abs((new Date(firstpolldate) - new Date(lastpolldate)) / oneDay));
+      $('#avgvotesdaily').html(Math.round(totalVotes / pollingdays))
 
-        if (userData[i].votes >= 1000) {
-          onek = onek + 1
-        }
-        if (userData[i].votes >= 5000) {
-          fivek = fivek + 1
-        }
-        if (userData[i].votes >= 10000) {
-          tenk = tenk + 1
-        }
-        if (highestVote < userData[i].votes) {
-          highestVote = userData[i].votes
-          highestVotedPoll = userData[i].title
-          highestVotedPollURL = userData[i].url
-        }
-        if (lowestVote >= userData[i].votes) {
-          lowestVote = userData[i].votes
-          lowestVotedPoll = userData[i].title
-          lowestVotedPollURL = userData[i].url
-        }
+      if (userData[i].votes >= 1000) {
+        onek = onek + 1
+      }
+      if (userData[i].votes >= 5000) {
+        fivek = fivek + 1
+      }
+      if (userData[i].votes >= 10000) {
+        tenk = tenk + 1
+      }
+      if (highestVote < userData[i].votes) {
+        highestVote = userData[i].votes
+        highestVotedPoll = userData[i].title
+        highestVotedPollURL = userData[i].url
+      }
+      if (lowestVote >= userData[i].votes) {
+        lowestVote = userData[i].votes
+        lowestVotedPoll = userData[i].title
+        lowestVotedPollURL = userData[i].url
+      }
 
-        $('#1kvotes').html(onek)
-        $('#5kvotes').html(fivek)
-        $('#10kvotes').html(tenk)
-        $('#maxvotes').html(highestVote)
-        $('#minvotes').html(lowestVote)
-        $('#highestvotedpoll .card-title').html(highestVotedPoll)
-        $('#highestvotedpoll .card-header a').attr("href", highestVotedPollURL)
-        $('#lowestvotedpoll .card-title').html(lowestVotedPoll)
-        $('#lowestvotedpoll .card-header a').attr("href", lowestVotedPollURL)
+      $('#1kvotes').html(onek)
+      $('#5kvotes').html(fivek)
+      $('#10kvotes').html(tenk)
+      $('#maxvotes').html(highestVote)
+      $('#minvotes').html(lowestVote)
+      $('#highestvotedpoll .card-title').html(highestVotedPoll)
+      $('#highestvotedpoll .card-header a').attr("href", highestVotedPollURL)
+      $('#lowestvotedpoll .card-title').html(lowestVotedPoll)
+      $('#lowestvotedpoll .card-header a').attr("href", lowestVotedPollURL)
 
+      if (userData[i].date) {
         var year = userData[i].date.split('/')[0]
         var month = userData[i].date.split('/')[1].replace(/^0+/, '')
         var day = userData[i].date.split('/')[2].replace(/^0+/, '')
-        pollyears.push(year)
-        if (year == 2013) {
-          polls2013Months.push(month)
-        } else if (year == 2014) {
-          polls2014Months.push(month)
-        } else if (year == 2015) {
-          polls2015Months.push(month)
-        } else if (year == 2016) {
-          polls2016Months.push(month)
-        } else if (year == 2017) {
-          polls2017Months.push(month)
-        } else if (year == 2018) {
-          polls2018Months.push(month)
-        } else if (year == 2019) {
-          polls2019Months.push(month)
-        } else if (year == 2020) {
-          polls2020Months.push(month)
-        } else if (year == 2021) {
-          polls2021Months.push(month)
-        } else if (year == 2022) {
-          polls2022Months.push(month)
-        }
-
-        var row = document.createElement('tr')
-        for (var j = 0; j < 1; j++) {
-          var cell1 = document.createElement('td')
-          var cell2 = document.createElement('td')
-          var cell3 = document.createElement('td')
-          var cell4 = document.createElement('td')
-          var cell5 = document.createElement('td')
-
-          var rank = document.createTextNode(i + 1)
-          var link = document.createElement('a')
-          var title = document.createTextNode(userData[i].title)
-          link.appendChild(title)
-          link.href = userData[i].url
-          link.target = '_blank'
-          var date = document.createTextNode(userData[i].date)
-          var votes = document.createTextNode(userData[i].votes)
-
-
-          var homepage = document.createTextNode(userData[i].featured)
-
-          cell1.appendChild(rank)
-          cell2.appendChild(link)
-          cell3.appendChild(date)
-          cell4.appendChild(votes)
-          cell5.appendChild(homepage)
-          row.appendChild(cell1)
-          row.appendChild(cell2)
-          row.appendChild(cell3)
-          row.appendChild(cell4)
-          row.appendChild(cell5)
-        }
-        tableBody.appendChild(row)
       }
+      pollyears.push(year)
+      if (year == 2013) {
+        polls2013Months.push(month)
+      } else if (year == 2014) {
+        polls2014Months.push(month)
+      } else if (year == 2015) {
+        polls2015Months.push(month)
+      } else if (year == 2016) {
+        polls2016Months.push(month)
+      } else if (year == 2017) {
+        polls2017Months.push(month)
+      } else if (year == 2018) {
+        polls2018Months.push(month)
+      } else if (year == 2019) {
+        polls2019Months.push(month)
+      } else if (year == 2020) {
+        polls2020Months.push(month)
+      } else if (year == 2021) {
+        polls2021Months.push(month)
+      } else if (year == 2022) {
+        polls2022Months.push(month)
+      }
+
+      $(tableBody).append('<tr><td>' + (i + 1) + '</td>' +
+        '<td nowrap><a href="' + userData[i].url + '" target=""_blank>' + userData[i].title + '</a></td>' +
+        '<td>' + userData[i].date + '</td>' +
+        '<td>' + userData[i].votes.toLocaleString() + '</td>' +
+        '<td>' + userData[i].featured + '</td>' +
+        '<td>' + userData[i].status + '</td></tr>')
     }
 
     var maxpolldate = 1;
@@ -236,36 +190,7 @@ file.onreadystatechange = function () {
     $('#mostpollsinaday').html(maxpolldate)
     $('#daywithmostpolls').html(new Date(mostpollitem).toDateString())
 
-    var tableFooter = document.createElement('tfoot')
-    var footer = document.createElement('tr')
-    var f1 = document.createElement('th')
-    f1.setAttribute("colspan", "3")
-    var f2 = document.createElement('th')
-    f2.setAttribute("id", "tabletotalvotes")
-    var f3 = document.createElement('th')
-    f3.setAttribute("id", "tabletotalHomepagePolls")
-    var foot1 = document.createTextNode('Total')
-    var foot2 = document.createTextNode('')
-    var foot3 = document.createTextNode('')
-    f1.appendChild(foot1)
-    f2.appendChild(foot2)
-    f3.appendChild(foot3)
-    footer.appendChild(f1)
-    footer.appendChild(f2)
-    footer.appendChild(f3)
-    tableFooter.appendChild(footer)
-
-    var tableCaption = document.createElement('caption')
-    var tableCaption2 = document.createElement('caption')
-    var caption = document.createTextNode('Data as of ' + lastUpdated + ' (' + timelapse(rawDate) + ')')
-    var caption2 = document.createTextNode('Note: Inactive and closed polls are not displayed on this table.')
-    tableCaption.appendChild(caption)
-    tableCaption2.appendChild(caption2)
-    table.appendChild(tableHeader)
-    table.appendChild(tableBody)
-    table.appendChild(tableFooter)
-    table.appendChild(tableCaption)
-    table.appendChild(tableCaption2)
+    $(tablecaption).html('Data as of ' + lastUpdated + ' (' + timelapse(rawDate) + ')')
 
     $(document).ready(function () {
       var polltable = $(table).DataTable({
@@ -319,14 +244,14 @@ file.onreadystatechange = function () {
         var hpresult = 0;
         for (var i = 0; i < row.length; i++) {
           if (row[i].querySelectorAll('td')[0].classList.contains('dataTables_empty')) {} else {
-            votesresult += parseInt(row[i].querySelectorAll('td')[3].innerHTML)
-            if ((row[i].querySelectorAll('td')[4].innerHTML).toLowerCase() == "yes") {
+            votesresult += parseInt(row[i].querySelectorAll('td')[3].textContent.replace(',', ''))
+            if ((row[i].querySelectorAll('td')[4].textContent).toLowerCase() == "yes") {
               hpresult = hpresult + 1
             }
           }
         }
-        $('#tabletotalvotes').html(votesresult)
-        $('#tabletotalHomepagePolls').html(hpresult)
+        $('#sum-votes').html(votesresult.toLocaleString())
+        $('#sum-features').html(hpresult)
       }
     });
 

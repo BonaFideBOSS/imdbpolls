@@ -60,7 +60,17 @@
         </div>
       </div>
 
-      <h4><i class="bi bi-kanban"></i> IMDb Polls</h4>
+      <div class="input-group">
+        <span class="input-group-text"><i class="bi bi-search"></i></span>
+        <input type="text" list="search-options" class="form-control py-3" id="poll-search" placeholder="Search">
+        <select id="search-filter" class="form-select">
+          <option value="poll">Polls</option>
+          <option value="author">Authors</option>
+        </select>
+      </div>
+      <div id="search-result" class="shadow rounded-3 p-2"></div>
+
+      <h4 class="pt-5"><i class="bi bi-kanban"></i> IMDb Polls</h4>
       <hr>
       <div class="custom-filter mb-3 d-flex flex-wrap gap-3">
         <div>
@@ -80,9 +90,19 @@
             <option>No</option>
           </select>
         </div>
+        <div>
+          <label>Status:</label>
+          <select id="status-filter" class="form-select">
+            <option value="">All</option>
+            <option>Live</option>
+            <option>Closed</option>
+            <option>Inactive</option>
+          </select>
+        </div>
       </div>
       <div class="table-responsive">
         <table id="allimdbpolls" class="stripe hover polltable">
+          <caption></caption>
           <thead>
             <tr>
               <th>#</th>
@@ -91,6 +111,7 @@
               <th>Date</th>
               <th>Votes</th>
               <th>Featured</th>
+              <th>Status</th>
             </tr>
           </thead>
           <tbody></tbody>
@@ -100,6 +121,7 @@
               <th id="sum-authors"></th>
               <th colspan="2" id="sum-votes"></th>
               <th id="sum-features"></th>
+              <th></th>
             </tr>
           </tfoot>
         </table>

@@ -1,10 +1,10 @@
 {
-  "totalpolls": 10221,
-  "totalvotes": 17875552,
+  "totalpolls": 10225,
+  "totalvotes": 17875569,
   "totalauthors": 418,
   "totalfeatures": 0,
-  "lastupdated": "Sunday, December 26, 2021 - 04:13 EST",
-  "rawdate": "2021-12-26 04:13:58.604192-05:00",
+  "lastupdated": "Monday, December 27, 2021 - 08:40 EST",
+  "rawdate": "2021-12-27 08:40:13.428868-05:00",
   "authors": [
     {
       "authorid": "ur50452813",
@@ -83887,7 +83887,7 @@
       "author": "BonaFideBOSS",
       "date": "2020/05/21",
       "votes": 817,
-      "featured": "No",
+      "featured": "Yes",
       "status": "Live"
     },
     {
@@ -103887,6 +103887,46 @@
       "author": "thenolanfan",
       "date": "2021/12/26",
       "votes": 22,
+      "featured": "No",
+      "status": "Live"
+    },
+    {
+      "url": "https://www.imdb.com/poll/gu77Z_G9_cQ/",
+      "title": "\nMarvel Cinematic Universe 2022 Projects",
+      "authorid": "ur111129375",
+      "author": "Master_Strange",
+      "date": "2021/12/27",
+      "votes": 4,
+      "featured": "No",
+      "status": "Live"
+    },
+    {
+      "url": "https://www.imdb.com/poll/b2GEoSDeEnI/",
+      "title": "Best Superhero TV Show of 2021",
+      "authorid": "ur75779804",
+      "author": "BonaFideBOSS",
+      "date": "2021/12/27",
+      "votes": 3,
+      "featured": "No",
+      "status": "Live"
+    },
+    {
+      "url": "https://www.imdb.com/poll/pfAaS-LYqew/",
+      "title": "2021 National Film Registry",
+      "authorid": "ur46158148",
+      "author": "penchofifteenpolls",
+      "date": "2021/12/27",
+      "votes": 6,
+      "featured": "No",
+      "status": "Live"
+    },
+    {
+      "url": "https://www.imdb.com/poll/mgV0A7cvr2I/",
+      "title": "Most Unnecessary Remake/Reboot or Sequel of 2021",
+      "authorid": "ur34779915",
+      "author": "Paok-Kilkis",
+      "date": "2021/12/27",
+      "votes": 4,
       "featured": "No",
       "status": "Live"
     }

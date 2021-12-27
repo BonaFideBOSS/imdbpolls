@@ -15,10 +15,11 @@
 <body>
   <nav class="navbar navbar-light">
     <div class="container bg-light">
-      <a class="navbar-brand d-flex align-items-center">
+      <a class="navbar-brand d-flex align-items-center" target="_blank">
         <img class="userprofilepic" src="img/imdbpoll.png" width="50px" height="50px">
         <div class="username logo fw-bolder fs-1 bg-light">IMDb Polls</div>
       </a>
+      <a href="index" class="text-dark"><i class="bi bi-box-arrow-left fs-1"></i></a>
     </div>
   </nav>
 
@@ -97,7 +98,28 @@
         </div>
       </div>
       <div class="table-responsive">
-        <table id="imdbpolls" class="stripe hover polltable"></table>
+        <table id="imdbpolls" class="stripe hover polltable">
+          <caption></caption>
+          <thead>
+            <tr>
+              <th>#</th>
+              <th>Title</th>
+              <th>Date</th>
+              <th>Votes</th>
+              <th>Featured</th>
+              <th>Status</th>
+            </tr>
+          </thead>
+          <tbody></tbody>
+          <tfoot>
+            <tr>
+              <th colspan="3">Total</th>
+              <th id="sum-votes"></th>
+              <th id="sum-features"></th>
+              <th></th>
+            </tr>
+          </tfoot>
+        </table>
       </div>
     </div>
 
@@ -236,6 +258,15 @@
               <div class="card-header">Day With Most Polls</div>
               <div class="card-body">
                 <h3 id="daywithmostpolls" class="card-title"></h3>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-6 col-12 mb-3">
+            <div id="authorsfirstpoll" class="card text-dark text-center bg-light">
+              <div class="card-header">First Poll
+                <a class="text-dark" target="_blank"><i class="bi bi-box-arrow-up-right"></i></a></div>
+              <div class="card-body">
+                <h5 class="card-title"></h5>
               </div>
             </div>
           </div>

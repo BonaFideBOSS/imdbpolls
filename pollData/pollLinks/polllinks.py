@@ -25,7 +25,7 @@ def connect(resultURL):
         featuredlink = 'https://www.imdb.com' + featured
         if featuredlink not in savedlinks:
             newlinks.append(featuredlink)
-            data = '{"url":"' + featuredlink + '","title": "","authorid":"","author":"","date":"","votes":"","featured":"","status":""}'
+            data = '{"url":"' + featuredlink + '","title": "","authorid":"","author":"","date":"","votes":"","featured":"No","status":""}'
             newdata.append(data)
             totalpolls = 1
 
@@ -34,7 +34,7 @@ def connect(resultURL):
 
         if link not in savedlinks:
             newlinks.append(link)
-            data = '{"url":"' + link + '","title": "","authorid":"","author":"","date":"","votes":"","featured":"","status":""}'
+            data = '{"url":"' + link + '","title": "","authorid":"","author":"","date":"","votes":"","featured":"No","status":""}'
             newdata.append(data)
             totalpolls = totalpolls + 1
         else:
