@@ -162,10 +162,10 @@ file.onreadystatechange = function () {
         $('#sum-features').html(sumhp)
       }
       tableTotal()
-      $('.custom-filter select,#allimdbpolls_length select').on('change', function () {
+      $('.custom-filter select,#allimdbpolls_length select,#author-filter').on('change', function () {
         tableTotal()
       })
-      $('#allimdbpolls_filter input,.custom-filter input').on('input', function () {
+      $('#allimdbpolls_filter input').on('input', function () {
         tableTotal()
       })
       $('#allimdbpolls thead .sorting,#allimdbpolls_paginate').on('click', function () {
