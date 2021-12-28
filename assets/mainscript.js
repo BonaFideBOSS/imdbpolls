@@ -40,31 +40,6 @@ file.onreadystatechange = function () {
     $('#total-authors').html(pollData.totalauthors.toLocaleString())
     $('#total-votes').html(pollData.totalvotes.toLocaleString())
 
-    // $('#poll-search').on('input', function () {
-    //   var searchoptions;
-    //   var filteredlist = []
-    //   if ($('#search-filter').val() == 'poll' && $('#poll-search').val().length > 4) {
-    //     for (var i = 0; i < polls.length; i++) {
-    //       if (polls[i].title.toLowerCase().includes($('#poll-search').val().toLowerCase())) {
-    //         filteredlist.push(polls[i])
-    //       }
-    //     }
-    //     for (var i = 0; i < 5; i++) {
-    //       searchoptions += '<option value="' + filteredlist[i].title + '">Poll by ' + filteredlist[i].author + '</option>';
-    //     }
-    //     $('#search-options').html(searchoptions)
-    //   } else if (($('#search-filter').val() == 'author' && $('#poll-search').val().length >= 2)) {
-    //     for (var i = 0; i < authorlist.length; i++) {
-    //       if (authorlist[i].toLowerCase().includes($('#poll-search').val().toLowerCase())) {
-    //         searchoptions += '<option value="' + authorlist[i] + '"></option>';
-    //       }
-    //     }
-    //     $('#search-options').html(searchoptions)
-    //   } else {
-    //     $('#search-options').html('')
-    //   }
-    // })
-
     $('#poll-search').on('input', function () {
       var searchoptions = '';
       var filteredlist = []
