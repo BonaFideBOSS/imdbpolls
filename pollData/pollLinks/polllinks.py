@@ -2,7 +2,7 @@ import os
 import requests
 from bs4 import BeautifulSoup
 
-with open('polllinks.txt') as file:
+with open("polllinks.txt") as file:
     savedlinks = file.read().splitlines()
 file.close()
 
@@ -15,56 +15,64 @@ totalpolls = 0
 def connect(resultURL):
     global totalpolls
     connection = requests.get(resultURL)
-    scrape = BeautifulSoup(connection.text, 'html.parser')
+    scrape = BeautifulSoup(connection.text, "html.parser")
     connection.close()
-    featured = scrape.select_one('.poll-featured .action form').get('action')
-    links = scrape.select('.poll b a', href=True)
-    nxt = 'yes'
+    featured = scrape.select_one(".poll-featured .action form").get("action")
+    links = scrape.select(".poll b a", href=True)
+    nxt = "yes"
 
-    if (featured):
-        featuredlink = 'https://www.imdb.com' + featured
+    if featured:
+        featuredlink = "https://www.imdb.com" + featured
         if featuredlink not in savedlinks:
             newlinks.append(featuredlink)
-            data = '{"url":"' + featuredlink + '","title": "","authorid":"","author":"","date":"","votes":"","featured":"No","status":""}'
+            data = (
+                '{"url":"'
+                + featuredlink
+                + '","title": "","authorid":"","author":"","date":"","votes":"","featured":"No","status":"Live"}'
+            )
             newdata.append(data)
             totalpolls = 1
 
     for a in links:
-        link = 'https://www.imdb.com' + (a['href']).replace('?ref_=po_ho', '')
+        link = "https://www.imdb.com" + (a["href"]).replace("?ref_=po_ho", "")
 
         if link not in savedlinks:
             newlinks.append(link)
-            data = '{"url":"' + link + '","title": "","authorid":"","author":"","date":"","votes":"","featured":"No","status":""}'
+            data = (
+                '{"url":"'
+                + link
+                + '","title": "","authorid":"","author":"","date":"","votes":"","featured":"No","status":"Live"}'
+            )
             newdata.append(data)
             totalpolls = totalpolls + 1
         else:
-            nxt = 'no'
+            nxt = "no"
 
-    print('-----> Total new polls: ' + str(totalpolls))
+    print("-----> Total new polls: " + str(totalpolls))
 
     nextpage = scrape.select_one('a[href*="&start"]', href=True)
-    if (nextpage):
-        if (nxt == 'yes'):
-            resultURL = 'https://www.imdb.com/poll/' + nextpage['href']
+    if nextpage:
+        if nxt == "yes":
+            resultURL = "https://www.imdb.com/poll/" + nextpage["href"]
             connect(resultURL)
 
 
-connect('https://www.imdb.com/poll/')
+connect("https://www.imdb.com/poll/")
 
-if (totalpolls > 0):
-    file = open('newpolls.txt', 'w')
+if totalpolls > 0:
+    file = open("newpolls.txt", "w")
     for i in newdata:
-        file.write(i + ',')
-    file.write('\nTotal New Poll Links: ' + str(totalpolls))
+        file.write(i + ",")
+    file.write("\nTotal New Poll Links: " + str(totalpolls))
     file.close()
-    file = open('polllinks.txt', 'a')
+    file = open("polllinks.txt", "a")
     for i in newlinks:
-        file.write('\n' + i)
+        file.write("\n" + i)
     file.close()
-    file = open('savedpolls.txt', 'a')
+    file = open("savedpolls.txt", "a")
     for i in newdata:
-        file.write(i + ',')
+        file.write(i + ",")
     file.close()
-    print('-----> New poll links retrieved successfully!')
+    print("-----> New poll links retrieved successfully!")
 else:
-    print('-----> No new polls found.')
+    print("-----> No new polls found.")

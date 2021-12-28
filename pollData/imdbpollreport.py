@@ -41,103 +41,105 @@ failedlinks = []
 
 for i in data["polls"]:
     pollLink = i["url"]
-    if "2021/12" in i["date"]:
-        try:
-            resultURL = pollLink
-            mobileURL = pollLink.replace("www", "m")
-            if pollLink.endswith("/"):
-                resultURL = pollLink + "results"
-            else:
-                resultURL = pollLink + "/results"
+    if i["status"] == "live":
+        if "2021/12" in i["date"]:
+            try:
+                resultURL = pollLink
+                mobileURL = pollLink.replace("www", "m")
+                if pollLink.endswith("/"):
+                    resultURL = pollLink + "results"
+                else:
+                    resultURL = pollLink + "/results"
 
-            myheader = {"User-Agent": "Mozilla/5.0"}
+                myheader = {"User-Agent": "Mozilla/5.0"}
 
-            connection = requests.get(resultURL, headers=myheader)
-            scrape = BeautifulSoup(connection.text, "html.parser")
-            connection.close()
-            connectionMobile = requests.get(mobileURL, headers=myheader)
-            scrapeMob = BeautifulSoup(connectionMobile.text, "html.parser")
-            connectionMobile.close()
+                connection = requests.get(resultURL, headers=myheader)
+                scrape = BeautifulSoup(connection.text, "html.parser")
+                connection.close()
+                connectionMobile = requests.get(mobileURL, headers=myheader)
+                scrapeMob = BeautifulSoup(connectionMobile.text, "html.parser")
+                connectionMobile.close()
 
-            pollTitle = scrape.title.text[14:-7]
-            user = scrape.select_one(".poll .byline a", href=True)
-            authorid = ""
-            author = ""
-            if user:
-                authorid = user["href"][6:-1]
-                author = user.get_text()
-            inactivecheck = ""
-            closedcheck = ""
-            inactivecheckHTML = scrapeMob.select_one(".col-xs-12")
-            if inactivecheckHTML:
-                inactivecheck = inactivecheckHTML.get_text()
-            closedcheckHTML = scrape.select_one(".poll.results h2")
-            if closedcheckHTML:
-                closedcheck = closedcheckHTML.get_text()
-            if ("inactive" not in inactivecheck) & ("closed" not in closedcheck):
-                status = "Live"
-                polldate = scrapeMob.select_one(".btn-full .media .media-body")
-                xxdate = scrapeMob.select_one(
-                    ".btn-full .media .media-body .media-heading"
-                )
-                if polldate:
-                    polldate = polldate.get_text().replace(xxdate.get_text(), "")[8:]
-                    if (":" not in polldate) & ("ago" not in polldate):
-                        polldate = datetime.strptime(polldate, "%b %d %Y").strftime(
-                            "%Y/%m/%d"
-                        )
-                    elif ":" in polldate:
-                        polldate = str(datetime.today().year) + datetime.strptime(
-                            polldate, "%b %d %H:%M"
-                        ).strftime("/%m/%d")
-                        if datetime.strptime(polldate, "%Y/%m/%d") > datetime.now():
-                            polldate = str(
-                                datetime.today().year - 1
-                            ) + datetime.strptime(polldate, "%Y/%m/%d").strftime(
-                                "/%m/%d"
+                pollTitle = scrape.title.text[14:-7]
+                user = scrape.select_one(".poll .byline a", href=True)
+                authorid = ""
+                author = ""
+                if user:
+                    authorid = user["href"][6:-1]
+                    author = user.get_text()
+                inactivecheck = ""
+                closedcheck = ""
+                inactivecheckHTML = scrapeMob.select_one(".col-xs-12")
+                if inactivecheckHTML:
+                    inactivecheck = inactivecheckHTML.get_text()
+                closedcheckHTML = scrape.select_one(".poll.results h2")
+                if closedcheckHTML:
+                    closedcheck = closedcheckHTML.get_text()
+                if ("inactive" not in inactivecheck) & ("closed" not in closedcheck):
+                    status = "Live"
+                    polldate = scrapeMob.select_one(".btn-full .media .media-body")
+                    xxdate = scrapeMob.select_one(
+                        ".btn-full .media .media-body .media-heading"
+                    )
+                    if polldate:
+                        polldate = polldate.get_text().replace(xxdate.get_text(), "")[
+                            8:
+                        ]
+                        if (":" not in polldate) & ("ago" not in polldate):
+                            polldate = datetime.strptime(polldate, "%b %d %Y").strftime(
+                                "%Y/%m/%d"
                             )
-                    elif "days ago" in polldate or "day ago" in polldate:
-                        polldate = polldate[:1]
-                        polldate = (
-                            datetime.today() - timedelta(int(polldate))
-                        ).strftime("%Y/%m/%d")
-                    elif "hours ago" in polldate or "hour ago" in polldate:
-                        polldate = datetime.today().strftime("%Y/%m/%d")
-                    elif "minutes ago" in polldate or "minute ago" in polldate:
-                        polldate = datetime.today().strftime("%Y/%m/%d")
-            elif "inactive" in inactivecheck:
-                status = "Inactive"
-                polldate = ""
-            elif "closed" in closedcheck:
-                status = "Closed"
-                polldate = ""
-            else:
-                status = "unknown"
-                polldate = ""
-            voteCountRaw = scrape.select_one(".poll.results .article h2").text[11:-7]
-            voteCount = voteCountRaw.replace(",", "").strip()
+                        elif ":" in polldate:
+                            polldate = str(datetime.today().year) + datetime.strptime(
+                                polldate, "%b %d %H:%M"
+                            ).strftime("/%m/%d")
+                            if datetime.strptime(polldate, "%Y/%m/%d") > datetime.now():
+                                polldate = str(
+                                    datetime.today().year - 1
+                                ) + datetime.strptime(polldate, "%Y/%m/%d").strftime(
+                                    "/%m/%d"
+                                )
+                        elif "days ago" in polldate or "day ago" in polldate:
+                            polldate = polldate[:1]
+                            polldate = (
+                                datetime.today() - timedelta(int(polldate))
+                            ).strftime("%Y/%m/%d")
+                        elif "hours ago" in polldate or "hour ago" in polldate:
+                            polldate = datetime.today().strftime("%Y/%m/%d")
+                        elif "minutes ago" in polldate or "minute ago" in polldate:
+                            polldate = datetime.today().strftime("%Y/%m/%d")
+                elif "inactive" in inactivecheck:
+                    status = "Inactive"
+                elif "closed" in closedcheck:
+                    status = "Closed"
+                else:
+                    status = "unknown"
+                voteCountRaw = scrape.select_one(".poll.results .article h2").text[
+                    11:-7
+                ]
+                voteCount = voteCountRaw.replace(",", "").strip()
 
-            i["title"] = pollTitle
-            i["authorid"] = authorid
-            i["author"] = author
-            i["votes"] = int(voteCount)
-            totalvotes += int(voteCount)
-            i["date"] = polldate
-            i["status"] = status
+                i["title"] = pollTitle
+                i["authorid"] = authorid
+                i["author"] = author
+                i["votes"] = int(voteCount)
+                totalvotes += int(voteCount)
+                i["date"] = polldate
+                i["status"] = status
 
-            if i["featured"].lower() == "yes":
-                featuredpolls = featuredpolls + 1
+                if i["featured"].lower() == "yes":
+                    featuredpolls = featuredpolls + 1
 
-            currentPoll = currentPoll + 1
-            print("-----> Progress: " + str(currentPoll))
-        except Exception as e:
-            failedlinks.append(pollLink)
-            currentPoll = currentPoll + 1
-            errors = errors + 1
-            print("Error occurred at: " + str(currentPoll))
-            print(e)
-            print(traceback.format_exc())
-            continue
+                currentPoll = currentPoll + 1
+                print("-----> Progress: " + str(currentPoll))
+            except Exception as e:
+                failedlinks.append(pollLink)
+                currentPoll = currentPoll + 1
+                errors = errors + 1
+                print("Error occurred at: " + str(currentPoll))
+                print(e)
+                print(traceback.format_exc())
+                continue
 
 savedvotes = 0
 for i in data["polls"]:
