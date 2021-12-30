@@ -42,7 +42,7 @@ failedlinks = []
 for i in data["polls"]:
     pollLink = i["url"]
     if i["status"] == "Live":
-        if "2021/12" in i["date"]:
+        if i["authorid"] == "ur52829101":
             try:
                 resultURL = pollLink
                 mobileURL = pollLink.replace("www", "m")

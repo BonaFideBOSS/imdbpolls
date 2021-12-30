@@ -38,30 +38,39 @@ file.onreadystatechange = function () {
     $('#total-votes').html(pollData.totalvotes.toLocaleString())
 
     $('#poll-search').on('input', function () {
+      var keywords = []
       var searchoptions = '';
       var filteredlist = []
       var imgurl = 'img/imdbpoll.png'
-      if ($(this).val().length > 2) {
+      if ($(this).val().length >= 2) {
+        keywords = $('#poll-search').val().toLowerCase().split(" ")
         if ($('#search-filter').val() == 'poll') {
           for (var i = 0; i < polls.length; i++) {
-            if (polls[i].title.toLowerCase().includes($('#poll-search').val().toLowerCase())) {
+            if (keywords.every(item => polls[i].title.toLowerCase().includes(item))) {
               filteredlist.push(polls[i])
+              filteredlist = filteredlist.reverse()
             }
           }
-          for (var i = 0; i < 5; i++) {
-            var avatar = authors.find(entry => entry.authorid == filteredlist[i].authorid).avatar
-            if (avatar != "") {
-              imgurl = avatar
+          if (filteredlist.length != 0) {
+            for (var i = 0; i < filteredlist.length; i++) {
+              if (i < 5) {
+                var avatar = authors.find(entry => entry.authorid == filteredlist[i].authorid).avatar
+                if (avatar != "") {
+                  imgurl = avatar
+                }
+                searchoptions += '<div class="card">' +
+                  '<a class="card-body" href="' + filteredlist[i].url + '" target="_blank">' +
+                  '<img src="' + imgurl + '">' +
+                  '<div>' +
+                  '<span><h6>' + filteredlist[i].title + '</h6>' +
+                  '<pre>Poll by ' + filteredlist[i].author + '</pre></span>' +
+                  '<pre class="text-end">' + filteredlist[i].date + '<br>' +
+                  filteredlist[i].votes.toLocaleString() + ' votes</pre>' +
+                  '</div></a></div>'
+              }
             }
-            searchoptions += '<div class="card">' +
-              '<a class="card-body" href="' + filteredlist[i].url + '" target="_blank">' +
-              '<img src="' + imgurl + '">' +
-              '<div>' +
-              '<span><h6>' + filteredlist[i].title + '</h6>' +
-              '<pre>Poll by ' + filteredlist[i].author + '</pre></span>' +
-              '<pre class="text-end">' + filteredlist[i].date + '<br>' +
-              filteredlist[i].votes.toLocaleString() + ' votes</pre>' +
-              '</div></a></div>'
+          } else {
+            searchoptions = 'No poll found.'
           }
         } else if ($('#search-filter').val() == 'author') {
           for (const i in authorData) {
@@ -82,6 +91,9 @@ file.onreadystatechange = function () {
         }
         $('#search-result').show()
         $('#search-result').html(searchoptions)
+        if ($('#search-result').html() == 0) {
+          $('#search-result').html('No author found.')
+        }
       } else {
         $('#search-result').hide()
       }
@@ -92,7 +104,7 @@ file.onreadystatechange = function () {
     var tablecaption = table.getElementsByTagName('caption')[0]
 
     for (var i = 0; i < polls.length; i++) {
-      $(tablebody).append('<tr><td>' + (i + 1) + '</td>' +
+      $(tablebody).append('<tr><td></td>' +
         '<td nowrap><a href="' + polls[i].url + '" target="_blank">' + polls[i].title + '</a></td>' +
         '<td><a href="user#' + polls[i].authorid + '">' + polls[i].author + '</a></td>' +
         '<td>' + polls[i].date + '</td>' +
@@ -112,6 +124,25 @@ file.onreadystatechange = function () {
     $('#author-list').html(authoroptions)
     $('#year-filter').html(yearoptions)
 
+    var leaderboard = document.getElementById('leaderboard')
+    var lbbody = leaderboard.getElementsByTagName('tbody')[0]
+
+    for (const i in authorData) {
+      if (Object.hasOwnProperty.call(authorData, i)) {
+        const element = authorData[i];
+        var avatar = authors.find(entry => entry.authorid == i).avatar
+        if (avatar == "") {
+          avatar = 'img/imdbpoll.png'
+        }
+        $(lbbody).append('<tr><td></td>' +
+          '<td><img src="' + avatar + '"></td>' +
+          '<td nowrap>' + element.author + '</td>' +
+          '<td>' + element.polls + '</td>' +
+          '<td>' + element.votes.toLocaleString() + '</td>' +
+          '<td>' + element.features + '</td></tr>')
+      }
+    }
+
     $(document).ready(function () {
       var polltable = $(table).DataTable({
         "order": [
@@ -120,8 +151,41 @@ file.onreadystatechange = function () {
         "lengthMenu": [
           [10, 25, 50, 100, 250],
           [10, 25, 50, 100, 250]
-        ]
+        ],
+        "columnDefs": [{
+          "targets": [0],
+          "orderable": false
+        }]
       });
+
+      function pollranking() {
+        var lbrow = document.querySelectorAll('#allimdbpolls tbody tr')
+        var pagelength = document.getElementById('allimdbpolls_length').getElementsByTagName('select')[0].value
+        var currentpage = $('#allimdbpolls_paginate .paginate_button.current').html()
+        var startingrank = pagelength * currentpage - pagelength
+        for (var i = 0; i < lbrow.length; i++) {
+          if (lbrow[i].querySelectorAll('td')[0].classList.contains('dataTables_empty')) {} else {
+            startingrank = startingrank + 1
+            lbrow[i].querySelectorAll('td')[0].innerHTML = startingrank
+          }
+        }
+      }
+
+      function pollrankingbottom() {
+        var pollrowtotal = polltable.rows({
+          search: 'applied'
+        }).count()
+        var lbrow = document.querySelectorAll('#allimdbpolls tbody tr')
+        var pagelength = document.getElementById('allimdbpolls_length').getElementsByTagName('select')[0].value
+        var currentpage = $('#allimdbpolls_paginate .paginate_button.current').html()
+        var startingrank = pagelength * currentpage - pagelength
+        startingrank = pollrowtotal - startingrank
+        for (var i = 0; i < lbrow.length; i++) {
+          if (lbrow[i].querySelectorAll('td')[0].classList.contains('dataTables_empty')) {} else {
+            lbrow[i].querySelectorAll('td')[0].innerHTML = startingrank--
+          }
+        }
+      }
 
       $('#author-filter').on('change', function () {
         var selectedValue = $(this).val();
@@ -158,23 +222,106 @@ file.onreadystatechange = function () {
         $('#sum-votes').html(sumvotes.toLocaleString())
         $('#sum-features').html(sumhp)
       }
+
       tableTotal()
+      pollranking()
       $('.custom-filter select,#allimdbpolls_length select,#author-filter').on('change', function () {
         tableTotal()
+        if ($('#allimdbpolls thead .sorting').hasClass('sorting_desc')) {
+          pollranking();
+        } else {
+          pollrankingbottom();
+        }
       })
       $('#allimdbpolls_filter input').on('input', function () {
         tableTotal()
+        if ($('#allimdbpolls thead .sorting').hasClass('sorting_desc')) {
+          pollranking();
+        } else {
+          pollrankingbottom();
+        }
       })
       $('#allimdbpolls thead .sorting,#allimdbpolls_paginate').on('click', function () {
         tableTotal()
+        if ($('#allimdbpolls thead .sorting').hasClass('sorting_desc')) {
+          pollranking();
+        } else {
+          pollrankingbottom();
+        }
       })
+
+      var lbtable = $(leaderboard).DataTable({
+        "order": [
+          [4, "desc"]
+        ],
+        "columnDefs": [{
+          "targets": [0, 1, 2],
+          "orderable": false
+        }]
+      });
+
+      function ranking() {
+        var lbrow = document.querySelectorAll('#leaderboard tbody tr')
+        var pagelength = document.getElementById('leaderboard_length').getElementsByTagName('select')[0].value
+        var currentpage = $('#leaderboard_paginate .paginate_button.current').html()
+        var startingrank = pagelength * currentpage - pagelength
+        for (var i = 0; i < lbrow.length; i++) {
+          if (lbrow[i].querySelectorAll('td')[0].classList.contains('dataTables_empty')) {} else {
+            startingrank = startingrank + 1
+            lbrow[i].querySelectorAll('td')[0].innerHTML = startingrank
+          }
+        }
+      }
+
+      function rankingbottom() {
+        lbrowtotal = lbtable.rows({
+          search: 'applied'
+        }).count()
+        var lbrow = document.querySelectorAll('#leaderboard tbody tr')
+        var pagelength = document.getElementById('leaderboard_length').getElementsByTagName('select')[0].value
+        var currentpage = $('#leaderboard_paginate .paginate_button.current').html()
+        var startingrank = pagelength * currentpage - pagelength
+        startingrank = lbrowtotal - startingrank
+        for (var i = 0; i < lbrow.length; i++) {
+          if (lbrow[i].querySelectorAll('td')[0].classList.contains('dataTables_empty')) {} else {
+            lbrow[i].querySelectorAll('td')[0].innerHTML = startingrank--
+          }
+        }
+      }
+      ranking();
+      $('#leaderboard_length select').on('change', function () {
+        if ($('#leaderboard thead .sorting').hasClass('sorting_desc')) {
+          ranking();
+        } else {
+          rankingbottom();
+        }
+      })
+      $('#leaderboard_filter input').on('input', function () {
+        if ($('#leaderboard thead .sorting').hasClass('sorting_desc')) {
+          ranking();
+        } else {
+          rankingbottom();
+        }
+      })
+      $('#leaderboard thead .sorting,#leaderboard_paginate').on('click', function () {
+        if ($('#leaderboard thead .sorting').hasClass('sorting_desc')) {
+          ranking();
+        } else {
+          rankingbottom();
+        }
+      })
+
+      lbtable.on('draw', function () {
+        console.log('rows count:', lbtable.rows({
+          search: 'applied'
+        }).count());
+      });
+
 
       $('.data-loader.loader-one').hide()
       $('main').show()
 
     });
-
-
   }
 }
 
