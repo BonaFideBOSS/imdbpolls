@@ -1,2 +1,0 @@
-Fails: 1
-['https://www.imdb.com/poll/LUrwOCxUYIg/']
