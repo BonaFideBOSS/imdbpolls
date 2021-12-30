@@ -225,22 +225,14 @@ file.onreadystatechange = function () {
         polltable.columns(5).search(selectedValue).draw();
       });
 
-      var select = document.querySelectorAll('#imdbpolls_length select')
-      var search = document.querySelectorAll('#imdbpolls_filter input')
-      var sorting = document.querySelectorAll('#imdbpolls thead .sorting')
-      var paginate = document.querySelectorAll('#imdbpolls_paginate')
-
       tableTotal()
-      $(select).on('change', function () {
+      $('.custom-filter select,#imdbpolls_length select').on('change', function () {
         tableTotal()
       })
-      $(search).on('input', function () {
+      $('#imdbpolls_filter input').on('input', function () {
         tableTotal()
       })
-      $(sorting).on('click', function () {
-        tableTotal()
-      })
-      $(paginate).on('click', function () {
+      $('#imdbpolls thead .sorting,#imdbpolls_paginate').on('click', function () {
         tableTotal()
       })
 
@@ -321,6 +313,9 @@ file.onreadystatechange = function () {
 
       // ===== MILESTONES =====
       var m1 = Math.ceil(totalPolls / 50) * 50;
+      if (m1 == totalPolls) {
+        m1 = m1 + 50
+      }
       $('#m1Text').html(((totalPolls / m1) * 100).toFixed(2) + '%')
       const milestoneOne = {
         labels: ['Polls Published', 'Polls needed to reach next milestone'],
@@ -331,6 +326,9 @@ file.onreadystatechange = function () {
         }]
       };
       var m2 = Math.ceil(totalVotes / 50000) * 50000;
+      if (m2 == totalVotes) {
+        m2 = m2 + 50000
+      }
       $('#m2Text').html(((totalVotes / m2) * 100).toFixed(2) + '%')
       const milestoneTwo = {
         labels: ['Votes Gained', 'Votes needed to reach next milestone'],
@@ -341,6 +339,9 @@ file.onreadystatechange = function () {
         }]
       };
       var m3 = Math.ceil(totalHomepagePolls / 10) * 10;
+      if (m3 == totalHomepagePolls) {
+        m3 = m3 + 10
+      }
       $('#m3Text').html(((totalHomepagePolls / m3) * 100).toFixed(2) + '%')
       const milestoneThree = {
         labels: ['Featured Polls', 'More features needed'],
@@ -351,6 +352,9 @@ file.onreadystatechange = function () {
         }]
       };
       var m4 = Math.ceil(highestVote / 5000) * 5000;
+      if (m4 == totalPolls) {
+        m4 = m4 + 50000
+      }
       $('#m4Text').html(((highestVote / m4) * 100).toFixed(2) + '%')
       const milestoneFour = {
         labels: ['Highest Vote', 'Votes needed to reach next milestone'],

@@ -24,9 +24,6 @@ file.onreadystatechange = function () {
       return r
     }, {})
 
-    console.log(authorData)
-
-
     var authorlist = []
     for (var i = 0; i < authors.length; i++) {
       var authorname = polls.filter(obj => {

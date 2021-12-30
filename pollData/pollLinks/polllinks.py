@@ -18,7 +18,7 @@ def connect(resultURL):
     scrape = BeautifulSoup(connection.text, "html.parser")
     connection.close()
     featured = scrape.select_one(".poll-featured .action form").get("action")
-    links = scrape.select(".poll b a", href=True)
+    links = scrape.select(".poll.teaser b a", href=True)
     nxt = "yes"
 
     if featured:

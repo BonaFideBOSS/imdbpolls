@@ -41,7 +41,7 @@ failedlinks = []
 
 for i in data["polls"]:
     pollLink = i["url"]
-    if i["status"] == "live":
+    if i["status"] == "Live":
         if "2021/12" in i["date"]:
             try:
                 resultURL = pollLink
@@ -143,7 +143,8 @@ for i in data["polls"]:
 
 savedvotes = 0
 for i in data["polls"]:
-    savedvotes = savedvotes + i["votes"]
+    if i["votes"] != "":
+        savedvotes = savedvotes + i["votes"]
 data["totalvotes"] = savedvotes
 data["totalfeatures"] = featuredpolls
 

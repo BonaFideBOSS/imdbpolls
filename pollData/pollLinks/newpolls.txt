@@ -1,2 +1,0 @@
-{"url":"https://www.imdb.com/poll/gu77Z_G9_cQ/","title": "","authorid":"","author":"","date":"","votes":"","featured":"","status":""},{"url":"https://www.imdb.com/poll/b2GEoSDeEnI/","title": "","authorid":"","author":"","date":"","votes":"","featured":"","status":""},{"url":"https://www.imdb.com/poll/pfAaS-LYqew/","title": "","authorid":"","author":"","date":"","votes":"","featured":"","status":""},{"url":"https://www.imdb.com/poll/mgV0A7cvr2I/","title": "","authorid":"","author":"","date":"","votes":"","featured":"","status":""},
-Total New Poll Links: 4
