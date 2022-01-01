@@ -135,8 +135,8 @@ file.onreadystatechange = function () {
           avatar = 'img/imdbpoll.png'
         }
         $(lbbody).append('<tr><td></td>' +
-          '<td><img src="' + avatar + '"></td>' +
-          '<td nowrap>' + element.author + '</td>' +
+          '<td><a href="user#' + i + '"><img src="' + avatar + '"></a></td>' +
+          '<td nowrap><a href="user#' + i + '">' + element.author + '</a></td>' +
           '<td>' + element.polls + '</td>' +
           '<td>' + element.votes.toLocaleString() + '</td>' +
           '<td>' + element.features + '</td></tr>')
@@ -288,8 +288,28 @@ file.onreadystatechange = function () {
           }
         }
       }
+
+      function leaderboardTotal() {
+        var row = document.querySelectorAll('#leaderboard tbody tr')
+        var sumauthorpolls = 0;
+        var sumauthorvotes = 0;
+        var sumauthorhp = 0;
+        for (var i = 0; i < row.length; i++) {
+          if (row[i].querySelectorAll('td')[0].classList.contains('dataTables_empty')) {} else {
+            sumauthorpolls += parseInt(row[i].querySelectorAll('td')[3].textContent.replace(',', ''))
+            sumauthorvotes += parseInt(row[i].querySelectorAll('td')[4].textContent.replace(',', ''))
+            sumauthorhp += parseInt(row[i].querySelectorAll('td')[5].textContent.replace(',', ''))
+          }
+        }
+        $('#sum-author-polls').html(sumauthorpolls.toLocaleString())
+        $('#sum-author-votes').html(sumauthorvotes.toLocaleString())
+        $('#sum-author-features').html(sumauthorhp.toLocaleString())
+      }
+
       ranking();
+      leaderboardTotal();
       $('#leaderboard_length select').on('change', function () {
+        leaderboardTotal();
         if ($('#leaderboard thead .sorting').hasClass('sorting_desc')) {
           ranking();
         } else {
@@ -297,6 +317,7 @@ file.onreadystatechange = function () {
         }
       })
       $('#leaderboard_filter input').on('input', function () {
+        leaderboardTotal();
         if ($('#leaderboard thead .sorting').hasClass('sorting_desc')) {
           ranking();
         } else {
@@ -304,6 +325,7 @@ file.onreadystatechange = function () {
         }
       })
       $('#leaderboard thead .sorting,#leaderboard_paginate').on('click', function () {
+        leaderboardTotal();
         if ($('#leaderboard thead .sorting').hasClass('sorting_desc')) {
           ranking();
         } else {

@@ -32,17 +32,17 @@ data["totalpolls"] = totalpolls
 data["lastupdated"] = datetime.now(tz).strftime("%A, %B %d, %Y - %H:%M %Z")
 data["rawdate"] = str(datetime.now(tz))
 
-totalvotes = 0
 totalauthors = 0
-featuredpolls = 0
 currentPoll = 0
 errors = 0
 failedlinks = []
 
+errorpolls = []
+
 for i in data["polls"]:
     pollLink = i["url"]
     if i["status"] == "Live":
-        if i["authorid"] == "ur52829101":
+        if i["url"] in errorpolls:
             try:
                 resultURL = pollLink
                 mobileURL = pollLink.replace("www", "m")
@@ -123,12 +123,8 @@ for i in data["polls"]:
                 i["authorid"] = authorid
                 i["author"] = author
                 i["votes"] = int(voteCount)
-                totalvotes += int(voteCount)
                 i["date"] = polldate
                 i["status"] = status
-
-                if i["featured"].lower() == "yes":
-                    featuredpolls = featuredpolls + 1
 
                 currentPoll = currentPoll + 1
                 print("-----> Progress: " + str(currentPoll))
@@ -141,11 +137,14 @@ for i in data["polls"]:
                 print(traceback.format_exc())
                 continue
 
-savedvotes = 0
+totalvotes = 0
+featuredpolls = 0
 for i in data["polls"]:
     if i["votes"] != "":
-        savedvotes = savedvotes + i["votes"]
-data["totalvotes"] = savedvotes
+        totalvotes = totalvotes + i["votes"]
+    if i["featured"].lower() == "yes":
+        featuredpolls = featuredpolls + 1
+data["totalvotes"] = totalvotes
 data["totalfeatures"] = featuredpolls
 
 uniqueAuthors = {i["authorid"] for i in data["polls"]}

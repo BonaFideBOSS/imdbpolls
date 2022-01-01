@@ -119,7 +119,8 @@ input::-webkit-calendar-picker-indicator {
 #allimdbpolls tfoot tr th:nth-child(2),
 .polltable tfoot tr th:first-child,
 #leaderboard thead tr th:nth-child(3),
-#leaderboard tbody tr td:nth-child(3) {
+#leaderboard tbody tr td:nth-child(3),
+#leaderboard tfoot tr th:first-child {
   text-align: left !important;
 }
 

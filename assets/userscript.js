@@ -164,7 +164,7 @@ file.onreadystatechange = function () {
         polls2022Months.push(month)
       }
 
-      $(tableBody).append('<tr><td>' + (i + 1) + '</td>' +
+      $(tableBody).append('<tr><td></td>' +
         '<td nowrap><a href="' + userData[i].url + '" target="_blank">' + userData[i].title + '</a></td>' +
         '<td>' + userData[i].date + '</td>' +
         '<td>' + userData[i].votes.toLocaleString() + '</td>' +
@@ -202,8 +202,41 @@ file.onreadystatechange = function () {
         "lengthMenu": [
           [10, 25, 50, 100, -1],
           [10, 25, 50, 100, "All"]
-        ]
+        ],
+        "columnDefs": [{
+          "targets": [0],
+          "orderable": false
+        }]
       });
+
+      function pollranking() {
+        var lbrow = document.querySelectorAll('#imdbpolls tbody tr')
+        var pagelength = document.getElementById('imdbpolls_length').getElementsByTagName('select')[0].value
+        var currentpage = $('#imdbpolls_paginate .paginate_button.current').html()
+        var startingrank = pagelength * currentpage - pagelength
+        for (var i = 0; i < lbrow.length; i++) {
+          if (lbrow[i].querySelectorAll('td')[0].classList.contains('dataTables_empty')) {} else {
+            startingrank = startingrank + 1
+            lbrow[i].querySelectorAll('td')[0].innerHTML = startingrank
+          }
+        }
+      }
+
+      function pollrankingbottom() {
+        var pollrowtotal = polltable.rows({
+          search: 'applied'
+        }).count()
+        var lbrow = document.querySelectorAll('#imdbpolls tbody tr')
+        var pagelength = document.getElementById('imdbpolls_length').getElementsByTagName('select')[0].value
+        var currentpage = $('#imdbpolls_paginate .paginate_button.current').html()
+        var startingrank = pagelength * currentpage - pagelength
+        startingrank = pollrowtotal - startingrank
+        for (var i = 0; i < lbrow.length; i++) {
+          if (lbrow[i].querySelectorAll('td')[0].classList.contains('dataTables_empty')) {} else {
+            lbrow[i].querySelectorAll('td')[0].innerHTML = startingrank--
+          }
+        }
+      }
 
       var uniqueyears = pollyears.filter((item, i, ar) => ar.indexOf(item) === i);
       var yearoptions;
@@ -226,14 +259,30 @@ file.onreadystatechange = function () {
       });
 
       tableTotal()
+      pollranking()
       $('.custom-filter select,#imdbpolls_length select').on('change', function () {
         tableTotal()
+        if ($('#imdbpolls thead .sorting').hasClass('sorting_desc')) {
+          pollranking();
+        } else {
+          pollrankingbottom();
+        }
       })
       $('#imdbpolls_filter input').on('input', function () {
         tableTotal()
+        if ($('#imdbpolls thead .sorting').hasClass('sorting_desc')) {
+          pollranking();
+        } else {
+          pollrankingbottom();
+        }
       })
       $('#imdbpolls thead .sorting,#imdbpolls_paginate').on('click', function () {
         tableTotal()
+        if ($('#imdbpolls thead .sorting').hasClass('sorting_desc')) {
+          pollranking();
+        } else {
+          pollrankingbottom();
+        }
       })
 
       function tableTotal() {
