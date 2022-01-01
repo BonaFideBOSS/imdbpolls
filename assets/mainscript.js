@@ -58,13 +58,23 @@ file.onreadystatechange = function () {
                 if (avatar != "") {
                   imgurl = avatar
                 }
+                var statusicon = '<i class="bi bi-circle-fill text-success"></i>'
+                if (filteredlist[i].status.toLowerCase() == "closed") {
+                  statusicon = '<i class="bi bi-circle-fill text-secondary"></i>'
+                } else if (filteredlist[i].status.toLowerCase() == "inactive") {
+                  statusicon = '<i class="bi bi-circle-fill text-danger"></i>'
+                }
+                var polldate = ""
+                if (filteredlist[i].date != "") {
+                  polldate = filteredlist[i].date
+                }
                 searchoptions += '<div class="card">' +
                   '<a class="card-body" href="' + filteredlist[i].url + '" target="_blank">' +
                   '<img src="' + imgurl + '">' +
                   '<div>' +
                   '<span><h6>' + filteredlist[i].title + '</h6>' +
                   '<pre>Poll by ' + filteredlist[i].author + '</pre></span>' +
-                  '<pre class="text-end">' + filteredlist[i].date + '<br>' +
+                  '<pre class="text-end">' + polldate + ' ' + statusicon + '<br>' +
                   filteredlist[i].votes.toLocaleString() + ' votes</pre>' +
                   '</div></a></div>'
               }
