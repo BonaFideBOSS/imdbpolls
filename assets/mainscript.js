@@ -38,6 +38,8 @@ file.onreadystatechange = function () {
     $('#total-votes').html(pollData.totalvotes.toLocaleString())
 
     $('#poll-search').on('input', function () {
+      var searchheader = ''
+      var searchfooter = ''
       var keywords = []
       var searchoptions = '';
       var filteredlist = []
@@ -54,6 +56,8 @@ file.onreadystatechange = function () {
           if (filteredlist.length != 0) {
             for (var i = 0; i < filteredlist.length; i++) {
               if (i < 5) {
+                searchheader = '<p>Top ' + (i + 1) + ' results</p>'
+                searchfooter = '<a href="search">See all results</a>'
                 var avatar = authors.find(entry => entry.authorid == filteredlist[i].authorid).avatar
                 if (avatar != "") {
                   imgurl = avatar
@@ -83,24 +87,30 @@ file.onreadystatechange = function () {
             searchoptions = 'No poll found.'
           }
         } else if ($('#search-filter').val() == 'author') {
+          var authorCount = 0
           for (const i in authorData) {
             if (Object.hasOwnProperty.call(authorData, i)) {
               const element = authorData[i];
               if (element.author.toLowerCase().includes($('#poll-search').val().toLowerCase())) {
-                var avatar = authors.find(entry => entry.authorid == i).avatar
-                if (avatar != "") {
-                  imgurl = avatar
+                authorCount = authorCount + 1
+                if (authorCount <= 5) {
+                  searchheader = '<p>Top ' + authorCount + ' results</p>'
+                  searchfooter = '<a href="search">See all results</a>'
+                  var avatar = authors.find(entry => entry.authorid == i).avatar
+                  if (avatar != "") {
+                    imgurl = avatar
+                  }
+                  searchoptions += '<div class="card">' +
+                    '<a class="card-body" href="user#' + i + '">' +
+                    '<img src="' + imgurl + '"><h6>' + element.author + '</h6>' +
+                    '<pre>Polls: ' + element.polls + ' | Votes: ' + element.votes + ' | Features: ' + element.features + '</pre></a></div>'
                 }
-                searchoptions += '<div class="card">' +
-                  '<a class="card-body" href="user#' + i + '">' +
-                  '<img src="' + imgurl + '"><h6>' + element.author + '</h6>' +
-                  '<pre>Polls: ' + element.polls + ' | Votes: ' + element.votes + ' | Features: ' + element.features + '</pre></a></div>'
               }
             }
           }
         }
         $('#search-result').show()
-        $('#search-result').html(searchoptions)
+        $('#search-result').html(searchheader + searchoptions + searchfooter)
         if ($('#search-result').html() == 0) {
           $('#search-result').html('No author found.')
         }
