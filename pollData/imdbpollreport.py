@@ -32,7 +32,6 @@ data["totalpolls"] = totalpolls
 data["lastupdated"] = datetime.now(tz).strftime("%A, %B %d, %Y - %H:%M %Z")
 data["rawdate"] = str(datetime.now(tz))
 
-totalauthors = 0
 currentPoll = 0
 errors = 0
 failedlinks = []
@@ -147,10 +146,10 @@ for i in data["polls"]:
 data["totalvotes"] = totalvotes
 data["totalfeatures"] = featuredpolls
 
-uniqueAuthors = {i["authorid"] for i in data["polls"]}
-data["totalauthors"] = len(uniqueAuthors)
+totalauthors = {i["authorid"] for i in data["polls"]}
+data["totalauthors"] = len(totalauthors)
 savedauthors = {d["authorid"] for d in data["authors"]}
-for i in uniqueAuthors:
+for i in totalauthors:
     if i not in savedauthors:
         data["authors"].append({"authorid": i, "avatar": ""})
 
