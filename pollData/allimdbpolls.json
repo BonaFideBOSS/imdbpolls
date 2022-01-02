@@ -1,10 +1,10 @@
 {
-  "totalpolls": 10243,
-  "totalvotes": 17884616,
-  "totalauthors": 418,
-  "totalfeatures": 0,
-  "lastupdated": "Saturday, January 01, 2022 - 08:48 EST",
-  "rawdate": "2022-01-01 08:48:35.708549-05:00",
+  "totalpolls": 10246,
+  "totalvotes": 17885547,
+  "totalauthors": 419,
+  "totalfeatures": 537,
+  "lastupdated": "Sunday, January 02, 2022 - 16:30 EST",
+  "rawdate": "2022-01-02 16:30:50.816757-05:00",
   "authors": [
     {
       "authorid": "ur50452813",
@@ -1677,6 +1677,10 @@
     {
       "authorid": "ur55559495",
       "avatar": "https://m.media-amazon.com/images/M/MV5BM2VmZWNjYmMtNmRjYi00MzQwLTk3N2QtMjk4ZDk2N2I2YmM0XkEyXkFqcGdeQXVyNTU1NTk0OTU@._V1_SY100_SX100_.jpg"
+    },
+    {
+      "authorid": "ur137235941",
+      "avatar": "https://m.media-amazon.com/images/M/MV5BNmI1OGJmNDQtNjI4My00OTFhLTgwNGMtZWQwY2U3N2U4MTVlXkEyXkFqcGdeQXVyMTM3MjM1OTQx._V1_SY100_SX100_.jpg"
     }
   ],
   "polls": [
@@ -114272,7 +114276,7 @@
       "authorid": "ur28319455",
       "author": "Hoekkie",
       "date": "2022/01/01",
-      "votes": 37,
+      "votes": 268,
       "featured": "No",
       "status": "Live"
     },
@@ -114283,7 +114287,7 @@
       "authorid": "ur57704188",
       "author": "brijeshmarand",
       "date": "2022/01/01",
-      "votes": 27,
+      "votes": 143,
       "featured": "No",
       "status": "Live"
     },
@@ -114294,7 +114298,7 @@
       "authorid": "ur75779804",
       "author": "BonaFideBOSS",
       "date": "2022/01/01",
-      "votes": 31,
+      "votes": 138,
       "featured": "No",
       "status": "Live"
     },
@@ -114305,7 +114309,7 @@
       "authorid": "ur91650024",
       "author": "thenolanfan",
       "date": "2022/01/01",
-      "votes": 22,
+      "votes": 145,
       "featured": "No",
       "status": "Live"
     },
@@ -114350,6 +114354,39 @@
       "author": "BonaFideBOSS",
       "date": "2021/12/31",
       "votes": 56,
+      "featured": "No",
+      "status": "Live"
+    },
+    {
+      "url": "https://www.imdb.com/poll/VF77TYwfWsY/",
+      "title": "Your Favorite Star to Celebrate 100th Anniversary in 2022",
+      "type": "People",
+      "authorid": "ur36448190",
+      "author": "Breumaster",
+      "date": "2022/01/02",
+      "votes": 104,
+      "featured": "No",
+      "status": "Live"
+    },
+    {
+      "url": "https://www.imdb.com/poll/9DpYw6575no/",
+      "title": "Best Action Movie With No Sequels?",
+      "type": "Titles",
+      "authorid": "ur137235941",
+      "author": "JackSlater4",
+      "date": "2022/01/02",
+      "votes": 125,
+      "featured": "No",
+      "status": "Live"
+    },
+    {
+      "url": "https://www.imdb.com/poll/C01nA1f115o/",
+      "title": "Most Searched TV Shows 2021",
+      "type": "Titles",
+      "authorid": "ur57704188",
+      "author": "brijeshmarand",
+      "date": "2022/01/02",
+      "votes": 125,
       "featured": "No",
       "status": "Live"
     }

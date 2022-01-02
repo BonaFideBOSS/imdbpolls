@@ -28,7 +28,7 @@ def connect(resultURL):
             data = (
                 '{"url":"'
                 + featuredlink
-                + '","title": "","authorid":"","author":"","date":"","votes":"","featured":"No","status":"Live"}'
+                + '","title": "","type":"","authorid":"","author":"","date":"","votes":"","featured":"No","status":"Live"}'
             )
             newdata.append(data)
             totalpolls = 1
@@ -41,7 +41,7 @@ def connect(resultURL):
             data = (
                 '{"url":"'
                 + link
-                + '","title": "","authorid":"","author":"","date":"","votes":"","featured":"No","status":"Live"}'
+                + '","title": "","type":"","authorid":"","author":"","date":"","votes":"","featured":"No","status":"Live"}'
             )
             newdata.append(data)
             totalpolls = totalpolls + 1
