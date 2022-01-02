@@ -29,20 +29,68 @@ file.onreadystatechange = function () {
       pollSearch();
     })
 
+    $('#item-filter').on('change', function () {
+      if (this.value == 'author') {
+        $('.search-type-title').html('Author Name:')
+        $('.search-filters select').attr('disabled', true)
+      } else {
+        $('.search-type-title').html('Poll Title:')
+        $('.search-filters select').attr('disabled', false)
+      }
+    })
+
     function pollSearch() {
       var searchheader = ''
       var searchfooter = ''
       var keywords = []
-      var searchoptions = '';
+      var searchresults = '';
       var filteredlist = []
       var imgurl = 'img/imdbpoll.png'
+
+      var polltype = $('#type-filter').val()
+      var orderby = $('#orderby-filter').val()
+
       if ($('#poll-search').val().length > 0) {
         keywords = $('#poll-search').val().toLowerCase().split(" ")
-        if ($('#search-filter').val() == 'poll') {
+        if ($('#item-filter').val() == 'poll') {
           for (var i = 0; i < polls.length; i++) {
             if (keywords.every(item => polls[i].title.toLowerCase().includes(item))) {
-              filteredlist.push(polls[i])
-              filteredlist = filteredlist.reverse()
+
+              if (polltype == 'all') {
+                filteredlist.unshift(polls[i])
+              } else {
+                if (polls[i].type.toLowerCase() == polltype) {
+                  filteredlist.unshift(polls[i])
+                }
+              }
+
+              switch (orderby) {
+                case 'oldest':
+                  filteredlist.sort(function (a, b) {
+                    return new Date(a.date) - new Date(b.date);
+                  });
+                  break;
+                case 'votes':
+                  filteredlist.sort(function (a, b) {
+                    return b.votes - a.votes;
+                  });
+                  break;
+                case 'featured':
+                  filteredlist.sort(function (a, b) {
+                    var nameA = a.featured.toUpperCase();
+                    var nameB = b.featured.toUpperCase();
+                    if (nameA > nameB) {
+                      return -1;
+                    }
+                  });
+                  break;
+                default:
+                  filteredlist.sort(function (a, b) {
+                    return new Date(b.date) - new Date(a.date);
+                  });
+                  break;
+              }
+
             }
           }
           if (filteredlist.length != 0) {
@@ -70,20 +118,20 @@ file.onreadystatechange = function () {
                 if (filteredlist[i].featured.toLowerCase() == 'yes') {
                   featured = '<i class="bi bi-dot"></i> Featured'
                 }
-                searchoptions += '<div class="card mb-3">' +
+                searchresults += '<div class="card mb-3">' +
                   '<div class="card-body">' +
                   '<div><img src="' + imgurl + '"><span>' +
                   '<h5><a href="' + filteredlist[i].url + '">' + filteredlist[i].title + '</a></h5>' +
                   '<p>' + filteredlist[i].author + '<span class="text-muted">' + publishdate + '</span></p>' +
-                  '<p class="text-muted">' + polldate + filteredlist[i].status + '<i class="bi bi-dot"></i>' + filteredlist[i].votes.toLocaleString() + ' votes' + featured + '</p>' +
+                  '<p class="text-muted">' + polldate + filteredlist[i].type + ' Poll<i class="bi bi-dot"></i>' + filteredlist[i].status + '<i class="bi bi-dot"></i>' + filteredlist[i].votes.toLocaleString() + ' votes' + featured + '</p>' +
                   '</span></div>' + statusicon + '</div></div><hr>'
               }
             }
           } else {
             searchheader = '<h3>Search Results (0)</h3><hr>'
-            searchoptions = 'No poll found.'
+            searchresults = 'No poll found.'
           }
-        } else if ($('#search-filter').val() == 'author') {
+        } else if ($('#item-filter').val() == 'author') {
           var authorCount = 0
           for (const i in authorData) {
             if (Object.hasOwnProperty.call(authorData, i)) {
@@ -91,11 +139,12 @@ file.onreadystatechange = function () {
               if (element.author.toLowerCase().includes($('#poll-search').val().toLowerCase())) {
                 authorCount = authorCount + 1
                 searchheader = '<h3>Search Results (' + (authorCount) + ')</h3><hr>'
+                searchfooter = 'Showing ' + (authorCount) + ' out of ' + authors.length + ' authors.'
                 var avatar = authors.find(entry => entry.authorid == i).avatar
                 if (avatar != "") {
                   imgurl = avatar
                 }
-                searchoptions += '<div class="card mb-3">' +
+                searchresults += '<div class="card mb-3">' +
                   '<div class="card-body"><div>' +
                   '<img src="' + imgurl + '"><span>' +
                   '<span><h5><a href="user#' + i + '">' + element.author + '</a></h5>' +
@@ -107,7 +156,7 @@ file.onreadystatechange = function () {
         }
         setTimeout(() => {
           $('.data-loader.search-loader').hide()
-          $('#poll-search-result').html(searchheader + searchoptions + searchfooter)
+          $('#poll-search-result').html(searchheader + searchresults + searchfooter)
           if ($('#poll-search-result').html() == 0) {
             $('#poll-search-result').html('No author found.')
           }

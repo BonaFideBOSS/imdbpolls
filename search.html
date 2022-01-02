@@ -35,17 +35,44 @@
       <form action="javascript:void(0);">
         <div class="input-group mb-3">
           <span class="input-group-text">Search for</span>
-          <select id="search-filter" class="form-select py-2">
+          <select id="item-filter" class="form-select py-2">
             <option value="poll">Polls</option>
             <option value="author">Authors</option>
           </select>
         </div>
+
+        <h5>Search Options:</h5>
+        <div class="search-filters d-flex flex-wrap mb-3 gap-3">
+          <div>
+            <label>Poll Type:</label>
+            <select id="type-filter" class="form-select">
+              <option value="all">All</option>
+              <option value="titles">Titles</option>
+              <option value="people">People</option>
+              <option value="images">Images</option>
+              <option value="characters">Characters</option>
+            </select>
+          </div>
+          <div>
+            <label>Order By:</label>
+            <select id="orderby-filter" class="form-select">
+              <option value="latest">Latest</option>
+              <option value="oldest">Oldest</option>
+              <option value="votes">Votes</option>
+              <option value="featured">Featured</option>
+            </select>
+          </div>
+        </div>
+
+        <h5 class="search-type-title">Poll Title:</h5>
         <div class="input-group">
           <span class="input-group-text"><i class="bi bi-search"></i></span>
           <input type="text" class="form-control py-3" id="poll-search" placeholder="Search" required>
         </div>
+
         <button class="btn btn-warning w-100 mt-3 py-2" type="submit">Search</button>
       </form>
+
       <div class="data-loader search-loader my-5">
         <div>
           <img src="img/loader.gif" width="100px">

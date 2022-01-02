@@ -100,7 +100,8 @@ input::-webkit-calendar-picker-indicator {
   box-shadow: none !important;
 }
 
-.custom-filter label {
+.custom-filter label,
+.search-filters label {
   padding-bottom: .5rem;
 }
 
