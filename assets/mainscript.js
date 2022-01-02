@@ -166,7 +166,6 @@ file.onreadystatechange = function () {
 
     $(document).ready(function () {
       var polltable = $(table).DataTable({
-        responsive: true,
         "order": [
           [4, "desc"]
         ],
