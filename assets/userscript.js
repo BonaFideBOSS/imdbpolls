@@ -297,7 +297,7 @@ file.onreadystatechange = function () {
         for (var i = 0; i < row.length; i++) {
           if (row[i].querySelectorAll('td')[0].classList.contains('dataTables_empty')) {} else {
             votesresult += parseInt(row[i].querySelectorAll('td')[3].textContent.replace(',', ''))
-            if ((row[i].querySelectorAll('td')[4].textContent).toLowerCase() == "yes") {
+            if ((row[i].querySelectorAll('td')[5].textContent).toLowerCase() == "yes") {
               hpresult = hpresult + 1
             }
           }

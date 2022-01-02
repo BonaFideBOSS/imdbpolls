@@ -238,7 +238,7 @@ file.onreadystatechange = function () {
           if (row[i].querySelectorAll('td')[0].classList.contains('dataTables_empty')) {} else {
             sumauthors.push(row[i].querySelectorAll('td')[2].textContent)
             sumvotes += parseInt(row[i].querySelectorAll('td')[4].textContent.replace(',', ''))
-            if ((row[i].querySelectorAll('td')[5].innerHTML).toLowerCase() == "yes") {
+            if ((row[i].querySelectorAll('td')[6].innerHTML).toLowerCase() == "yes") {
               sumhp = sumhp + 1
             }
           }
