@@ -104,6 +104,9 @@ file.onreadystatechange = function () {
       }
       const oneDay = 24 * 60 * 60 * 1000;
       var pollingdays = Math.round(Math.abs((new Date(firstpolldate) - new Date(lastpolldate)) / oneDay));
+      if (pollingdays == 0) {
+        pollingdays = 1
+      }
       $('#avgvotesdaily').html(Math.round(totalVotes / pollingdays))
 
       if (userData[i].votes >= 1000) {
