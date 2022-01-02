@@ -165,7 +165,6 @@ footer img {
   border-radius: 5px;
 }
 
-
 @media only screen and (max-width: 767px) {
   .navbar .container {
     display: flex;
