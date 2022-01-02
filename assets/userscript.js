@@ -168,6 +168,7 @@ file.onreadystatechange = function () {
         '<td nowrap><a href="' + userData[i].url + '" target="_blank">' + userData[i].title + '</a></td>' +
         '<td>' + userData[i].date + '</td>' +
         '<td>' + userData[i].votes.toLocaleString() + '</td>' +
+        '<td>' + userData[i].type + '</td>' +
         '<td>' + userData[i].featured + '</td>' +
         '<td>' + userData[i].status + '</td></tr>')
     }
@@ -249,13 +250,17 @@ file.onreadystatechange = function () {
         var selectedValue = $(this).val();
         polltable.columns(2).search(selectedValue).draw();
       });
-      $('#hp-filter').on('change', function () {
+      $('#type-filter').on('change', function () {
         var selectedValue = $(this).val();
         polltable.columns(4).search(selectedValue).draw();
       });
-      $('#status-filter').on('change', function () {
+      $('#hp-filter').on('change', function () {
         var selectedValue = $(this).val();
         polltable.columns(5).search(selectedValue).draw();
+      });
+      $('#status-filter').on('change', function () {
+        var selectedValue = $(this).val();
+        polltable.columns(6).search(selectedValue).draw();
       });
 
       tableTotal()

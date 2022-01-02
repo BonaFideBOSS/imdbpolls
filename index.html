@@ -8,7 +8,7 @@
 
 
   <link rel="stylesheet" href="assets/bootstrap.min.css">
-  <link rel="stylesheet" href="assets/datatables.min.css">
+  <link rel="stylesheet" href="assets/DataTables/datatables.min.css">
   <link rel="stylesheet" href="assets/style.css">
 </head>
 
@@ -87,6 +87,16 @@
           <select id="year-filter" class="form-select"></select>
         </div>
         <div>
+          <label>Type:</label>
+          <select id="type-filter" class="form-select">
+            <option value="">All</option>
+            <option>Titles</option>
+            <option>People</option>
+            <option>Images</option>
+            <option>Characters</option>
+          </select>
+        </div>
+        <div>
           <label>Featured:</label>
           <select id="hp-filter" class="form-select">
             <option value="">All</option>
@@ -105,7 +115,7 @@
         </div>
       </div>
       <div class="table-responsive">
-        <table id="allimdbpolls" class="stripe hover polltable">
+        <table id="allimdbpolls" class="stripe hover polltable" width="100%">
           <caption></caption>
           <thead>
             <tr>
@@ -114,6 +124,7 @@
               <th>Author</th>
               <th>Date</th>
               <th>Votes</th>
+              <th>Type</th>
               <th>Featured</th>
               <th>Status</th>
             </tr>
@@ -123,7 +134,9 @@
             <tr>
               <th colspan="2">Total</th>
               <th id="sum-authors"></th>
-              <th colspan="2" id="sum-votes"></th>
+              <th></th>
+              <th id="sum-votes"></th>
+              <th></th>
               <th id="sum-features"></th>
               <th></th>
             </tr>
@@ -181,7 +194,7 @@
 
   <script src="assets/bootstrap.bundle.min.js"></script>
   <script src="assets/jquery-3.6.0.min.js"></script>
-  <script src="assets/datatables.min.js"></script>
+  <script src="assets/DataTables/datatables.min.js"></script>
   <script src="assets/mainscript.js"></script>
 </body>
 

@@ -129,6 +129,7 @@ file.onreadystatechange = function () {
         '<td><a href="user#' + polls[i].authorid + '">' + polls[i].author + '</a></td>' +
         '<td>' + polls[i].date + '</td>' +
         '<td>' + polls[i].votes.toLocaleString() + '</td>' +
+        '<td>' + polls[i].type + '</td>' +
         '<td>' + polls[i].featured + '</td>' +
         '<td>' + polls[i].status + '</td></tr>')
     }
@@ -165,6 +166,7 @@ file.onreadystatechange = function () {
 
     $(document).ready(function () {
       var polltable = $(table).DataTable({
+        responsive: true,
         "order": [
           [4, "desc"]
         ],
@@ -215,13 +217,17 @@ file.onreadystatechange = function () {
         var selectedValue = $(this).val();
         polltable.columns(3).search(selectedValue).draw();
       });
-      $('#hp-filter').on('change', function () {
+      $('#type-filter').on('change', function () {
         var selectedValue = $(this).val();
         polltable.columns(5).search(selectedValue).draw();
       });
-      $('#status-filter').on('change', function () {
+      $('#hp-filter').on('change', function () {
         var selectedValue = $(this).val();
         polltable.columns(6).search(selectedValue).draw();
+      });
+      $('#status-filter').on('change', function () {
+        var selectedValue = $(this).val();
+        polltable.columns(7).search(selectedValue).draw();
       });
 
       function tableTotal() {

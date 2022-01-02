@@ -116,15 +116,15 @@ input::-webkit-calendar-picker-indicator {
 
 #allimdbpolls tbody tr td:nth-child(3),
 .polltable tbody tr td:nth-child(2),
-#allimdbpolls tfoot tr th:nth-child(2),
 .polltable tfoot tr th:first-child,
 #leaderboard thead tr th:nth-child(3),
 #leaderboard tbody tr td:nth-child(3),
-#leaderboard tfoot tr th:first-child {
+#leaderboard tfoot tr th:first-child,
+.polltable.collapsed tbody tr td,
+#leaderboard.collapsed {
   text-align: left !important;
 }
 
-#allimdbpolls tfoot tr th:nth-child(3),
 #leaderboard tbody tr td:nth-child(2) {
   text-align: right;
 }
@@ -156,7 +156,7 @@ input::-webkit-calendar-picker-indicator {
   font-size: .875em;
 }
 
-.data-loader.loader-two {
+.data-loader.search-loader {
   display: none;
 }
 

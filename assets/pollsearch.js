@@ -25,7 +25,7 @@ file.onreadystatechange = function () {
 
     $('form').on('submit', function () {
       $('#poll-search-result').html('')
-      $('.data-loader.loader-two').show()
+      $('.data-loader.search-loader').show()
       pollSearch();
     })
 
@@ -106,7 +106,7 @@ file.onreadystatechange = function () {
           }
         }
         setTimeout(() => {
-          $('.data-loader.loader-two').hide()
+          $('.data-loader.search-loader').hide()
           $('#poll-search-result').html(searchheader + searchoptions + searchfooter)
           if ($('#poll-search-result').html() == 0) {
             $('#poll-search-result').html('No author found.')
