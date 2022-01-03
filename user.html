@@ -19,7 +19,8 @@
         <img class="userprofilepic" src="img/imdbpoll.png" width="50px" height="50px">
         <div class="username logo fw-bolder fs-1 ">IMDb Polls</div>
       </a>
-      <a href="index" class="text-dark"><i class="bi bi-box-arrow-left fs-1"></i></a>
+      <a href="index" class="text-dark" title="Back" data-bs-toggle="tooltip" data-bs-placement="bottom"><i
+          class="bi bi-box-arrow-left fs-1"></i></a>
     </div>
   </nav>
 
@@ -340,7 +341,9 @@
 
       <div>
         <h6 class="text-muted">Author</h6>
-        <h5 class="username">IMDb Polls</h5>
+        <h5><a class="username userprofile text-dark" target="_blank" title="IMDb Profile" data-bs-toggle="tooltip"
+            data-bs-placement="right">IMDb Polls</a>
+          <i class="bi bi-link-45deg fs-6"></i></h5>
         <img class="userprofilepic" src="img/imdbpoll.png">
       </div>
 
@@ -352,7 +355,7 @@
         <h6 class="text-muted"></h6>
         <a href="https://www.imdb.com/" target="_blank">IMDb</a>
         <br>
-        <a class="userprofile" target="_blank">IMDb Profile</a>
+        <a href="https://www.imdb.com/poll/" target="_blank">IMDb Polls</a>
         <br>
         <a href="https://community-imdb.sprinklr.com/" target="_blank">IMDb Community</a>
         <br>
@@ -366,6 +369,7 @@
   <script src="assets/DataTables/datatables.min.js"></script>
   <script src="assets/chart.js"></script>
   <script src="assets/userscript.js"></script>
+  <script src="assets/commonscript.js"></script>
 </body>
 
 </html>
