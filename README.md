@@ -4,4 +4,4 @@
   <img src="https://github.com/BonaFideBOSS/imdbpolls/blob/main/img/imdbpoll.png" width="50px" align="right"/>
 </h2>
 <h4>IMDb Polls by BonaFideBOSS.</h4>
-Link: https://bonafideboss.github.io/imdbpolls/
+Link: https://imdbpolls.almir.info/
