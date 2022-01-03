@@ -41,7 +41,7 @@ errorpolls = []
 for i in data["polls"]:
     pollLink = i["url"]
     if i["status"] == "Live":
-        if "2022" in i["date"]:
+        if "fnwww-FbUBw" in i["url"]:
             try:
                 resultURL = pollLink
                 mobileURL = pollLink.replace("www", "m")
@@ -122,7 +122,9 @@ for i in data["polls"]:
                 i["authorid"] = authorid
                 i["author"] = author
                 i["votes"] = int(voteCount)
-                i["date"] = polldate
+                print(polldate)
+                if polldate != None:
+                    i["date"] = polldate
                 i["status"] = status
 
                 currentPoll = currentPoll + 1

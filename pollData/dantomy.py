@@ -14,20 +14,17 @@ file = open("allimdbpolls.json", "r")
 mydata = json.load(file)
 file.close()
 
-totaldanpolls = len(dandata["polls"])
+totaldanpolls = len(dandata)
 totalmypolls = len(mydata["polls"])
 print("-----> Total Polls on Dan's data: " + str(totaldanpolls))
 print("-----> Total Polls on my data: " + str(totalmypolls))
 
 count = 0
 for i in mydata["polls"]:
-    if i["featured"] == "No":
-        for j in dandata["polls"]:
-            if i["url"] == j["url"]:
-                if j["featured"] == "Yes":
-                    count = count + 1
-
-
+    if "2020" in i["date"]:
+        if i["url"] not in dandata:
+            count = count + 1
+            print(i["url"])
 print(count)
 
 # print("-----> Saving")
