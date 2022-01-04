@@ -74,9 +74,9 @@ file.onreadystatechange = function () {
     var lastpolldate = new Date(0);
 
     $('#cardtotalpolls').html(totalPolls)
-    $('#cardtotalvotes').html(totalVotes)
+    $('#cardtotalvotes').html(totalVotes.toLocaleString())
     $('#cardtotalhp').html(totalHomepagePolls)
-    $('#avgvotes').html(Math.round(totalVotes / totalPolls))
+    $('#avgvotes').html(Math.round(totalVotes / totalPolls).toLocaleString())
 
     var table = document.getElementById('imdbpolls')
     var tableBody = table.getElementsByTagName('tbody')[0]
@@ -107,7 +107,7 @@ file.onreadystatechange = function () {
       if (pollingdays == 0) {
         pollingdays = 1
       }
-      $('#avgvotesdaily').html(Math.round(totalVotes / pollingdays))
+      $('#avgvotesdaily').html(Math.round(totalVotes / pollingdays).toLocaleString())
 
       if (userData[i].votes >= 1000) {
         onek = onek + 1
@@ -132,8 +132,8 @@ file.onreadystatechange = function () {
       $('#1kvotes').html(onek)
       $('#5kvotes').html(fivek)
       $('#10kvotes').html(tenk)
-      $('#maxvotes').html(highestVote)
-      $('#minvotes').html(lowestVote)
+      $('#maxvotes').html(highestVote.toLocaleString())
+      $('#minvotes').html(lowestVote.toLocaleString())
       $('#highestvotedpoll .card-title').html(highestVotedPoll)
       $('#highestvotedpoll .card-header a').attr("href", highestVotedPollURL)
       $('#lowestvotedpoll .card-title').html(lowestVotedPoll)
@@ -451,7 +451,7 @@ file.onreadystatechange = function () {
             tooltip: {
               callbacks: {
                 footer: function () {
-                  return 'Next Milestone: ' + m2
+                  return 'Next Milestone: ' + m2.toLocaleString()
                 },
               }
             }
@@ -487,7 +487,7 @@ file.onreadystatechange = function () {
             tooltip: {
               callbacks: {
                 footer: function () {
-                  return 'Next Milestone: ' + m4 + '\nHighest Voted Poll: ' + highestVotedPoll
+                  return 'Next Milestone: ' + m4.toLocaleString() + '\nHighest Voted Poll: ' + highestVotedPoll
                 },
               }
             }
