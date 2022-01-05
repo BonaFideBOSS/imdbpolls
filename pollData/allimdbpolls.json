@@ -1,10 +1,10 @@
 {
-  "totalpolls": 10253,
-  "totalvotes": 17890576,
-  "totalauthors": 419,
+  "totalpolls": 10257,
+  "totalvotes": 17890719,
+  "totalauthors": 420,
   "totalfeatures": 537,
-  "lastupdated": "Tuesday, January 04, 2022 - 08:30 EST",
-  "rawdate": "2022-01-04 08:30:00.559651-05:00",
+  "lastupdated": "Wednesday, January 05, 2022 - 06:59 EST",
+  "rawdate": "2022-01-05 06:59:22.331009-05:00",
   "authors": [
     {
       "authorid": "ur50452813",
@@ -1681,6 +1681,10 @@
     {
       "authorid": "ur137235941",
       "avatar": "https://m.media-amazon.com/images/M/MV5BNmI1OGJmNDQtNjI4My00OTFhLTgwNGMtZWQwY2U3N2U4MTVlXkEyXkFqcGdeQXVyMTM3MjM1OTQx._V1_SY100_SX100_.jpg"
+    },
+    {
+      "authorid": "ur130267048",
+      "avatar": "https://images-na.ssl-images-amazon.com/images/M/MV5BMjQ4MTY5NzU2M15BMl5BanBnXkFtZTgwNDc5NTgwMTI@._V1_SY100_SX100_.jpg"
     }
   ],
   "polls": [
@@ -3799,7 +3803,7 @@
     {
       "url": "https://www.imdb.com/poll/ccyAJEGX2_s/",
       "title": "Favorite Christmas Episode",
-      "type": "Characters",
+      "type": "Titles",
       "authorid": "ur0127678",
       "author": "dan_dassow",
       "date": "2013/12/04",
@@ -6186,7 +6190,7 @@
     {
       "url": "https://www.imdb.com/poll/-QDMAfN1V7M/",
       "title": "Judge not, lest you also be judged.",
-      "type": "Characters",
+      "type": "Titles",
       "authorid": "ur0312403",
       "author": "horn-5",
       "date": "2014/01/29",
@@ -6681,7 +6685,7 @@
     {
       "url": "https://www.imdb.com/poll/s0eZmaciGHE/",
       "title": "Best Animated Character's Transformation Song",
-      "type": "Characters",
+      "type": "Titles",
       "authorid": "ur36911410",
       "author": "crimsonandsilver",
       "date": "2014/02/08",
@@ -7044,7 +7048,7 @@
     {
       "url": "https://www.imdb.com/poll/eL8B2gfk2QA/",
       "title": "C'mon Vogue",
-      "type": "People",
+      "type": "Images",
       "authorid": "ur40653486",
       "author": "Princess_Ashmi",
       "date": "2014/02/19",
@@ -8067,7 +8071,7 @@
     {
       "url": "https://www.imdb.com/poll/ET2x8JpiP08/",
       "title": "Chuck Norris vs. Bruce Lee",
-      "type": "People",
+      "type": "Images",
       "authorid": "ur0522469",
       "author": "Rafael_M",
       "date": "2014/03/14",
@@ -9134,7 +9138,7 @@
     {
       "url": "https://www.imdb.com/poll/kHOL3vxPxZM/",
       "title": "Book-only characters from 'The Lord of the Rings'",
-      "type": "Characters",
+      "type": "Images",
       "authorid": "ur23259176",
       "author": "ur23259176",
       "date": "2014/04/10",
@@ -9354,7 +9358,7 @@
     {
       "url": "https://www.imdb.com/poll/a82BWyc8Y0w/",
       "title": "Case Study for a Psychologist",
-      "type": "Characters",
+      "type": "Titles",
       "authorid": "ur44797245",
       "author": "ur44797245",
       "date": "2014/04/17",
@@ -9596,7 +9600,7 @@
     {
       "url": "https://www.imdb.com/poll/nS1ZFmCoRa0/",
       "title": "Actors with Beautiful Eyes!",
-      "type": "People",
+      "type": "Images",
       "authorid": "ur22084305",
       "author": "Silitonga",
       "date": "2014/04/21",
@@ -9607,7 +9611,7 @@
     {
       "url": "https://www.imdb.com/poll/inhjSu-KyXI/",
       "title": "Actresses with Beautiful Eyes!",
-      "type": "People",
+      "type": "Images",
       "authorid": "ur22084305",
       "author": "Silitonga",
       "date": "2014/04/21",
@@ -10377,7 +10381,7 @@
     {
       "url": "https://www.imdb.com/poll/zDTF4-yEW5Q/",
       "title": "Face-Off: The Best Nicknames?",
-      "type": "Titles",
+      "type": "Images",
       "authorid": "ur6698614",
       "author": "jalapenoman",
       "date": "2014/05/09",
@@ -11180,7 +11184,7 @@
     {
       "url": "https://www.imdb.com/poll/kStifc8CnLs/",
       "title": "Babe or Miss Piggy?",
-      "type": "Characters",
+      "type": "Images",
       "authorid": "ur44797245",
       "author": "ur44797245",
       "date": "2014/05/23",
@@ -14326,7 +14330,7 @@
     {
       "url": "https://www.imdb.com/poll/A4LHP8_V2ME/",
       "title": "Most Underrated Animated Shows for Adults",
-      "type": "Images",
+      "type": "Titles",
       "authorid": "ur18515428",
       "author": "The-Plague",
       "date": "2014/07/29",
@@ -14898,7 +14902,7 @@
     {
       "url": "https://www.imdb.com/poll/-b6FJ5eQW8A/",
       "title": "Imdb Top 250 Directors",
-      "type": "Titles",
+      "type": "People",
       "authorid": "ur44897347",
       "author": "ahmad-zia",
       "date": "2014/08/09",
@@ -24083,7 +24087,7 @@
     {
       "url": "https://www.imdb.com/poll/dh38M0o7qqQ/",
       "title": "Alliterative Attractive Actresses A through D (a.k.a. Lusciously Lovely Leading Ladies)",
-      "type": "People",
+      "type": "Images",
       "authorid": "ur6698614",
       "author": "jalapenoman",
       "date": "2015/03/15",
@@ -24149,7 +24153,7 @@
     {
       "url": "https://www.imdb.com/poll/FsBVYegrjdk/",
       "title": "What We're Excited to See at SXSW 2015",
-      "type": "Titles",
+      "type": "Images",
       "authorid": "ur23892615",
       "author": "IMDb-Editors",
       "date": "2015/03/17",
@@ -28527,7 +28531,7 @@
     {
       "url": "https://www.imdb.com/poll/2wDV-Y81bqk/",
       "title": "Film Directors Pose",
-      "type": "People",
+      "type": "Images",
       "authorid": "ur0522469",
       "author": "Rafael_M",
       "date": "2015/07/25",
@@ -32003,7 +32007,7 @@
     {
       "url": "https://www.imdb.com/poll/7WcrS7VThCc/",
       "title": "Potential Dictators in The Cartoon World",
-      "type": "Characters",
+      "type": "Images",
       "authorid": "ur8609310",
       "author": "borimor",
       "date": "2015/10/25",
@@ -47711,7 +47715,7 @@
     {
       "url": "https://www.imdb.com/poll/wG1VT4Oqsmc/",
       "title": "Best Director Never Nominated for ''Best Director'' Oscar",
-      "type": "Images",
+      "type": "People",
       "authorid": "ur67309390",
       "author": "Kirk-Picard",
       "date": "2017/01/08",
@@ -50065,7 +50069,7 @@
     {
       "url": "https://www.imdb.com/poll/mCMna3bdISM/",
       "title": "Toughest Prison to Survive",
-      "type": "Characters",
+      "type": "Titles",
       "authorid": "ur28319455",
       "author": "Hoekkie",
       "date": "2017/03/09",
@@ -51792,7 +51796,7 @@
     {
       "url": "https://www.imdb.com/poll/7LyQL4RVTqQ/",
       "title": "Dress for Success 'Star Wars' Stormtroopers",
-      "type": "Characters",
+      "type": "Images",
       "authorid": "ur29755297",
       "author": "urbanemovies",
       "date": "2017/05/03",
@@ -51803,7 +51807,7 @@
     {
       "url": "https://www.imdb.com/poll/mVJ3z_2ICHc/",
       "title": "Most Exciting 'Star Wars' Joy Ride",
-      "type": "Characters",
+      "type": "Images",
       "authorid": "ur29755297",
       "author": "urbanemovies",
       "date": "2017/05/03",
@@ -54333,7 +54337,7 @@
     {
       "url": "https://www.imdb.com/poll/QHzGgKFSUbM/",
       "title": "25 Best Film Directors of the 21st Century According to Metacritic",
-      "type": "Titles",
+      "type": "People",
       "authorid": "ur45930672",
       "author": "SkyDeshpande",
       "date": "2017/08/01",
@@ -57193,7 +57197,7 @@
     {
       "url": "https://www.imdb.com/poll/NyOZExaKSlg/",
       "title": "Our 16 Favorite Shah Rukh Khan Movie Quotes",
-      "type": "Titles",
+      "type": "Images",
       "authorid": "ur68979155",
       "author": "imdb_india_editors",
       "date": "2017/11/01",
@@ -66037,7 +66041,7 @@
     {
       "url": "https://www.imdb.com/poll/GV_PSDlFYDc/",
       "title": "Who Are You?",
-      "type": "Image",
+      "type": "Images",
       "authorid": "ur64640683",
       "author": "pere-25366",
       "date": "2018/07/04",
@@ -66059,7 +66063,7 @@
     {
       "url": "https://www.imdb.com/poll/lYA6qbTTm_8/",
       "title": "Celebrity Chef's Food You'd Most Like to Eat?",
-      "type": "Titles",
+      "type": "People",
       "authorid": "ur6008083",
       "author": "yrnej",
       "date": "2018/07/05",
@@ -74177,7 +74181,7 @@
     {
       "url": "https://www.imdb.com/poll/qaAR9pt4hcM/",
       "title": "Oscar Winning Roles in the Same Movie (Part 2)",
-      "type": "Titles",
+      "type": "Images",
       "authorid": "ur52829101",
       "author": "Djesika",
       "date": "2019/02/05",
@@ -79116,7 +79120,7 @@
     {
       "url": "https://www.imdb.com/poll/qoM84tE7ObQ/",
       "title": "Face-Off: Chucky vs. Annabelle",
-      "type": "People",
+      "type": "Images",
       "authorid": "ur3137834",
       "author": "leavey-2",
       "date": "2019/06/14",
@@ -84968,7 +84972,7 @@
     {
       "url": "https://www.imdb.com/poll/dULVf8Audgg/",
       "title": "Best \"Game of Thrones\" Working Relationship",
-      "type": "Titles",
+      "type": "Images",
       "authorid": "ur29755297",
       "author": "urbanemovies",
       "date": "2019/11/20",
@@ -84979,7 +84983,7 @@
     {
       "url": "https://www.imdb.com/poll/OAOaNQrw0Z4/",
       "title": "Weirdest Greek Title Translation (Part 2)",
-      "type": "Images",
+      "type": "Titles",
       "authorid": "ur34779915",
       "author": "Paok-Kilkis",
       "date": "2019/11/20",
@@ -88356,7 +88360,7 @@
     {
       "url": "https://www.imdb.com/poll/2L1FXHtWG_I/",
       "title": "The Best ''After Life'' Movie of All Time?",
-      "type": "Images",
+      "type": "Titles",
       "authorid": "ur13133625",
       "author": "Reggie80",
       "date": "2020/02/13",
@@ -88477,7 +88481,7 @@
     {
       "url": "https://www.imdb.com/poll/4w_mJDMJQKQ/",
       "title": "Oscars: Making History",
-      "type": "Images",
+      "type": "Titles",
       "authorid": "ur75779804",
       "author": "BonaFideBOSS",
       "date": "2020/02/16",
@@ -88521,7 +88525,7 @@
     {
       "url": "https://www.imdb.com/poll/d88LEbSSBq0/",
       "title": "Family TV",
-      "type": "Images",
+      "type": "Titles",
       "authorid": "ur4620177",
       "author": "otter68",
       "date": "2020/02/17",
@@ -88664,7 +88668,7 @@
     {
       "url": "https://www.imdb.com/poll/T2v2Hsh2ITM/",
       "title": "Face-Off: 2019 Top Grossing Films vs. 2019 Oscar Nominated Films",
-      "type": "Images",
+      "type": "Titles",
       "authorid": "ur19488058",
       "author": "rubyfruit76",
       "date": "2020/02/21",
@@ -88686,7 +88690,7 @@
     {
       "url": "https://www.imdb.com/poll/sM3Q-h22q20/",
       "title": "Joker Face-Off: Joaquin Phoenix vs. Heath Ledger",
-      "type": "Titles",
+      "type": "Images",
       "authorid": "ur65476406",
       "author": "altntasnazmi",
       "date": "2020/02/21",
@@ -88708,7 +88712,7 @@
     {
       "url": "https://www.imdb.com/poll/_kOvQptLbSY/",
       "title": "I Am a Documentary",
-      "type": "People",
+      "type": "Titles",
       "authorid": "ur0743304",
       "author": "pbn",
       "date": "2020/02/22",
@@ -88719,7 +88723,7 @@
     {
       "url": "https://www.imdb.com/poll/J-23ov3tqGI/",
       "title": "Yes, That's My Name!",
-      "type": "Titles",
+      "type": "People",
       "authorid": "ur4234119",
       "author": "ElMaruecan82",
       "date": "2020/02/22",
@@ -88763,7 +88767,7 @@
     {
       "url": "https://www.imdb.com/poll/F6xGZv_g-LA/",
       "title": "Movies About Real Terrorist Attacks",
-      "type": "Images",
+      "type": "Titles",
       "authorid": "ur3137834",
       "author": "leavey-2",
       "date": "2020/02/24",
@@ -88774,7 +88778,7 @@
     {
       "url": "https://www.imdb.com/poll/O0d14OL7-EA/",
       "title": "MCU Superheroes",
-      "type": "Titles",
+      "type": "Images",
       "authorid": "ur75779804",
       "author": "BonaFideBOSS",
       "date": "2020/02/24",
@@ -88818,7 +88822,7 @@
     {
       "url": "https://www.imdb.com/poll/XaAw6hYyigU/",
       "title": "Favorite Willem Dafoe Film",
-      "type": "Images",
+      "type": "Titles",
       "authorid": "ur75779804",
       "author": "BonaFideBOSS",
       "date": "2020/02/25",
@@ -88829,7 +88833,7 @@
     {
       "url": "https://www.imdb.com/poll/wdCK-AU5wlQ/",
       "title": "DCCU Superheroes",
-      "type": "Titles",
+      "type": "Images",
       "authorid": "ur75779804",
       "author": "BonaFideBOSS",
       "date": "2020/02/26",
@@ -88862,7 +88866,7 @@
     {
       "url": "https://www.imdb.com/poll/_fvJ3IeTlEU/",
       "title": "Chapter 4: Doofy Twosomes",
-      "type": "Images",
+      "type": "Titles",
       "authorid": "ur28319455",
       "author": "Hoekkie",
       "date": "2020/02/26",
@@ -88906,7 +88910,7 @@
     {
       "url": "https://www.imdb.com/poll/xToifR61iWA/",
       "title": "Chapter 5: Now That's a Dumb Idea!",
-      "type": "Images",
+      "type": "Titles",
       "authorid": "ur28319455",
       "author": "Hoekkie",
       "date": "2020/02/27",
@@ -88917,7 +88921,7 @@
     {
       "url": "https://www.imdb.com/poll/jeZZlLI8lP8/",
       "title": "Face-Off: \"Big Five\" Oscars Quadruple Nominees",
-      "type": "People",
+      "type": "Images",
       "authorid": "ur29755297",
       "author": "urbanemovies",
       "date": "2020/02/28",
@@ -88928,7 +88932,7 @@
     {
       "url": "https://www.imdb.com/poll/whwx1QwftCU/",
       "title": "Face-Off: Fanning Sisters",
-      "type": "Titles",
+      "type": "People",
       "authorid": "ur96603723",
       "author": "goddangwatir",
       "date": "2020/02/28",
@@ -88939,7 +88943,7 @@
     {
       "url": "https://www.imdb.com/poll/_TgYLLcvHes/",
       "title": "Face-Off: Best 'Bad Boys'",
-      "type": "Images",
+      "type": "Titles",
       "authorid": "ur3137834",
       "author": "leavey-2",
       "date": "2020/02/28",
@@ -88961,7 +88965,7 @@
     {
       "url": "https://www.imdb.com/poll/__GvueT6o0I/",
       "title": "The International Godfathers of Action",
-      "type": "Titles",
+      "type": "Images",
       "authorid": "ur36448190",
       "author": "Breumaster",
       "date": "2020/02/29",
@@ -88972,7 +88976,7 @@
     {
       "url": "https://www.imdb.com/poll/g4JNkpEwR5c/",
       "title": "Favorite Jim Carrey Film",
-      "type": "People",
+      "type": "Titles",
       "authorid": "ur75779804",
       "author": "BonaFideBOSS",
       "date": "2020/02/29",
@@ -88983,7 +88987,7 @@
     {
       "url": "https://www.imdb.com/poll/tIdFJ8U7e20/",
       "title": "The Leap Elite Club",
-      "type": "Titles",
+      "type": "People",
       "authorid": "ur4234119",
       "author": "ElMaruecan82",
       "date": "2020/02/29",
@@ -89038,7 +89042,7 @@
     {
       "url": "https://www.imdb.com/poll/m_RFp8MpPhI/",
       "title": "Best Soundtrack of the 60s",
-      "type": "Images",
+      "type": "Titles",
       "authorid": "ur4620177",
       "author": "otter68",
       "date": "2020/03/02",
@@ -91711,7 +91715,7 @@
     {
       "url": "https://www.imdb.com/poll/4c2Ho42nIIA/",
       "title": "Based on a Jim Thompson story",
-      "type": "Images",
+      "type": "Titles",
       "authorid": "ur6008083",
       "author": "yrnej",
       "date": "2020/05/12",
@@ -91722,7 +91726,7 @@
     {
       "url": "https://www.imdb.com/poll/wp3hdbtqirE/",
       "title": "IMDb Top 250 Numerical Titles",
-      "type": "Images",
+      "type": "Titles",
       "authorid": "ur75779804",
       "author": "BonaFideBOSS",
       "date": "2020/05/12",
@@ -91766,7 +91770,7 @@
     {
       "url": "https://www.imdb.com/poll/fqjUGldpvh0/",
       "title": "Roger Smith Personas",
-      "type": "Titles",
+      "type": "Images",
       "authorid": "ur34445091",
       "author": "Eagles90",
       "date": "2020/05/12",
@@ -91821,7 +91825,7 @@
     {
       "url": "https://www.imdb.com/poll/jG0DflhocIY/",
       "title": "9 Fun Facts From Outer Space",
-      "type": "Titles",
+      "type": "Images",
       "authorid": "ur89518905",
       "author": "NarniaIsAwesome",
       "date": "2020/05/14",
@@ -91843,7 +91847,7 @@
     {
       "url": "https://www.imdb.com/poll/YnGNtk1PIe0/",
       "title": "Face-Off: Modern Jungle Book Adaptations",
-      "type": "People",
+      "type": "Titles",
       "authorid": "ur29755297",
       "author": "urbanemovies",
       "date": "2020/05/15",
@@ -91865,7 +91869,7 @@
     {
       "url": "https://www.imdb.com/poll/GAoLfh6BGBc/",
       "title": "Betty White vs. Cloris Leachman",
-      "type": "Titles",
+      "type": "People",
       "authorid": "ur4234119",
       "author": "ElMaruecan82",
       "date": "2020/05/15",
@@ -91887,7 +91891,7 @@
     {
       "url": "https://www.imdb.com/poll/hq2uU1jNfHw/",
       "title": "Infinity Stones, in the Rough",
-      "type": "Images",
+      "type": "Titles",
       "authorid": "ur63716761",
       "author": "NVanKerr",
       "date": "2020/05/16",
@@ -91909,7 +91913,7 @@
     {
       "url": "https://www.imdb.com/poll/NXGQne-bO3Y/",
       "title": "Women in White Dresses",
-      "type": "Titles",
+      "type": "Images",
       "authorid": "ur34779915",
       "author": "Paok-Kilkis",
       "date": "2020/05/17",
@@ -91931,7 +91935,7 @@
     {
       "url": "https://www.imdb.com/poll/lZRsvUgJCuQ/",
       "title": "The Dark Side of Hollywood",
-      "type": "People",
+      "type": "Titles",
       "authorid": "ur34445091",
       "author": "Eagles90",
       "date": "2020/05/17",
@@ -91942,7 +91946,7 @@
     {
       "url": "https://www.imdb.com/poll/uw4gvfMHAgQ/",
       "title": "Female First Name Titled Movie - Part II",
-      "type": "People",
+      "type": "Titles",
       "authorid": "ur91650024",
       "author": "thenolanfan",
       "date": "2020/05/18",
@@ -91953,7 +91957,7 @@
     {
       "url": "https://www.imdb.com/poll/k8wZtEOurJY/",
       "title": "If You Could Impersonate One Actor Perfectly Who Would It Be",
-      "type": "Images",
+      "type": "People",
       "authorid": "ur116478672",
       "author": "Commodore_Boz",
       "date": "2020/05/18",
@@ -91964,7 +91968,7 @@
     {
       "url": "https://www.imdb.com/poll/b9aEuFj__ZU/",
       "title": "Cool Kiwis",
-      "type": "Titles",
+      "type": "People",
       "authorid": "ur52829101",
       "author": "Djesika",
       "date": "2020/05/18",
@@ -91975,7 +91979,7 @@
     {
       "url": "https://www.imdb.com/poll/DIPA7uKHvhQ/",
       "title": "Posters: Foursome Portraits",
-      "type": "Titles",
+      "type": "Images",
       "authorid": "ur75779804",
       "author": "BonaFideBOSS",
       "date": "2020/05/18",
@@ -91986,7 +91990,7 @@
     {
       "url": "https://www.imdb.com/poll/C-huL3e1Z04/",
       "title": "Best Gunslinger Film",
-      "type": "Images",
+      "type": "Titles",
       "authorid": "ur75779804",
       "author": "BonaFideBOSS",
       "date": "2020/05/19",
@@ -91997,7 +92001,7 @@
     {
       "url": "https://www.imdb.com/poll/_h6NKXRetkw/",
       "title": "Top Hit Oscar Nominated Song",
-      "type": "Images",
+      "type": "Titles",
       "authorid": "ur22084305",
       "author": "Silitonga",
       "date": "2020/05/19",
@@ -92019,7 +92023,7 @@
     {
       "url": "https://www.imdb.com/poll/N0bO5dg4w2Y/",
       "title": "Favorite Poll Category",
-      "type": "Titles",
+      "type": "Images",
       "authorid": "ur0127678",
       "author": "dan_dassow",
       "date": "2020/05/19",
@@ -92041,7 +92045,7 @@
     {
       "url": "https://www.imdb.com/poll/Q39G6SmfZ4Y/",
       "title": "Non-MCU Marvel",
-      "type": "Images",
+      "type": "Titles",
       "authorid": "ur89518905",
       "author": "NarniaIsAwesome",
       "date": "2020/05/20",
@@ -92085,7 +92089,7 @@
     {
       "url": "https://www.imdb.com/poll/rfubgmzbmgg/",
       "title": "Most Beautiful Shot of Cinematic Sunset (Part 2)",
-      "type": "Titles",
+      "type": "Images",
       "authorid": "ur34779915",
       "author": "Paok-Kilkis",
       "date": "2020/05/21",
@@ -92107,7 +92111,7 @@
     {
       "url": "https://www.imdb.com/poll/eT16qSo-9TQ/",
       "title": "Fred Willard - The Comedy Legend",
-      "type": "Images",
+      "type": "Titles",
       "authorid": "ur75779804",
       "author": "BonaFideBOSS",
       "date": "2020/05/21",
@@ -92140,7 +92144,7 @@
     {
       "url": "https://www.imdb.com/poll/1rtG0_fEK9Q/",
       "title": "Face-Off: Justice League vs. The Avengers",
-      "type": "Titles",
+      "type": "Images",
       "authorid": "ur75779804",
       "author": "BonaFideBOSS",
       "date": "2020/05/22",
@@ -92162,7 +92166,7 @@
     {
       "url": "https://www.imdb.com/poll/jSj0FAVad8k/",
       "title": "Best Music Score in 2019",
-      "type": "Images",
+      "type": "Titles",
       "authorid": "ur45930672",
       "author": "SkyDeshpande",
       "date": "2020/05/23",
@@ -92173,7 +92177,7 @@
     {
       "url": "https://www.imdb.com/poll/tpbvcxjilmg/",
       "title": "Most Exciting Movie Fictional Scout Troop",
-      "type": "Titles",
+      "type": "Images",
       "authorid": "ur29755297",
       "author": "urbanemovies",
       "date": "2020/05/23",
@@ -92250,7 +92254,7 @@
     {
       "url": "https://www.imdb.com/poll/qZgn6SFiTPo/",
       "title": "Horror Films by New Line Cinema",
-      "type": "Images",
+      "type": "Titles",
       "authorid": "ur75779804",
       "author": "BonaFideBOSS",
       "date": "2020/05/25",
@@ -92294,7 +92298,7 @@
     {
       "url": "https://www.imdb.com/poll/ZB9eFzqjrSU/",
       "title": "Top 250 Title Design",
-      "type": "Titles",
+      "type": "Images",
       "authorid": "ur0743304",
       "author": "pbn",
       "date": "2020/05/26",
@@ -92327,7 +92331,7 @@
     {
       "url": "https://www.imdb.com/poll/08fdEwqr5Rs/",
       "title": "Far-Out Future Dino De Laurentiis",
-      "type": "Images",
+      "type": "Titles",
       "authorid": "ur0594717",
       "author": "TsarStepan",
       "date": "2020/05/27",
@@ -92393,7 +92397,7 @@
     {
       "url": "https://www.imdb.com/poll/Qv9YOvFfWIs/",
       "title": "\"Dead to Me\" Face-Off: Judy vs. Jen",
-      "type": "Titles",
+      "type": "Images",
       "authorid": "ur19488058",
       "author": "rubyfruit76",
       "date": "2020/05/29",
@@ -92426,7 +92430,7 @@
     {
       "url": "https://www.imdb.com/poll/I2GmKerI7bo/",
       "title": "Best of IMDb",
-      "type": "Images",
+      "type": "Titles",
       "authorid": "ur75779804",
       "author": "BonaFideBOSS",
       "date": "2020/05/29",
@@ -92448,7 +92452,7 @@
     {
       "url": "https://www.imdb.com/poll/56I8mB6TuOs/",
       "title": "Elon Musk Cameos",
-      "type": "Titles",
+      "type": "Images",
       "authorid": "ur75779804",
       "author": "BonaFideBOSS",
       "date": "2020/05/30",
@@ -92459,7 +92463,7 @@
     {
       "url": "https://www.imdb.com/poll/4XcZ7cdLjsk/",
       "title": "Top 250 Title Design, Part 2",
-      "type": "Titles",
+      "type": "Images",
       "authorid": "ur0743304",
       "author": "pbn",
       "date": "2020/05/30",
@@ -92470,7 +92474,7 @@
     {
       "url": "https://www.imdb.com/poll/e1_Hg_quy30/",
       "title": "What a Peculiar, Long-Winded, Prolix, Verbose, Epic Title Is That?",
-      "type": "Images",
+      "type": "Titles",
       "authorid": "ur116934045",
       "author": "NoRa_FoKa",
       "date": "2020/05/31",
@@ -92536,7 +92540,7 @@
     {
       "url": "https://www.imdb.com/poll/rsqdqXt9cyU/",
       "title": "Movies Coming to Disney+ in Summer 2020",
-      "type": "Images",
+      "type": "Titles",
       "authorid": "ur75779804",
       "author": "BonaFideBOSS",
       "date": "2020/06/01",
@@ -92547,7 +92551,7 @@
     {
       "url": "https://www.imdb.com/poll/Q0FP4LeNa6Q/",
       "title": "Best Movie Starring Clint Eastwood ",
-      "type": "Images",
+      "type": "Titles",
       "authorid": "ur82852344",
       "author": "JamesMovieGuy_117",
       "date": "2020/06/01",
@@ -92591,7 +92595,7 @@
     {
       "url": "https://www.imdb.com/poll/9aEZaKUxdmc/",
       "title": "We Are One Global Film Festival",
-      "type": "People",
+      "type": "Titles",
       "authorid": "ur46158148",
       "author": "penchofifteenpolls",
       "date": "2020/06/02",
@@ -92613,7 +92617,7 @@
     {
       "url": "https://www.imdb.com/poll/uTNvEHIhPOQ/",
       "title": "Khans of Bollywood",
-      "type": "Titles",
+      "type": "People",
       "authorid": "ur75779804",
       "author": "BonaFideBOSS",
       "date": "2020/06/03",
@@ -92624,7 +92628,7 @@
     {
       "url": "https://www.imdb.com/poll/B2cPxmvOrwE/",
       "title": "There's More Than One of Them...",
-      "type": "Images",
+      "type": "Titles",
       "authorid": "ur89518905",
       "author": "NarniaIsAwesome",
       "date": "2020/06/03",
@@ -92668,7 +92672,7 @@
     {
       "url": "https://www.imdb.com/poll/P-ms7u0PF-k/",
       "title": "Marvelous Miss Marple",
-      "type": "People",
+      "type": "Images",
       "authorid": "ur0743304",
       "author": "pbn",
       "date": "2020/06/04",
@@ -92701,7 +92705,7 @@
     {
       "url": "https://www.imdb.com/poll/w5s92UTqbik/",
       "title": "Face-Off: The Red Curtain Trilogy",
-      "type": "Images",
+      "type": "Titles",
       "authorid": "ur52829101",
       "author": "Djesika",
       "date": "2020/06/05",
@@ -92712,7 +92716,7 @@
     {
       "url": "https://www.imdb.com/poll/sh8dbW4xT-k/",
       "title": "Face-Off: 'Dunkirk' vs. '1917'",
-      "type": "Images",
+      "type": "Titles",
       "authorid": "ur68129834",
       "author": "Aman_Goyal",
       "date": "2020/06/05",
@@ -92745,7 +92749,7 @@
     {
       "url": "https://www.imdb.com/poll/ibOccJSZMWI/",
       "title": "Terrific Time-Tested Tangled Tunes",
-      "type": "Titles",
+      "type": "Images",
       "authorid": "ur0594717",
       "author": "TsarStepan",
       "date": "2020/06/06",
@@ -92800,7 +92804,7 @@
     {
       "url": "https://www.imdb.com/poll/-q1oKUO24oI/",
       "title": "Greatest Animated/Cartoon Series of All Time",
-      "type": "Images",
+      "type": "Titles",
       "authorid": "ur22084305",
       "author": "Silitonga",
       "date": "2020/06/07",
@@ -92866,7 +92870,7 @@
     {
       "url": "https://www.imdb.com/poll/_nyBp8AJiSo/",
       "title": "Memorable Art Movie Directors",
-      "type": "Images",
+      "type": "People",
       "authorid": "ur65476406",
       "author": "altntasnazmi",
       "date": "2020/06/09",
@@ -92888,7 +92892,7 @@
     {
       "url": "https://www.imdb.com/poll/I-wNXq6wgXE/",
       "title": "Favorite MST3k Character",
-      "type": "Titles",
+      "type": "Images",
       "authorid": "ur0594717",
       "author": "TsarStepan",
       "date": "2020/06/10",
@@ -92921,7 +92925,7 @@
     {
       "url": "https://www.imdb.com/poll/B3QnimUGUxQ/",
       "title": "Best Love Birds (Romance Category) (Part 2)",
-      "type": "Images",
+      "type": "Titles",
       "authorid": "ur116934045",
       "author": "NoRa_FoKa",
       "date": "2020/06/11",
@@ -92976,7 +92980,7 @@
     {
       "url": "https://www.imdb.com/poll/vYLF3n2SY2M/",
       "title": "Face-Off: Samuel L. Jackson vs. Morgan Freeman",
-      "type": "Titles",
+      "type": "People",
       "authorid": "ur80026262",
       "author": "zerodeaths434",
       "date": "2020/06/12",
@@ -93031,7 +93035,7 @@
     {
       "url": "https://www.imdb.com/poll/laZQzrGhMoA/",
       "title": "Black Music Month",
-      "type": "Images",
+      "type": "People",
       "authorid": "ur0743304",
       "author": "pbn",
       "date": "2020/06/13",
@@ -93042,7 +93046,7 @@
     {
       "url": "https://www.imdb.com/poll/FnrFzOlNTzc/",
       "title": "Most Nerve-Racking Movie Part 2",
-      "type": "People",
+      "type": "Titles",
       "authorid": "ur96603723",
       "author": "goddangwatir",
       "date": "2020/06/14",
@@ -93075,7 +93079,7 @@
     {
       "url": "https://www.imdb.com/poll/2LwoeAmVJIc/",
       "title": "Quentin Tarantino's Favorite Films From 1992 to 2009",
-      "type": "Images",
+      "type": "Titles",
       "authorid": "ur68129834",
       "author": "Aman_Goyal",
       "date": "2020/06/15",
@@ -93086,7 +93090,7 @@
     {
       "url": "https://www.imdb.com/poll/EyBmbTg5PIw/",
       "title": "Female Cops",
-      "type": "Titles",
+      "type": "Images",
       "authorid": "ur36448190",
       "author": "Breumaster",
       "date": "2020/06/15",
@@ -93119,7 +93123,7 @@
     {
       "url": "https://www.imdb.com/poll/h7REn27Vvhw/",
       "title": "Movies Containing Dumb Leaders of Nations",
-      "type": "Images",
+      "type": "Titles",
       "authorid": "ur36448190",
       "author": "Breumaster",
       "date": "2020/06/16",
@@ -93163,7 +93167,7 @@
     {
       "url": "https://www.imdb.com/poll/WVZA7eScQ8w/",
       "title": "Lords of the Rings",
-      "type": "Titles",
+      "type": "Images",
       "authorid": "ur36448190",
       "author": "Breumaster",
       "date": "2020/06/17",
@@ -93251,7 +93255,7 @@
     {
       "url": "https://www.imdb.com/poll/gGbUnB9XA8U/",
       "title": "Face-Off: Daytime Emmy Dramas",
-      "type": "Images",
+      "type": "Titles",
       "authorid": "ur0743304",
       "author": "pbn",
       "date": "2020/06/19",
@@ -93284,7 +93288,7 @@
     {
       "url": "https://www.imdb.com/poll/B7Yp_Yc0fj0/",
       "title": "Action Movie Couples' Best One-Two Punch?",
-      "type": "Titles",
+      "type": "Images",
       "authorid": "ur29755297",
       "author": "urbanemovies",
       "date": "2020/06/20",
@@ -93295,7 +93299,7 @@
     {
       "url": "https://www.imdb.com/poll/vn7jDD2BSDY/",
       "title": "The Best 2000s Adventure Movie",
-      "type": "Images",
+      "type": "Titles",
       "authorid": "ur45394926",
       "author": "Dibyayan_Chakravorty",
       "date": "2020/06/20",
@@ -93306,7 +93310,7 @@
     {
       "url": "https://www.imdb.com/poll/d4qllR82L8k/",
       "title": "The Best Horror Movies of the 1980s",
-      "type": "Images",
+      "type": "Titles",
       "authorid": "ur75779804",
       "author": "BonaFideBOSS",
       "date": "2020/06/20",
@@ -93317,7 +93321,7 @@
     {
       "url": "https://www.imdb.com/poll/JBkqCnJu0pk/",
       "title": "Happy Father's Day",
-      "type": "Titles",
+      "type": "Images",
       "authorid": "ur65476406",
       "author": "altntasnazmi",
       "date": "2020/06/21",
@@ -93350,7 +93354,7 @@
     {
       "url": "https://www.imdb.com/poll/jioVFq_i5S8/",
       "title": "Actors Shorter Than Their Fathers (Much Shorter)",
-      "type": "Images",
+      "type": "People",
       "authorid": "ur4234119",
       "author": "ElMaruecan82",
       "date": "2020/06/22",
@@ -93405,7 +93409,7 @@
     {
       "url": "https://www.imdb.com/poll/gnUaUz0EVPs/",
       "title": "Funny English Titles Used by French to Rename US Movies",
-      "type": "Images",
+      "type": "Titles",
       "authorid": "ur100645780",
       "author": "ZamLeMagnifique",
       "date": "2020/06/23",
@@ -93416,7 +93420,7 @@
     {
       "url": "https://www.imdb.com/poll/ANh_Z8WUzcQ/",
       "title": "Pride at Cannes, Venice, Berlin, Toronto and Sundance",
-      "type": "Images",
+      "type": "Titles",
       "authorid": "ur22084305",
       "author": "Silitonga",
       "date": "2020/06/23",
@@ -93460,7 +93464,7 @@
     {
       "url": "https://www.imdb.com/poll/D7OErlYg8pU/",
       "title": "Carpet Diem: Top 10 Cinematic Rugs",
-      "type": "Titles",
+      "type": "Images",
       "authorid": "ur4234119",
       "author": "ElMaruecan82",
       "date": "2020/06/24",
@@ -93471,7 +93475,7 @@
     {
       "url": "https://www.imdb.com/poll/En-SeDECHXg/",
       "title": "A Tribute to Ian Holm",
-      "type": "People",
+      "type": "Titles",
       "authorid": "ur75779804",
       "author": "BonaFideBOSS",
       "date": "2020/06/24",
@@ -93493,7 +93497,7 @@
     {
       "url": "https://www.imdb.com/poll/_laRGaGJ5M4/",
       "title": "Best James Bond Song (That Isn't a James Bond Song)",
-      "type": "Titles",
+      "type": "People",
       "authorid": "ur89518905",
       "author": "NarniaIsAwesome",
       "date": "2020/06/25",
@@ -93515,7 +93519,7 @@
     {
       "url": "https://www.imdb.com/poll/uLJZ8YTWAzY/",
       "title": "Joel Schumacher: A Look Back",
-      "type": "Images",
+      "type": "Titles",
       "authorid": "ur4234119",
       "author": "ElMaruecan82",
       "date": "2020/06/25",
@@ -93559,7 +93563,7 @@
     {
       "url": "https://www.imdb.com/poll/wZJ7Jnm60iM/",
       "title": "Actresses Who Appeared Bald in Movies",
-      "type": "People",
+      "type": "Images",
       "authorid": "ur73331533",
       "author": "maziarzirak",
       "date": "2020/06/27",
@@ -93581,7 +93585,7 @@
     {
       "url": "https://www.imdb.com/poll/PM4tBQ7tOWI/",
       "title": "A-List Directors",
-      "type": "Titles",
+      "type": "People",
       "authorid": "ur6008083",
       "author": "yrnej",
       "date": "2020/06/27",
@@ -93647,7 +93651,7 @@
     {
       "url": "https://www.imdb.com/poll/9_Bfoos9n8Q/",
       "title": "Sherlock Is Up for Unsolved Murders",
-      "type": "Images",
+      "type": "Titles",
       "authorid": "ur22084305",
       "author": "Silitonga",
       "date": "2020/06/29",
@@ -93669,7 +93673,7 @@
     {
       "url": "https://www.imdb.com/poll/cpDK6QtQgok/",
       "title": "Favorite Bathtub Scene in a Movie",
-      "type": "Titles",
+      "type": "Images",
       "authorid": "ur80026262",
       "author": "zerodeaths434",
       "date": "2020/06/29",
@@ -93680,7 +93684,7 @@
     {
       "url": "https://www.imdb.com/poll/810t1rTPWtQ/",
       "title": "Non-R-Rated Films With One Million Votes",
-      "type": "Images",
+      "type": "Titles",
       "authorid": "ur75779804",
       "author": "BonaFideBOSS",
       "date": "2020/06/30",
@@ -93691,7 +93695,7 @@
     {
       "url": "https://www.imdb.com/poll/kfV3oWXmr6w/",
       "title": "It Happens to Men, Too!",
-      "type": "Images",
+      "type": "Titles",
       "authorid": "ur4234119",
       "author": "ElMaruecan82",
       "date": "2020/06/30",
@@ -93702,7 +93706,7 @@
     {
       "url": "https://www.imdb.com/poll/64ei7_JpYgQ/",
       "title": "Perennial Unlucky Oscar Nominee Meryl Streep ",
-      "type": "Titles",
+      "type": "Images",
       "authorid": "ur29755297",
       "author": "urbanemovies",
       "date": "2020/06/30",
@@ -93713,7 +93717,7 @@
     {
       "url": "https://www.imdb.com/poll/4Hci1hnGEWI/",
       "title": "Most Iconic Music From a Stanley Kubrick Movie",
-      "type": "Titles",
+      "type": "Images",
       "authorid": "ur4620177",
       "author": "otter68",
       "date": "2020/07/01",
@@ -93757,7 +93761,7 @@
     {
       "url": "https://www.imdb.com/poll/W6cLdvoWLQw/",
       "title": "Cancelled Netflix Series That You Want Back",
-      "type": "People",
+      "type": "Titles",
       "authorid": "ur114026501",
       "author": "spiderdib",
       "date": "2020/07/02",
@@ -93779,7 +93783,7 @@
     {
       "url": "https://www.imdb.com/poll/hISkwN4zuwM/",
       "title": "Multiple Oscar-Winning Cinematographers",
-      "type": "Titles",
+      "type": "People",
       "authorid": "ur75779804",
       "author": "BonaFideBOSS",
       "date": "2020/07/02",
@@ -93812,7 +93816,7 @@
     {
       "url": "https://www.imdb.com/poll/pK_j4YcYirQ/",
       "title": "Face-Off: The Spirit of the UglyDolls",
-      "type": "Images",
+      "type": "Titles",
       "authorid": "ur46158148",
       "author": "penchofifteenpolls",
       "date": "2020/07/03",
@@ -93823,7 +93827,7 @@
     {
       "url": "https://www.imdb.com/poll/nBBhdEbSTYw/",
       "title": "Face-Off: Thanos vs. Cap vs. Tony",
-      "type": "Titles",
+      "type": "Images",
       "authorid": "ur36448190",
       "author": "Breumaster",
       "date": "2020/07/03",
@@ -93834,7 +93838,7 @@
     {
       "url": "https://www.imdb.com/poll/0Ct7MaJ4MAM/",
       "title": "Face-Off: Favorite Jo",
-      "type": "Titles",
+      "type": "Images",
       "authorid": "ur0743304",
       "author": "pbn",
       "date": "2020/07/03",
@@ -93856,7 +93860,7 @@
     {
       "url": "https://www.imdb.com/poll/w5PnO4DtUIk/",
       "title": "Patriotic Best Picture Nominees",
-      "type": "Images",
+      "type": "Titles",
       "authorid": "ur4234119",
       "author": "ElMaruecan82",
       "date": "2020/07/04",
@@ -93878,7 +93882,7 @@
     {
       "url": "https://www.imdb.com/poll/RcY2AEiLsIE/",
       "title": "True American Movie Icons",
-      "type": "Titles",
+      "type": "Images",
       "authorid": "ur4234119",
       "author": "ElMaruecan82",
       "date": "2020/07/04",
@@ -93922,7 +93926,7 @@
     {
       "url": "https://www.imdb.com/poll/1cLImsFIOfQ/",
       "title": "Dragged and Locked",
-      "type": "People",
+      "type": "Titles",
       "authorid": "ur36448190",
       "author": "Breumaster",
       "date": "2020/07/06",
@@ -93933,7 +93937,7 @@
     {
       "url": "https://www.imdb.com/poll/aAxgWfrtbAs/",
       "title": "Who Do You Turn To?",
-      "type": "Titles",
+      "type": "Images",
       "authorid": "ur0743304",
       "author": "pbn",
       "date": "2020/07/06",
@@ -93988,7 +93992,7 @@
     {
       "url": "https://www.imdb.com/poll/DsiitWxPJHM/",
       "title": "Ennio Morricone - The Legendary Maestro",
-      "type": "Images",
+      "type": "Titles",
       "authorid": "ur75779804",
       "author": "BonaFideBOSS",
       "date": "2020/07/07",
@@ -94021,7 +94025,7 @@
     {
       "url": "https://www.imdb.com/poll/cj-cCo8IVEo/",
       "title": "35 Oldest Popular TV Shows",
-      "type": "Images",
+      "type": "Titles",
       "authorid": "ur75779804",
       "author": "BonaFideBOSS",
       "date": "2020/07/08",
@@ -94076,7 +94080,7 @@
     {
       "url": "https://www.imdb.com/poll/FtD20r0zx3s/",
       "title": "Multiple Oscar-Winning Composers ",
-      "type": "Images",
+      "type": "People",
       "authorid": "ur75779804",
       "author": "BonaFideBOSS",
       "date": "2020/07/09",
@@ -94109,7 +94113,7 @@
     {
       "url": "https://www.imdb.com/poll/ElLrGrvZC2o/",
       "title": "Face-Off: Modern Sherlock-Watson",
-      "type": "Titles",
+      "type": "Images",
       "authorid": "ur57704188",
       "author": "brijeshmarand",
       "date": "2020/07/10",
@@ -94131,7 +94135,7 @@
     {
       "url": "https://www.imdb.com/poll/lPp9IXXk2ts/",
       "title": "Favorite Fictional Whistleblower Movie?",
-      "type": "Images",
+      "type": "Titles",
       "authorid": "ur29755297",
       "author": "urbanemovies",
       "date": "2020/07/11",
@@ -94142,7 +94146,7 @@
     {
       "url": "https://www.imdb.com/poll/-y8eeyNE-4M/",
       "title": "Are You Familiar With Familiars? (PART I OF II)",
-      "type": "Titles",
+      "type": "Images",
       "authorid": "ur0594717",
       "author": "TsarStepan",
       "date": "2020/07/11",
@@ -94164,7 +94168,7 @@
     {
       "url": "https://www.imdb.com/poll/Tv0GOsvKWuA/",
       "title": "Best Population Movie",
-      "type": "Images",
+      "type": "Titles",
       "authorid": "ur57704188",
       "author": "brijeshmarand",
       "date": "2020/07/11",
@@ -94175,7 +94179,7 @@
     {
       "url": "https://www.imdb.com/poll/CBoer6dIDlU/",
       "title": "Favorite \"Game of Thrones\" Major Logo",
-      "type": "Titles",
+      "type": "Images",
       "authorid": "ur29755297",
       "author": "urbanemovies",
       "date": "2020/07/12",
@@ -94230,7 +94234,7 @@
     {
       "url": "https://www.imdb.com/poll/5wAPBFEeVZM/",
       "title": "Patrick Stewart in Films and Television",
-      "type": "People",
+      "type": "Titles",
       "authorid": "ur75779804",
       "author": "BonaFideBOSS",
       "date": "2020/07/13",
@@ -94296,7 +94300,7 @@
     {
       "url": "https://www.imdb.com/poll/8Gt7zOy9VaY/",
       "title": "TV Characters with No First Name...or No Last Name...",
-      "type": "Titles",
+      "type": "Images",
       "authorid": "ur6008083",
       "author": "yrnej",
       "date": "2020/07/15",
@@ -94307,7 +94311,7 @@
     {
       "url": "https://www.imdb.com/poll/hW80dI8tbs8/",
       "title": "Who Should Be the Next Superman?",
-      "type": "Titles",
+      "type": "People",
       "authorid": "ur75779804",
       "author": "BonaFideBOSS",
       "date": "2020/07/15",
@@ -94318,7 +94322,7 @@
     {
       "url": "https://www.imdb.com/poll/4wF1I4eypHQ/",
       "title": "Saddest Child Death From the Top 250",
-      "type": "Images",
+      "type": "Titles",
       "authorid": "ur4234119",
       "author": "ElMaruecan82",
       "date": "2020/07/15",
@@ -94329,7 +94333,7 @@
     {
       "url": "https://www.imdb.com/poll/Lt1UJKuW_sw/",
       "title": "IMDb Top 250 Movies With Multiple Directors",
-      "type": "Images",
+      "type": "Titles",
       "authorid": "ur75779804",
       "author": "BonaFideBOSS",
       "date": "2020/07/16",
@@ -94340,7 +94344,7 @@
     {
       "url": "https://www.imdb.com/poll/yvTP6ZekG2U/",
       "title": "When You're Craving a Royale With Cheese",
-      "type": "Titles",
+      "type": "Images",
       "authorid": "ur0594717",
       "author": "TsarStepan",
       "date": "2020/07/16",
@@ -94362,7 +94366,7 @@
     {
       "url": "https://www.imdb.com/poll/uqHtGYRWVhE/",
       "title": "Fly Me to the Moon",
-      "type": "Images",
+      "type": "Titles",
       "authorid": "ur36448190",
       "author": "Breumaster",
       "date": "2020/07/16",
@@ -94428,7 +94432,7 @@
     {
       "url": "https://www.imdb.com/poll/9TRk0iLNlmM/",
       "title": "Are You Familiar With Familiars? (PART II OF II)",
-      "type": "Titles",
+      "type": "Images",
       "authorid": "ur0594717",
       "author": "TsarStepan",
       "date": "2020/07/18",
@@ -94450,7 +94454,7 @@
     {
       "url": "https://www.imdb.com/poll/uKVkev68UQM/",
       "title": "What Month Is It?",
-      "type": "Images",
+      "type": "Titles",
       "authorid": "ur75779804",
       "author": "BonaFideBOSS",
       "date": "2020/07/19",
@@ -94527,7 +94531,7 @@
     {
       "url": "https://www.imdb.com/poll/RQXdetkEA-c/",
       "title": "Top Rated Movies on IMDb TV",
-      "type": "People",
+      "type": "Titles",
       "authorid": "ur75779804",
       "author": "BonaFideBOSS",
       "date": "2020/07/21",
@@ -94538,7 +94542,7 @@
     {
       "url": "https://www.imdb.com/poll/Rkv1yOIWw-4/",
       "title": "Highest-Grossing Drama Films",
-      "type": "Images",
+      "type": "Titles",
       "authorid": "ur75779804",
       "author": "BonaFideBOSS",
       "date": "2020/07/22",
@@ -94549,7 +94553,7 @@
     {
       "url": "https://www.imdb.com/poll/LDdpyjxYa2E/",
       "title": "Casting for Poison Ivy",
-      "type": "Titles",
+      "type": "People",
       "authorid": "ur52343944",
       "author": "NDbportmanfan",
       "date": "2020/07/22",
@@ -94571,7 +94575,7 @@
     {
       "url": "https://www.imdb.com/poll/Gi3yK2ZIU3A/",
       "title": "Favorite Ending Song",
-      "type": "People",
+      "type": "Titles",
       "authorid": "ur65476406",
       "author": "altntasnazmi",
       "date": "2020/07/22",
@@ -94582,7 +94586,7 @@
     {
       "url": "https://www.imdb.com/poll/7erE5KltPxQ/",
       "title": "Favorite Multilingual TV Series",
-      "type": "People",
+      "type": "Titles",
       "authorid": "ur19488058",
       "author": "rubyfruit76",
       "date": "2020/07/23",
@@ -94593,7 +94597,7 @@
     {
       "url": "https://www.imdb.com/poll/-sYU43C_QL8/",
       "title": "Multiple Oscar-Winning Songwriters",
-      "type": "Images",
+      "type": "People",
       "authorid": "ur75779804",
       "author": "BonaFideBOSS",
       "date": "2020/07/23",
@@ -94637,7 +94641,7 @@
     {
       "url": "https://www.imdb.com/poll/n8RdHEaB0aQ/",
       "title": "Face-Off: Captain Picard vs. Professor X",
-      "type": "Titles",
+      "type": "Images",
       "authorid": "ur63716761",
       "author": "NVanKerr",
       "date": "2020/07/24",
@@ -94802,7 +94806,7 @@
     {
       "url": "https://www.imdb.com/poll/itnjNU0RytU/",
       "title": "Prime Numbered Titles - 17",
-      "type": "Images",
+      "type": "Titles",
       "authorid": "ur57704188",
       "author": "brijeshmarand",
       "date": "2020/07/29",
@@ -94813,7 +94817,7 @@
     {
       "url": "https://www.imdb.com/poll/ExkLSdBXWJ0/",
       "title": "IGN's Top 25 Best Superhero Movies",
-      "type": "Images",
+      "type": "Titles",
       "authorid": "ur75779804",
       "author": "BonaFideBOSS",
       "date": "2020/07/29",
@@ -94868,7 +94872,7 @@
     {
       "url": "https://www.imdb.com/poll/IWPlTvU0P8s/",
       "title": "Highest Rated TV Series on IMDb by Average Episode Rating",
-      "type": "Images",
+      "type": "Titles",
       "authorid": "ur91075537",
       "author": "CyrilMartin",
       "date": "2020/07/30",
@@ -94879,7 +94883,7 @@
     {
       "url": "https://www.imdb.com/poll/EZoUA8f0F-M/",
       "title": "Most Influential Deceased Civil Rights Activists",
-      "type": "Images",
+      "type": "People",
       "authorid": "ur36448190",
       "author": "Breumaster",
       "date": "2020/07/30",
@@ -94901,7 +94905,7 @@
     {
       "url": "https://www.imdb.com/poll/DzLYel32y2c/",
       "title": "Face-Off: Squidward vs. Zoidberg",
-      "type": "Titles",
+      "type": "Images",
       "authorid": "ur4620177",
       "author": "otter68",
       "date": "2020/07/31",
@@ -94912,7 +94916,7 @@
     {
       "url": "https://www.imdb.com/poll/qkc-L-ILf3c/",
       "title": "Joker Makeup",
-      "type": "Titles",
+      "type": "Images",
       "authorid": "ur73331533",
       "author": "maziarzirak",
       "date": "2020/07/31",
@@ -94923,7 +94927,7 @@
     {
       "url": "https://www.imdb.com/poll/c29Nft-4rwo/",
       "title": "Face-Off: Often Related Main Genres",
-      "type": "People",
+      "type": "Titles",
       "authorid": "ur36448190",
       "author": "Breumaster",
       "date": "2020/07/31",
@@ -94945,7 +94949,7 @@
     {
       "url": "https://www.imdb.com/poll/Dwf5IzJZ9vU/",
       "title": "International Divas",
-      "type": "Titles",
+      "type": "People",
       "authorid": "ur0743304",
       "author": "pbn",
       "date": "2020/08/01",
@@ -94956,7 +94960,7 @@
     {
       "url": "https://www.imdb.com/poll/o0KQAeddfeo/",
       "title": "Best Director Portrayal in a Film",
-      "type": "Titles",
+      "type": "Images",
       "authorid": "ur57704188",
       "author": "brijeshmarand",
       "date": "2020/08/01",
@@ -94978,7 +94982,7 @@
     {
       "url": "https://www.imdb.com/poll/J02qpUQu4zI/",
       "title": "Remembering Sir Alan Parker",
-      "type": "Images",
+      "type": "Titles",
       "authorid": "ur36448190",
       "author": "Breumaster",
       "date": "2020/08/02",
@@ -95000,7 +95004,7 @@
     {
       "url": "https://www.imdb.com/poll/iEnC3rRJheg/",
       "title": "Can't Stop Laughing",
-      "type": "Titles",
+      "type": "Images",
       "authorid": "ur80026262",
       "author": "zerodeaths434",
       "date": "2020/08/03",
@@ -95022,7 +95026,7 @@
     {
       "url": "https://www.imdb.com/poll/RuP6KKxAQn4/",
       "title": "Martin Sheen Filmography",
-      "type": "Images",
+      "type": "Titles",
       "authorid": "ur75779804",
       "author": "BonaFideBOSS",
       "date": "2020/08/03",
@@ -95044,7 +95048,7 @@
     {
       "url": "https://www.imdb.com/poll/toLK7gs5IOM/",
       "title": "Rivals Turned Friends",
-      "type": "Titles",
+      "type": "Images",
       "authorid": "ur57704188",
       "author": "brijeshmarand",
       "date": "2020/08/04",
@@ -95110,7 +95114,7 @@
     {
       "url": "https://www.imdb.com/poll/ku80Pa9hIhE/",
       "title": "Cool Blokes in Favored Roles",
-      "type": "Titles",
+      "type": "Images",
       "authorid": "ur36448190",
       "author": "Breumaster",
       "date": "2020/08/06",
@@ -95154,7 +95158,7 @@
     {
       "url": "https://www.imdb.com/poll/V9M8xLFvPb0/",
       "title": "Face-Off: 'The Florida Project' vs. 'Moonlight'",
-      "type": "Images",
+      "type": "Titles",
       "authorid": "ur19488058",
       "author": "rubyfruit76",
       "date": "2020/08/07",
@@ -95165,7 +95169,7 @@
     {
       "url": "https://www.imdb.com/poll/UdTDszx1-iU/",
       "title": "Face-Off: \"Stranger Things\" vs. \"Dark\"",
-      "type": "Images",
+      "type": "Titles",
       "authorid": "ur68129834",
       "author": "Aman_Goyal",
       "date": "2020/08/07",
@@ -95187,7 +95191,7 @@
     {
       "url": "https://www.imdb.com/poll/uskDZ2qUcvo/",
       "title": "Brad Pitt's Accents",
-      "type": "Titles",
+      "type": "Images",
       "authorid": "ur80026262",
       "author": "zerodeaths434",
       "date": "2020/08/07",
@@ -95297,7 +95301,7 @@
     {
       "url": "https://www.imdb.com/poll/qJYJ-idU5as/",
       "title": "Cinematic Villains From Palindromic Years",
-      "type": "Titles",
+      "type": "Images",
       "authorid": "ur4234119",
       "author": "ElMaruecan82",
       "date": "2020/08/10",
@@ -95319,7 +95323,7 @@
     {
       "url": "https://www.imdb.com/poll/2_BGF3uxOe0/",
       "title": "IMDb Top 250 Disney Movies",
-      "type": "Images",
+      "type": "Titles",
       "authorid": "ur75779804",
       "author": "BonaFideBOSS",
       "date": "2020/08/10",
@@ -95341,7 +95345,7 @@
     {
       "url": "https://www.imdb.com/poll/UiQJmkUwyqQ/",
       "title": "Emmys 2020 \u2014 Best Supporting Actress, Comedy Series",
-      "type": "Titles",
+      "type": "Images",
       "authorid": "ur29755297",
       "author": "urbanemovies",
       "date": "2020/08/10",
@@ -95352,7 +95356,7 @@
     {
       "url": "https://www.imdb.com/poll/NGTLF7e8wlg/",
       "title": "How Do You Like Your Vampires?",
-      "type": "Images",
+      "type": "Titles",
       "authorid": "ur36448190",
       "author": "Breumaster",
       "date": "2020/08/12",
@@ -95374,7 +95378,7 @@
     {
       "url": "https://www.imdb.com/poll/RO5vqkEq77M/",
       "title": "Star Trek Captains: To Boldly Serve",
-      "type": "Titles",
+      "type": "Images",
       "authorid": "ur0594717",
       "author": "TsarStepan",
       "date": "2020/08/12",
@@ -95396,7 +95400,7 @@
     {
       "url": "https://www.imdb.com/poll/R_IzyA0pEh4/",
       "title": "Painful ET Extra-Terrestrial Knockoffs",
-      "type": "Images",
+      "type": "Titles",
       "authorid": "ur0594717",
       "author": "TsarStepan",
       "date": "2020/08/13",
@@ -95418,7 +95422,7 @@
     {
       "url": "https://www.imdb.com/poll/t1mucYUtfXY/",
       "title": "Favorite 'Transformers' Autobot Character",
-      "type": "Titles",
+      "type": "Images",
       "authorid": "ur29755297",
       "author": "urbanemovies",
       "date": "2020/08/13",
@@ -95429,7 +95433,7 @@
     {
       "url": "https://www.imdb.com/poll/-yXXzHvEZLg/",
       "title": "Emmys 2020 \u2014 Outstanding Lead Actress in a Drama Series",
-      "type": "Images",
+      "type": "People",
       "authorid": "ur0743304",
       "author": "pbn",
       "date": "2020/08/13",
@@ -95462,7 +95466,7 @@
     {
       "url": "https://www.imdb.com/poll/-97cpOGPIZc/",
       "title": "Face-Off: \"The Twilight Zone\" vs. \"Black Mirror\"",
-      "type": "Images",
+      "type": "Titles",
       "authorid": "ur68129834",
       "author": "Aman_Goyal",
       "date": "2020/08/14",
@@ -95473,7 +95477,7 @@
     {
       "url": "https://www.imdb.com/poll/Y-RbDE7iSqE/",
       "title": "Emmys 2020 \u2014 Best Supporting Actor, Comedy Series",
-      "type": "Titles",
+      "type": "Images",
       "authorid": "ur29755297",
       "author": "urbanemovies",
       "date": "2020/08/15",
@@ -95484,7 +95488,7 @@
     {
       "url": "https://www.imdb.com/poll/rNl4wJNWH9E/",
       "title": "What They Do in the Shadows of Your Home",
-      "type": "Titles",
+      "type": "Images",
       "authorid": "ur0594717",
       "author": "TsarStepan",
       "date": "2020/08/15",
@@ -95495,7 +95499,7 @@
     {
       "url": "https://www.imdb.com/poll/mI9Wmn3I2nY/",
       "title": "Worst Movies by the Best Actors",
-      "type": "Images",
+      "type": "Titles",
       "authorid": "ur28319455",
       "author": "Hoekkie",
       "date": "2020/08/15",
@@ -95528,7 +95532,7 @@
     {
       "url": "https://www.imdb.com/poll/vZmtlRri62E/",
       "title": "Movies That Were Worse Than Expected: 2019",
-      "type": "People",
+      "type": "Titles",
       "authorid": "ur75779804",
       "author": "BonaFideBOSS",
       "date": "2020/08/16",
@@ -95550,7 +95554,7 @@
     {
       "url": "https://www.imdb.com/poll/BSF1mZnc_hI/",
       "title": "Emmys 2020 \u2014 Outstanding Supporting Actor in a Drama Series",
-      "type": "Titles",
+      "type": "People",
       "authorid": "ur75779804",
       "author": "BonaFideBOSS",
       "date": "2020/08/17",
@@ -95594,7 +95598,7 @@
     {
       "url": "https://www.imdb.com/poll/Mbnvuf_bstU/",
       "title": "Even Cooler \"Game of Thrones\" Swords and Weapons",
-      "type": "Titles",
+      "type": "Images",
       "authorid": "ur29755297",
       "author": "urbanemovies",
       "date": "2020/08/18",
@@ -95605,7 +95609,7 @@
     {
       "url": "https://www.imdb.com/poll/giFzLdSnWig/",
       "title": "Golden Globe Winners for Best Television Film",
-      "type": "People",
+      "type": "Titles",
       "authorid": "ur28319455",
       "author": "Hoekkie",
       "date": "2020/08/18",
@@ -95638,7 +95642,7 @@
     {
       "url": "https://www.imdb.com/poll/fyhw3zGwmlw/",
       "title": "Best Netflix Original Series",
-      "type": "People",
+      "type": "Titles",
       "authorid": "ur91075537",
       "author": "CyrilMartin",
       "date": "2020/08/19",
@@ -95660,7 +95664,7 @@
     {
       "url": "https://www.imdb.com/poll/JPUWJnaR1mI/",
       "title": "Emmys 2020 \u2014 Outstanding Lead Actor in a Comedy Series",
-      "type": "Titles",
+      "type": "People",
       "authorid": "ur75779804",
       "author": "BonaFideBOSS",
       "date": "2020/08/19",
@@ -95671,7 +95675,7 @@
     {
       "url": "https://www.imdb.com/poll/oNiqbgfLBxs/",
       "title": "Odd Genre Pairings",
-      "type": "People",
+      "type": "Titles",
       "authorid": "ur91650024",
       "author": "thenolanfan",
       "date": "2020/08/20",
@@ -95682,7 +95686,7 @@
     {
       "url": "https://www.imdb.com/poll/szBfDkrc7bY/",
       "title": "Prime Numbered Titles - 23",
-      "type": "People",
+      "type": "Titles",
       "authorid": "ur57704188",
       "author": "brijeshmarand",
       "date": "2020/08/20",
@@ -95726,7 +95730,7 @@
     {
       "url": "https://www.imdb.com/poll/-pYwy10S7iM/",
       "title": "Face-Off: Daniel Craig vs. Keanu Reeves",
-      "type": "People",
+      "type": "Images",
       "authorid": "ur73331533",
       "author": "maziarzirak",
       "date": "2020/08/21",
@@ -95737,7 +95741,7 @@
     {
       "url": "https://www.imdb.com/poll/Eq6obLFfRDE/",
       "title": "Face-Off: Snappp! vs. Snappp! vs. Snappp!",
-      "type": "Titles",
+      "type": "Images",
       "authorid": "ur36448190",
       "author": "Breumaster",
       "date": "2020/08/21",
@@ -95748,7 +95752,7 @@
     {
       "url": "https://www.imdb.com/poll/MyDEWLMXU68/",
       "title": "Emmys 2020 \u2014 Outstanding Guest Actress in a Comedy Series",
-      "type": "Titles",
+      "type": "People",
       "authorid": "ur0743304",
       "author": "pbn",
       "date": "2020/08/22",
@@ -95781,7 +95785,7 @@
     {
       "url": "https://www.imdb.com/poll/sRmeOt3A0Vw/",
       "title": "Emmys 2020 \u2014 Outstanding Writing for a Nonfiction Program",
-      "type": "Images",
+      "type": "Titles",
       "authorid": "ur75779804",
       "author": "BonaFideBOSS",
       "date": "2020/08/23",
@@ -95803,7 +95807,7 @@
     {
       "url": "https://www.imdb.com/poll/QUVKaGs5iiA/",
       "title": "The Most Funny Use of Music in Movies",
-      "type": "Titles",
+      "type": "Images",
       "authorid": "ur36448190",
       "author": "Breumaster",
       "date": "2020/08/23",
@@ -95825,7 +95829,7 @@
     {
       "url": "https://www.imdb.com/poll/6inJVxFcwEk/",
       "title": "Best Bucket List Movie",
-      "type": "People",
+      "type": "Titles",
       "authorid": "ur65476406",
       "author": "altntasnazmi",
       "date": "2020/08/24",
@@ -95913,7 +95917,7 @@
     {
       "url": "https://www.imdb.com/poll/r3w7_zNrzQA/",
       "title": "Prime Numbered Titles - 29",
-      "type": "People",
+      "type": "Titles",
       "authorid": "ur57704188",
       "author": "brijeshmarand",
       "date": "2020/08/27",
@@ -95946,7 +95950,7 @@
     {
       "url": "https://www.imdb.com/poll/Ure-MeICzzg/",
       "title": "Emmys 2020 - Outstanding Main Title Design ",
-      "type": "Images",
+      "type": "Titles",
       "authorid": "ur23116087",
       "author": "nikolayyeriomin",
       "date": "2020/08/28",
@@ -95968,7 +95972,7 @@
     {
       "url": "https://www.imdb.com/poll/EZC3LwQUz5I/",
       "title": "Is \u2018Schindler\u2019s List\u2019 a War Movie?",
-      "type": "Titles",
+      "type": "Images",
       "authorid": "ur8857775",
       "author": "dgranger",
       "date": "2020/08/28",
@@ -95979,7 +95983,7 @@
     {
       "url": "https://www.imdb.com/poll/Lul5i7En0_o/",
       "title": "The Rainbow Connection",
-      "type": "Images",
+      "type": "Titles",
       "authorid": "ur19488058",
       "author": "rubyfruit76",
       "date": "2020/08/29",
@@ -95990,7 +95994,7 @@
     {
       "url": "https://www.imdb.com/poll/nqK68ZMAjPU/",
       "title": "Muppets for President",
-      "type": "Titles",
+      "type": "Images",
       "authorid": "ur0743304",
       "author": "pbn",
       "date": "2020/08/29",
@@ -96023,7 +96027,7 @@
     {
       "url": "https://www.imdb.com/poll/BQrfL3c_Hdc/",
       "title": "Favorite Oscars D\u00e9j\u00e0 Vu Best Picture Movie?",
-      "type": "Images",
+      "type": "Titles",
       "authorid": "ur29755297",
       "author": "urbanemovies",
       "date": "2020/08/30",
@@ -96067,7 +96071,7 @@
     {
       "url": "https://www.imdb.com/poll/lwlY6sgB1bk/",
       "title": "Favorite 'Agents of S.H.I.E.L.D.' Character",
-      "type": "Titles",
+      "type": "Images",
       "authorid": "ur63716761",
       "author": "NVanKerr",
       "date": "2020/08/31",
@@ -96111,7 +96115,7 @@
     {
       "url": "https://www.imdb.com/poll/lCBPIMTfGLA/",
       "title": "Favorite Chadwick Boseman Movie",
-      "type": "Images",
+      "type": "Titles",
       "authorid": "ur75779804",
       "author": "BonaFideBOSS",
       "date": "2020/09/01",
@@ -96144,7 +96148,7 @@
     {
       "url": "https://www.imdb.com/poll/Fx8gtq3D-zw/",
       "title": "Emmys 2020 \u2014 Outstanding Variety Special (Pre-Recorded)",
-      "type": "Images",
+      "type": "Titles",
       "authorid": "ur34445091",
       "author": "Eagles90",
       "date": "2020/09/02",
@@ -96155,7 +96159,7 @@
     {
       "url": "https://www.imdb.com/poll/7mYiIx_uAyI/",
       "title": "Favorite 'Tenet' Poster",
-      "type": "Titles",
+      "type": "Images",
       "authorid": "ur75779804",
       "author": "BonaFideBOSS",
       "date": "2020/09/03",
@@ -96177,7 +96181,7 @@
     {
       "url": "https://www.imdb.com/poll/ggSOErcX7is/",
       "title": "Emmys 2020 \u2014 Outstanding Unstructured Reality Program",
-      "type": "Images",
+      "type": "Titles",
       "authorid": "ur34445091",
       "author": "Eagles90",
       "date": "2020/09/03",
@@ -96210,7 +96214,7 @@
     {
       "url": "https://www.imdb.com/poll/ibk5WEM-blU/",
       "title": "Are you a Thinker, Doer or Dreamer?",
-      "type": "Titles",
+      "type": "Images",
       "authorid": "ur28319455",
       "author": "Hoekkie",
       "date": "2020/09/04",
@@ -96243,7 +96247,7 @@
     {
       "url": "https://www.imdb.com/poll/bvFEWnM4AbI/",
       "title": "Most Exciting Science Fiction Inventions",
-      "type": "Titles",
+      "type": "Images",
       "authorid": "ur36448190",
       "author": "Breumaster",
       "date": "2020/09/05",
@@ -96265,7 +96269,7 @@
     {
       "url": "https://www.imdb.com/poll/8TFqAVVbAK4/",
       "title": "Top Rated TV Shows on IMDb TV",
-      "type": "Images",
+      "type": "Titles",
       "authorid": "ur75779804",
       "author": "BonaFideBOSS",
       "date": "2020/09/06",
@@ -96309,7 +96313,7 @@
     {
       "url": "https://www.imdb.com/poll/MA5XDEVCLs0/",
       "title": "Classic Whimsical Scores",
-      "type": "Images",
+      "type": "Titles",
       "authorid": "ur4234119",
       "author": "ElMaruecan82",
       "date": "2020/09/07",
@@ -96320,7 +96324,7 @@
     {
       "url": "https://www.imdb.com/poll/x3pxwTcQZkg/",
       "title": "Best 'Star Trek' Movie Series Recasting",
-      "type": "Titles",
+      "type": "Images",
       "authorid": "ur29755297",
       "author": "urbanemovies",
       "date": "2020/09/07",
@@ -96353,7 +96357,7 @@
     {
       "url": "https://www.imdb.com/poll/GYQMk5AGKII/",
       "title": "Female Last Lines",
-      "type": "Images",
+      "type": "Titles",
       "authorid": "ur52829101",
       "author": "Djesika",
       "date": "2020/09/08",
@@ -96364,7 +96368,7 @@
     {
       "url": "https://www.imdb.com/poll/h1L4qwGJgq4/",
       "title": "Famous Castles in Movies",
-      "type": "Titles",
+      "type": "Images",
       "authorid": "ur116934045",
       "author": "NoRa_FoKa",
       "date": "2020/09/09",
@@ -96397,7 +96401,7 @@
     {
       "url": "https://www.imdb.com/poll/8OSclW5NaCo/",
       "title": "\"Game of Thrones\" Characters You Love to Hate",
-      "type": "Titles",
+      "type": "Images",
       "authorid": "ur29755297",
       "author": "urbanemovies",
       "date": "2020/09/10",
@@ -96430,7 +96434,7 @@
     {
       "url": "https://www.imdb.com/poll/ApKpC-b1648/",
       "title": "Emmys 2020 \u2014 Outstanding Animated Program",
-      "type": "People",
+      "type": "Titles",
       "authorid": "ur75779804",
       "author": "BonaFideBOSS",
       "date": "2020/09/10",
@@ -96452,7 +96456,7 @@
     {
       "url": "https://www.imdb.com/poll/6MLrzpYgA2U/",
       "title": "Face-Off: Black Panther's Future",
-      "type": "Titles",
+      "type": "Images",
       "authorid": "ur46158148",
       "author": "penchofifteenpolls",
       "date": "2020/09/11",
@@ -96474,7 +96478,7 @@
     {
       "url": "https://www.imdb.com/poll/fMV5oVQ-lIw/",
       "title": "Emmys 2020 \u2014 Original Dramatic Score Nominees",
-      "type": "Images",
+      "type": "Titles",
       "authorid": "ur75779804",
       "author": "BonaFideBOSS",
       "date": "2020/09/12",
@@ -96507,7 +96511,7 @@
     {
       "url": "https://www.imdb.com/poll/TL27Ym3PGl0/",
       "title": "The Best Roles of Dame Diana Rigg",
-      "type": "Titles",
+      "type": "Images",
       "authorid": "ur36448190",
       "author": "Breumaster",
       "date": "2020/09/12",
@@ -96573,7 +96577,7 @@
     {
       "url": "https://www.imdb.com/poll/3g9OtoSZCMI/",
       "title": "Multiple Primetime Emmy Awards for Outstanding Comedy Series",
-      "type": "Images",
+      "type": "Titles",
       "authorid": "ur45394926",
       "author": "Dibyayan_Chakravorty",
       "date": "2020/09/14",
@@ -96606,7 +96610,7 @@
     {
       "url": "https://www.imdb.com/poll/QLzbtBLysbw/",
       "title": "Rotten Tomatoes: Top Art House & International Movies",
-      "type": "Images",
+      "type": "Titles",
       "authorid": "ur75779804",
       "author": "BonaFideBOSS",
       "date": "2020/09/14",
@@ -96617,7 +96621,7 @@
     {
       "url": "https://www.imdb.com/poll/5fXCa3dqcWk/",
       "title": "The Princess of the Rags",
-      "type": "Titles",
+      "type": "Images",
       "authorid": "ur36448190",
       "author": "Breumaster",
       "date": "2020/09/15",
@@ -96661,7 +96665,7 @@
     {
       "url": "https://www.imdb.com/poll/TZftJFU9Vxk/",
       "title": "The Phantom is HERE!",
-      "type": "Titles",
+      "type": "Images",
       "authorid": "ur0594717",
       "author": "TsarStepan",
       "date": "2020/09/17",
@@ -96683,7 +96687,7 @@
     {
       "url": "https://www.imdb.com/poll/-DTm43jGTbw/",
       "title": "Top Rated Movies With Razzie Nominations",
-      "type": "Images",
+      "type": "Titles",
       "authorid": "ur75779804",
       "author": "BonaFideBOSS",
       "date": "2020/09/17",
@@ -96705,7 +96709,7 @@
     {
       "url": "https://www.imdb.com/poll/UPMzzdui4dc/",
       "title": "Face-Off: The Children of John McClane",
-      "type": "People",
+      "type": "Images",
       "authorid": "ur32931141",
       "author": "TheMovieSmith",
       "date": "2020/09/18",
@@ -96716,7 +96720,7 @@
     {
       "url": "https://www.imdb.com/poll/E51VX5gQLlo/",
       "title": "Face-Off: Laura Dern vs. Laura Linney",
-      "type": "Titles",
+      "type": "People",
       "authorid": "ur19488058",
       "author": "rubyfruit76",
       "date": "2020/09/18",
@@ -96760,7 +96764,7 @@
     {
       "url": "https://www.imdb.com/poll/osEobRE9gxg/",
       "title": "Midnight Movies After the Heyday",
-      "type": "Images",
+      "type": "Titles",
       "authorid": "ur28319455",
       "author": "Hoekkie",
       "date": "2020/09/19",
@@ -96782,7 +96786,7 @@
     {
       "url": "https://www.imdb.com/poll/TULVGyTV4SM/",
       "title": "Things You Would Never Say To a Gangster Movie Character",
-      "type": "Titles",
+      "type": "Images",
       "authorid": "ur36448190",
       "author": "Breumaster",
       "date": "2020/09/20",
@@ -96804,7 +96808,7 @@
     {
       "url": "https://www.imdb.com/poll/3kGXrU5kAX8/",
       "title": "Best Movies About Pregnancy",
-      "type": "People",
+      "type": "Titles",
       "authorid": "ur34779915",
       "author": "Paok-Kilkis",
       "date": "2020/09/21",
@@ -96826,7 +96830,7 @@
     {
       "url": "https://www.imdb.com/poll/O50h_noRUXQ/",
       "title": "Best of Mr Bill Murray",
-      "type": "Images",
+      "type": "Titles",
       "authorid": "ur5156692",
       "author": "Philip_Marlowe_",
       "date": "2020/09/21",
@@ -96870,7 +96874,7 @@
     {
       "url": "https://www.imdb.com/poll/wRKwPZGH6Dg/",
       "title": "WGA's Greatest Screenplays",
-      "type": "Images",
+      "type": "Titles",
       "authorid": "ur91650024",
       "author": "thenolanfan",
       "date": "2020/09/23",
@@ -96881,7 +96885,7 @@
     {
       "url": "https://www.imdb.com/poll/niD0UOqWRO0/",
       "title": "Favorite 'Transformers' Decepticon Character",
-      "type": "Titles",
+      "type": "Images",
       "authorid": "ur29755297",
       "author": "urbanemovies",
       "date": "2020/09/23",
@@ -96892,7 +96896,7 @@
     {
       "url": "https://www.imdb.com/poll/tggccnL_NsY/",
       "title": "IGN's Top 25 Sci-Fi Movies",
-      "type": "Images",
+      "type": "Titles",
       "authorid": "ur75779804",
       "author": "BonaFideBOSS",
       "date": "2020/09/23",
@@ -96925,7 +96929,7 @@
     {
       "url": "https://www.imdb.com/poll/hR1rGT9Q9Aw/",
       "title": "Rotten Tomatoes: Top Sci-Fi & Fantasy Movies",
-      "type": "Images",
+      "type": "Titles",
       "authorid": "ur75779804",
       "author": "BonaFideBOSS",
       "date": "2020/09/24",
@@ -96936,7 +96940,7 @@
     {
       "url": "https://www.imdb.com/poll/ZklVlmxXyqk/",
       "title": "Billy Wilder's Classic Closing Lines",
-      "type": "Titles",
+      "type": "Images",
       "authorid": "ur4234119",
       "author": "ElMaruecan82",
       "date": "2020/09/25",
@@ -96947,7 +96951,7 @@
     {
       "url": "https://www.imdb.com/poll/FzECNiBdfaQ/",
       "title": "Face-Off: Keanu Reeves' Triple Triples",
-      "type": "Images",
+      "type": "Titles",
       "authorid": "ur91075537",
       "author": "CyrilMartin",
       "date": "2020/09/25",
@@ -96958,7 +96962,7 @@
     {
       "url": "https://www.imdb.com/poll/cN1BQ3sXUzg/",
       "title": "Face-Off: Tarzan vs. Mowgli",
-      "type": "Titles",
+      "type": "Images",
       "authorid": "ur57704188",
       "author": "brijeshmarand",
       "date": "2020/09/25",
@@ -96991,7 +96995,7 @@
     {
       "url": "https://www.imdb.com/poll/VLBh1_mjTSM/",
       "title": "IMDb Poll Board: Top 5 Superhero Movies",
-      "type": "Images",
+      "type": "Titles",
       "authorid": "ur75779804",
       "author": "BonaFideBOSS",
       "date": "2020/09/26",
@@ -97002,7 +97006,7 @@
     {
       "url": "https://www.imdb.com/poll/dyEf-YolKuI/",
       "title": "A Look Back at Michael Lonsdale \u2020",
-      "type": "Titles",
+      "type": "Images",
       "authorid": "ur36448190",
       "author": "Breumaster",
       "date": "2020/09/26",
@@ -97035,7 +97039,7 @@
     {
       "url": "https://www.imdb.com/poll/0NpIramr1Xk/",
       "title": "Top 25 Movie Q&A Quotes",
-      "type": "Images",
+      "type": "Titles",
       "authorid": "ur4234119",
       "author": "ElMaruecan82",
       "date": "2020/09/27",
@@ -97057,7 +97061,7 @@
     {
       "url": "https://www.imdb.com/poll/XGoLuxkuLrg/",
       "title": "Favorite TV Series' Soundtrack You Never Want to Skip",
-      "type": "People",
+      "type": "Images",
       "authorid": "ur116934045",
       "author": "NoRa_FoKa",
       "date": "2020/09/28",
@@ -97068,7 +97072,7 @@
     {
       "url": "https://www.imdb.com/poll/yPMPY8HD9Hw/",
       "title": "Gangs of Actors",
-      "type": "Titles",
+      "type": "People",
       "authorid": "ur91075537",
       "author": "CyrilMartin",
       "date": "2020/09/28",
@@ -97079,7 +97083,7 @@
     {
       "url": "https://www.imdb.com/poll/Q3b7rtJdtpQ/",
       "title": "Rotten Tomatoes: Top Classic Movies",
-      "type": "Images",
+      "type": "Titles",
       "authorid": "ur75779804",
       "author": "BonaFideBOSS",
       "date": "2020/09/29",
@@ -97101,7 +97105,7 @@
     {
       "url": "https://www.imdb.com/poll/SUK3yWazs1E/",
       "title": "A Tribute to Roger Carel, the French Mel Blanc",
-      "type": "Titles",
+      "type": "Images",
       "authorid": "ur4234119",
       "author": "ElMaruecan82",
       "date": "2020/09/29",
@@ -97112,7 +97116,7 @@
     {
       "url": "https://www.imdb.com/poll/TTEKK9XCXig/",
       "title": "What Movie/TV Show Was the Best in May 2020?",
-      "type": "People",
+      "type": "Titles",
       "authorid": "ur91261130",
       "author": "kamuilovescats",
       "date": "2020/09/30",
@@ -97123,7 +97127,7 @@
     {
       "url": "https://www.imdb.com/poll/I-jKzTCWoQM/",
       "title": "Best Vine Star",
-      "type": "Images",
+      "type": "People",
       "authorid": "ur75779804",
       "author": "BonaFideBOSS",
       "date": "2020/09/30",
@@ -97200,7 +97204,7 @@
     {
       "url": "https://www.imdb.com/poll/25V24FieNJs/",
       "title": "Face-Off: Hetty Lange vs. Edna Mode",
-      "type": "Titles",
+      "type": "Images",
       "authorid": "ur28319455",
       "author": "Hoekkie",
       "date": "2020/10/02",
@@ -97222,7 +97226,7 @@
     {
       "url": "https://www.imdb.com/poll/Gn7ffKhIlRI/",
       "title": "Face-Off: Battle of the Accents: Tommy Wiseau vs. Arnold Schwarzenegger",
-      "type": "People",
+      "type": "Images",
       "authorid": "ur89518905",
       "author": "NarniaIsAwesome",
       "date": "2020/10/02",
@@ -97233,7 +97237,7 @@
     {
       "url": "https://www.imdb.com/poll/dsvrrywTgJo/",
       "title": "Best Western Movie Director",
-      "type": "Images",
+      "type": "People",
       "authorid": "ur75779804",
       "author": "BonaFideBOSS",
       "date": "2020/10/03",
@@ -97255,7 +97259,7 @@
     {
       "url": "https://www.imdb.com/poll/wmSgYwYp_4A/",
       "title": "Directors on Directing",
-      "type": "Images",
+      "type": "People",
       "authorid": "ur6008083",
       "author": "yrnej",
       "date": "2020/10/03",
@@ -97266,7 +97270,7 @@
     {
       "url": "https://www.imdb.com/poll/iqQRmxIhEhs/",
       "title": "Which Gang Are You In?",
-      "type": "Titles",
+      "type": "Images",
       "authorid": "ur76249006",
       "author": "Kitsfi",
       "date": "2020/10/04",
@@ -97310,7 +97314,7 @@
     {
       "url": "https://www.imdb.com/poll/lvApsUZPwms/",
       "title": "Favorite Character Poster \u2014 'Mulan'",
-      "type": "Titles",
+      "type": "Images",
       "authorid": "ur75779804",
       "author": "BonaFideBOSS",
       "date": "2020/10/05",
@@ -97343,7 +97347,7 @@
     {
       "url": "https://www.imdb.com/poll/JtMWLWgybYI/",
       "title": "35 Oldest Popular Films",
-      "type": "Images",
+      "type": "Titles",
       "authorid": "ur75779804",
       "author": "BonaFideBOSS",
       "date": "2020/10/06",
@@ -97365,7 +97369,7 @@
     {
       "url": "https://www.imdb.com/poll/T5cXE53-MIs/",
       "title": "Prime Numbered Titles - 37",
-      "type": "Images",
+      "type": "Titles",
       "authorid": "ur57704188",
       "author": "brijeshmarand",
       "date": "2020/10/07",
@@ -97376,7 +97380,7 @@
     {
       "url": "https://www.imdb.com/poll/ylxINOnZKSw/",
       "title": "Movies' Greatest Secondary Antagonist of All Time",
-      "type": "Titles",
+      "type": "Images",
       "authorid": "ur91075537",
       "author": "CyrilMartin",
       "date": "2020/10/07",
@@ -97398,7 +97402,7 @@
     {
       "url": "https://www.imdb.com/poll/QI6QHoeTpdw/",
       "title": "Favorite 'Stuck on an Island' Movie/Series",
-      "type": "Images",
+      "type": "Titles",
       "authorid": "ur34779915",
       "author": "Paok-Kilkis",
       "date": "2020/10/08",
@@ -97409,7 +97413,7 @@
     {
       "url": "https://www.imdb.com/poll/hLJXttOwdyA/",
       "title": "Halloween TV Couple Costumes",
-      "type": "Titles",
+      "type": "Images",
       "authorid": "ur6008083",
       "author": "yrnej",
       "date": "2020/10/08",
@@ -97442,7 +97446,7 @@
     {
       "url": "https://www.imdb.com/poll/TWFR7nEzQtY/",
       "title": "Favorite Rajkumar Hirani Movie",
-      "type": "Images",
+      "type": "Titles",
       "authorid": "ur75779804",
       "author": "BonaFideBOSS",
       "date": "2020/10/09",
@@ -97486,7 +97490,7 @@
     {
       "url": "https://www.imdb.com/poll/n9RkdQMQwQs/",
       "title": "\"Breaking Bad\" Deaths",
-      "type": "Titles",
+      "type": "Images",
       "authorid": "ur57704188",
       "author": "brijeshmarand",
       "date": "2020/10/10",
@@ -97585,7 +97589,7 @@
     {
       "url": "https://www.imdb.com/poll/sZ6ya3wDUdk/",
       "title": "The Highest-Paid Actors of 2020",
-      "type": "Titles",
+      "type": "People",
       "authorid": "ur75779804",
       "author": "BonaFideBOSS",
       "date": "2020/10/13",
@@ -97662,7 +97666,7 @@
     {
       "url": "https://www.imdb.com/poll/cnPDCOF3ph8/",
       "title": "Most Impressive War/Fight Scenes",
-      "type": "Images",
+      "type": "Titles",
       "authorid": "ur92415288",
       "author": "erim-11082",
       "date": "2020/10/15",
@@ -97695,7 +97699,7 @@
     {
       "url": "https://www.imdb.com/poll/4XC4sm9QMks/",
       "title": "Scariest Horror Movie With No Jump Scares",
-      "type": "Images",
+      "type": "Titles",
       "authorid": "ur91075537",
       "author": "CyrilMartin",
       "date": "2020/10/15",
@@ -97706,7 +97710,7 @@
     {
       "url": "https://www.imdb.com/poll/SMyiBcTxceI/",
       "title": "Face-Off: John Wick vs. Neo",
-      "type": "Titles",
+      "type": "Images",
       "authorid": "ur75779804",
       "author": "BonaFideBOSS",
       "date": "2020/10/16",
@@ -97728,7 +97732,7 @@
     {
       "url": "https://www.imdb.com/poll/-9ntC5ybbgk/",
       "title": "Which STAR WARS Trilogy Should Be Wiped?",
-      "type": "Images",
+      "type": "Titles",
       "authorid": "ur111243859",
       "author": "notmystarwars",
       "date": "2020/10/16",
@@ -97739,7 +97743,7 @@
     {
       "url": "https://www.imdb.com/poll/CHaibko0EU0/",
       "title": "Favorite Sit-Com Lothario",
-      "type": "Titles",
+      "type": "Images",
       "authorid": "ur4620177",
       "author": "otter68",
       "date": "2020/10/17",
@@ -97750,7 +97754,7 @@
     {
       "url": "https://www.imdb.com/poll/10LKQ4eIHrA/",
       "title": "Col Needham's Top 30 Movies From the Last 30 Years",
-      "type": "Images",
+      "type": "Titles",
       "authorid": "ur75779804",
       "author": "BonaFideBOSS",
       "date": "2020/10/17",
@@ -97783,7 +97787,7 @@
     {
       "url": "https://www.imdb.com/poll/OT6Easc9mHw/",
       "title": "TV's Greatest Secondary Antagonist ",
-      "type": "Titles",
+      "type": "Images",
       "authorid": "ur91075537",
       "author": "CyrilMartin",
       "date": "2020/10/18",
@@ -97838,7 +97842,7 @@
     {
       "url": "https://www.imdb.com/poll/XqZvYqlIWNc/",
       "title": "Tough Guy",
-      "type": "Titles",
+      "type": "Images",
       "authorid": "ur65476406",
       "author": "altntasnazmi",
       "date": "2020/10/19",
@@ -97948,7 +97952,7 @@
     {
       "url": "https://www.imdb.com/poll/okqNm2bHKjY/",
       "title": "Hello 'Mr.'!!",
-      "type": "Images",
+      "type": "Titles",
       "authorid": "ur57704188",
       "author": "brijeshmarand",
       "date": "2020/10/22",
@@ -97959,7 +97963,7 @@
     {
       "url": "https://www.imdb.com/poll/awoX0NsOZQk/",
       "title": "Which Movie Superhero Needs a Lawyer the Most",
-      "type": "Titles",
+      "type": "Images",
       "authorid": "ur8857775",
       "author": "dgranger",
       "date": "2020/10/22",
@@ -98003,7 +98007,7 @@
     {
       "url": "https://www.imdb.com/poll/mE6QpZ1T6GY/",
       "title": "Badass Fictional Characters With a Beard",
-      "type": "Titles",
+      "type": "Images",
       "authorid": "ur75779804",
       "author": "BonaFideBOSS",
       "date": "2020/10/24",
@@ -98025,7 +98029,7 @@
     {
       "url": "https://www.imdb.com/poll/xUUuaM1XAWg/",
       "title": "IMDb Poll Board Movie You Wish You\u2019d Seen on the Big Screen",
-      "type": "People",
+      "type": "Titles",
       "authorid": "ur91075537",
       "author": "CyrilMartin",
       "date": "2020/10/24",
@@ -98047,7 +98051,7 @@
     {
       "url": "https://www.imdb.com/poll/qSIk3KVYOxg/",
       "title": "Actors With Most Credits (Deceased)",
-      "type": "Titles",
+      "type": "People",
       "authorid": "ur57704188",
       "author": "brijeshmarand",
       "date": "2020/10/25",
@@ -98113,7 +98117,7 @@
     {
       "url": "https://www.imdb.com/poll/o3PoB_eD02U/",
       "title": "99",
-      "type": "Titles",
+      "type": "Images",
       "authorid": "ur0594717",
       "author": "TsarStepan",
       "date": "2020/10/26",
@@ -98146,7 +98150,7 @@
     {
       "url": "https://www.imdb.com/poll/INuo541BSMo/",
       "title": "Horror Films by A24",
-      "type": "People",
+      "type": "Titles",
       "authorid": "ur75779804",
       "author": "BonaFideBOSS",
       "date": "2020/10/27",
@@ -98157,7 +98161,7 @@
     {
       "url": "https://www.imdb.com/poll/jqXyl_AhI1Y/",
       "title": "2020s-2030s James Bond",
-      "type": "Titles",
+      "type": "People",
       "authorid": "ur33691074",
       "author": "stermix501",
       "date": "2020/10/28",
@@ -98223,7 +98227,7 @@
     {
       "url": "https://www.imdb.com/poll/lGSJvcHSFm0/",
       "title": "Halloween With IMDb TV for 2020",
-      "type": "Images",
+      "type": "Titles",
       "authorid": "ur52343944",
       "author": "NDbportmanfan",
       "date": "2020/10/29",
@@ -98245,7 +98249,7 @@
     {
       "url": "https://www.imdb.com/poll/zVLWAnOKU_w/",
       "title": "Serial Killers Among Family or Friends",
-      "type": "Titles",
+      "type": "Images",
       "authorid": "ur111129375",
       "author": "Master_Strange",
       "date": "2020/10/30",
@@ -102843,7 +102847,7 @@
     {
       "url": "https://www.imdb.com/poll/lV_DYJw1V0Q/",
       "title": "Golden Globes 2021 - Favorite Winner",
-      "type": "Titles",
+      "type": "Images",
       "authorid": "ur91650024",
       "author": "thenolanfan",
       "date": "2021/03/01",
@@ -107331,7 +107335,7 @@
     {
       "url": "https://www.imdb.com/poll/Boh4Hv3mm6E/",
       "title": "Favorite Prison TV Series",
-      "type": "People",
+      "type": "Titles",
       "authorid": "ur65476406",
       "author": "altntasnazmi",
       "date": "2021/06/26",
@@ -107342,7 +107346,7 @@
     {
       "url": "https://www.imdb.com/poll/yTSnqCCIKQo/",
       "title": "With a Month in My Name",
-      "type": "",
+      "type": "People",
       "authorid": "ur46158148",
       "author": "penchofifteenpolls",
       "date": "2021/06/26",
@@ -114464,6 +114468,50 @@
       "author": "Paok-Kilkis",
       "date": "2022/01/04",
       "votes": 42,
+      "featured": "No",
+      "status": "Live"
+    },
+    {
+      "url": "https://www.imdb.com/poll/a0tYvEgqnlY/",
+      "title": "Best Actor/Actress Winner - Born in January",
+      "type": "People",
+      "authorid": "ur57704188",
+      "author": "brijeshmarand",
+      "date": "2022/01/05",
+      "votes": 53,
+      "featured": "No",
+      "status": "Live"
+    },
+    {
+      "url": "https://www.imdb.com/poll/YnvGullGeRM/",
+      "title": "Best TV Episode of 2021",
+      "type": "Titles",
+      "authorid": "ur46158148",
+      "author": "penchofifteenpolls",
+      "date": "2022/01/05",
+      "votes": 29,
+      "featured": "No",
+      "status": "Live"
+    },
+    {
+      "url": "https://www.imdb.com/poll/wmdBjo22dhk/",
+      "title": "Poll Board Users' Most Beloved Own Live Polls",
+      "type": "Images",
+      "authorid": "ur36448190",
+      "author": "Breumaster",
+      "date": "2022/01/05",
+      "votes": 26,
+      "featured": "No",
+      "status": "Live"
+    },
+    {
+      "url": "https://www.imdb.com/poll/sldvGRSglrE/",
+      "title": "Best Actress in a Mafia Movie or TV Series",
+      "type": "People",
+      "authorid": "ur130267048",
+      "author": "abiggaliso",
+      "date": "2022/01/05",
+      "votes": 35,
       "featured": "No",
       "status": "Live"
     }
