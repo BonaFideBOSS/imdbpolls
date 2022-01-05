@@ -166,6 +166,10 @@ footer img {
   border-radius: 5px;
 }
 
+footer p {
+  font-size: .875em;
+}
+
 @media only screen and (max-width: 767px) {
   .navbar .container {
     display: flex;
@@ -181,6 +185,10 @@ footer img {
     justify-content: center !important;
     text-align: center !important;
     gap: 10px;
+  }
+
+  footer p {
+    padding-top: 1.5rem !important;
   }
 
   footer .container div:last-child {
