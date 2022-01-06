@@ -27,7 +27,7 @@ file.onreadystatechange = function () {
     var matches = location.hash.match(/#([^&]+)/i);
     var hashFilter = matches && matches[1];
     if (hashFilter) {
-      input = hashFilter.replace("+", " ")
+      input = hashFilter.replaceAll("+", " ")
       $('#poll-search').val(input)
       $('#poll-search-result').html('')
       $('.data-loader.search-loader').show()
@@ -39,7 +39,7 @@ file.onreadystatechange = function () {
       if (!input.match(/^\s*$/)) {
         $('#poll-search-result').html('')
         $('.data-loader.search-loader').show()
-        window.location.replace('#' + input);
+        window.location.replace('#' + input.replaceAll(' ', '+'));
         pollSearch(input);
       }
     })
