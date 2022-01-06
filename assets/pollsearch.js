@@ -23,11 +23,24 @@ file.onreadystatechange = function () {
       return r
     }, {})
 
+    var input = ''
+    var matches = location.hash.match(/#([^&]+)/i);
+    var hashFilter = matches && matches[1];
+    if (hashFilter) {
+      input = hashFilter.replace("+", " ")
+      $('#poll-search').val(input)
+      $('#poll-search-result').html('')
+      $('.data-loader.search-loader').show()
+      pollSearch(input);
+    }
+
     $('form').on('submit', function () {
-      if (!$('#poll-search').val().match(/^\s*$/)) {
+      input = $('#poll-search').val()
+      if (!input.match(/^\s*$/)) {
         $('#poll-search-result').html('')
         $('.data-loader.search-loader').show()
-        pollSearch();
+        window.location.replace('#' + input);
+        pollSearch(input);
       }
     })
 
@@ -41,7 +54,7 @@ file.onreadystatechange = function () {
       }
     })
 
-    function pollSearch() {
+    function pollSearch(searchString) {
       var searchheader = ''
       var searchfooter = ''
       var keywords = []
@@ -52,8 +65,8 @@ file.onreadystatechange = function () {
       var polltype = $('#type-filter').val()
       var orderby = $('#orderby-filter').val()
 
-      if ($('#poll-search').val().length > 0) {
-        keywords = $('#poll-search').val().toLowerCase().split(" ")
+      if (searchString.length > 0) {
+        keywords = searchString.toLowerCase().split(" ")
         if ($('#item-filter').val() == 'poll') {
           for (var i = 0; i < polls.length; i++) {
             if (keywords.every(item => polls[i].title.toLowerCase().includes(item))) {
@@ -138,7 +151,7 @@ file.onreadystatechange = function () {
           for (const i in authorData) {
             if (Object.hasOwnProperty.call(authorData, i)) {
               const element = authorData[i];
-              if (element.author.toLowerCase().includes($('#poll-search').val().toLowerCase())) {
+              if (element.author.toLowerCase().includes(searchString.toLowerCase())) {
                 authorCount = authorCount + 1
                 searchheader = '<h3>Search Results (' + (authorCount) + ')</h3><hr>'
                 searchfooter = 'Showing ' + (authorCount) + ' out of ' + authors.length + ' authors.'
