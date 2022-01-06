@@ -216,7 +216,7 @@ file.onreadystatechange = function () {
       function pollranking() {
         var lbrow = document.querySelectorAll('#imdbpolls tbody tr')
         var pagelength = document.getElementById('imdbpolls_length').getElementsByTagName('select')[0].value
-        var currentpage = $('#imdbpolls_paginate .paginate_button.current').html()
+        var currentpage = $('#imdbpolls_paginate .paginate_button.current').html().replace(',', '')
         var startingrank = pagelength * currentpage - pagelength
         for (var i = 0; i < lbrow.length; i++) {
           if (lbrow[i].querySelectorAll('td')[0].classList.contains('dataTables_empty')) {} else {
@@ -232,7 +232,7 @@ file.onreadystatechange = function () {
         }).count()
         var lbrow = document.querySelectorAll('#imdbpolls tbody tr')
         var pagelength = document.getElementById('imdbpolls_length').getElementsByTagName('select')[0].value
-        var currentpage = $('#imdbpolls_paginate .paginate_button.current').html()
+        var currentpage = $('#imdbpolls_paginate .paginate_button.current').html().replace(',', '')
         var startingrank = pagelength * currentpage - pagelength
         startingrank = pollrowtotal - startingrank
         for (var i = 0; i < lbrow.length; i++) {

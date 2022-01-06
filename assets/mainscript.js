@@ -182,8 +182,9 @@ file.onreadystatechange = function () {
       function pollranking() {
         var lbrow = document.querySelectorAll('#allimdbpolls tbody tr')
         var pagelength = document.getElementById('allimdbpolls_length').getElementsByTagName('select')[0].value
-        var currentpage = $('#allimdbpolls_paginate .paginate_button.current').html()
+        var currentpage = $('#allimdbpolls_paginate .paginate_button.current').html().replace(',', '')
         var startingrank = pagelength * currentpage - pagelength
+        console.log('page lenth: ' + pagelength + ' | current page: ' + currentpage + ' | starting no.: ' + startingrank)
         for (var i = 0; i < lbrow.length; i++) {
           if (lbrow[i].querySelectorAll('td')[0].classList.contains('dataTables_empty')) {} else {
             startingrank = startingrank + 1
@@ -198,7 +199,7 @@ file.onreadystatechange = function () {
         }).count()
         var lbrow = document.querySelectorAll('#allimdbpolls tbody tr')
         var pagelength = document.getElementById('allimdbpolls_length').getElementsByTagName('select')[0].value
-        var currentpage = $('#allimdbpolls_paginate .paginate_button.current').html()
+        var currentpage = $('#allimdbpolls_paginate .paginate_button.current').html().replace(',', '')
         var startingrank = pagelength * currentpage - pagelength
         startingrank = pollrowtotal - startingrank
         for (var i = 0; i < lbrow.length; i++) {
@@ -288,7 +289,7 @@ file.onreadystatechange = function () {
       function ranking() {
         var lbrow = document.querySelectorAll('#leaderboard tbody tr')
         var pagelength = document.getElementById('leaderboard_length').getElementsByTagName('select')[0].value
-        var currentpage = $('#leaderboard_paginate .paginate_button.current').html()
+        var currentpage = $('#leaderboard_paginate .paginate_button.current').html().replace(',', '')
         var startingrank = pagelength * currentpage - pagelength
         for (var i = 0; i < lbrow.length; i++) {
           if (lbrow[i].querySelectorAll('td')[0].classList.contains('dataTables_empty')) {} else {
@@ -304,7 +305,7 @@ file.onreadystatechange = function () {
         }).count()
         var lbrow = document.querySelectorAll('#leaderboard tbody tr')
         var pagelength = document.getElementById('leaderboard_length').getElementsByTagName('select')[0].value
-        var currentpage = $('#leaderboard_paginate .paginate_button.current').html()
+        var currentpage = $('#leaderboard_paginate .paginate_button.current').html().replace(',', '')
         var startingrank = pagelength * currentpage - pagelength
         startingrank = lbrowtotal - startingrank
         for (var i = 0; i < lbrow.length; i++) {
@@ -357,13 +358,6 @@ file.onreadystatechange = function () {
           rankingbottom();
         }
       })
-
-      lbtable.on('draw', function () {
-        console.log('rows count:', lbtable.rows({
-          search: 'applied'
-        }).count());
-      });
-
 
       $('.data-loader.loader-one').hide()
       $('main').show()
