@@ -24,9 +24,11 @@ file.onreadystatechange = function () {
     }, {})
 
     $('form').on('submit', function () {
-      $('#poll-search-result').html('')
-      $('.data-loader.search-loader').show()
-      pollSearch();
+      if (!$('#poll-search').val().match(/^\s*$/)) {
+        $('#poll-search-result').html('')
+        $('.data-loader.search-loader').show()
+        pollSearch();
+      }
     })
 
     $('#item-filter').on('change', function () {

@@ -68,11 +68,13 @@
         <h5 class="search-type-title">Poll Title:</h5>
         <div class="input-group">
           <span class="input-group-text"><i class="bi bi-search"></i></span>
-          <input type="text" class="form-control py-3" id="poll-search" placeholder="Search" required>
+          <input type="text" class="form-control py-3" id="poll-search" placeholder="Search" min="1" required>
         </div>
 
         <button class="btn btn-warning w-100 mt-3 py-2" type="submit">Search</button>
       </form>
+
+      <div id="spellcheck"></div>
 
       <div class="data-loader search-loader my-5">
         <div>
