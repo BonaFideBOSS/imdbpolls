@@ -1,10 +1,10 @@
 {
-  "totalpolls": 10257,
-  "totalvotes": 17890946,
-  "totalauthors": 420,
+  "totalpolls": 10261,
+  "totalvotes": 17892194,
+  "totalauthors": 421,
   "totalfeatures": 537,
-  "lastupdated": "Wednesday, January 05, 2022 - 07:11 EST",
-  "rawdate": "2022-01-05 07:11:46.541631-05:00",
+  "lastupdated": "Thursday, January 06, 2022 - 06:06 EST",
+  "rawdate": "2022-01-06 06:06:12.577637-05:00",
   "authors": [
     {
       "authorid": "ur50452813",
@@ -1685,6 +1685,10 @@
     {
       "authorid": "ur130267048",
       "avatar": "https://images-na.ssl-images-amazon.com/images/M/MV5BMjQ4MTY5NzU2M15BMl5BanBnXkFtZTgwNDc5NTgwMTI@._V1_SY100_SX100_.jpg"
+    },
+    {
+      "authorid": "ur25120897",
+      "avatar": "https://m.media-amazon.com/images/M/MV5BNTBiZjgyMDMtYzZkMS00YWI1LTgyZmMtYjUxMDY0YjJjODM5XkEyXkFqcGdeQXVyMjUxMjA4OTc@._V1_SY100_SX100_.jpg"
     }
   ],
   "polls": [
@@ -114280,7 +114284,7 @@
       "authorid": "ur28319455",
       "author": "Hoekkie",
       "date": "2022/01/01",
-      "votes": 318,
+      "votes": 347,
       "featured": "No",
       "status": "Live"
     },
@@ -114291,7 +114295,7 @@
       "authorid": "ur57704188",
       "author": "brijeshmarand",
       "date": "2022/01/01",
-      "votes": 188,
+      "votes": 207,
       "featured": "No",
       "status": "Live"
     },
@@ -114302,7 +114306,7 @@
       "authorid": "ur75779804",
       "author": "BonaFideBOSS",
       "date": "2022/01/01",
-      "votes": 193,
+      "votes": 212,
       "featured": "No",
       "status": "Live"
     },
@@ -114313,7 +114317,7 @@
       "authorid": "ur91650024",
       "author": "thenolanfan",
       "date": "2022/01/01",
-      "votes": 187,
+      "votes": 212,
       "featured": "No",
       "status": "Live"
     },
@@ -114368,7 +114372,7 @@
       "authorid": "ur36448190",
       "author": "Breumaster",
       "date": "2022/01/02",
-      "votes": 184,
+      "votes": 210,
       "featured": "No",
       "status": "Live"
     },
@@ -114379,7 +114383,7 @@
       "authorid": "ur137235941",
       "author": "JackSlater4",
       "date": "2022/01/02",
-      "votes": 224,
+      "votes": 275,
       "featured": "No",
       "status": "Live"
     },
@@ -114390,7 +114394,7 @@
       "authorid": "ur57704188",
       "author": "brijeshmarand",
       "date": "2022/01/02",
-      "votes": 192,
+      "votes": 226,
       "featured": "No",
       "status": "Live"
     },
@@ -114401,7 +114405,7 @@
       "authorid": "ur132494301",
       "author": "mpaxtonpolls",
       "date": "2022/01/03",
-      "votes": 110,
+      "votes": 141,
       "featured": "No",
       "status": "Live"
     },
@@ -114412,7 +114416,7 @@
       "authorid": "ur34779915",
       "author": "Paok-Kilkis",
       "date": "2022/01/03",
-      "votes": 228,
+      "votes": 333,
       "featured": "No",
       "status": "Live"
     },
@@ -114423,7 +114427,7 @@
       "authorid": "ur75779804",
       "author": "BonaFideBOSS",
       "date": "2022/01/03",
-      "votes": 115,
+      "votes": 162,
       "featured": "No",
       "status": "Live"
     },
@@ -114434,7 +114438,7 @@
       "authorid": "ur111129375",
       "author": "Master_Strange",
       "date": "2022/01/04",
-      "votes": 49,
+      "votes": 202,
       "featured": "No",
       "status": "Live"
     },
@@ -114445,7 +114449,7 @@
       "authorid": "ur12089554",
       "author": "mariojacobs",
       "date": "2022/01/04",
-      "votes": 33,
+      "votes": 124,
       "featured": "No",
       "status": "Live"
     },
@@ -114456,7 +114460,7 @@
       "authorid": "ur91650024",
       "author": "thenolanfan",
       "date": "2022/01/04",
-      "votes": 30,
+      "votes": 108,
       "featured": "No",
       "status": "Live"
     },
@@ -114467,7 +114471,7 @@
       "authorid": "ur34779915",
       "author": "Paok-Kilkis",
       "date": "2022/01/04",
-      "votes": 42,
+      "votes": 159,
       "featured": "No",
       "status": "Live"
     },
@@ -114478,7 +114482,7 @@
       "authorid": "ur57704188",
       "author": "brijeshmarand",
       "date": "2022/01/05",
-      "votes": 53,
+      "votes": 180,
       "featured": "No",
       "status": "Live"
     },
@@ -114489,7 +114493,7 @@
       "authorid": "ur46158148",
       "author": "penchofifteenpolls",
       "date": "2022/01/05",
-      "votes": 29,
+      "votes": 104,
       "featured": "No",
       "status": "Live"
     },
@@ -114500,7 +114504,7 @@
       "authorid": "ur36448190",
       "author": "Breumaster",
       "date": "2022/01/05",
-      "votes": 26,
+      "votes": 64,
       "featured": "No",
       "status": "Live"
     },
@@ -114511,7 +114515,51 @@
       "authorid": "ur130267048",
       "author": "abiggaliso",
       "date": "2022/01/05",
-      "votes": 35,
+      "votes": 109,
+      "featured": "No",
+      "status": "Live"
+    },
+    {
+      "url": "https://www.imdb.com/poll/oIwxHozqJyw/",
+      "title": "Eddie Redmayne at 40",
+      "type": "Images",
+      "authorid": "ur57704188",
+      "author": "brijeshmarand",
+      "date": "2022/01/06",
+      "votes": 24,
+      "featured": "No",
+      "status": "Live"
+    },
+    {
+      "url": "https://www.imdb.com/poll/ysF9vi89wAA/",
+      "title": "Best Sci-Fi Movie of 2021",
+      "type": "Titles",
+      "authorid": "ur75779804",
+      "author": "BonaFideBOSS",
+      "date": "2022/01/06",
+      "votes": 39,
+      "featured": "No",
+      "status": "Live"
+    },
+    {
+      "url": "https://www.imdb.com/poll/lR_MHE2bRM8/",
+      "title": "Disney Contenders",
+      "type": "Titles",
+      "authorid": "ur0743304",
+      "author": "pbn",
+      "date": "2022/01/06",
+      "votes": 27,
+      "featured": "No",
+      "status": "Live"
+    },
+    {
+      "url": "https://www.imdb.com/poll/66pXqRxQkwI/",
+      "title": "2021 \"The Wheel of Time\" TV Series",
+      "type": "People",
+      "authorid": "ur25120897",
+      "author": "greyskull-983-725347",
+      "date": "2022/01/06",
+      "votes": 19,
       "featured": "No",
       "status": "Live"
     }
