@@ -23,7 +23,7 @@ file.onreadystatechange = function () {
       return r
     }, {})
 
-    var input = ''
+    var input;
     var matches = location.hash.match(/#([^&]+)/i);
     var hashFilter = matches && matches[1];
     if (hashFilter) {
