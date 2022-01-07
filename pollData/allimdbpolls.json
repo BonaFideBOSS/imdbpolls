@@ -1,10 +1,10 @@
 {
-  "totalpolls": 10261,
-  "totalvotes": 17892194,
+  "totalpolls": 10265,
+  "totalvotes": 17892324,
   "totalauthors": 421,
   "totalfeatures": 537,
-  "lastupdated": "Thursday, January 06, 2022 - 06:06 EST",
-  "rawdate": "2022-01-06 06:06:12.577637-05:00",
+  "lastupdated": "Friday, January 07, 2022 - 08:30 EST",
+  "rawdate": "2022-01-07 08:30:27.437684-05:00",
   "authors": [
     {
       "authorid": "ur50452813",
@@ -114560,6 +114560,50 @@
       "author": "greyskull-983-725347",
       "date": "2022/01/06",
       "votes": 19,
+      "featured": "No",
+      "status": "Live"
+    },
+    {
+      "url": "https://www.imdb.com/poll/_48gz6C0o3o/",
+      "title": "Golden Bear, Golden Palm and Golden Lion",
+      "type": "People",
+      "authorid": "ur91650024",
+      "author": "thenolanfan",
+      "date": "2022/01/07",
+      "votes": 28,
+      "featured": "No",
+      "status": "Live"
+    },
+    {
+      "url": "https://www.imdb.com/poll/p3zpfAP98QA/",
+      "title": "Face-Off: 'Into the Spider-Verse' vs. 'No Way Home'",
+      "type": "Titles",
+      "authorid": "ur34779915",
+      "author": "Paok-Kilkis",
+      "date": "2022/01/07",
+      "votes": 36,
+      "featured": "No",
+      "status": "Live"
+    },
+    {
+      "url": "https://www.imdb.com/poll/ST6i27INEbE/",
+      "title": "Face-Off: Anthony Hopkins vs. Adrien Brody",
+      "type": "People",
+      "authorid": "ur122799232",
+      "author": "ethangentle",
+      "date": "2022/01/07",
+      "votes": 41,
+      "featured": "No",
+      "status": "Live"
+    },
+    {
+      "url": "https://www.imdb.com/poll/rH0oo8Rgvgc/",
+      "title": "Face-Off: \"Step by Step\" or \"The Brady Bunch\"",
+      "type": "Titles",
+      "authorid": "ur32931141",
+      "author": "TheMovieSmith",
+      "date": "2022/01/07",
+      "votes": 25,
       "featured": "No",
       "status": "Live"
     }
