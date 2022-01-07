@@ -137,7 +137,7 @@ file.onreadystatechange = function () {
                   '<div class="card-body">' +
                   '<div><img src="' + imgurl + '"><span>' +
                   '<h5><a href="' + filteredlist[i].url + '">' + filteredlist[i].title + '</a></h5>' +
-                  '<p><a href="user#' + filteredlist[i].authorid + '">' + filteredlist[i].author + '<span class="text-muted">' + publishdate + '</span></p>' +
+                  '<p><a href="user#' + filteredlist[i].authorid + '">' + filteredlist[i].author + '</a><span class="text-muted">' + publishdate + '</span></p>' +
                   '<p class="text-muted">' + polldate + filteredlist[i].type + ' Poll<i class="bi bi-dot"></i>' + filteredlist[i].status + '<i class="bi bi-dot"></i>' + filteredlist[i].votes.toLocaleString() + ' votes' + featured + '</p>' +
                   '</span></div>' + statusicon + '</div></div><hr>'
               }
