@@ -301,7 +301,7 @@ file.onreadystatechange = function () {
           [3, "desc"]
         ],
         "columnDefs": [{
-          "targets": [0, 1, 2],
+          "targets": [0, 1],
           "orderable": false
         }]
       });
