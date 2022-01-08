@@ -36,6 +36,37 @@ file.onreadystatechange = function () {
       return r
     }, {})
 
+    var mostvotes = 0;
+    var mostpolls = 0;
+    var mosthp = 0;
+    for (const i in authorData) {
+      if (Object.hasOwnProperty.call(authorData, i)) {
+        const user = authorData[i];
+        var avatar = authors.find(entry => entry.authorid == i).avatar
+        if (avatar == "") {
+          avatar = 'img/imdbpoll.png'
+        }
+        if (mostvotes < user.votes) {
+          mostvotes = user.votes
+          $('#author-with-most-votes img').attr('src', avatar)
+          $('#author-with-most-votes .card-title').html('<a href="user#' + i + '">' + user.author + '</a>')
+          $('#author-with-most-votes .fs-4').html(user.votes.toLocaleString())
+        }
+        if (mostpolls < user.polls) {
+          mostpolls = user.polls
+          $('#author-with-most-polls img').attr('src', avatar)
+          $('#author-with-most-polls .card-title').html('<a href="user#' + i + '">' + user.author + '</a>')
+          $('#author-with-most-polls .fs-4').html(user.polls.toLocaleString())
+        }
+        if (mosthp < user.features) {
+          mosthp = user.features
+          $('#author-with-most-features img').attr('src', avatar)
+          $('#author-with-most-features .card-title').html('<a href="user#' + i + '">' + user.author + '</a>')
+          $('#author-with-most-features .fs-4').html(user.features.toLocaleString())
+        }
+      }
+    }
+
     var authorlist = []
     for (var i = 0; i < authors.length; i++) {
       var authorname = polls.filter(obj => {
@@ -69,7 +100,7 @@ file.onreadystatechange = function () {
             for (var i = 0; i < filteredlist.length; i++) {
               if (i < 5) {
                 searchheader = '<p>Top ' + (i + 1) + ' results</p>'
-                searchfooter = '<a href="search">See all results</a>'
+                searchfooter = '<a href="search#' + this.value.replaceAll(' ', '+') + '">See all results</a>'
                 var avatar = authors.find(entry => entry.authorid == filteredlist[i].authorid).avatar
                 if (avatar != "") {
                   imgurl = avatar
@@ -304,6 +335,15 @@ file.onreadystatechange = function () {
           "targets": [0, 1],
           "orderable": false
         }]
+      });
+      $('#lbsort-1').click(function () {
+        lbtable.order([2, 'desc']).draw()
+      });
+      $('#lbsort-2').click(function () {
+        lbtable.order([3, 'desc']).draw()
+      });
+      $('#lbsort-3').click(function () {
+        lbtable.order([4, 'desc']).draw()
       });
 
       function ranking() {

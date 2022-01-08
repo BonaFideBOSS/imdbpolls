@@ -63,16 +63,74 @@
       </div>
 
       <div class="input-group">
-        <a href="search" class="input-group-text text-dark" title="Search" data-bs-toggle="tooltip"
-          data-bs-placement="bottom"><i class="bi bi-search"></i></a>
-        <input type="text" list="search-options" class="form-control py-3" id="poll-search" placeholder="Search"
-          autocomplete="off">
         <select id="search-filter" class="form-select hp">
           <option value="poll">Polls</option>
           <option value="author">Authors</option>
         </select>
+        <input type="text" list="search-options" class="form-control py-3" id="poll-search" placeholder="Search"
+          autocomplete="off">
+        <a href="search" class="input-group-text text-dark" title="Search" data-bs-toggle="tooltip"
+          data-bs-placement="bottom"><i class="bi bi-search"></i></a>
       </div>
       <div id="search-result" class="shadow rounded-3 p-2"></div>
+
+      <div class="mt-5 text-center">
+        <h4><i class="bi bi-person"></i> Top Authors</h4>
+        <div class="row row-cols-1 row-cols-md-3 gx-5 gy-3 top-authors text-center mt-4">
+
+          <div class="col">
+            <div id="author-with-most-polls" class="card h-100 text-center bg-light shadow-sm">
+              <div class="d-flex justify-content-center">
+                <img src="img/imdbpoll.png">
+              </div>
+              <div class="card-body">
+                <h5 class="card-title"></h5>
+                <p>
+                  <span class="text-muted">Author With <b>Most Polls</b></span>
+                  <br>
+                  <b><span class="fs-4"></span></b>
+                </p>
+                <a href="#leaderboard" id="lbsort-1" class="text-primary">leaderboard »</a>
+              </div>
+            </div>
+          </div>
+
+          <div class="col">
+            <div id="author-with-most-votes" class="card h-100 text-center bg-light shadow-sm">
+              <div class="d-flex justify-content-center">
+                <img src="img/imdbpoll.png">
+              </div>
+              <div class="card-body">
+                <h5 class="card-title"></h5>
+                <p>
+                  <span class="text-muted">Author With <b>Most Votes</b></span>
+                  <br>
+                  <b><span class="fs-4"></span></b>
+                </p>
+                <a href="#leaderboard" id="lbsort-2" class="text-primary">leaderboard »</a>
+              </div>
+            </div>
+          </div>
+
+          <div class="col">
+            <div id="author-with-most-features" class="card h-100 text-center bg-light shadow-sm">
+              <div class="d-flex justify-content-center">
+                <img src="img/imdbpoll.png">
+              </div>
+              <div class="card-body">
+                <h5 class="card-title"></h5>
+                <p>
+                  <span class="text-muted">Author With <b>Most Features</b></span>
+                  <br>
+                  <b><span class="fs-4"></span></b>
+                </p>
+                <a href="#leaderboard" id="lbsort-3" class="text-primary">leaderboard »</a>
+              </div>
+            </div>
+          </div>
+
+        </div>
+      </div>
 
       <h4 class="pt-5 d-flex gap-2 align-items-center">
         <div style="transform: rotate(180deg);"><i class="bi bi-kanban"></i></div> IMDb Polls

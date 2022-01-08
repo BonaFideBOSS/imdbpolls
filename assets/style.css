@@ -92,6 +92,23 @@ input {
   color: #6c757d !important;
 }
 
+.top-authors .card {
+  padding-top: 1rem;
+}
+
+.top-authors img {
+  width: 100px;
+  border-radius: 50%;
+}
+
+.top-authors a:first-child {
+  color: black;
+}
+
+.top-authors a:hover {
+  text-decoration: underline;
+}
+
 input::-webkit-calendar-picker-indicator {
   display: none !important;
 }
