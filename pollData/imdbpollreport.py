@@ -41,7 +41,7 @@ errorpolls = []
 for i in data["polls"]:
     pollLink = i["url"]
     if i["status"] == "Live":
-        if i["votes"] == "":
+        if "2020" in i["date"] or "2021" in i["date"] or "2022" in i["date"]:
             try:
                 resultURL = pollLink
                 mobileURL = pollLink.replace("www", "m")
@@ -50,7 +50,7 @@ for i in data["polls"]:
                 else:
                     resultURL = pollLink + "/results"
 
-                myheader = {"User-Agent": "Mozilla/5.0"}
+                myheader = {"User-Agent": "Mozilla/5.0", "Connection": "keep-alive"}
 
                 connection = requests.get(resultURL, headers=myheader)
                 scrape = BeautifulSoup(connection.text, "html.parser")

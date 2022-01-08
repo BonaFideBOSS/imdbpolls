@@ -1,10 +1,10 @@
 {
-  "totalpolls": 10265,
-  "totalvotes": 17892324,
-  "totalauthors": 421,
-  "totalfeatures": 537,
-  "lastupdated": "Friday, January 07, 2022 - 08:30 EST",
-  "rawdate": "2022-01-07 08:30:27.437684-05:00",
+  "totalpolls": 10269,
+  "totalvotes": 17893331,
+  "totalauthors": 422,
+  "totalfeatures": 538,
+  "lastupdated": "Saturday, January 08, 2022 - 07:54 EST",
+  "rawdate": "2022-01-08 07:54:33.459890-05:00",
   "authors": [
     {
       "authorid": "ur50452813",
@@ -1689,6 +1689,10 @@
     {
       "authorid": "ur25120897",
       "avatar": "https://m.media-amazon.com/images/M/MV5BNTBiZjgyMDMtYzZkMS00YWI1LTgyZmMtYjUxMDY0YjJjODM5XkEyXkFqcGdeQXVyMjUxMjA4OTc@._V1_SY100_SX100_.jpg"
+    },
+    {
+      "authorid": "ur21342762",
+      "avatar": "https://images-na.ssl-images-amazon.com/images/M/MV5BMjQ4MTY5NzU2M15BMl5BanBnXkFtZTgwNDc5NTgwMTI@._V1_SY100_SX100_.jpg"
     }
   ],
   "polls": [
@@ -82021,7 +82025,7 @@
       "authorid": "ur75779804",
       "author": "BonaFideBOSS",
       "date": "2019/08/31",
-      "votes": 1354,
+      "votes": 1355,
       "featured": "No",
       "status": "Live"
     },
@@ -85156,7 +85160,7 @@
       "authorid": "ur75779804",
       "author": "BonaFideBOSS",
       "date": "2019/11/24",
-      "votes": 607,
+      "votes": 608,
       "featured": "No",
       "status": "Live"
     },
@@ -85761,7 +85765,7 @@
       "authorid": "ur75779804",
       "author": "BonaFideBOSS",
       "date": "2019/12/11",
-      "votes": 1900,
+      "votes": 1906,
       "featured": "No",
       "status": "Live"
     },
@@ -86267,7 +86271,7 @@
       "authorid": "ur75779804",
       "author": "BonaFideBOSS",
       "date": "2019/12/22",
-      "votes": 479,
+      "votes": 480,
       "featured": "No",
       "status": "Live"
     },
@@ -86861,7 +86865,7 @@
       "authorid": "ur75779804",
       "author": "BonaFideBOSS",
       "date": "2020/01/06",
-      "votes": 1536,
+      "votes": 1540,
       "featured": "No",
       "status": "Live"
     },
@@ -87433,7 +87437,7 @@
       "authorid": "ur75779804",
       "author": "BonaFideBOSS",
       "date": "2020/01/20",
-      "votes": 24266,
+      "votes": 24268,
       "featured": "Yes",
       "status": "Live"
     },
@@ -87851,7 +87855,7 @@
       "authorid": "ur75779804",
       "author": "BonaFideBOSS",
       "date": "2020/01/30",
-      "votes": 607,
+      "votes": 608,
       "featured": "No",
       "status": "Live"
     },
@@ -87994,7 +87998,7 @@
       "authorid": "ur75779804",
       "author": "BonaFideBOSS",
       "date": "2020/02/03",
-      "votes": 579,
+      "votes": 580,
       "featured": "No",
       "status": "Live"
     },
@@ -88181,7 +88185,7 @@
       "authorid": "ur75779804",
       "author": "BonaFideBOSS",
       "date": "2020/02/08",
-      "votes": 1696,
+      "votes": 1700,
       "featured": "No",
       "status": "Live"
     },
@@ -88786,7 +88790,7 @@
       "authorid": "ur75779804",
       "author": "BonaFideBOSS",
       "date": "2020/02/24",
-      "votes": 658,
+      "votes": 660,
       "featured": "No",
       "status": "Live"
     },
@@ -88830,7 +88834,7 @@
       "authorid": "ur75779804",
       "author": "BonaFideBOSS",
       "date": "2020/02/25",
-      "votes": 1003,
+      "votes": 1005,
       "featured": "No",
       "status": "Live"
     },
@@ -89094,7 +89098,7 @@
       "authorid": "ur75779804",
       "author": "BonaFideBOSS",
       "date": "2020/03/03",
-      "votes": 1277,
+      "votes": 1279,
       "featured": "Yes",
       "status": "Live"
     },
@@ -89380,7 +89384,7 @@
       "authorid": "ur75779804",
       "author": "BonaFideBOSS",
       "date": "2020/03/11",
-      "votes": 5816,
+      "votes": 5825,
       "featured": "Yes",
       "status": "Live"
     },
@@ -89567,7 +89571,7 @@
       "authorid": "ur75779804",
       "author": "BonaFideBOSS",
       "date": "2020/03/15",
-      "votes": 1945,
+      "votes": 1946,
       "featured": "No",
       "status": "Live"
     },
@@ -89908,7 +89912,7 @@
       "authorid": "ur75779804",
       "author": "BonaFideBOSS",
       "date": "2020/03/25",
-      "votes": 316,
+      "votes": 317,
       "featured": "No",
       "status": "Live"
     },
@@ -89952,7 +89956,7 @@
       "authorid": "ur75779804",
       "author": "BonaFideBOSS",
       "date": "2020/03/26",
-      "votes": 698,
+      "votes": 702,
       "featured": "No",
       "status": "Live"
     },
@@ -90073,7 +90077,7 @@
       "authorid": "ur75779804",
       "author": "BonaFideBOSS",
       "date": "2020/03/29",
-      "votes": 8142,
+      "votes": 8145,
       "featured": "Yes",
       "status": "Live"
     },
@@ -90227,7 +90231,7 @@
       "authorid": "ur75779804",
       "author": "BonaFideBOSS",
       "date": "2020/04/02",
-      "votes": 852,
+      "votes": 853,
       "featured": "No",
       "status": "Live"
     },
@@ -90249,7 +90253,7 @@
       "authorid": "ur75779804",
       "author": "BonaFideBOSS",
       "date": "2020/04/03",
-      "votes": 419,
+      "votes": 423,
       "featured": "No",
       "status": "Live"
     },
@@ -90304,7 +90308,7 @@
       "authorid": "ur75779804",
       "author": "BonaFideBOSS",
       "date": "2020/04/04",
-      "votes": 456,
+      "votes": 457,
       "featured": "No",
       "status": "Live"
     },
@@ -90348,7 +90352,7 @@
       "authorid": "ur75779804",
       "author": "BonaFideBOSS",
       "date": "2020/04/06",
-      "votes": 255,
+      "votes": 256,
       "featured": "No",
       "status": "Live"
     },
@@ -90392,7 +90396,7 @@
       "authorid": "ur75779804",
       "author": "BonaFideBOSS",
       "date": "2020/04/06",
-      "votes": 473,
+      "votes": 475,
       "featured": "No",
       "status": "Live"
     },
@@ -90458,7 +90462,7 @@
       "authorid": "ur75779804",
       "author": "BonaFideBOSS",
       "date": "2020/04/09",
-      "votes": 680,
+      "votes": 685,
       "featured": "No",
       "status": "Live"
     },
@@ -90546,7 +90550,7 @@
       "authorid": "ur75779804",
       "author": "BonaFideBOSS",
       "date": "2020/04/11",
-      "votes": 318,
+      "votes": 319,
       "featured": "No",
       "status": "Live"
     },
@@ -90931,7 +90935,7 @@
       "authorid": "ur75779804",
       "author": "BonaFideBOSS",
       "date": "2020/04/22",
-      "votes": 1007,
+      "votes": 1008,
       "featured": "No",
       "status": "Live"
     },
@@ -91272,7 +91276,7 @@
       "authorid": "ur75779804",
       "author": "BonaFideBOSS",
       "date": "2020/04/30",
-      "votes": 1525,
+      "votes": 1526,
       "featured": "Yes",
       "status": "Live"
     },
@@ -91338,7 +91342,7 @@
       "authorid": "ur75779804",
       "author": "BonaFideBOSS",
       "date": "2020/05/02",
-      "votes": 159,
+      "votes": 160,
       "featured": "No",
       "status": "Live"
     },
@@ -91437,7 +91441,7 @@
       "authorid": "ur75779804",
       "author": "BonaFideBOSS",
       "date": "2020/05/05",
-      "votes": 1576,
+      "votes": 1578,
       "featured": "No",
       "status": "Live"
     },
@@ -91987,7 +91991,7 @@
       "authorid": "ur75779804",
       "author": "BonaFideBOSS",
       "date": "2020/05/18",
-      "votes": 298,
+      "votes": 299,
       "featured": "No",
       "status": "Live"
     },
@@ -92295,7 +92299,7 @@
       "authorid": "ur75779804",
       "author": "BonaFideBOSS",
       "date": "2020/05/26",
-      "votes": 741,
+      "votes": 744,
       "featured": "No",
       "status": "Live"
     },
@@ -92845,7 +92849,7 @@
       "authorid": "ur75779804",
       "author": "BonaFideBOSS",
       "date": "2020/06/08",
-      "votes": 2148,
+      "votes": 2155,
       "featured": "Yes",
       "status": "Live"
     },
@@ -93483,7 +93487,7 @@
       "authorid": "ur75779804",
       "author": "BonaFideBOSS",
       "date": "2020/06/24",
-      "votes": 307,
+      "votes": 308,
       "featured": "No",
       "status": "Live"
     },
@@ -93747,7 +93751,7 @@
       "authorid": "ur75779804",
       "author": "BonaFideBOSS",
       "date": "2020/07/01",
-      "votes": 364,
+      "votes": 365,
       "featured": "No",
       "status": "Live"
     },
@@ -93912,7 +93916,7 @@
       "authorid": "ur75779804",
       "author": "BonaFideBOSS",
       "date": "2020/07/05",
-      "votes": 710,
+      "votes": 711,
       "featured": "No",
       "status": "Live"
     },
@@ -94033,7 +94037,7 @@
       "authorid": "ur75779804",
       "author": "BonaFideBOSS",
       "date": "2020/07/08",
-      "votes": 450,
+      "votes": 451,
       "featured": "No",
       "status": "Live"
     },
@@ -94319,7 +94323,7 @@
       "authorid": "ur75779804",
       "author": "BonaFideBOSS",
       "date": "2020/07/15",
-      "votes": 679,
+      "votes": 682,
       "featured": "No",
       "status": "Live"
     },
@@ -94341,7 +94345,7 @@
       "authorid": "ur75779804",
       "author": "BonaFideBOSS",
       "date": "2020/07/16",
-      "votes": 568,
+      "votes": 569,
       "featured": "No",
       "status": "Live"
     },
@@ -94770,7 +94774,7 @@
       "authorid": "ur75779804",
       "author": "BonaFideBOSS",
       "date": "2020/07/28",
-      "votes": 539,
+      "votes": 540,
       "featured": "No",
       "status": "Live"
     },
@@ -94825,7 +94829,7 @@
       "authorid": "ur75779804",
       "author": "BonaFideBOSS",
       "date": "2020/07/29",
-      "votes": 1117,
+      "votes": 1121,
       "featured": "No",
       "status": "Live"
     },
@@ -95045,7 +95049,7 @@
       "authorid": "ur75779804",
       "author": "BonaFideBOSS",
       "date": "2020/08/04",
-      "votes": 1535,
+      "votes": 1537,
       "featured": "No",
       "status": "Live"
     },
@@ -95133,7 +95137,7 @@
       "authorid": "ur75779804",
       "author": "BonaFideBOSS",
       "date": "2020/08/06",
-      "votes": 1470,
+      "votes": 1472,
       "featured": "No",
       "status": "Live"
     },
@@ -95243,7 +95247,7 @@
       "authorid": "ur75779804",
       "author": "BonaFideBOSS",
       "date": "2020/08/09",
-      "votes": 513,
+      "votes": 517,
       "featured": "No",
       "status": "Live"
     },
@@ -95540,7 +95544,7 @@
       "authorid": "ur75779804",
       "author": "BonaFideBOSS",
       "date": "2020/08/16",
-      "votes": 671,
+      "votes": 672,
       "featured": "No",
       "status": "Live"
     },
@@ -96343,7 +96347,7 @@
       "authorid": "ur75779804",
       "author": "BonaFideBOSS",
       "date": "2020/09/08",
-      "votes": 461,
+      "votes": 462,
       "featured": "No",
       "status": "Live"
     },
@@ -96387,7 +96391,7 @@
       "authorid": "ur75779804",
       "author": "BonaFideBOSS",
       "date": "2020/09/09",
-      "votes": 614,
+      "votes": 615,
       "featured": "No",
       "status": "Live"
     },
@@ -96486,7 +96490,7 @@
       "authorid": "ur75779804",
       "author": "BonaFideBOSS",
       "date": "2020/09/12",
-      "votes": 228,
+      "votes": 229,
       "featured": "No",
       "status": "Live"
     },
@@ -96618,7 +96622,7 @@
       "authorid": "ur75779804",
       "author": "BonaFideBOSS",
       "date": "2020/09/14",
-      "votes": 334,
+      "votes": 335,
       "featured": "No",
       "status": "Live"
     },
@@ -96904,7 +96908,7 @@
       "authorid": "ur75779804",
       "author": "BonaFideBOSS",
       "date": "2020/09/23",
-      "votes": 564,
+      "votes": 567,
       "featured": "No",
       "status": "Live"
     },
@@ -96937,7 +96941,7 @@
       "authorid": "ur75779804",
       "author": "BonaFideBOSS",
       "date": "2020/09/24",
-      "votes": 603,
+      "votes": 604,
       "featured": "No",
       "status": "Live"
     },
@@ -97003,7 +97007,7 @@
       "authorid": "ur75779804",
       "author": "BonaFideBOSS",
       "date": "2020/09/26",
-      "votes": 459,
+      "votes": 460,
       "featured": "No",
       "status": "Live"
     },
@@ -97245,7 +97249,7 @@
       "authorid": "ur75779804",
       "author": "BonaFideBOSS",
       "date": "2020/10/03",
-      "votes": 416,
+      "votes": 417,
       "featured": "No",
       "status": "Live"
     },
@@ -97322,7 +97326,7 @@
       "authorid": "ur75779804",
       "author": "BonaFideBOSS",
       "date": "2020/10/05",
-      "votes": 184,
+      "votes": 185,
       "featured": "No",
       "status": "Live"
     },
@@ -97355,7 +97359,7 @@
       "authorid": "ur75779804",
       "author": "BonaFideBOSS",
       "date": "2020/10/06",
-      "votes": 390,
+      "votes": 391,
       "featured": "No",
       "status": "Live"
     },
@@ -97531,7 +97535,7 @@
       "authorid": "ur75779804",
       "author": "BonaFideBOSS",
       "date": "2020/10/11",
-      "votes": 735,
+      "votes": 738,
       "featured": "No",
       "status": "Live"
     },
@@ -97718,7 +97722,7 @@
       "authorid": "ur75779804",
       "author": "BonaFideBOSS",
       "date": "2020/10/16",
-      "votes": 306,
+      "votes": 307,
       "featured": "No",
       "status": "Live"
     },
@@ -97762,7 +97766,7 @@
       "authorid": "ur75779804",
       "author": "BonaFideBOSS",
       "date": "2020/10/17",
-      "votes": 556,
+      "votes": 557,
       "featured": "No",
       "status": "Live"
     },
@@ -97872,7 +97876,7 @@
       "authorid": "ur75779804",
       "author": "BonaFideBOSS",
       "date": "2020/10/20",
-      "votes": 709,
+      "votes": 718,
       "featured": "No",
       "status": "Live"
     },
@@ -98015,7 +98019,7 @@
       "authorid": "ur75779804",
       "author": "BonaFideBOSS",
       "date": "2020/10/24",
-      "votes": 470,
+      "votes": 472,
       "featured": "No",
       "status": "Live"
     },
@@ -98180,7 +98184,7 @@
       "authorid": "ur75779804",
       "author": "BonaFideBOSS",
       "date": "2020/10/28",
-      "votes": 629,
+      "votes": 630,
       "featured": "No",
       "status": "Live"
     },
@@ -98213,7 +98217,7 @@
       "authorid": "ur75779804",
       "author": "BonaFideBOSS",
       "date": "2020/10/29",
-      "votes": 2465,
+      "votes": 2475,
       "featured": "Yes",
       "status": "Live"
     },
@@ -98378,7 +98382,7 @@
       "authorid": "ur75779804",
       "author": "BonaFideBOSS",
       "date": "2020/11/02",
-      "votes": 218,
+      "votes": 219,
       "featured": "No",
       "status": "Live"
     },
@@ -98433,7 +98437,7 @@
       "authorid": "ur75779804",
       "author": "BonaFideBOSS",
       "date": "2020/11/04",
-      "votes": 470,
+      "votes": 472,
       "featured": "No",
       "status": "Live"
     },
@@ -98532,7 +98536,7 @@
       "authorid": "ur75779804",
       "author": "BonaFideBOSS",
       "date": "2020/11/06",
-      "votes": 247,
+      "votes": 248,
       "featured": "No",
       "status": "Live"
     },
@@ -98587,7 +98591,7 @@
       "authorid": "ur75779804",
       "author": "BonaFideBOSS",
       "date": "2020/11/08",
-      "votes": 287,
+      "votes": 288,
       "featured": "No",
       "status": "Live"
     },
@@ -98741,7 +98745,7 @@
       "authorid": "ur75779804",
       "author": "BonaFideBOSS",
       "date": "2020/11/12",
-      "votes": 509,
+      "votes": 512,
       "featured": "No",
       "status": "Live"
     },
@@ -98829,7 +98833,7 @@
       "authorid": "ur75779804",
       "author": "BonaFideBOSS",
       "date": "2020/11/14",
-      "votes": 333,
+      "votes": 335,
       "featured": "No",
       "status": "Live"
     },
@@ -98983,7 +98987,7 @@
       "authorid": "ur75779804",
       "author": "BonaFideBOSS",
       "date": "2020/11/19",
-      "votes": 395,
+      "votes": 396,
       "featured": "No",
       "status": "Live"
     },
@@ -99159,7 +99163,7 @@
       "authorid": "ur75779804",
       "author": "BonaFideBOSS",
       "date": "2020/11/24",
-      "votes": 1098,
+      "votes": 1103,
       "featured": "No",
       "status": "Live"
     },
@@ -99236,7 +99240,7 @@
       "authorid": "ur75779804",
       "author": "BonaFideBOSS",
       "date": "2020/11/26",
-      "votes": 553,
+      "votes": 556,
       "featured": "No",
       "status": "Live"
     },
@@ -99412,7 +99416,7 @@
       "authorid": "ur75779804",
       "author": "BonaFideBOSS",
       "date": "2020/12/01",
-      "votes": 246,
+      "votes": 247,
       "featured": "No",
       "status": "Live"
     },
@@ -99577,7 +99581,7 @@
       "authorid": "ur75779804",
       "author": "BonaFideBOSS",
       "date": "2020/12/06",
-      "votes": 270,
+      "votes": 272,
       "featured": "No",
       "status": "Live"
     },
@@ -99643,7 +99647,7 @@
       "authorid": "ur75779804",
       "author": "BonaFideBOSS",
       "date": "2020/12/08",
-      "votes": 737,
+      "votes": 738,
       "featured": "No",
       "status": "Live"
     },
@@ -99665,7 +99669,7 @@
       "authorid": "ur75779804",
       "author": "BonaFideBOSS",
       "date": "2020/12/09",
-      "votes": 648,
+      "votes": 650,
       "featured": "No",
       "status": "Live"
     },
@@ -100358,7 +100362,7 @@
       "authorid": "ur75779804",
       "author": "BonaFideBOSS",
       "date": "2020/12/27",
-      "votes": 299,
+      "votes": 302,
       "featured": "No",
       "status": "Live"
     },
@@ -100424,7 +100428,7 @@
       "authorid": "ur75779804",
       "author": "BonaFideBOSS",
       "date": "2020/12/29",
-      "votes": 518,
+      "votes": 521,
       "featured": "No",
       "status": "Live"
     },
@@ -100468,7 +100472,7 @@
       "authorid": "ur75779804",
       "author": "BonaFideBOSS",
       "date": "2020/12/30",
-      "votes": 6557,
+      "votes": 6570,
       "featured": "Yes",
       "status": "Live"
     },
@@ -100655,7 +100659,7 @@
       "authorid": "ur75779804",
       "author": "BonaFideBOSS",
       "date": "2021/01/04",
-      "votes": 1421,
+      "votes": 1424,
       "featured": "No",
       "status": "Live"
     },
@@ -100952,7 +100956,7 @@
       "authorid": "ur75779804",
       "author": "BonaFideBOSS",
       "date": "2021/01/11",
-      "votes": 1375,
+      "votes": 1386,
       "featured": "No",
       "status": "Live"
     },
@@ -101018,7 +101022,7 @@
       "authorid": "ur75779804",
       "author": "BonaFideBOSS",
       "date": "2021/01/13",
-      "votes": 518,
+      "votes": 519,
       "featured": "No",
       "status": "Live"
     },
@@ -101216,7 +101220,7 @@
       "authorid": "ur75779804",
       "author": "BonaFideBOSS",
       "date": "2021/01/18",
-      "votes": 726,
+      "votes": 728,
       "featured": "No",
       "status": "Live"
     },
@@ -101249,7 +101253,7 @@
       "authorid": "ur75779804",
       "author": "BonaFideBOSS",
       "date": "2021/01/19",
-      "votes": 620,
+      "votes": 624,
       "featured": "No",
       "status": "Live"
     },
@@ -101304,7 +101308,7 @@
       "authorid": "ur75779804",
       "author": "BonaFideBOSS",
       "date": "2021/01/20",
-      "votes": 594,
+      "votes": 595,
       "featured": "No",
       "status": "Live"
     },
@@ -101326,7 +101330,7 @@
       "authorid": "ur75779804",
       "author": "BonaFideBOSS",
       "date": "2021/01/21",
-      "votes": 1670,
+      "votes": 1673,
       "featured": "Yes",
       "status": "Live"
     },
@@ -101370,7 +101374,7 @@
       "authorid": "ur75779804",
       "author": "BonaFideBOSS",
       "date": "2021/01/22",
-      "votes": 526,
+      "votes": 527,
       "featured": "No",
       "status": "Live"
     },
@@ -101480,7 +101484,7 @@
       "authorid": "ur75779804",
       "author": "BonaFideBOSS",
       "date": "2021/01/25",
-      "votes": 521,
+      "votes": 523,
       "featured": "No",
       "status": "Live"
     },
@@ -101722,7 +101726,7 @@
       "authorid": "ur75779804",
       "author": "BonaFideBOSS",
       "date": "2021/02/01",
-      "votes": 1081,
+      "votes": 1084,
       "featured": "No",
       "status": "Live"
     },
@@ -101843,7 +101847,7 @@
       "authorid": "ur75779804",
       "author": "BonaFideBOSS",
       "date": "2021/02/04",
-      "votes": 256,
+      "votes": 257,
       "featured": "No",
       "status": "Live"
     },
@@ -101997,7 +102001,7 @@
       "authorid": "ur75779804",
       "author": "BonaFideBOSS",
       "date": "2021/02/08",
-      "votes": 186,
+      "votes": 187,
       "featured": "No",
       "status": "Live"
     },
@@ -102173,7 +102177,7 @@
       "authorid": "ur75779804",
       "author": "BonaFideBOSS",
       "date": "2021/02/12",
-      "votes": 354,
+      "votes": 356,
       "featured": "No",
       "status": "Live"
     },
@@ -102195,7 +102199,7 @@
       "authorid": "ur75779804",
       "author": "BonaFideBOSS",
       "date": "2021/02/13",
-      "votes": 323,
+      "votes": 324,
       "featured": "No",
       "status": "Live"
     },
@@ -102371,7 +102375,7 @@
       "authorid": "ur75779804",
       "author": "BonaFideBOSS",
       "date": "2021/02/17",
-      "votes": 324,
+      "votes": 325,
       "featured": "No",
       "status": "Live"
     },
@@ -102877,7 +102881,7 @@
       "authorid": "ur75779804",
       "author": "BonaFideBOSS",
       "date": "2021/03/02",
-      "votes": 410,
+      "votes": 411,
       "featured": "No",
       "status": "Live"
     },
@@ -103075,7 +103079,7 @@
       "authorid": "ur75779804",
       "author": "BonaFideBOSS",
       "date": "2021/03/08",
-      "votes": 218,
+      "votes": 220,
       "featured": "No",
       "status": "Live"
     },
@@ -103119,7 +103123,7 @@
       "authorid": "ur75779804",
       "author": "BonaFideBOSS",
       "date": "2021/03/09",
-      "votes": 334,
+      "votes": 335,
       "featured": "No",
       "status": "Live"
     },
@@ -103383,7 +103387,7 @@
       "authorid": "ur75779804",
       "author": "BonaFideBOSS",
       "date": "2021/03/15",
-      "votes": 308,
+      "votes": 309,
       "featured": "No",
       "status": "Live"
     },
@@ -103702,7 +103706,7 @@
       "authorid": "ur75779804",
       "author": "BonaFideBOSS",
       "date": "2021/03/23",
-      "votes": 795,
+      "votes": 796,
       "featured": "No",
       "status": "Live"
     },
@@ -103768,7 +103772,7 @@
       "authorid": "ur75779804",
       "author": "BonaFideBOSS",
       "date": "2021/03/25",
-      "votes": 194,
+      "votes": 196,
       "featured": "No",
       "status": "Live"
     },
@@ -104241,7 +104245,7 @@
       "authorid": "ur75779804",
       "author": "BonaFideBOSS",
       "date": "2021/04/06",
-      "votes": 286,
+      "votes": 287,
       "featured": "No",
       "status": "Live"
     },
@@ -104516,7 +104520,7 @@
       "authorid": "ur75779804",
       "author": "BonaFideBOSS",
       "date": "2021/04/13",
-      "votes": 177,
+      "votes": 178,
       "featured": "No",
       "status": "Live"
     },
@@ -104593,7 +104597,7 @@
       "authorid": "ur75779804",
       "author": "BonaFideBOSS",
       "date": "2021/04/15",
-      "votes": 406,
+      "votes": 408,
       "featured": "No",
       "status": "Live"
     },
@@ -104659,7 +104663,7 @@
       "authorid": "ur75779804",
       "author": "BonaFideBOSS",
       "date": "2021/04/17",
-      "votes": 318,
+      "votes": 321,
       "featured": "No",
       "status": "Live"
     },
@@ -105550,7 +105554,7 @@
       "authorid": "ur75779804",
       "author": "BonaFideBOSS",
       "date": "2021/05/10",
-      "votes": 293,
+      "votes": 295,
       "featured": "No",
       "status": "Live"
     },
@@ -105660,7 +105664,7 @@
       "authorid": "ur75779804",
       "author": "BonaFideBOSS",
       "date": "2021/05/13",
-      "votes": 986,
+      "votes": 999,
       "featured": "No",
       "status": "Live"
     },
@@ -106133,7 +106137,7 @@
       "authorid": "ur75779804",
       "author": "BonaFideBOSS",
       "date": "2021/05/25",
-      "votes": 428,
+      "votes": 430,
       "featured": "No",
       "status": "Live"
     },
@@ -106353,7 +106357,7 @@
       "authorid": "ur75779804",
       "author": "BonaFideBOSS",
       "date": "2021/05/31",
-      "votes": 408,
+      "votes": 410,
       "featured": "No",
       "status": "Live"
     },
@@ -106452,7 +106456,7 @@
       "authorid": "ur75779804",
       "author": "BonaFideBOSS",
       "date": "2021/06/03",
-      "votes": 862,
+      "votes": 869,
       "featured": "No",
       "status": "Live"
     },
@@ -106628,7 +106632,7 @@
       "authorid": "ur75779804",
       "author": "BonaFideBOSS",
       "date": "2021/06/07",
-      "votes": 310,
+      "votes": 313,
       "featured": "No",
       "status": "Live"
     },
@@ -106727,7 +106731,7 @@
       "authorid": "ur75779804",
       "author": "BonaFideBOSS",
       "date": "2021/06/09",
-      "votes": 1496,
+      "votes": 1497,
       "featured": "Yes",
       "status": "Live"
     },
@@ -106815,7 +106819,7 @@
       "authorid": "ur75779804",
       "author": "BonaFideBOSS",
       "date": "2021/06/11",
-      "votes": 313,
+      "votes": 315,
       "featured": "No",
       "status": "Live"
     },
@@ -106947,7 +106951,7 @@
       "authorid": "ur75779804",
       "author": "BonaFideBOSS",
       "date": "2021/06/15",
-      "votes": 616,
+      "votes": 617,
       "featured": "No",
       "status": "Live"
     },
@@ -107365,7 +107369,7 @@
       "authorid": "ur75779804",
       "author": "BonaFideBOSS",
       "date": "2021/06/27",
-      "votes": 218,
+      "votes": 220,
       "featured": "No",
       "status": "Live"
     },
@@ -107695,7 +107699,7 @@
       "authorid": "ur75779804",
       "author": "BonaFideBOSS",
       "date": "2021/07/06",
-      "votes": 296,
+      "votes": 297,
       "featured": "No",
       "status": "Live"
     },
@@ -107750,7 +107754,7 @@
       "authorid": "ur75779804",
       "author": "BonaFideBOSS",
       "date": "2021/07/07",
-      "votes": 376,
+      "votes": 378,
       "featured": "No",
       "status": "Live"
     },
@@ -107893,7 +107897,7 @@
       "authorid": "ur75779804",
       "author": "BonaFideBOSS",
       "date": "2021/07/11",
-      "votes": 279,
+      "votes": 280,
       "featured": "No",
       "status": "Live"
     },
@@ -107970,7 +107974,7 @@
       "authorid": "ur75779804",
       "author": "BonaFideBOSS",
       "date": "2021/07/13",
-      "votes": 394,
+      "votes": 395,
       "featured": "No",
       "status": "Live"
     },
@@ -108025,7 +108029,7 @@
       "authorid": "ur75779804",
       "author": "BonaFideBOSS",
       "date": "2021/07/15",
-      "votes": 1782,
+      "votes": 1793,
       "featured": "Yes",
       "status": "Live"
     },
@@ -108421,7 +108425,7 @@
       "authorid": "ur75779804",
       "author": "BonaFideBOSS",
       "date": "2021/07/25",
-      "votes": 327,
+      "votes": 328,
       "featured": "No",
       "status": "Live"
     },
@@ -108487,7 +108491,7 @@
       "authorid": "ur75779804",
       "author": "BonaFideBOSS",
       "date": "2021/07/27",
-      "votes": 445,
+      "votes": 446,
       "featured": "No",
       "status": "Live"
     },
@@ -108718,7 +108722,7 @@
       "authorid": "ur75779804",
       "author": "BonaFideBOSS",
       "date": "2021/08/02",
-      "votes": 1547,
+      "votes": 1549,
       "featured": "Yes",
       "status": "Live"
     },
@@ -109070,7 +109074,7 @@
       "authorid": "ur75779804",
       "author": "BonaFideBOSS",
       "date": "2021/08/10",
-      "votes": 226,
+      "votes": 227,
       "featured": "No",
       "status": "Live"
     },
@@ -109191,7 +109195,7 @@
       "authorid": "ur75779804",
       "author": "BonaFideBOSS",
       "date": "2021/08/13",
-      "votes": 321,
+      "votes": 325,
       "featured": "No",
       "status": "Live"
     },
@@ -109686,7 +109690,7 @@
       "authorid": "ur75779804",
       "author": "BonaFideBOSS",
       "date": "2021/08/27",
-      "votes": 277,
+      "votes": 278,
       "featured": "No",
       "status": "Live"
     },
@@ -110533,7 +110537,7 @@
       "authorid": "ur75779804",
       "author": "BonaFideBOSS",
       "date": "2021/09/19",
-      "votes": 492,
+      "votes": 499,
       "featured": "No",
       "status": "Live"
     },
@@ -110632,7 +110636,7 @@
       "authorid": "ur75779804",
       "author": "BonaFideBOSS",
       "date": "2021/09/22",
-      "votes": 298,
+      "votes": 301,
       "featured": "No",
       "status": "Live"
     },
@@ -110907,7 +110911,7 @@
       "authorid": "ur75779804",
       "author": "BonaFideBOSS",
       "date": "2021/09/30",
-      "votes": 1187,
+      "votes": 1188,
       "featured": "Yes",
       "status": "Live"
     },
@@ -110973,7 +110977,7 @@
       "authorid": "ur75779804",
       "author": "BonaFideBOSS",
       "date": "2021/10/02",
-      "votes": 356,
+      "votes": 357,
       "featured": "No",
       "status": "Live"
     },
@@ -111248,7 +111252,7 @@
       "authorid": "ur75779804",
       "author": "BonaFideBOSS",
       "date": "2021/10/09",
-      "votes": 436,
+      "votes": 440,
       "featured": "No",
       "status": "Live"
     },
@@ -111523,7 +111527,7 @@
       "authorid": "ur75779804",
       "author": "BonaFideBOSS",
       "date": "2021/10/17",
-      "votes": 419,
+      "votes": 421,
       "featured": "No",
       "status": "Live"
     },
@@ -111655,7 +111659,7 @@
       "authorid": "ur75779804",
       "author": "BonaFideBOSS",
       "date": "2021/10/21",
-      "votes": 294,
+      "votes": 295,
       "featured": "No",
       "status": "Live"
     },
@@ -111677,7 +111681,7 @@
       "authorid": "ur75779804",
       "author": "BonaFideBOSS",
       "date": "2021/10/22",
-      "votes": 376,
+      "votes": 383,
       "featured": "No",
       "status": "Live"
     },
@@ -111765,7 +111769,7 @@
       "authorid": "ur75779804",
       "author": "BonaFideBOSS",
       "date": "2021/10/24",
-      "votes": 445,
+      "votes": 447,
       "featured": "No",
       "status": "Live"
     },
@@ -112073,7 +112077,7 @@
       "authorid": "ur75779804",
       "author": "BonaFideBOSS",
       "date": "2021/11/01",
-      "votes": 196,
+      "votes": 199,
       "featured": "No",
       "status": "Live"
     },
@@ -112590,7 +112594,7 @@
       "authorid": "ur75779804",
       "author": "BonaFideBOSS",
       "date": "2021/11/15",
-      "votes": 104,
+      "votes": 106,
       "featured": "No",
       "status": "Live"
     },
@@ -112689,7 +112693,7 @@
       "authorid": "ur75779804",
       "author": "BonaFideBOSS",
       "date": "2021/11/18",
-      "votes": 1152,
+      "votes": 1154,
       "featured": "Yes",
       "status": "Live"
     },
@@ -113030,7 +113034,7 @@
       "authorid": "ur75779804",
       "author": "BonaFideBOSS",
       "date": "2021/11/27",
-      "votes": 349,
+      "votes": 358,
       "featured": "No",
       "status": "Live"
     },
@@ -113151,7 +113155,7 @@
       "authorid": "ur75779804",
       "author": "BonaFideBOSS",
       "date": "2021/12/01",
-      "votes": 112,
+      "votes": 113,
       "featured": "No",
       "status": "Live"
     },
@@ -113349,7 +113353,7 @@
       "authorid": "ur75779804",
       "author": "BonaFideBOSS",
       "date": "2021/12/06",
-      "votes": 168,
+      "votes": 170,
       "featured": "No",
       "status": "Live"
     },
@@ -113437,7 +113441,7 @@
       "authorid": "ur75779804",
       "author": "BonaFideBOSS",
       "date": "2021/12/08",
-      "votes": 450,
+      "votes": 456,
       "featured": "No",
       "status": "Live"
     },
@@ -113481,7 +113485,7 @@
       "authorid": "ur75779804",
       "author": "BonaFideBOSS",
       "date": "2021/12/09",
-      "votes": 818,
+      "votes": 823,
       "featured": "Yes",
       "status": "Live"
     },
@@ -113558,7 +113562,7 @@
       "authorid": "ur75779804",
       "author": "BonaFideBOSS",
       "date": "2021/12/11",
-      "votes": 236,
+      "votes": 238,
       "featured": "No",
       "status": "Live"
     },
@@ -113657,7 +113661,7 @@
       "authorid": "ur75779804",
       "author": "BonaFideBOSS",
       "date": "2021/12/14",
-      "votes": 408,
+      "votes": 421,
       "featured": "No",
       "status": "Live"
     },
@@ -113723,7 +113727,7 @@
       "authorid": "ur75779804",
       "author": "BonaFideBOSS",
       "date": "2021/12/16",
-      "votes": 192,
+      "votes": 197,
       "featured": "No",
       "status": "Live"
     },
@@ -113822,7 +113826,7 @@
       "authorid": "ur75779804",
       "author": "BonaFideBOSS",
       "date": "2021/12/18",
-      "votes": 281,
+      "votes": 285,
       "featured": "No",
       "status": "Live"
     },
@@ -113844,7 +113848,7 @@
       "authorid": "ur75779804",
       "author": "BonaFideBOSS",
       "date": "2021/12/19",
-      "votes": 105,
+      "votes": 107,
       "featured": "No",
       "status": "Live"
     },
@@ -113976,7 +113980,7 @@
       "authorid": "ur75779804",
       "author": "BonaFideBOSS",
       "date": "2021/12/23",
-      "votes": 195,
+      "votes": 203,
       "featured": "No",
       "status": "Live"
     },
@@ -114075,7 +114079,7 @@
       "authorid": "ur75779804",
       "author": "BonaFideBOSS",
       "date": "2021/12/25",
-      "votes": 336,
+      "votes": 358,
       "featured": "No",
       "status": "Live"
     },
@@ -114097,7 +114101,7 @@
       "authorid": "ur75779804",
       "author": "BonaFideBOSS",
       "date": "2021/12/26",
-      "votes": 248,
+      "votes": 262,
       "featured": "No",
       "status": "Live"
     },
@@ -114141,7 +114145,7 @@
       "authorid": "ur75779804",
       "author": "BonaFideBOSS",
       "date": "2021/12/27",
-      "votes": 243,
+      "votes": 262,
       "featured": "No",
       "status": "Live"
     },
@@ -114174,7 +114178,7 @@
       "authorid": "ur75779804",
       "author": "BonaFideBOSS",
       "date": "2021/12/30",
-      "votes": 281,
+      "votes": 311,
       "featured": "No",
       "status": "Live"
     },
@@ -114185,7 +114189,7 @@
       "authorid": "ur75779804",
       "author": "BonaFideBOSS",
       "date": "2021/12/30",
-      "votes": 331,
+      "votes": 370,
       "featured": "No",
       "status": "Live"
     },
@@ -114306,7 +114310,7 @@
       "authorid": "ur75779804",
       "author": "BonaFideBOSS",
       "date": "2022/01/01",
-      "votes": 212,
+      "votes": 228,
       "featured": "No",
       "status": "Live"
     },
@@ -114361,7 +114365,7 @@
       "authorid": "ur75779804",
       "author": "BonaFideBOSS",
       "date": "2021/12/31",
-      "votes": 86,
+      "votes": 100,
       "featured": "No",
       "status": "Live"
     },
@@ -114427,7 +114431,7 @@
       "authorid": "ur75779804",
       "author": "BonaFideBOSS",
       "date": "2022/01/03",
-      "votes": 162,
+      "votes": 187,
       "featured": "No",
       "status": "Live"
     },
@@ -114537,8 +114541,8 @@
       "authorid": "ur75779804",
       "author": "BonaFideBOSS",
       "date": "2022/01/06",
-      "votes": 39,
-      "featured": "No",
+      "votes": 291,
+      "featured": "Yes",
       "status": "Live"
     },
     {
@@ -114604,6 +114608,50 @@
       "author": "TheMovieSmith",
       "date": "2022/01/07",
       "votes": 25,
+      "featured": "No",
+      "status": "Live"
+    },
+    {
+      "url": "https://www.imdb.com/poll/4ynePv5aXiw/",
+      "title": "Best Movie Couple of 2021",
+      "type": "Images",
+      "authorid": "ur34779915",
+      "author": "Paok-Kilkis",
+      "date": "2022/01/08",
+      "votes": 40,
+      "featured": "No",
+      "status": "Live"
+    },
+    {
+      "url": "https://www.imdb.com/poll/mrZkFElfxFg/",
+      "title": "The Best TV Series Quotes of 2021",
+      "type": "Images",
+      "authorid": "ur111129375",
+      "author": "Master_Strange",
+      "date": "2022/01/08",
+      "votes": 69,
+      "featured": "No",
+      "status": "Live"
+    },
+    {
+      "url": "https://www.imdb.com/poll/mXkdqohEeY4/",
+      "title": "Best \"Long Time No See\" Role Reprisal in 2021",
+      "type": "People",
+      "authorid": "ur21342762",
+      "author": "Ivan-the-terrible94",
+      "date": "2022/01/08",
+      "votes": 36,
+      "featured": "No",
+      "status": "Live"
+    },
+    {
+      "url": "https://www.imdb.com/poll/lHBsGwJDfdw/",
+      "title": "IMDb Poll Board: Favorite Movie Starting With \"C\"",
+      "type": "Titles",
+      "authorid": "ur75779804",
+      "author": "BonaFideBOSS",
+      "date": "2022/01/08",
+      "votes": 45,
       "featured": "No",
       "status": "Live"
     }
