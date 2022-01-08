@@ -16,7 +16,7 @@ suberrors = 0
 failedlists = []
 
 for i in data["polls"]:
-    if i["type"] == "":
+    if i["status"] == "Deleted":
         listpage = i["url"].replace("poll", "list")
         try:
             myheader = {"User-Agent": "Mozilla/5.0"}

@@ -27,7 +27,7 @@ file.onreadystatechange = function () {
       if (r[e.authorid].maxvotes < e.votes) {
         r[e.authorid].maxvotes = e.votes
       }
-      if (r[e.authorid].firstpoll > new Date(e.date)) {
+      if (new Date(r[e.authorid].firstpoll) > new Date(e.date)) {
         r[e.authorid].firstpoll = e.date
       }
       if (new Date(r[e.authorid].lastpoll) < new Date(e.date)) {
