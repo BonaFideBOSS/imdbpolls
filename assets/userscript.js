@@ -84,30 +84,29 @@ file.onreadystatechange = function () {
 
     var polldates = []
     for (var i = 0; i < userData.length; i++) {
-      if ((userData[i].status == "Live")) {
-        polldates.push(userData[i].date)
-        if (new Date(firstpolldate) > new Date(userData[i].date)) {
-          firstpolldate = userData[i].date
-          $('#firstpolldate').html(new Date(firstpolldate).toDateString())
-          $('#authorsfirstpoll .card-title').html(userData[i].title)
-          $('#authorsfirstpoll a').attr("href", userData[i].url)
-        }
-        if (new Date(lastpolldate) < new Date(userData[i].date)) {
-          lastpolldate = userData[i].date
-          $('#lastpolldate').html(new Date(lastpolldate).toDateString())
-          var latestPoll = userData[i];
-          $('#latest-poll .card-header span').html(new Date(latestPoll.date).toDateString())
-          $('#latest-poll .card-title').html(latestPoll.title)
-          $('#latest-poll .card-text span').html(latestPoll.votes)
-          $('#latest-poll a').attr("href", latestPoll.url)
-        }
+      polldates.push(userData[i].date)
+      if (new Date(firstpolldate) > new Date(userData[i].date)) {
+        firstpolldate = userData[i].date
+        $('#firstpolldate').html(new Date(firstpolldate).toDateString())
+        $('#authorsfirstpoll .card-title').html(userData[i].title)
+        $('#authorsfirstpoll a').attr("href", userData[i].url)
       }
+      if (new Date(lastpolldate) < new Date(userData[i].date)) {
+        lastpolldate = userData[i].date
+        $('#lastpolldate').html(new Date(lastpolldate).toDateString())
+        var latestPoll = userData[i];
+        $('#latest-poll .card-header span').html(new Date(latestPoll.date).toDateString())
+        $('#latest-poll .card-title').html(latestPoll.title)
+        $('#latest-poll .card-text span').html(latestPoll.votes)
+        $('#latest-poll a').attr("href", latestPoll.url)
+      }
+
       const oneDay = 24 * 60 * 60 * 1000;
-      var pollingdays = Math.round(Math.abs((new Date(firstpolldate) - new Date(lastpolldate)) / oneDay));
+      var pollingdays = Math.round(Math.abs((new Date(firstpolldate) - new Date()) / oneDay));
       if (pollingdays == 0) {
         pollingdays = 1
       }
-      $('#avgvotesdaily').html(Math.round(totalVotes / pollingdays).toLocaleString())
+      $('#avgvotesdaily').html((totalVotes / pollingdays).toFixed(3).toLocaleString())
 
       if (userData[i].votes >= 1000) {
         onek = onek + 1

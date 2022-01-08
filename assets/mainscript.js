@@ -13,7 +13,10 @@ file.onreadystatechange = function () {
           author: "",
           polls: 0,
           votes: 0,
-          features: 0
+          features: 0,
+          maxvotes: 0,
+          firstpoll: new Date(),
+          lastpoll: new Date(0)
         }
       }
       r[e.authorid].author = e.author
@@ -21,6 +24,15 @@ file.onreadystatechange = function () {
       r[e.authorid].votes += e.votes
       var f = e.featured.toLowerCase() == 'yes' ? f = 1 : f = 0
       r[e.authorid].features += f
+      if (r[e.authorid].maxvotes < e.votes) {
+        r[e.authorid].maxvotes = e.votes
+      }
+      if (r[e.authorid].firstpoll > new Date(e.date)) {
+        r[e.authorid].firstpoll = e.date
+      }
+      if (new Date(r[e.authorid].lastpoll) < new Date(e.date)) {
+        r[e.authorid].lastpoll = e.date
+      }
       return r
     }, {})
 
@@ -155,12 +167,21 @@ file.onreadystatechange = function () {
         if (avatar == "") {
           avatar = 'img/imdbpoll.png'
         }
+        const oneDay = 24 * 60 * 60 * 1000;
+        var pollingdays = Math.round(Math.abs((new Date(element.firstpoll) - new Date()) / oneDay));
+        if (pollingdays == 0) {
+          pollingdays = 1
+        }
         $(lbbody).append('<tr><td></td>' +
-          '<td><a href="user#' + i + '"><img src="' + avatar + '"></a></td>' +
-          '<td nowrap><a href="user#' + i + '">' + element.author + '</a></td>' +
+          '<td nowrap><a href="user#' + i + '"><img src="' + avatar + '">' + element.author + '</a></td>' +
           '<td>' + element.polls + '</td>' +
           '<td>' + element.votes.toLocaleString() + '</td>' +
-          '<td>' + element.features + '</td></tr>')
+          '<td>' + element.features + '</td>' +
+          '<td>' + element.maxvotes.toLocaleString() + '</td>' +
+          '<td>' + Math.round(element.votes / element.polls).toLocaleString() + '</td>' +
+          '<td>' + (element.votes / pollingdays).toFixed(2).toLocaleString() + '</td>' +
+          '<td>' + element.firstpoll + '</td>' +
+          '<td>' + element.lastpoll + '</td></tr>')
       }
     }
 
@@ -184,7 +205,6 @@ file.onreadystatechange = function () {
         var pagelength = document.getElementById('allimdbpolls_length').getElementsByTagName('select')[0].value
         var currentpage = $('#allimdbpolls_paginate .paginate_button.current').html().replace(',', '')
         var startingrank = pagelength * currentpage - pagelength
-        console.log('page lenth: ' + pagelength + ' | current page: ' + currentpage + ' | starting no.: ' + startingrank)
         for (var i = 0; i < lbrow.length; i++) {
           if (lbrow[i].querySelectorAll('td')[0].classList.contains('dataTables_empty')) {} else {
             startingrank = startingrank + 1
@@ -278,7 +298,7 @@ file.onreadystatechange = function () {
 
       var lbtable = $(leaderboard).DataTable({
         "order": [
-          [4, "desc"]
+          [3, "desc"]
         ],
         "columnDefs": [{
           "targets": [0, 1, 2],
@@ -320,16 +340,25 @@ file.onreadystatechange = function () {
         var sumauthorpolls = 0;
         var sumauthorvotes = 0;
         var sumauthorhp = 0;
+        var sumauthormax = 0;
+        var sumauthoravg = 0;
+        var sumauthoravgday = 0
         for (var i = 0; i < row.length; i++) {
           if (row[i].querySelectorAll('td')[0].classList.contains('dataTables_empty')) {} else {
-            sumauthorpolls += parseInt(row[i].querySelectorAll('td')[3].textContent.replace(',', ''))
-            sumauthorvotes += parseInt(row[i].querySelectorAll('td')[4].textContent.replace(',', ''))
-            sumauthorhp += parseInt(row[i].querySelectorAll('td')[5].textContent.replace(',', ''))
+            sumauthorpolls += parseInt(row[i].querySelectorAll('td')[2].textContent.replace(',', ''))
+            sumauthorvotes += parseInt(row[i].querySelectorAll('td')[3].textContent.replace(',', ''))
+            sumauthorhp += parseInt(row[i].querySelectorAll('td')[4].textContent.replace(',', ''))
+            sumauthormax += parseInt(row[i].querySelectorAll('td')[5].textContent.replace(',', ''))
+            sumauthoravg += parseInt(row[i].querySelectorAll('td')[6].textContent.replace(',', ''))
+            sumauthoravgday += parseInt(row[i].querySelectorAll('td')[7].textContent.replace(',', ''))
           }
         }
         $('#sum-author-polls').html(sumauthorpolls.toLocaleString())
         $('#sum-author-votes').html(sumauthorvotes.toLocaleString())
         $('#sum-author-features').html(sumauthorhp.toLocaleString())
+        $('#sum-author-maxvotes').html(sumauthormax.toLocaleString())
+        $('#sum-author-avgvotes').html(sumauthoravg.toLocaleString())
+        $('#sum-author-avgvotesdaily').html(sumauthoravgday.toLocaleString())
       }
 
       ranking();

@@ -118,8 +118,7 @@ input::-webkit-calendar-picker-indicator {
 #allimdbpolls tbody tr td:nth-child(3),
 .polltable tbody tr td:nth-child(2),
 .polltable tfoot tr th:first-child,
-#leaderboard thead tr th:nth-child(3),
-#leaderboard tbody tr td:nth-child(3),
+#leaderboard tbody tr td:nth-child(2),
 #leaderboard tfoot tr th:first-child,
 .polltable.collapsed tbody tr td,
 #leaderboard.collapsed {
@@ -134,6 +133,7 @@ input::-webkit-calendar-picker-indicator {
   width: 40px;
   height: 40px;
   border-radius: 50%;
+  margin-right: 1rem;
 }
 
 #poll-search-result img {
