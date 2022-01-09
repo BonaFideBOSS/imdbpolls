@@ -108,7 +108,7 @@ file.onreadystatechange = function () {
                 var statusicon = '<i class="bi bi-circle-fill text-success"></i>'
                 if (filteredlist[i].status.toLowerCase() == "closed") {
                   statusicon = '<i class="bi bi-circle-fill text-secondary"></i>'
-                } else if (filteredlist[i].status.toLowerCase() == "inactive") {
+                } else if (filteredlist[i].status.toLowerCase() == "inactive" || filteredlist[i].status.toLowerCase() == "deleted") {
                   statusicon = '<i class="bi bi-circle-fill text-danger"></i>'
                 }
                 var polldate = ""
