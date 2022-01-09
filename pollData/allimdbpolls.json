@@ -1,10 +1,10 @@
 {
-  "totalpolls": 11056,
-  "totalvotes": 20434996,
+  "totalpolls": 11060,
+  "totalvotes": 20435115,
   "totalauthors": 459,
-  "totalfeatures": 538,
-  "lastupdated": "Saturday, January 08, 2022 - 14:48 EST",
-  "rawdate": "2022-01-08 14:48:35.433357-05:00",
+  "totalfeatures": 570,
+  "lastupdated": "Sunday, January 09, 2022 - 06:56 EST",
+  "rawdate": "2022-01-09 06:56:02.048451-05:00",
   "authors": [
     {
       "authorid": "ur50452813",
@@ -123457,6 +123457,50 @@
       "author": "BonaFideBOSS",
       "date": "2022/01/08",
       "votes": 53,
+      "featured": "No",
+      "status": "Live"
+    },
+    {
+      "url": "https://www.imdb.com/poll/vQ3L4KN7z0g/",
+      "title": "They Called Him Mister Poitier.",
+      "type": "Titles",
+      "authorid": "ur4234119",
+      "author": "ElMaruecan82",
+      "date": "2022/01/09",
+      "votes": 31,
+      "featured": "No",
+      "status": "Live"
+    },
+    {
+      "url": "https://www.imdb.com/poll/SoWLdoXCRyU/",
+      "title": "Characters of the Plant Kingdom (Part 1)",
+      "type": "Images",
+      "authorid": "ur52829101",
+      "author": "Djesika",
+      "date": "2022/01/09",
+      "votes": 30,
+      "featured": "No",
+      "status": "Live"
+    },
+    {
+      "url": "https://www.imdb.com/poll/ihhvLOfCMTU/",
+      "title": "Golden Globes 2022 \u2014 Films With Multiple Nominations",
+      "type": "Titles",
+      "authorid": "ur75779804",
+      "author": "BonaFideBOSS",
+      "date": "2022/01/09",
+      "votes": 26,
+      "featured": "No",
+      "status": "Live"
+    },
+    {
+      "url": "https://www.imdb.com/poll/0hPJrcSut2w/",
+      "title": "Golden Globes 2022 \u2014 Series With Multiple Nominations",
+      "type": "Titles",
+      "authorid": "ur75779804",
+      "author": "BonaFideBOSS",
+      "date": "2022/01/09",
+      "votes": 32,
       "featured": "No",
       "status": "Live"
     }
