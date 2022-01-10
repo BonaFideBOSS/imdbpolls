@@ -1,10 +1,10 @@
 {
-  "totalpolls": 11060,
-  "totalvotes": 20436096,
+  "totalpolls": 11063,
+  "totalvotes": 20436197,
   "totalauthors": 459,
   "totalfeatures": 570,
-  "lastupdated": "Sunday, January 09, 2022 - 07:10 EST",
-  "rawdate": "2022-01-09 07:10:35.156162-05:00",
+  "lastupdated": "Monday, January 10, 2022 - 10:33 EST",
+  "rawdate": "2022-01-10 10:33:30.003834-05:00",
   "authors": [
     {
       "authorid": "ur50452813",
@@ -123501,6 +123501,39 @@
       "author": "BonaFideBOSS",
       "date": "2022/01/09",
       "votes": 40,
+      "featured": "No",
+      "status": "Live"
+    },
+    {
+      "url": "https://www.imdb.com/poll/uc1VwgGdq6g/",
+      "title": "Pool Movies Made in the 21st Century",
+      "type": "Titles",
+      "authorid": "ur105395432",
+      "author": "Nomissimon10",
+      "date": "2022/01/10",
+      "votes": 28,
+      "featured": "No",
+      "status": "Live"
+    },
+    {
+      "url": "https://www.imdb.com/poll/XmBkWrbG6Mw/",
+      "title": "Makoto Shinkai \u2014 Writer and Director",
+      "type": "Titles",
+      "authorid": "ur12089554",
+      "author": "mariojacobs",
+      "date": "2022/01/10",
+      "votes": 32,
+      "featured": "No",
+      "status": "Live"
+    },
+    {
+      "url": "https://www.imdb.com/poll/gXfYgj-pfng/",
+      "title": "Johnny Paycheck: \"Take This Job and Shove It\"",
+      "type": "Images",
+      "authorid": "ur36448190",
+      "author": "Breumaster",
+      "date": "2022/01/10",
+      "votes": 41,
       "featured": "No",
       "status": "Live"
     }
