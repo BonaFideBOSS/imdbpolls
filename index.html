@@ -12,13 +12,13 @@
 </head>
 
 <body>
-  <nav class="navbar navbar-light">
-    <div class="container bg-light shadow-sm">
+  <nav class="navbar navbar-dark">
+    <div class="container shadow-sm">
       <a class="navbar-brand d-flex align-items-center">
-        <img class="" src="img/imdblogo_one.png" height="50px">
+        <img src="img/imdblogo_one.png" height="50px">
         <div class="logo fw-bolder fs-1">Polls</div>
       </a>
-      <a href="search" class="text-dark" title="Search" data-bs-toggle="tooltip" data-bs-placement="bottom"><i
+      <a href="search" class="text-white" title="Search" data-bs-toggle="tooltip" data-bs-placement="bottom"><i
           class="bi bi-search fs-1"></i></a>
     </div>
   </nav>
@@ -36,7 +36,7 @@
       <div class="row my-5 justify-content-center align-items-center">
         <div class="col-lg-4 col-md-6 col-12 mb-3">
           <div class="card text-dark text-center bg-light shadow-sm">
-            <div class="card-header">Total Polls</div>
+            <div class="card-header bg-warning fw-bold">Polls Tracked</div>
             <div class="card-body">
               <h1 id="total-polls" class="card-title"></h1>
             </div>
@@ -45,7 +45,7 @@
 
         <div class="col-lg-4 col-md-6 col-12 mb-3">
           <div class="card text-dark text-center bg-light shadow-sm">
-            <div class="card-header">Total Authors</div>
+            <div class="card-header bg-warning fw-bold">Authors Tracked</div>
             <div class="card-body">
               <h1 id="total-authors" class="card-title"></h1>
             </div>
@@ -54,7 +54,7 @@
 
         <div class="col-lg-4 col-md-6 col-12 mb-3">
           <div class="card text-dark text-center bg-light shadow-sm">
-            <div class="card-header">Total Votes</div>
+            <div class="card-header bg-warning fw-bold">Votes Gained</div>
             <div class="card-body">
               <h1 id="total-votes" class="card-title"></h1>
             </div>
@@ -69,8 +69,8 @@
         </select>
         <input type="text" list="search-options" class="form-control py-3" id="poll-search" placeholder="Search"
           autocomplete="off">
-        <a href="search" class="input-group-text text-dark" title="Search" data-bs-toggle="tooltip"
-          data-bs-placement="bottom"><i class="bi bi-search"></i></a>
+        <a href="search" class="input-group-text text-dark bg-warning fw-bold border-0" title="Search"
+          data-bs-toggle="tooltip" data-bs-placement="bottom"><i class="bi bi-search"></i></a>
       </div>
       <div id="search-result" class="shadow rounded-3 p-2"></div>
 
@@ -244,9 +244,27 @@
     </div>
   </main>
 
-  <footer class="bg-light">
-    <div class="container d-flex justify-content-between align-items-end py-5 mt-4">
+  <footer class="bg-light mt-5 pt-5">
+    <div class="container text-center pb-3">
+      <h3>Want to Create an IMDb Poll?</h3>
+      <a href="https://community-imdb.sprinklr.com/conversations/imdb-poll/5f4a79a68815453dba8499e9" target="_blank"
+        class="btn btn-warning">Get Started Here</a>
+    </div>
+    <div class="container d-flex justify-content-between">
+      <div>
+        <h5>Follow IMDb Polls</h5>
+        <a href="https://twitter.com/PollBoard" target="_blank"><i class="bi bi-twitter fs-1 me-3 text-info"></i></a>
+        <a href="https://www.facebook.com/imdbpolls/" target="_blank"><i class="bi bi-facebook fs-1"></i></a>
+      </div>
+      <div class="text-end">
+        <h5>Join IMDb Poll Board</h5>
+        <a href="https://community-imdb.sprinklr.com/topics/imdb-poll/5f4951c662e5fc53cfeb955a" target="_blank"
+          class="btn btn-warning">Sprinklr</a>
+        <a href="https://www.facebook.com/groups/imdb.poll.board" target="_blank" class="btn btn-warning">Facebook</a>
+      </div>
+    </div>
 
+    <div class="container d-flex justify-content-between align-items-end py-5">
       <div>
         <h6 class="text-muted"></h6>
         <img class="" src="img/imdbpoll.png">

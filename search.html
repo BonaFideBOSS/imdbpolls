@@ -12,13 +12,13 @@
 </head>
 
 <body>
-  <nav class="navbar navbar-light">
-    <div class="container bg-light shadow-sm">
+  <nav class="navbar navbar-dark">
+    <div class="container shadow-sm">
       <a class="navbar-brand d-flex align-items-center">
         <img class="" src="img/imdblogo_one.png" height="50px">
         <div class="logo fw-bolder fs-1">Poll Search</div>
       </a>
-      <a href="index" class="text-dark" title="Back" data-bs-toggle="tooltip" data-bs-placement="bottom"><i
+      <a href="index" class="text-white" title="Back" data-bs-toggle="tooltip" data-bs-placement="bottom"><i
           class="bi bi-box-arrow-left fs-1"></i></a>
     </div>
   </nav>
@@ -67,8 +67,8 @@
 
         <h5 class="search-type-title">Poll Title:</h5>
         <div class="input-group">
-          <span class="input-group-text"><i class="bi bi-search"></i></span>
-          <input type="text" class="form-control py-3" id="poll-search" placeholder="Search" min="1" required>
+          <input type="text" class="form-control py-3 border-warning" id="poll-search" placeholder="Search here..."
+            min="1" required>
         </div>
 
         <button class="btn btn-warning w-100 mt-3 py-2" type="submit">Search</button>
@@ -87,9 +87,22 @@
     </div>
   </main>
 
-  <footer class="bg-light">
-    <div class="container d-flex justify-content-between align-items-end py-5">
+  <footer class="bg-light pt-5">
+    <div class="container d-flex justify-content-between">
+      <div>
+        <h5>Follow IMDb Polls</h5>
+        <a href="https://twitter.com/PollBoard" target="_blank"><i class="bi bi-twitter fs-1 me-3 text-info"></i></a>
+        <a href="https://www.facebook.com/imdbpolls/" target="_blank"><i class="bi bi-facebook fs-1"></i></a>
+      </div>
+      <div class="text-end">
+        <h5>Join IMDb Poll Board</h5>
+        <a href="https://community-imdb.sprinklr.com/topics/imdb-poll/5f4951c662e5fc53cfeb955a" target="_blank"
+          class="btn btn-warning">Sprinklr</a>
+        <a href="https://www.facebook.com/groups/imdb.poll.board" target="_blank" class="btn btn-warning">Facebook</a>
+      </div>
+    </div>
 
+    <div class="container d-flex justify-content-between align-items-end py-5">
       <div>
         <h6 class="text-muted"></h6>
         <img class="" src="img/imdbpoll.png">

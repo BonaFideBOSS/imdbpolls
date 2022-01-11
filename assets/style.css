@@ -27,6 +27,7 @@ a {
 .navbar .container {
   border-radius: 10px;
   padding: 1rem 2rem;
+  background: url(../img/bg.jpeg);
 }
 
 .navbar img {
@@ -55,6 +56,11 @@ a {
 select,
 input {
   box-shadow: none !important;
+}
+
+select:focus,
+input:focus {
+  border: #ffc107 1px solid !important;
 }
 
 .input-group #search-filter.hp {
