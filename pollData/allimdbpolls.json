@@ -1,10 +1,10 @@
 {
-  "totalpolls": 11066,
-  "totalvotes": 20437671,
+  "totalpolls": 11070,
+  "totalvotes": 20437880,
   "totalauthors": 459,
   "totalfeatures": 570,
-  "lastupdated": "Tuesday, January 11, 2022 - 12:45 EST",
-  "rawdate": "2022-01-11 12:45:37.080640-05:00",
+  "lastupdated": "Wednesday, January 12, 2022 - 09:00 EST",
+  "rawdate": "2022-01-12 09:00:52.786292-05:00",
   "authors": [
     {
       "authorid": "ur50452813",
@@ -123567,6 +123567,50 @@
       "author": "Paok-Kilkis",
       "date": "2022/01/11",
       "votes": 64,
+      "featured": "No",
+      "status": "Live"
+    },
+    {
+      "url": "https://www.imdb.com/poll/KmhdR6iWUsM/",
+      "title": "Golden Globes 2022 \u2014 Films and Shows With Multiple Wins",
+      "type": "Titles",
+      "authorid": "ur75779804",
+      "author": "BonaFideBOSS",
+      "date": "2022/01/12",
+      "votes": 41,
+      "featured": "No",
+      "status": "Live"
+    },
+    {
+      "url": "https://www.imdb.com/poll/Jt7lctv28P8/",
+      "title": "15 Films at 20 in 2022",
+      "type": "Titles",
+      "authorid": "ur73962770",
+      "author": "efragarcia59",
+      "date": "2022/01/12",
+      "votes": 70,
+      "featured": "No",
+      "status": "Live"
+    },
+    {
+      "url": "https://www.imdb.com/poll/AYj9whq-lbw/",
+      "title": "Highest Hollywood Grossers in India",
+      "type": "Titles",
+      "authorid": "ur57704188",
+      "author": "brijeshmarand",
+      "date": "2022/01/12",
+      "votes": 42,
+      "featured": "No",
+      "status": "Live"
+    },
+    {
+      "url": "https://www.imdb.com/poll/MHQiPFeDbwg/",
+      "title": "Door Scenes in Movies",
+      "type": "Images",
+      "authorid": "ur34779915",
+      "author": "Paok-Kilkis",
+      "date": "2022/01/12",
+      "votes": 56,
       "featured": "No",
       "status": "Live"
     }
