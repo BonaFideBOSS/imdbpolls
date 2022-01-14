@@ -1,10 +1,10 @@
 {
-  "totalpolls": 11074,
-  "totalvotes": 20440336,
+  "totalpolls": 11078,
+  "totalvotes": 20440594,
   "totalauthors": 459,
   "totalfeatures": 570,
-  "lastupdated": "Thursday, January 13, 2022 - 12:58 EST",
-  "rawdate": "2022-01-13 12:58:25.001465-05:00",
+  "lastupdated": "Friday, January 14, 2022 - 11:10 EST",
+  "rawdate": "2022-01-14 11:10:40.670410-05:00",
   "authors": [
     {
       "authorid": "ur50452813",
@@ -123655,6 +123655,50 @@
       "author": "Paok-Kilkis",
       "date": "2022/01/13",
       "votes": 126,
+      "featured": "No",
+      "status": "Live"
+    },
+    {
+      "url": "https://www.imdb.com/poll/XV-E_MdVUmc/",
+      "title": "IMDb Voters vs. The Academy: Best Adapted Screenplay",
+      "type": "Titles",
+      "authorid": "ur28319455",
+      "author": "Hoekkie",
+      "date": "2022/01/14",
+      "votes": 74,
+      "featured": "No",
+      "status": "Live"
+    },
+    {
+      "url": "https://www.imdb.com/poll/3Orm25hXovw/",
+      "title": "DiCaprio Co-Stars: Kate Winslet vs. Cate Blanchett vs. Margot Robbie",
+      "type": "Images",
+      "authorid": "ur75779804",
+      "author": "BonaFideBOSS",
+      "date": "2022/01/14",
+      "votes": 67,
+      "featured": "No",
+      "status": "Live"
+    },
+    {
+      "url": "https://www.imdb.com/poll/0htnRYawmEA/",
+      "title": "Face-Off: 'John Wick' vs. 'Nobody'",
+      "type": "Titles",
+      "authorid": "ur36448190",
+      "author": "Breumaster",
+      "date": "2022/01/14",
+      "votes": 58,
+      "featured": "No",
+      "status": "Live"
+    },
+    {
+      "url": "https://www.imdb.com/poll/ZHXrF1eT-tA/",
+      "title": "Face-Off: Aragorn vs. Legolas vs. Gimli",
+      "type": "Images",
+      "authorid": "ur34779915",
+      "author": "Paok-Kilkis",
+      "date": "2022/01/14",
+      "votes": 59,
       "featured": "No",
       "status": "Live"
     }
