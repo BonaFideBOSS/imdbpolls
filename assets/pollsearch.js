@@ -182,6 +182,7 @@ file.onreadystatechange = function () {
 
     $('.data-loader.loader-one').hide()
     $('main').show()
+    $('#poll-search').focus()
 
   }
 }
