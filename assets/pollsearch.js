@@ -28,6 +28,7 @@ file.onreadystatechange = function () {
     var hashFilter = matches && matches[1];
     if (hashFilter) {
       input = hashFilter.replaceAll("+", " ")
+      input = input.replaceAll("%20", " ")
       $('#poll-search').val(input)
       $('#poll-search-result').html('')
       $('.data-loader.search-loader').show()
