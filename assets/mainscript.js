@@ -100,7 +100,7 @@ file.onreadystatechange = function () {
             for (var i = 0; i < filteredlist.length; i++) {
               if (i < 5) {
                 searchheader = '<p>Top ' + (i + 1) + ' results</p>'
-                searchfooter = '<a href="search#' + this.value.replaceAll(' ', '+') + '">See all results</a>'
+                searchfooter = '<a href="search#p=' + this.value.replaceAll(' ', '+') + '">See all results</a>'
                 var avatar = authors.find(entry => entry.authorid == filteredlist[i].authorid).avatar
                 if (avatar != "") {
                   imgurl = avatar
@@ -138,7 +138,7 @@ file.onreadystatechange = function () {
                 authorCount = authorCount + 1
                 if (authorCount <= 5) {
                   searchheader = '<p>Top ' + authorCount + ' results</p>'
-                  searchfooter = '<a href="search">See all results</a>'
+                  searchfooter = '<a href="search#a=' + this.value.replaceAll(' ', '+') + '">See all results</a>'
                   var avatar = authors.find(entry => entry.authorid == i).avatar
                   if (avatar != "") {
                     imgurl = avatar
