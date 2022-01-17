@@ -27,12 +27,21 @@ file.onreadystatechange = function () {
     var matches = location.hash.match(/#([^&]+)/i);
     var hashFilter = matches && matches[1];
     if (hashFilter) {
-      input = hashFilter.replaceAll("+", " ")
+      type = hashFilter.substring(0, 2).toLowerCase()
+      input = hashFilter.substring(2).replaceAll("+", " ")
       input = input.replaceAll("%20", " ")
-      $('#poll-search').val(input)
-      $('#poll-search-result').html('')
-      $('.data-loader.search-loader').show()
-      pollSearch(input);
+      if (type == 'p=' & input.length > 0) {
+        $('#poll-search').val(input)
+        $('#poll-search-result').html('')
+        $('.data-loader.search-loader').show()
+        pollSearch(input);
+      } else if (type == 'a=' & input.length > 0) {
+        $('#item-filter').val('author')
+        $('#poll-search').val(input)
+        $('#poll-search-result').html('')
+        $('.data-loader.search-loader').show()
+        pollSearch(input);
+      }
     }
 
     $('form').on('submit', function () {
@@ -40,7 +49,8 @@ file.onreadystatechange = function () {
       if (!input.match(/^\s*$/)) {
         $('#poll-search-result').html('')
         $('.data-loader.search-loader').show()
-        window.location.replace('#' + input.replaceAll(' ', '+'));
+        var type = $('#item-filter').val() == 'author' ? type = '#a=' : type = '#p='
+        window.location = (type + input.replaceAll(' ', '+'));
         pollSearch(input);
       }
     })
