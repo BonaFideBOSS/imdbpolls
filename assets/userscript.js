@@ -199,6 +199,12 @@ file.onreadystatechange = function () {
 
     $(document).ready(function () {
       var polltable = $(table).DataTable({
+        dom: 'lfrtipB',
+        buttons: [{
+          extend: 'excel',
+          text: '<i class="bi bi-file-earmark-excel"></i> Export',
+          className: 'btn btn-success'
+        }],
         "order": [
           [3, "desc"]
         ],
@@ -211,6 +217,8 @@ file.onreadystatechange = function () {
           "orderable": false
         }]
       });
+      polltable.buttons().container().appendTo($('#export'));
+      $('.dt-button').removeClass('dt-button')
 
       function pollranking() {
         var lbrow = document.querySelectorAll('#imdbpolls tbody tr')

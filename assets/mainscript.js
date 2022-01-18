@@ -217,6 +217,12 @@ file.onreadystatechange = function () {
 
     $(document).ready(function () {
       var polltable = $(table).DataTable({
+        dom: 'lfrtipB',
+        buttons: [{
+          extend: 'excel',
+          text: '<i class="bi bi-file-earmark-excel"></i> Export',
+          className: 'btn btn-success'
+        }],
         "order": [
           [4, "desc"]
         ],
@@ -229,6 +235,8 @@ file.onreadystatechange = function () {
           "orderable": false
         }]
       });
+      polltable.buttons().container().appendTo($('#export'));
+      $('.dt-button').removeClass('dt-button')
 
       function pollranking() {
         var lbrow = document.querySelectorAll('#allimdbpolls tbody tr')
@@ -327,6 +335,13 @@ file.onreadystatechange = function () {
       })
 
       var lbtable = $(leaderboard).DataTable({
+        dom: 'lfrtipB',
+        buttons: [{
+          extend: 'excel',
+          text: '<i class="bi bi-file-earmark-excel"></i> Export',
+          className: 'btn btn-success',
+          title: 'IMDb Polls - Leaderboard'
+        }],
         "order": [
           [3, "desc"]
         ],
@@ -335,6 +350,24 @@ file.onreadystatechange = function () {
           "orderable": false
         }]
       });
+      lbtable.buttons().container().appendTo($('#export-leaderboard'));
+      $('.dt-button').removeClass('dt-button')
+
+      $('#pollmaker').on('change', function () {
+        $.fn.dataTable.ext.search.pop()
+        var selectedValue = $(this).val();
+        if (selectedValue == 1) {
+          $.fn.dataTable.ext.search.push(function (settings, data, dataIndex) {
+            return data[3].length >= 7
+          })
+        } else if (selectedValue == 2) {
+          $.fn.dataTable.ext.search.push(function (settings, data, dataIndex) {
+            return data[3].length < 7
+          })
+        }
+        lbtable.draw()
+      });
+
       $('#lbsort-1').click(function () {
         lbtable.order([2, 'desc']).draw()
       });
@@ -402,7 +435,7 @@ file.onreadystatechange = function () {
 
       ranking();
       leaderboardTotal();
-      $('#leaderboard_length select').on('change', function () {
+      $('.custom-filter select,#leaderboard_length select').on('change', function () {
         leaderboardTotal();
         if ($('#leaderboard thead .sorting').hasClass('sorting_desc')) {
           ranking();

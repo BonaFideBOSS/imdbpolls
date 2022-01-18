@@ -85,42 +85,46 @@
         <div style="transform: rotate(180deg);"><i class="bi bi-kanban"></i></div> IMDb Polls
       </h4>
       <hr>
-      <div class="custom-filter mb-3 d-flex flex-wrap gap-3">
-        <div>
-          <label>Year:</label>
-          <select id="year-filter" class="form-select">
-            <option value="">All</option>
-          </select>
+      <div class="custom-filter mb-3 d-flex justify-content-between flex-wrap gap-3">
+        <div class="d-flex flex-wrap gap-3">
+          <div>
+            <label>Year:</label>
+            <select id="year-filter" class="form-select">
+              <option value="">All</option>
+            </select>
+          </div>
+          <div>
+            <label>Type:</label>
+            <select id="type-filter" class="form-select">
+              <option value="">All</option>
+              <option>Titles</option>
+              <option>People</option>
+              <option>Images</option>
+              <option>Characters</option>
+            </select>
+          </div>
+          <div>
+            <label>Featured:</label>
+            <select id="hp-filter" class="form-select">
+              <option value="">All</option>
+              <option>Yes</option>
+              <option>No</option>
+            </select>
+          </div>
+          <div>
+            <label>Status:</label>
+            <select id="status-filter" class="form-select">
+              <option value="">All</option>
+              <option>Live</option>
+              <option>Closed</option>
+              <option>Inactive</option>
+              <option>Deleted</option>
+            </select>
+          </div>
         </div>
-        <div>
-          <label>Type:</label>
-          <select id="type-filter" class="form-select">
-            <option value="">All</option>
-            <option>Titles</option>
-            <option>People</option>
-            <option>Images</option>
-            <option>Characters</option>
-          </select>
-        </div>
-        <div>
-          <label>Featured:</label>
-          <select id="hp-filter" class="form-select">
-            <option value="">All</option>
-            <option>Yes</option>
-            <option>No</option>
-          </select>
-        </div>
-        <div>
-          <label>Status:</label>
-          <select id="status-filter" class="form-select">
-            <option value="">All</option>
-            <option>Live</option>
-            <option>Closed</option>
-            <option>Inactive</option>
-            <option>Deleted</option>
-          </select>
-        </div>
+        <div id="export"></div>
       </div>
+
       <div class="table-responsive">
         <table id="imdbpolls" class="stripe hover polltable">
           <caption></caption>
