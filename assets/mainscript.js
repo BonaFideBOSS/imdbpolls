@@ -221,7 +221,8 @@ file.onreadystatechange = function () {
         buttons: [{
           extend: 'excel',
           text: '<i class="bi bi-file-earmark-excel"></i> Export',
-          className: 'btn btn-success'
+          className: 'btn btn-success',
+          footer: true
         }],
         "order": [
           [4, "desc"]
@@ -340,7 +341,8 @@ file.onreadystatechange = function () {
           extend: 'excel',
           text: '<i class="bi bi-file-earmark-excel"></i> Export',
           className: 'btn btn-success',
-          title: 'IMDb Polls - Leaderboard'
+          title: 'IMDb Polls - Leaderboard',
+          footer: true
         }],
         "order": [
           [3, "desc"]

@@ -203,7 +203,8 @@ file.onreadystatechange = function () {
         buttons: [{
           extend: 'excel',
           text: '<i class="bi bi-file-earmark-excel"></i> Export',
-          className: 'btn btn-success'
+          className: 'btn btn-success',
+          footer: true
         }],
         "order": [
           [3, "desc"]
