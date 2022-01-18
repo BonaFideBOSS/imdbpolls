@@ -165,7 +165,6 @@ file.onreadystatechange = function () {
     var table = document.getElementById('allimdbpolls')
     var tablebody = table.getElementsByTagName('tbody')[0]
     var tablecaption = table.getElementsByTagName('caption')[0]
-
     for (var i = 0; i < polls.length; i++) {
       $(tablebody).append('<tr><td></td>' +
         '<td nowrap><a href="' + polls[i].url + '" target="_blank">' + polls[i].title + '</a></td>' +
