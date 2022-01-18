@@ -1,10 +1,10 @@
 {
-  "totalpolls": 11088,
-  "totalvotes": 20446008,
+  "totalpolls": 11091,
+  "totalvotes": 20446021,
   "totalauthors": 459,
   "totalfeatures": 571,
-  "lastupdated": "Monday, January 17, 2022 - 21:37 EST",
-  "rawdate": "2022-01-17 21:37:48.246443-05:00",
+  "lastupdated": "Tuesday, January 18, 2022 - 01:43 EST",
+  "rawdate": "2022-01-18 01:43:01.419062-05:00",
   "authors": [
     {
       "authorid": "ur50452813",
@@ -123809,6 +123809,39 @@
       "author": "Abdalwahab-93",
       "date": "2022/01/17",
       "votes": 63,
+      "featured": "No",
+      "status": "Live"
+    },
+    {
+      "url": "https://www.imdb.com/poll/ahcr6RHi2cU/",
+      "title": "Most Anticipated Animated TV Show of 2022",
+      "type": "Titles",
+      "authorid": "ur75779804",
+      "author": "BonaFideBOSS",
+      "date": "2022/01/18",
+      "votes": 4,
+      "featured": "No",
+      "status": "Live"
+    },
+    {
+      "url": "https://www.imdb.com/poll/Z1z_dCJXoXQ/",
+      "title": "Most Anticipated DC Films of 2022",
+      "type": "Titles",
+      "authorid": "ur21342762",
+      "author": "Ivan-the-terrible94",
+      "date": "2022/01/18",
+      "votes": 5,
+      "featured": "No",
+      "status": "Live"
+    },
+    {
+      "url": "https://www.imdb.com/poll/TWBGLG0LqQI/",
+      "title": "Annie Awards 2022 - Best Indie Feature",
+      "type": "Titles",
+      "authorid": "ur0594717",
+      "author": "TsarStepan",
+      "date": "2022/01/18",
+      "votes": 4,
       "featured": "No",
       "status": "Live"
     }
