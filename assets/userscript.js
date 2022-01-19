@@ -80,7 +80,6 @@ file.onreadystatechange = function () {
 
     var table = document.getElementById('imdbpolls')
     var tableBody = table.getElementsByTagName('tbody')[0]
-    var tablecaption = table.getElementsByTagName('caption')[0]
 
     var polldates = []
     for (var i = 0; i < userData.length; i++) {
@@ -195,11 +194,11 @@ file.onreadystatechange = function () {
     $('#mostpollsinaday').html(maxpolldate)
     $('#daywithmostpolls').html(new Date(mostpollitem).toDateString())
 
-    $(tablecaption).html('Data as of ' + lastUpdated + ' (' + timelapse(rawDate) + ')')
+    $('#table-caption').html('Data as of ' + lastUpdated + ' (' + timelapse(rawDate) + ')')
 
     $(document).ready(function () {
       var polltable = $(table).DataTable({
-        dom: 'lfrtipB',
+        dom: 'rtipB',
         buttons: [{
           extend: 'excel',
           text: '<i class="bi bi-file-earmark-excel"></i> Export',
@@ -218,12 +217,15 @@ file.onreadystatechange = function () {
           "orderable": false
         }]
       });
+
       polltable.buttons().container().appendTo($('#export'));
+      $('#imdbpolls_info').appendTo($('#table-summary'))
+      $('#imdbpolls_paginate').appendTo($('#table-pagination'))
       $('.dt-button').removeClass('dt-button')
 
       function pollranking() {
         var lbrow = document.querySelectorAll('#imdbpolls tbody tr')
-        var pagelength = document.getElementById('imdbpolls_length').getElementsByTagName('select')[0].value
+        var pagelength = document.getElementById('entries').value
         var currentpage = $('#imdbpolls_paginate .paginate_button.current').html().replace(',', '')
         var startingrank = pagelength * currentpage - pagelength
         for (var i = 0; i < lbrow.length; i++) {
@@ -239,7 +241,7 @@ file.onreadystatechange = function () {
           search: 'applied'
         }).count()
         var lbrow = document.querySelectorAll('#imdbpolls tbody tr')
-        var pagelength = document.getElementById('imdbpolls_length').getElementsByTagName('select')[0].value
+        var pagelength = document.getElementById('entries').value
         var currentpage = $('#imdbpolls_paginate .paginate_button.current').html().replace(',', '')
         var startingrank = pagelength * currentpage - pagelength
         startingrank = pollrowtotal - startingrank
@@ -257,6 +259,10 @@ file.onreadystatechange = function () {
       }
       $('#year-filter').append(yearoptions)
 
+      $('#entries').on('change', function () {
+        var selectedValue = $(this).val();
+        polltable.page.len(selectedValue).draw();
+      });
       $('#year-filter').on('change', function () {
         var selectedValue = $(this).val();
         polltable.columns(2).search(selectedValue).draw();
@@ -273,10 +279,14 @@ file.onreadystatechange = function () {
         var selectedValue = $(this).val();
         polltable.columns(6).search(selectedValue).draw();
       });
+      $('#tablesearch').on('input', function () {
+        var selectedValue = $(this).val();
+        polltable.search(selectedValue).draw();
+      });
 
       tableTotal()
       pollranking()
-      $('.custom-filter select,#imdbpolls_length select').on('change', function () {
+      $('.custom-filter select').on('change', function () {
         tableTotal()
         if ($('#imdbpolls thead .sorting').hasClass('sorting_desc')) {
           pollranking();
@@ -284,7 +294,7 @@ file.onreadystatechange = function () {
           pollrankingbottom();
         }
       })
-      $('#imdbpolls_filter input').on('input', function () {
+      $('.custom-filter input').on('input', function () {
         tableTotal()
         if ($('#imdbpolls thead .sorting').hasClass('sorting_desc')) {
           pollranking();
