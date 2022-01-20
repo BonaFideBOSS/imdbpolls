@@ -219,9 +219,9 @@ file.onreadystatechange = function () {
       });
 
       polltable.buttons().container().appendTo($('#export'));
+      $('.dt-button').removeClass('dt-button')
       $('#imdbpolls_info').appendTo($('#table-summary'))
       $('#imdbpolls_paginate').appendTo($('#table-pagination'))
-      $('.dt-button').removeClass('dt-button')
 
       function pollranking() {
         var lbrow = document.querySelectorAll('#imdbpolls tbody tr')

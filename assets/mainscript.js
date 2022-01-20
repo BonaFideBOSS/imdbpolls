@@ -164,7 +164,6 @@ file.onreadystatechange = function () {
 
     var table = document.getElementById('allimdbpolls')
     var tablebody = table.getElementsByTagName('tbody')[0]
-    var tablecaption = table.getElementsByTagName('caption')[0]
     for (var i = 0; i < polls.length; i++) {
       $(tablebody).append('<tr><td></td>' +
         '<td nowrap><a href="' + polls[i].url + '" target="_blank">' + polls[i].title + '</a></td>' +
@@ -175,7 +174,7 @@ file.onreadystatechange = function () {
         '<td>' + polls[i].featured + '</td>' +
         '<td>' + polls[i].status + '</td></tr>')
     }
-    $(tablecaption).html('Data as of ' + pollData.lastupdated + ' (' + timelapse(pollData.rawdate) + ')')
+    $('#table-caption').html('Data as of ' + pollData.lastupdated + ' (' + timelapse(pollData.rawdate) + ')')
 
     var authoroptions = yearoptions = '<option value="">All</option>';
     for (var i = 0; i < authorlist.length; i++) {
@@ -217,7 +216,7 @@ file.onreadystatechange = function () {
 
     $(document).ready(function () {
       var polltable = $(table).DataTable({
-        dom: 'lfrtipB',
+        dom: 'rtipB',
         buttons: [{
           extend: 'excel',
           text: '<i class="bi bi-file-earmark-excel"></i> Export',
@@ -238,10 +237,12 @@ file.onreadystatechange = function () {
       });
       polltable.buttons().container().appendTo($('#export'));
       $('.dt-button').removeClass('dt-button')
+      $('#allimdbpolls_info').appendTo($('#table-summary'))
+      $('#allimdbpolls_paginate').appendTo($('#table-pagination'))
 
       function pollranking() {
         var lbrow = document.querySelectorAll('#allimdbpolls tbody tr')
-        var pagelength = document.getElementById('allimdbpolls_length').getElementsByTagName('select')[0].value
+        var pagelength = document.getElementById('entries').value
         var currentpage = $('#allimdbpolls_paginate .paginate_button.current').html().replace(',', '')
         var startingrank = pagelength * currentpage - pagelength
         for (var i = 0; i < lbrow.length; i++) {
@@ -257,7 +258,7 @@ file.onreadystatechange = function () {
           search: 'applied'
         }).count()
         var lbrow = document.querySelectorAll('#allimdbpolls tbody tr')
-        var pagelength = document.getElementById('allimdbpolls_length').getElementsByTagName('select')[0].value
+        var pagelength = document.getElementById('entries').value
         var currentpage = $('#allimdbpolls_paginate .paginate_button.current').html().replace(',', '')
         var startingrank = pagelength * currentpage - pagelength
         startingrank = pollrowtotal - startingrank
@@ -268,6 +269,10 @@ file.onreadystatechange = function () {
         }
       }
 
+      $('#entries').on('change', function () {
+        var selectedValue = $(this).val();
+        polltable.page.len(selectedValue).draw();
+      });
       $('#author-filter').on('change', function () {
         var selectedValue = $(this).val();
         polltable.columns(2).search(selectedValue).draw();
@@ -287,6 +292,10 @@ file.onreadystatechange = function () {
       $('#status-filter').on('change', function () {
         var selectedValue = $(this).val();
         polltable.columns(7).search(selectedValue).draw();
+      });
+      $('#tablesearch').on('input', function () {
+        var selectedValue = $(this).val();
+        polltable.search(selectedValue).draw();
       });
 
       function tableTotal() {
@@ -310,7 +319,7 @@ file.onreadystatechange = function () {
 
       tableTotal()
       pollranking()
-      $('.custom-filter select,#allimdbpolls_length select,#author-filter').on('change', function () {
+      $('.custom-filter select').on('change', function () {
         tableTotal()
         if ($('#allimdbpolls thead .sorting').hasClass('sorting_desc')) {
           pollranking();
@@ -318,7 +327,7 @@ file.onreadystatechange = function () {
           pollrankingbottom();
         }
       })
-      $('#allimdbpolls_filter input').on('input', function () {
+      $('.custom-filter input').on('input', function () {
         tableTotal()
         if ($('#allimdbpolls thead .sorting').hasClass('sorting_desc')) {
           pollranking();
@@ -336,7 +345,7 @@ file.onreadystatechange = function () {
       })
 
       var lbtable = $(leaderboard).DataTable({
-        dom: 'lfrtipB',
+        dom: 'rtipB',
         buttons: [{
           extend: 'excel',
           text: '<i class="bi bi-file-earmark-excel"></i> Export',
@@ -354,7 +363,13 @@ file.onreadystatechange = function () {
       });
       lbtable.buttons().container().appendTo($('#export-leaderboard'));
       $('.dt-button').removeClass('dt-button')
+      $('#leaderboard_info').appendTo($('#lb-summary'))
+      $('#leaderboard_paginate').appendTo($('#lb-pagination'))
 
+      $('#lb-entries').on('change', function () {
+        var selectedValue = $(this).val();
+        lbtable.page.len(selectedValue).draw();
+      });
       $('#pollmaker').on('change', function () {
         $.fn.dataTable.ext.search.pop()
         var selectedValue = $(this).val();
@@ -369,6 +384,10 @@ file.onreadystatechange = function () {
         }
         lbtable.draw()
       });
+      $('#lb-search').on('input', function () {
+        var selectedValue = $(this).val();
+        lbtable.search(selectedValue).draw();
+      });
 
       $('#lbsort-1').click(function () {
         lbtable.order([2, 'desc']).draw()
@@ -382,7 +401,7 @@ file.onreadystatechange = function () {
 
       function ranking() {
         var lbrow = document.querySelectorAll('#leaderboard tbody tr')
-        var pagelength = document.getElementById('leaderboard_length').getElementsByTagName('select')[0].value
+        var pagelength = document.getElementById('lb-entries').value
         var currentpage = $('#leaderboard_paginate .paginate_button.current').html().replace(',', '')
         var startingrank = pagelength * currentpage - pagelength
         for (var i = 0; i < lbrow.length; i++) {
@@ -398,7 +417,7 @@ file.onreadystatechange = function () {
           search: 'applied'
         }).count()
         var lbrow = document.querySelectorAll('#leaderboard tbody tr')
-        var pagelength = document.getElementById('leaderboard_length').getElementsByTagName('select')[0].value
+        var pagelength = document.getElementById('lb-entries').value
         var currentpage = $('#leaderboard_paginate .paginate_button.current').html().replace(',', '')
         var startingrank = pagelength * currentpage - pagelength
         startingrank = lbrowtotal - startingrank
@@ -437,7 +456,7 @@ file.onreadystatechange = function () {
 
       ranking();
       leaderboardTotal();
-      $('.custom-filter select,#leaderboard_length select').on('change', function () {
+      $('.custom-filter select').on('change', function () {
         leaderboardTotal();
         if ($('#leaderboard thead .sorting').hasClass('sorting_desc')) {
           ranking();
@@ -445,7 +464,7 @@ file.onreadystatechange = function () {
           rankingbottom();
         }
       })
-      $('#leaderboard_filter input').on('input', function () {
+      $('.custom-filter input').on('input', function () {
         leaderboardTotal();
         if ($('#leaderboard thead .sorting').hasClass('sorting_desc')) {
           ranking();
