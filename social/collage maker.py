@@ -12,13 +12,13 @@ if "?" in url:
 
 layouttype = 9
 cord = [5, 325, 646]
-layoutfile = "collage_" + str(layouttype) + ".jpg"
+layoutfile = "collageLayout_" + str(layouttype) + ".jpg"
 layout = Image.open(layoutfile)
 x, y = layout.size
 layout.close()
 
 collages = len(glob.glob1(".", "collage*.jpg"))
-filename = "collageLayout_" + str(collages) + ".jpg"
+filename = "collage_" + str(collages) + ".jpg"
 
 # url = url.replace("poll", "list")
 
