@@ -1,6 +1,8 @@
 from ast import If
 import os
 import glob
+from textwrap import fill
+from turtle import width
 import requests
 from bs4 import BeautifulSoup
 import urllib.request as imgreq
@@ -19,6 +21,9 @@ layout.close()
 
 collages = len(glob.glob1(".", "collage*.jpg"))
 filename = "collage_" + str(collages) + ".jpg"
+
+font_size = 50
+title_font = ImageFont.truetype("archivo-condensed-medium.ttf", font_size)
 
 # url = url.replace("poll", "list")
 
@@ -72,6 +77,19 @@ for i in posters:
 logo = Image.open("imdbpoll.png")
 logo = logo.resize((200, 200))
 layout.paste(logo, (x - 200, y - 200))
+logo.close()
+
+textbg = Image.open("text-bg.png")
+textbg = textbg.resize((x - 100, 150))
+layout.paste(textbg, (50, int((y / 2) - (150 / 2))))
+textbg.close()
+
+image_editable = ImageDraw.Draw(layout)
+w, h = image_editable.textsize(pollTitle, font=title_font)
+image_editable.text(
+    ((x - w) / 2, (y - h) / 2), pollTitle, fill="orange", font=title_font
+)
+
 layout.save(filename)
 logo.close()
 layout.close()
