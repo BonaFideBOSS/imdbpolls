@@ -1,10 +1,10 @@
 {
-  "totalpolls": 11152,
-  "totalvotes": 20487813,
-  "totalauthors": 461,
+  "totalpolls": 11164,
+  "totalvotes": 20491561,
+  "totalauthors": 462,
   "totalfeatures": 574,
-  "lastupdated": "Friday, February 04, 2022 - 23:35 EST",
-  "rawdate": "2022-02-04 23:35:37.427580-05:00",
+  "lastupdated": "Tuesday, February 08, 2022 - 06:09 EST",
+  "rawdate": "2022-02-08 06:09:00.687930-05:00",
   "authors": [
     {
       "authorid": "ur50452813",
@@ -1849,6 +1849,10 @@
     {
       "authorid": "ur54424300",
       "avatar": "https://m.media-amazon.com/images/M/MV5BZTVlZDUzNjMtOTE5Mi00YjBmLTgyMzItYmY4YjM3NGRhNmIwXkEyXkFqcGdeQXVyNTQ0MjQzMDA@._V1_SY100_SX100_.jpg"
+    },
+    {
+      "authorid": "ur133744150",
+      "avatar": "https://m.media-amazon.com/images/M/MV5BMzFhZDdiMjgtYzVmOC00ZGQ1LWI1MmUtMTBmOGI2MjVhOThhXkEyXkFqcGdeQXVyMTMzNzQ0MTUw._V1_SY100_SX100_.jpg"
     }
   ],
   "polls": [
@@ -123101,7 +123105,7 @@
       "authorid": "ur28319455",
       "author": "Hoekkie",
       "date": "2022/01/01",
-      "votes": 418,
+      "votes": 423,
       "featured": "No",
       "status": "Live"
     },
@@ -123112,7 +123116,7 @@
       "authorid": "ur57704188",
       "author": "brijeshmarand",
       "date": "2022/01/01",
-      "votes": 248,
+      "votes": 249,
       "featured": "No",
       "status": "Live"
     },
@@ -123123,7 +123127,7 @@
       "authorid": "ur75779804",
       "author": "BonaFideBOSS",
       "date": "2022/01/01",
-      "votes": 281,
+      "votes": 284,
       "featured": "No",
       "status": "Live"
     },
@@ -123134,7 +123138,7 @@
       "authorid": "ur91650024",
       "author": "thenolanfan",
       "date": "2022/01/01",
-      "votes": 248,
+      "votes": 253,
       "featured": "No",
       "status": "Live"
     },
@@ -123189,7 +123193,7 @@
       "authorid": "ur36448190",
       "author": "Breumaster",
       "date": "2022/01/02",
-      "votes": 271,
+      "votes": 275,
       "featured": "No",
       "status": "Live"
     },
@@ -123200,7 +123204,7 @@
       "authorid": "ur137235941",
       "author": "JackSlater4",
       "date": "2022/01/02",
-      "votes": 381,
+      "votes": 388,
       "featured": "No",
       "status": "Live"
     },
@@ -123211,7 +123215,7 @@
       "authorid": "ur57704188",
       "author": "brijeshmarand",
       "date": "2022/01/02",
-      "votes": 294,
+      "votes": 305,
       "featured": "No",
       "status": "Live"
     },
@@ -123222,7 +123226,7 @@
       "authorid": "ur132494301",
       "author": "mpaxtonpolls",
       "date": "2022/01/03",
-      "votes": 199,
+      "votes": 201,
       "featured": "No",
       "status": "Live"
     },
@@ -123233,7 +123237,7 @@
       "authorid": "ur34779915",
       "author": "Paok-Kilkis",
       "date": "2022/01/03",
-      "votes": 664,
+      "votes": 685,
       "featured": "No",
       "status": "Live"
     },
@@ -123244,7 +123248,7 @@
       "authorid": "ur75779804",
       "author": "BonaFideBOSS",
       "date": "2022/01/03",
-      "votes": 339,
+      "votes": 357,
       "featured": "No",
       "status": "Live"
     },
@@ -123255,7 +123259,7 @@
       "authorid": "ur111129375",
       "author": "Master_Strange",
       "date": "2022/01/04",
-      "votes": 332,
+      "votes": 336,
       "featured": "No",
       "status": "Live"
     },
@@ -123266,7 +123270,7 @@
       "authorid": "ur12089554",
       "author": "mariojacobs",
       "date": "2022/01/04",
-      "votes": 282,
+      "votes": 287,
       "featured": "No",
       "status": "Live"
     },
@@ -123277,7 +123281,7 @@
       "authorid": "ur91650024",
       "author": "thenolanfan",
       "date": "2022/01/04",
-      "votes": 217,
+      "votes": 222,
       "featured": "No",
       "status": "Live"
     },
@@ -123288,7 +123292,7 @@
       "authorid": "ur34779915",
       "author": "Paok-Kilkis",
       "date": "2022/01/04",
-      "votes": 283,
+      "votes": 285,
       "featured": "No",
       "status": "Live"
     },
@@ -123299,7 +123303,7 @@
       "authorid": "ur57704188",
       "author": "brijeshmarand",
       "date": "2022/01/05",
-      "votes": 334,
+      "votes": 340,
       "featured": "No",
       "status": "Live"
     },
@@ -123310,7 +123314,7 @@
       "authorid": "ur46158148",
       "author": "penchofifteenpolls",
       "date": "2022/01/05",
-      "votes": 275,
+      "votes": 283,
       "featured": "No",
       "status": "Live"
     },
@@ -123332,7 +123336,7 @@
       "authorid": "ur130267048",
       "author": "abiggaliso",
       "date": "2022/01/05",
-      "votes": 208,
+      "votes": 212,
       "featured": "No",
       "status": "Live"
     },
@@ -123343,7 +123347,7 @@
       "authorid": "ur57704188",
       "author": "brijeshmarand",
       "date": "2022/01/06",
-      "votes": 203,
+      "votes": 207,
       "featured": "No",
       "status": "Live"
     },
@@ -123354,7 +123358,7 @@
       "authorid": "ur75779804",
       "author": "BonaFideBOSS",
       "date": "2022/01/06",
-      "votes": 1579,
+      "votes": 1591,
       "featured": "Yes",
       "status": "Live"
     },
@@ -123365,7 +123369,7 @@
       "authorid": "ur0743304",
       "author": "pbn",
       "date": "2022/01/06",
-      "votes": 301,
+      "votes": 309,
       "featured": "No",
       "status": "Live"
     },
@@ -123376,7 +123380,7 @@
       "authorid": "ur25120897",
       "author": "greyskull-983-725347",
       "date": "2022/01/06",
-      "votes": 138,
+      "votes": 141,
       "featured": "No",
       "status": "Live"
     },
@@ -123387,7 +123391,7 @@
       "authorid": "ur91650024",
       "author": "thenolanfan",
       "date": "2022/01/07",
-      "votes": 151,
+      "votes": 155,
       "featured": "No",
       "status": "Live"
     },
@@ -123398,7 +123402,7 @@
       "authorid": "ur34779915",
       "author": "Paok-Kilkis",
       "date": "2022/01/07",
-      "votes": 299,
+      "votes": 304,
       "featured": "No",
       "status": "Live"
     },
@@ -123409,7 +123413,7 @@
       "authorid": "ur122799232",
       "author": "ethangentle",
       "date": "2022/01/07",
-      "votes": 249,
+      "votes": 255,
       "featured": "No",
       "status": "Live"
     },
@@ -123420,7 +123424,7 @@
       "authorid": "ur32931141",
       "author": "TheMovieSmith",
       "date": "2022/01/07",
-      "votes": 120,
+      "votes": 124,
       "featured": "No",
       "status": "Live"
     },
@@ -123431,7 +123435,7 @@
       "authorid": "ur34779915",
       "author": "Paok-Kilkis",
       "date": "2022/01/08",
-      "votes": 325,
+      "votes": 331,
       "featured": "No",
       "status": "Live"
     },
@@ -123442,7 +123446,7 @@
       "authorid": "ur111129375",
       "author": "Master_Strange",
       "date": "2022/01/08",
-      "votes": 251,
+      "votes": 255,
       "featured": "No",
       "status": "Live"
     },
@@ -123453,7 +123457,7 @@
       "authorid": "ur21342762",
       "author": "Cherganski",
       "date": "2022/01/08",
-      "votes": 222,
+      "votes": 228,
       "featured": "No",
       "status": "Live"
     },
@@ -123464,7 +123468,7 @@
       "authorid": "ur75779804",
       "author": "BonaFideBOSS",
       "date": "2022/01/08",
-      "votes": 275,
+      "votes": 281,
       "featured": "No",
       "status": "Live"
     },
@@ -123475,7 +123479,7 @@
       "authorid": "ur4234119",
       "author": "ElMaruecan82",
       "date": "2022/01/09",
-      "votes": 184,
+      "votes": 187,
       "featured": "No",
       "status": "Live"
     },
@@ -123486,7 +123490,7 @@
       "authorid": "ur52829101",
       "author": "Djesika",
       "date": "2022/01/09",
-      "votes": 199,
+      "votes": 200,
       "featured": "No",
       "status": "Live"
     },
@@ -123497,7 +123501,7 @@
       "authorid": "ur75779804",
       "author": "BonaFideBOSS",
       "date": "2022/01/09",
-      "votes": 265,
+      "votes": 275,
       "featured": "No",
       "status": "Live"
     },
@@ -123508,7 +123512,7 @@
       "authorid": "ur75779804",
       "author": "BonaFideBOSS",
       "date": "2022/01/09",
-      "votes": 247,
+      "votes": 250,
       "featured": "No",
       "status": "Live"
     },
@@ -123519,7 +123523,7 @@
       "authorid": "ur105395432",
       "author": "Nomissimon10",
       "date": "2022/01/10",
-      "votes": 97,
+      "votes": 99,
       "featured": "No",
       "status": "Live"
     },
@@ -123530,7 +123534,7 @@
       "authorid": "ur12089554",
       "author": "mariojacobs",
       "date": "2022/01/10",
-      "votes": 111,
+      "votes": 113,
       "featured": "No",
       "status": "Live"
     },
@@ -123541,7 +123545,7 @@
       "authorid": "ur36448190",
       "author": "Breumaster",
       "date": "2022/01/10",
-      "votes": 112,
+      "votes": 115,
       "featured": "No",
       "status": "Live"
     },
@@ -123552,7 +123556,7 @@
       "authorid": "ur91650024",
       "author": "thenolanfan",
       "date": "2022/01/11",
-      "votes": 197,
+      "votes": 201,
       "featured": "No",
       "status": "Live"
     },
@@ -123563,7 +123567,7 @@
       "authorid": "ur0743304",
       "author": "pbn",
       "date": "2022/01/11",
-      "votes": 167,
+      "votes": 172,
       "featured": "No",
       "status": "Live"
     },
@@ -123574,7 +123578,7 @@
       "authorid": "ur34779915",
       "author": "Paok-Kilkis",
       "date": "2022/01/11",
-      "votes": 262,
+      "votes": 266,
       "featured": "No",
       "status": "Live"
     },
@@ -123585,7 +123589,7 @@
       "authorid": "ur75779804",
       "author": "BonaFideBOSS",
       "date": "2022/01/12",
-      "votes": 178,
+      "votes": 184,
       "featured": "No",
       "status": "Live"
     },
@@ -123596,7 +123600,7 @@
       "authorid": "ur73962770",
       "author": "efragarcia59",
       "date": "2022/01/12",
-      "votes": 361,
+      "votes": 373,
       "featured": "No",
       "status": "Live"
     },
@@ -123607,7 +123611,7 @@
       "authorid": "ur57704188",
       "author": "brijeshmarand",
       "date": "2022/01/12",
-      "votes": 178,
+      "votes": 184,
       "featured": "No",
       "status": "Live"
     },
@@ -123618,7 +123622,7 @@
       "authorid": "ur34779915",
       "author": "Paok-Kilkis",
       "date": "2022/01/12",
-      "votes": 275,
+      "votes": 282,
       "featured": "No",
       "status": "Live"
     },
@@ -123629,7 +123633,7 @@
       "authorid": "ur12089554",
       "author": "mariojacobs",
       "date": "2022/01/13",
-      "votes": 165,
+      "votes": 167,
       "featured": "No",
       "status": "Live"
     },
@@ -123640,7 +123644,7 @@
       "authorid": "ur0594717",
       "author": "TsarStepan",
       "date": "2022/01/13",
-      "votes": 268,
+      "votes": 273,
       "featured": "No",
       "status": "Live"
     },
@@ -123651,7 +123655,7 @@
       "authorid": "ur91075537",
       "author": "CyrilMartin",
       "date": "2022/01/13",
-      "votes": 1876,
+      "votes": 1887,
       "featured": "Yes",
       "status": "Live"
     },
@@ -123662,7 +123666,7 @@
       "authorid": "ur34779915",
       "author": "Paok-Kilkis",
       "date": "2022/01/13",
-      "votes": 397,
+      "votes": 403,
       "featured": "No",
       "status": "Live"
     },
@@ -123673,7 +123677,7 @@
       "authorid": "ur28319455",
       "author": "Hoekkie",
       "date": "2022/01/14",
-      "votes": 351,
+      "votes": 358,
       "featured": "No",
       "status": "Live"
     },
@@ -123684,7 +123688,7 @@
       "authorid": "ur75779804",
       "author": "BonaFideBOSS",
       "date": "2022/01/14",
-      "votes": 271,
+      "votes": 278,
       "featured": "No",
       "status": "Live"
     },
@@ -123695,7 +123699,7 @@
       "authorid": "ur36448190",
       "author": "Breumaster",
       "date": "2022/01/14",
-      "votes": 253,
+      "votes": 263,
       "featured": "No",
       "status": "Live"
     },
@@ -123706,7 +123710,7 @@
       "authorid": "ur34779915",
       "author": "Paok-Kilkis",
       "date": "2022/01/14",
-      "votes": 277,
+      "votes": 286,
       "featured": "No",
       "status": "Live"
     },
@@ -123717,7 +123721,7 @@
       "authorid": "ur12089554",
       "author": "mariojacobs",
       "date": "2022/01/15",
-      "votes": 340,
+      "votes": 346,
       "featured": "No",
       "status": "Live"
     },
@@ -123728,7 +123732,7 @@
       "authorid": "ur4234119",
       "author": "ElMaruecan82",
       "date": "2022/01/15",
-      "votes": 301,
+      "votes": 307,
       "featured": "No",
       "status": "Live"
     },
@@ -123739,7 +123743,7 @@
       "authorid": "ur75779804",
       "author": "BonaFideBOSS",
       "date": "2022/01/15",
-      "votes": 372,
+      "votes": 380,
       "featured": "No",
       "status": "Live"
     },
@@ -123750,7 +123754,7 @@
       "authorid": "ur52829101",
       "author": "Djesika",
       "date": "2022/01/16",
-      "votes": 212,
+      "votes": 215,
       "featured": "No",
       "status": "Live"
     },
@@ -123761,7 +123765,7 @@
       "authorid": "ur91650024",
       "author": "thenolanfan",
       "date": "2022/01/16",
-      "votes": 170,
+      "votes": 174,
       "featured": "No",
       "status": "Live"
     },
@@ -123772,7 +123776,7 @@
       "authorid": "ur75779804",
       "author": "BonaFideBOSS",
       "date": "2022/01/16",
-      "votes": 97,
+      "votes": 112,
       "featured": "No",
       "status": "Live"
     },
@@ -123783,7 +123787,7 @@
       "authorid": "ur57704188",
       "author": "brijeshmarand",
       "date": "2022/01/17",
-      "votes": 434,
+      "votes": 442,
       "featured": "No",
       "status": "Live"
     },
@@ -123794,7 +123798,7 @@
       "authorid": "ur34779915",
       "author": "Paok-Kilkis",
       "date": "2022/01/17",
-      "votes": 397,
+      "votes": 407,
       "featured": "No",
       "status": "Live"
     },
@@ -123805,7 +123809,7 @@
       "authorid": "ur122799232",
       "author": "ethangentle",
       "date": "2022/01/17",
-      "votes": 202,
+      "votes": 207,
       "featured": "No",
       "status": "Live"
     },
@@ -123816,7 +123820,7 @@
       "authorid": "ur29416592",
       "author": "Abdalwahab-93",
       "date": "2022/01/17",
-      "votes": 174,
+      "votes": 181,
       "featured": "No",
       "status": "Live"
     },
@@ -123827,7 +123831,7 @@
       "authorid": "ur75779804",
       "author": "BonaFideBOSS",
       "date": "2022/01/18",
-      "votes": 229,
+      "votes": 235,
       "featured": "No",
       "status": "Live"
     },
@@ -123838,7 +123842,7 @@
       "authorid": "ur21342762",
       "author": "Cherganski",
       "date": "2022/01/18",
-      "votes": 266,
+      "votes": 272,
       "featured": "No",
       "status": "Live"
     },
@@ -123849,7 +123853,7 @@
       "authorid": "ur0594717",
       "author": "TsarStepan",
       "date": "2022/01/18",
-      "votes": 90,
+      "votes": 91,
       "featured": "No",
       "status": "Live"
     },
@@ -123860,7 +123864,7 @@
       "authorid": "ur75779804",
       "author": "BonaFideBOSS",
       "date": "2022/01/19",
-      "votes": 357,
+      "votes": 367,
       "featured": "No",
       "status": "Live"
     },
@@ -123871,7 +123875,7 @@
       "authorid": "ur57704188",
       "author": "brijeshmarand",
       "date": "2022/01/19",
-      "votes": 76,
+      "votes": 80,
       "featured": "No",
       "status": "Live"
     },
@@ -123882,7 +123886,7 @@
       "authorid": "ur122799232",
       "author": "ethangentle",
       "date": "2022/01/19",
-      "votes": 233,
+      "votes": 240,
       "featured": "No",
       "status": "Live"
     },
@@ -123893,7 +123897,7 @@
       "authorid": "ur91075537",
       "author": "CyrilMartin",
       "date": "2022/01/20",
-      "votes": 359,
+      "votes": 372,
       "featured": "No",
       "status": "Live"
     },
@@ -123904,7 +123908,7 @@
       "authorid": "ur142208214",
       "author": "edd-51182",
       "date": "2022/01/20",
-      "votes": 167,
+      "votes": 171,
       "featured": "No",
       "status": "Live"
     },
@@ -123915,7 +123919,7 @@
       "authorid": "ur75779804",
       "author": "BonaFideBOSS",
       "date": "2022/01/20",
-      "votes": 323,
+      "votes": 341,
       "featured": "No",
       "status": "Live"
     },
@@ -123926,7 +123930,7 @@
       "authorid": "ur34779915",
       "author": "Paok-Kilkis",
       "date": "2022/01/20",
-      "votes": 317,
+      "votes": 344,
       "featured": "No",
       "status": "Live"
     },
@@ -123937,7 +123941,7 @@
       "authorid": "ur21342762",
       "author": "Cherganski",
       "date": "2022/01/21",
-      "votes": 402,
+      "votes": 407,
       "featured": "Yes",
       "status": "Live"
     },
@@ -123948,7 +123952,7 @@
       "authorid": "ur111129375",
       "author": "Master_Strange",
       "date": "2022/01/21",
-      "votes": 113,
+      "votes": 118,
       "featured": "No",
       "status": "Live"
     },
@@ -123959,7 +123963,7 @@
       "authorid": "ur34779915",
       "author": "Paok-Kilkis",
       "date": "2022/01/21",
-      "votes": 228,
+      "votes": 246,
       "featured": "No",
       "status": "Live"
     },
@@ -123970,7 +123974,7 @@
       "authorid": "ur52829101",
       "author": "Djesika",
       "date": "2022/01/21",
-      "votes": 161,
+      "votes": 169,
       "featured": "No",
       "status": "Live"
     },
@@ -123981,7 +123985,7 @@
       "authorid": "ur91650024",
       "author": "thenolanfan",
       "date": "2022/01/22",
-      "votes": 124,
+      "votes": 125,
       "featured": "No",
       "status": "Live"
     },
@@ -123992,7 +123996,7 @@
       "authorid": "ur0743304",
       "author": "pbn",
       "date": "2022/01/22",
-      "votes": 171,
+      "votes": 177,
       "featured": "No",
       "status": "Live"
     },
@@ -124003,7 +124007,7 @@
       "authorid": "ur122799232",
       "author": "ethangentle",
       "date": "2022/01/22",
-      "votes": 193,
+      "votes": 201,
       "featured": "No",
       "status": "Live"
     },
@@ -124014,7 +124018,7 @@
       "authorid": "ur32931141",
       "author": "TheMovieSmith",
       "date": "2022/01/22",
-      "votes": 81,
+      "votes": 87,
       "featured": "No",
       "status": "Live"
     },
@@ -124025,7 +124029,7 @@
       "authorid": "ur122799232",
       "author": "ethangentle",
       "date": "2022/01/23",
-      "votes": 246,
+      "votes": 252,
       "featured": "No",
       "status": "Live"
     },
@@ -124036,7 +124040,7 @@
       "authorid": "ur45394926",
       "author": "Dibyayan_Chakravorty",
       "date": "2022/01/23",
-      "votes": 168,
+      "votes": 172,
       "featured": "No",
       "status": "Live"
     },
@@ -124047,7 +124051,7 @@
       "authorid": "ur75779804",
       "author": "BonaFideBOSS",
       "date": "2022/01/23",
-      "votes": 169,
+      "votes": 177,
       "featured": "No",
       "status": "Live"
     },
@@ -124058,7 +124062,7 @@
       "authorid": "ur28319455",
       "author": "Hoekkie",
       "date": "2022/01/24",
-      "votes": 177,
+      "votes": 183,
       "featured": "No",
       "status": "Live"
     },
@@ -124069,7 +124073,7 @@
       "authorid": "ur12089554",
       "author": "mariojacobs",
       "date": "2022/01/24",
-      "votes": 221,
+      "votes": 227,
       "featured": "No",
       "status": "Live"
     },
@@ -124080,7 +124084,7 @@
       "authorid": "ur34779915",
       "author": "Paok-Kilkis",
       "date": "2022/01/24",
-      "votes": 217,
+      "votes": 237,
       "featured": "No",
       "status": "Live"
     },
@@ -124091,7 +124095,7 @@
       "authorid": "ur75779804",
       "author": "BonaFideBOSS",
       "date": "2022/01/26",
-      "votes": 311,
+      "votes": 328,
       "featured": "No",
       "status": "Live"
     },
@@ -124102,7 +124106,7 @@
       "authorid": "ur34779915",
       "author": "Paok-Kilkis",
       "date": "2022/01/26",
-      "votes": 232,
+      "votes": 258,
       "featured": "No",
       "status": "Live"
     },
@@ -124113,7 +124117,7 @@
       "authorid": "ur91650024",
       "author": "thenolanfan",
       "date": "2022/01/26",
-      "votes": 228,
+      "votes": 245,
       "featured": "No",
       "status": "Live"
     },
@@ -124124,7 +124128,7 @@
       "authorid": "ur91075537",
       "author": "CyrilMartin",
       "date": "2022/01/25",
-      "votes": 427,
+      "votes": 448,
       "featured": "No",
       "status": "Live"
     },
@@ -124135,7 +124139,7 @@
       "authorid": "ur137235941",
       "author": "JackSlater4",
       "date": "2022/01/25",
-      "votes": 185,
+      "votes": 196,
       "featured": "No",
       "status": "Live"
     },
@@ -124146,7 +124150,7 @@
       "authorid": "ur54424300",
       "author": "cynvanity",
       "date": "2022/01/25",
-      "votes": 272,
+      "votes": 293,
       "featured": "No",
       "status": "Live"
     },
@@ -124157,7 +124161,7 @@
       "authorid": "ur57704188",
       "author": "brijeshmarand",
       "date": "2022/01/28",
-      "votes": 155,
+      "votes": 160,
       "featured": "No",
       "status": "Live"
     },
@@ -124168,7 +124172,7 @@
       "authorid": "ur21342762",
       "author": "Cherganski",
       "date": "2022/01/28",
-      "votes": 97,
+      "votes": 100,
       "featured": "No",
       "status": "Live"
     },
@@ -124179,7 +124183,7 @@
       "authorid": "ur28319455",
       "author": "Hoekkie",
       "date": "2022/01/28",
-      "votes": 180,
+      "votes": 188,
       "featured": "No",
       "status": "Live"
     },
@@ -124190,7 +124194,7 @@
       "authorid": "ur91650024",
       "author": "thenolanfan",
       "date": "2022/01/28",
-      "votes": 138,
+      "votes": 143,
       "featured": "No",
       "status": "Live"
     },
@@ -124201,7 +124205,7 @@
       "authorid": "ur91075537",
       "author": "CyrilMartin",
       "date": "2022/01/27",
-      "votes": 266,
+      "votes": 295,
       "featured": "No",
       "status": "Live"
     },
@@ -124212,7 +124216,7 @@
       "authorid": "ur34779915",
       "author": "Paok-Kilkis",
       "date": "2022/01/27",
-      "votes": 758,
+      "votes": 786,
       "featured": "Yes",
       "status": "Live"
     },
@@ -124223,7 +124227,7 @@
       "authorid": "ur52343944",
       "author": "NDbportmanfan",
       "date": "2022/01/27",
-      "votes": 250,
+      "votes": 275,
       "featured": "No",
       "status": "Live"
     },
@@ -124234,7 +124238,7 @@
       "authorid": "ur12089554",
       "author": "mariojacobs",
       "date": "2022/01/27",
-      "votes": 201,
+      "votes": 208,
       "featured": "No",
       "status": "Live"
     },
@@ -124245,7 +124249,7 @@
       "authorid": "ur46158148",
       "author": "penchofifteenpolls",
       "date": "2022/01/31",
-      "votes": 173,
+      "votes": 196,
       "featured": "No",
       "status": "Live"
     },
@@ -124256,7 +124260,7 @@
       "authorid": "ur137235941",
       "author": "JackSlater4",
       "date": "2022/01/31",
-      "votes": 218,
+      "votes": 261,
       "featured": "No",
       "status": "Live"
     },
@@ -124267,7 +124271,7 @@
       "authorid": "ur75779804",
       "author": "BonaFideBOSS",
       "date": "2022/01/31",
-      "votes": 158,
+      "votes": 191,
       "featured": "No",
       "status": "Live"
     },
@@ -124278,7 +124282,7 @@
       "authorid": "ur122799232",
       "author": "ethangentle",
       "date": "2022/01/31",
-      "votes": 176,
+      "votes": 199,
       "featured": "No",
       "status": "Live"
     },
@@ -124289,7 +124293,7 @@
       "authorid": "ur4234119",
       "author": "ElMaruecan82",
       "date": "2022/01/30",
-      "votes": 296,
+      "votes": 330,
       "featured": "No",
       "status": "Live"
     },
@@ -124300,7 +124304,7 @@
       "authorid": "ur29755297",
       "author": "urbanemovies",
       "date": "2022/01/30",
-      "votes": 124,
+      "votes": 135,
       "featured": "No",
       "status": "Live"
     },
@@ -124311,7 +124315,7 @@
       "authorid": "ur28319455",
       "author": "Hoekkie",
       "date": "2022/01/30",
-      "votes": 129,
+      "votes": 144,
       "featured": "No",
       "status": "Live"
     },
@@ -124322,7 +124326,7 @@
       "authorid": "ur4234119",
       "author": "ElMaruecan82",
       "date": "2022/01/29",
-      "votes": 92,
+      "votes": 98,
       "featured": "No",
       "status": "Live"
     },
@@ -124333,7 +124337,7 @@
       "authorid": "ur21342762",
       "author": "Cherganski",
       "date": "2022/01/29",
-      "votes": 147,
+      "votes": 157,
       "featured": "No",
       "status": "Live"
     },
@@ -124344,7 +124348,7 @@
       "authorid": "ur0594717",
       "author": "TsarStepan",
       "date": "2022/01/29",
-      "votes": 108,
+      "votes": 117,
       "featured": "No",
       "status": "Live"
     },
@@ -124355,7 +124359,7 @@
       "authorid": "ur12089554",
       "author": "mariojacobs",
       "date": "2022/01/29",
-      "votes": 228,
+      "votes": 242,
       "featured": "No",
       "status": "Live"
     },
@@ -124366,7 +124370,7 @@
       "authorid": "ur91650024",
       "author": "thenolanfan",
       "date": "2022/02/04",
-      "votes": 70,
+      "votes": 254,
       "featured": "No",
       "status": "Live"
     },
@@ -124377,7 +124381,7 @@
       "authorid": "ur12089554",
       "author": "mariojacobs",
       "date": "2022/02/04",
-      "votes": 66,
+      "votes": 110,
       "featured": "No",
       "status": "Live"
     },
@@ -124388,7 +124392,7 @@
       "authorid": "ur34779915",
       "author": "Paok-Kilkis",
       "date": "2022/02/04",
-      "votes": 61,
+      "votes": 238,
       "featured": "No",
       "status": "Live"
     },
@@ -124399,7 +124403,7 @@
       "authorid": "ur75779804",
       "author": "BonaFideBOSS",
       "date": "2022/02/04",
-      "votes": 40,
+      "votes": 142,
       "featured": "No",
       "status": "Live"
     },
@@ -124410,7 +124414,7 @@
       "authorid": "ur12089554",
       "author": "mariojacobs",
       "date": "2022/02/03",
-      "votes": 138,
+      "votes": 166,
       "featured": "No",
       "status": "Live"
     },
@@ -124421,7 +124425,7 @@
       "authorid": "ur34779915",
       "author": "Paok-Kilkis",
       "date": "2022/02/03",
-      "votes": 147,
+      "votes": 246,
       "featured": "No",
       "status": "Live"
     },
@@ -124432,7 +124436,7 @@
       "authorid": "ur91650024",
       "author": "thenolanfan",
       "date": "2022/02/03",
-      "votes": 83,
+      "votes": 115,
       "featured": "No",
       "status": "Live"
     },
@@ -124443,7 +124447,7 @@
       "authorid": "ur91075537",
       "author": "CyrilMartin",
       "date": "2022/02/03",
-      "votes": 110,
+      "votes": 178,
       "featured": "No",
       "status": "Live"
     },
@@ -124454,7 +124458,7 @@
       "authorid": "ur36448190",
       "author": "Breumaster",
       "date": "2022/02/02",
-      "votes": 200,
+      "votes": 254,
       "featured": "No",
       "status": "Live"
     },
@@ -124465,7 +124469,7 @@
       "authorid": "ur75779804",
       "author": "BonaFideBOSS",
       "date": "2022/02/02",
-      "votes": 179,
+      "votes": 250,
       "featured": "No",
       "status": "Live"
     },
@@ -124476,7 +124480,7 @@
       "authorid": "ur75779804",
       "author": "BonaFideBOSS",
       "date": "2022/02/02",
-      "votes": 110,
+      "votes": 143,
       "featured": "No",
       "status": "Live"
     },
@@ -124487,7 +124491,7 @@
       "authorid": "ur52829101",
       "author": "Djesika",
       "date": "2022/02/01",
-      "votes": 225,
+      "votes": 263,
       "featured": "No",
       "status": "Live"
     },
@@ -124498,7 +124502,7 @@
       "authorid": "ur57704188",
       "author": "brijeshmarand",
       "date": "2022/02/01",
-      "votes": 174,
+      "votes": 202,
       "featured": "No",
       "status": "Live"
     },
@@ -124509,7 +124513,7 @@
       "authorid": "ur12089554",
       "author": "mariojacobs",
       "date": "2022/02/01",
-      "votes": 273,
+      "votes": 776,
       "featured": "Yes",
       "status": "Live"
     },
@@ -124520,7 +124524,139 @@
       "authorid": "ur29755297",
       "author": "urbanemovies",
       "date": "2022/02/01",
-      "votes": 56,
+      "votes": 61,
+      "featured": "No",
+      "status": "Live"
+    },
+    {
+      "url": "https://www.imdb.com/poll/LAbpyMJ0doA/",
+      "title": "In Memory of Lata Mangeshkar",
+      "type": "Titles",
+      "authorid": "ur57704188",
+      "author": "brijeshmarand",
+      "date": "2022/02/08",
+      "votes": 19,
+      "featured": "No",
+      "status": "Live"
+    },
+    {
+      "url": "https://www.imdb.com/poll/N04UmjTrDkM/",
+      "title": "IMDb Top 250 \u2014 United Kingdom Movies",
+      "type": "Titles",
+      "authorid": "ur12089554",
+      "author": "mariojacobs",
+      "date": "2022/02/08",
+      "votes": 33,
+      "featured": "No",
+      "status": "Live"
+    },
+    {
+      "url": "https://www.imdb.com/poll/YjPD9hO60NI/",
+      "title": "TimeOut's Best Horror Movie",
+      "type": "Titles",
+      "authorid": "ur133744150",
+      "author": "BenWakizashi",
+      "date": "2022/02/08",
+      "votes": 30,
+      "featured": "No",
+      "status": "Live"
+    },
+    {
+      "url": "https://www.imdb.com/poll/VL44x-RBVDs/",
+      "title": "BAFTA 2022 \u2014 Best Film",
+      "type": "Titles",
+      "authorid": "ur75779804",
+      "author": "BonaFideBOSS",
+      "date": "2022/02/07",
+      "votes": 118,
+      "featured": "No",
+      "status": "Live"
+    },
+    {
+      "url": "https://www.imdb.com/poll/TBruCoo2Uys/",
+      "title": "Actresses Considered to Play Clarice Starling",
+      "type": "People",
+      "authorid": "ur137235941",
+      "author": "JackSlater4",
+      "date": "2022/02/07",
+      "votes": 107,
+      "featured": "No",
+      "status": "Live"
+    },
+    {
+      "url": "https://www.imdb.com/poll/pR37KWlJ-Vw/",
+      "title": "Best \"Best Actor\" 1960-1969",
+      "type": "People",
+      "authorid": "ur122799232",
+      "author": "ethangentle",
+      "date": "2022/02/07",
+      "votes": 115,
+      "featured": "No",
+      "status": "Live"
+    },
+    {
+      "url": "https://www.imdb.com/poll/9u1ZQ9RQ5V4/",
+      "title": "2000s Movies Set in Africa",
+      "type": "Titles",
+      "authorid": "ur4234119",
+      "author": "ElMaruecan82",
+      "date": "2022/02/06",
+      "votes": 174,
+      "featured": "No",
+      "status": "Live"
+    },
+    {
+      "url": "https://www.imdb.com/poll/Ka6AjOZIoek/",
+      "title": "BAFTA 2022 Awards \u2014 Outstanding British Film",
+      "type": "Titles",
+      "authorid": "ur29755297",
+      "author": "urbanemovies",
+      "date": "2022/02/06",
+      "votes": 107,
+      "featured": "No",
+      "status": "Live"
+    },
+    {
+      "url": "https://www.imdb.com/poll/gXZS3IwZRhQ/",
+      "title": "Best British Gangster Film",
+      "type": "Titles",
+      "authorid": "ur91075537",
+      "author": "CyrilMartin",
+      "date": "2022/02/06",
+      "votes": 150,
+      "featured": "No",
+      "status": "Live"
+    },
+    {
+      "url": "https://www.imdb.com/poll/26M0idWSMEA/",
+      "title": "Top TV Shows Led by Black People",
+      "type": "Titles",
+      "authorid": "ur75779804",
+      "author": "BonaFideBOSS",
+      "date": "2022/02/05",
+      "votes": 177,
+      "featured": "No",
+      "status": "Live"
+    },
+    {
+      "url": "https://www.imdb.com/poll/UXZNgD6tB4s/",
+      "title": "The Power of the Dogs",
+      "type": "Titles",
+      "authorid": "ur0743304",
+      "author": "pbn",
+      "date": "2022/02/05",
+      "votes": 159,
+      "featured": "No",
+      "status": "Live"
+    },
+    {
+      "url": "https://www.imdb.com/poll/EVxZ9LQ5yRY/",
+      "title": "Favorite Dreyer Film",
+      "type": "Titles",
+      "authorid": "ur91650024",
+      "author": "thenolanfan",
+      "date": "2022/02/05",
+      "votes": 70,
       "featured": "No",
       "status": "Live"
     }
