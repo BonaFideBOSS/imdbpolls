@@ -41,7 +41,7 @@ errorpolls = []
 for i in data["polls"]:
     pollLink = i["url"]
     if i["status"] == "Live":
-        if i["votes"] == "" or i["url"] in errorpolls:
+        if i["votes"] == "" or i["url"] in errorpolls or "ur91650024" in i["authorid"]:
             try:
                 resultURL = pollLink
                 mobileURL = pollLink.replace("www", "m")

@@ -1,0 +1,93 @@
+<html>
+
+<head>
+  <!-- <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no"> -->
+
+  <title>IMDb Polls</title>
+  <link rel="shortcut icon" href="img/imdbpoll.png" type="image/x-icon">
+
+
+  <link rel="stylesheet" href="assets/bootstrap.min.css">
+  <link rel="stylesheet" href="assets/DataTables/datatables.min.css">
+</head>
+
+<body>
+
+  <div class="container my-5">
+    <h3 class="mb-3">thenolanfan's deleted/private poll lists</h3>
+    <p class="text-muted mb-3">Total: <strong></strong></p>
+    <table class="">
+      <tbody></tbody>
+    </table>
+  </div>
+
+  <script src="assets/bootstrap.bundle.min.js"></script>
+  <script src="assets/jquery-3.6.0.min.js"></script>
+
+  <script>
+    var table = document.getElementsByTagName('table')[0].getElementsByTagName('tbody')[0]
+    var polls = ['https://www.imdb.com/poll/v_-BM5RuazU/', 'https://www.imdb.com/poll/EWayPir0r18/',
+      'https://www.imdb.com/poll/S66JxmbqGUM/', 'https://www.imdb.com/poll/yyTyxd5coRY/',
+      'https://www.imdb.com/poll/AU1QJF5s408/', 'https://www.imdb.com/poll/VwQ7tQ1zNj4/',
+      'https://www.imdb.com/poll/cS29v3gXs4s/', 'https://www.imdb.com/poll/POiVfByCivc/',
+      'https://www.imdb.com/poll/CDpx-jBnoMg/', 'https://www.imdb.com/poll/aqCxAkJN2cg/',
+      'https://www.imdb.com/poll/jsGrmtWEXCg/', 'https://www.imdb.com/poll/wwtzNhwr0NM/',
+      'https://www.imdb.com/poll/NnSmlOtVdX0/', 'https://www.imdb.com/poll/grvFXrh7pQ0/',
+      'https://www.imdb.com/poll/lyENX7WVkWU/', 'https://www.imdb.com/poll/c8Z8kWRdXFg/',
+      'https://www.imdb.com/poll/Bk3loF8ZG1Y/', 'https://www.imdb.com/poll/OjupBekT5sg/',
+      'https://www.imdb.com/poll/SaPEd9kXdTY/', 'https://www.imdb.com/poll/clD5PlImJ7o/',
+      'https://www.imdb.com/poll/8tXYCS23p98/', 'https://www.imdb.com/poll/b9aGFc1c4nM/',
+      'https://www.imdb.com/poll/Prv8SooQhts/', 'https://www.imdb.com/poll/8U8E_zONqsM/',
+      'https://www.imdb.com/poll/7gAsOwhzRGY/', 'https://www.imdb.com/poll/s7U63heSoLw/',
+      'https://www.imdb.com/poll/iAaljEDeDhw/', 'https://www.imdb.com/poll/QcIOaIHywWc/',
+      'https://www.imdb.com/poll/MLpg00YSjos/', 'https://www.imdb.com/poll/lIet4yGv7Sk/',
+      'https://www.imdb.com/poll/IhpC_kEftaw/', 'https://www.imdb.com/poll/WiDbQnHAKvk/',
+      'https://www.imdb.com/poll/bcVfSXTsRXU/', 'https://www.imdb.com/poll/zbyLGeHU8Ps/',
+      'https://www.imdb.com/poll/HnUAXXc8TJo/', 'https://www.imdb.com/poll/F-uXZkZSwUQ/',
+      'https://www.imdb.com/poll/1QRYLikqAh0/', 'https://www.imdb.com/poll/MZAP1FQKfqo/',
+      'https://www.imdb.com/poll/eOTlaLbXty0/', 'https://www.imdb.com/poll/tLV-ZUSobZ0/',
+      'https://www.imdb.com/poll/_21vEvY4fF0/', 'https://www.imdb.com/poll/fzEKjzIh8FU/',
+      'https://www.imdb.com/poll/ZI15XKinOMU/', 'https://www.imdb.com/poll/AiA3hbmaYh4/',
+      'https://www.imdb.com/poll/nYXV2y80ars/', 'https://www.imdb.com/poll/ZCARDGEo1oY/',
+      'https://www.imdb.com/poll/ZX6Ul2b-Z3k/', 'https://www.imdb.com/poll/G5knerL0l_8/',
+      'https://www.imdb.com/poll/wFvxndrH3UI/', 'https://www.imdb.com/poll/khj4CoaQOSI/',
+      'https://www.imdb.com/poll/MDfhxy6rTJY/', 'https://www.imdb.com/poll/a1VLm41a2-4/',
+      'https://www.imdb.com/poll/7w00v7shaVE/', 'https://www.imdb.com/poll/dAYM7DUUNLg/',
+      'https://www.imdb.com/poll/EJl8X6pnFc8/', 'https://www.imdb.com/poll/OWHJoZmABwA/',
+      'https://www.imdb.com/poll/EvlX2Kp0eUU/', 'https://www.imdb.com/poll/0pM5TsOZmUo/',
+      'https://www.imdb.com/poll/9i7H4RRsczc/', 'https://www.imdb.com/poll/CxDmRjabVcs/',
+      'https://www.imdb.com/poll/MYC5jtqEGqE/', 'https://www.imdb.com/poll/A2XSBZjUfIg/',
+      'https://www.imdb.com/poll/9wqtmpk1LaQ/', 'https://www.imdb.com/poll/K5P2J27CFC4/',
+      'https://www.imdb.com/poll/CHFinIyDJ-o/', 'https://www.imdb.com/poll/0G2ZXhlVjZk/',
+      'https://www.imdb.com/poll/X8JLwMbYXHs/', 'https://www.imdb.com/poll/abD45Iil9iM/',
+      'https://www.imdb.com/poll/Hr3mDq5GBEQ/', 'https://www.imdb.com/poll/wKwpqm_JCYo/',
+      'https://www.imdb.com/poll/L4FvkchD0eU/', 'https://www.imdb.com/poll/qmCVA-asAt4/',
+      'https://www.imdb.com/poll/1okqTOCnMtw/', 'https://www.imdb.com/poll/KHlbf9doLbU/',
+      'https://www.imdb.com/poll/Cqge92NBQGg/', 'https://www.imdb.com/poll/oqaUw60P-PQ/',
+      'https://www.imdb.com/poll/--jux4L0SYM/', 'https://www.imdb.com/poll/fnwww-FbUBw/',
+      'https://www.imdb.com/poll/QalLmA78fhg/', 'https://www.imdb.com/poll/Wn3akPE9lDg/',
+      'https://www.imdb.com/poll/Wj9_hAUXU-U/', 'https://www.imdb.com/poll/K_iSL50Wxus/',
+      'https://www.imdb.com/poll/_v5sfi5OpSk/', 'https://www.imdb.com/poll/H1hQ5170wYY/',
+      'https://www.imdb.com/poll/s9Lg5wT1YTw/', 'https://www.imdb.com/poll/QQ51tsEj2Mk/',
+      'https://www.imdb.com/poll/alsC74FVsW0/', 'https://www.imdb.com/poll/72nMBAWTxXE/',
+      'https://www.imdb.com/poll/te3W8-oZs84/', 'https://www.imdb.com/poll/TUOnJcLeJBQ/',
+      'https://www.imdb.com/poll/nXh70ggOL_Q/', 'https://www.imdb.com/poll/Jkyh_mPDVg8/',
+      'https://www.imdb.com/poll/UsWINvOfIAs/', 'https://www.imdb.com/poll/-qQX6k0jZsE/',
+      'https://www.imdb.com/poll/q6GJwZRaI84/', 'https://www.imdb.com/poll/yr5ji5zqpBE/',
+      'https://www.imdb.com/poll/rENOZ7Wksds/'
+    ]
+
+    document.getElementsByClassName('text-muted')[0].getElementsByTagName('strong')[0].innerHTML = polls.length
+
+    count = 0
+    polls.forEach(i => {
+      count = count + 1
+      table.innerHTML += '<td class="pe-3 pb-1">' + count + '. </td>' +
+        '<td><a href="' + i.replace('poll', 'list') + '" target="_blank">' + i.replace('poll', 'list') +
+        '</a></td>' +
+        '<td class="ps-3">(<a class="text-muted px-1" href="' + i + '" target="_blank">Poll</a>)</td>'
+    });
+  </script>
+</body>
+
+</html>
