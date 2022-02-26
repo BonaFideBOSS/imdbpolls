@@ -17,12 +17,12 @@ def connect(resultURL):
     connection = requests.get(resultURL)
     scrape = BeautifulSoup(connection.text, "html.parser")
     connection.close()
-    featured = scrape.select_one(".poll-featured .action form").get("action")
+    featured = scrape.select_one(".poll-featured .action form")
     links = scrape.select(".poll.teaser b a", href=True)
     nxt = "yes"
 
     if featured:
-        featuredlink = "https://www.imdb.com" + featured
+        featuredlink = "https://www.imdb.com" + featured.get("action")
         if featuredlink not in savedlinks:
             newlinks.append(featuredlink)
             data = (
