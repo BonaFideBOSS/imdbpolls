@@ -1,10 +1,10 @@
 {
-  "totalpolls": 11232,
-  "totalvotes": 20510404,
+  "totalpolls": 11239,
+  "totalvotes": 20511051,
   "totalauthors": 462,
   "totalfeatures": 577,
-  "lastupdated": "Saturday, February 26, 2022 - 15:35 EST",
-  "rawdate": "2022-02-26 15:35:09.788719-05:00",
+  "lastupdated": "Monday, February 28, 2022 - 15:39 EST",
+  "rawdate": "2022-02-28 15:39:32.359525-05:00",
   "authors": [
     {
       "authorid": "ur50452813",
@@ -125405,6 +125405,83 @@
       "author": "TheMovieSmith",
       "date": "2022/02/18",
       "votes": 142,
+      "featured": "No",
+      "status": "Live"
+    },
+    {
+      "url": "https://www.imdb.com/poll/0bXoGqIsca4/",
+      "title": "Oscars 2022 \u2014 Best Visual Effects",
+      "type": "Titles",
+      "authorid": "ur34779915",
+      "author": "Paok-Kilkis",
+      "date": "2022/02/28",
+      "votes": 89,
+      "featured": "No",
+      "status": "Live"
+    },
+    {
+      "url": "https://www.imdb.com/poll/gRX1Yzh6-mg/",
+      "title": "Oscars 2022 \u2014 Best Cinematography",
+      "type": "Titles",
+      "authorid": "ur75779804",
+      "author": "BonaFideBOSS",
+      "date": "2022/02/28",
+      "votes": 66,
+      "featured": "No",
+      "status": "Live"
+    },
+    {
+      "url": "https://www.imdb.com/poll/jArfE4GDrq0/",
+      "title": "Oscars 2022 \u2014 Best Film Editing",
+      "type": "Titles",
+      "authorid": "ur0594717",
+      "author": "TsarStepan",
+      "date": "2022/02/28",
+      "votes": 56,
+      "featured": "No",
+      "status": "Live"
+    },
+    {
+      "url": "https://www.imdb.com/poll/NucbDSlIrK8/",
+      "title": "Oscars 2022 \u2014 Best Original Score",
+      "type": "Titles",
+      "authorid": "ur34445091",
+      "author": "Eagles90",
+      "date": "2022/02/28",
+      "votes": 55,
+      "featured": "No",
+      "status": "Live"
+    },
+    {
+      "url": "https://www.imdb.com/poll/HWKfY1oualk/",
+      "title": "Best of Elizabeth Taylor",
+      "type": "Titles",
+      "authorid": "ur57704188",
+      "author": "brijeshmarand",
+      "date": "2022/02/27",
+      "votes": 99,
+      "featured": "No",
+      "status": "Live"
+    },
+    {
+      "url": "https://www.imdb.com/poll/TElQvlNY9YU/",
+      "title": "IMDb Poll Board: Top 10 Performances of the 2010s",
+      "type": "Titles",
+      "authorid": "ur75779804",
+      "author": "BonaFideBOSS",
+      "date": "2022/02/27",
+      "votes": 132,
+      "featured": "No",
+      "status": "Live"
+    },
+    {
+      "url": "https://www.imdb.com/poll/ZWujtGvgvSY/",
+      "title": "Favorite Franchise Finale",
+      "type": "Titles",
+      "authorid": "ur34779915",
+      "author": "Paok-Kilkis",
+      "date": "2022/02/27",
+      "votes": 150,
       "featured": "No",
       "status": "Live"
     }
