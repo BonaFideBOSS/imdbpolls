@@ -1,10 +1,10 @@
 {
-  "totalpolls": 11378,
-  "totalvotes": 20623021,
+  "totalpolls": 11391,
+  "totalvotes": 20624410,
   "totalauthors": 463,
   "totalfeatures": 582,
-  "lastupdated": "Friday, April 08, 2022 - 14:30 EST",
-  "rawdate": "2022-04-08 14:30:44.923399-05:00",
+  "lastupdated": "Tuesday, April 12, 2022 - 00:32 EST",
+  "rawdate": "2022-04-12 00:32:09.483087-05:00",
   "authors": [
     {
       "authorid": "ur50452813",
@@ -126828,7 +126828,7 @@
       "author": "ElMaruecan82",
       "date": "2022/04/06",
       "votes": 76,
-      "featured": "No",
+      "featured": "Yes",
       "status": "Live"
     },
     {
@@ -127015,6 +127015,149 @@
       "author": "Paok-Kilkis",
       "date": "2022/04/01",
       "votes": 178,
+      "featured": "No",
+      "status": "Live"
+    },
+    {
+      "url": "https://www.imdb.com/poll/CfG5VrxysIo/",
+      "title": "Favorite Martial Arts Movie",
+      "type": "Titles",
+      "authorid": "ur91075537",
+      "author": "CyrilMartin",
+      "date": "2022/04/12",
+      "votes": 5,
+      "featured": "No",
+      "status": "Live"
+    },
+    {
+      "url": "https://www.imdb.com/poll/gHwYO-ng4BE/",
+      "title": "Straight Comedy",
+      "type": "Titles",
+      "authorid": "ur0743304",
+      "author": "pbn",
+      "date": "2022/04/12",
+      "votes": 7,
+      "featured": "No",
+      "status": "Live"
+    },
+    {
+      "url": "https://www.imdb.com/poll/kZQniwCJwP8/",
+      "title": "Top-Selling Blu-rays of 2021",
+      "type": "Titles",
+      "authorid": "ur75779804",
+      "author": "BonaFideBOSS",
+      "date": "2022/04/12",
+      "votes": 7,
+      "featured": "No",
+      "status": "Live"
+    },
+    {
+      "url": "https://www.imdb.com/poll/ygO0DcQ8gnc/",
+      "title": "Tops in Cult TV Series",
+      "type": "Titles",
+      "authorid": "ur132494301",
+      "author": "mpaxtonpolls",
+      "date": "2022/04/11",
+      "votes": 143,
+      "featured": "No",
+      "status": "Live"
+    },
+    {
+      "url": "https://www.imdb.com/poll/HZJJkBR37QA/",
+      "title": "StudioCanal 90s Films",
+      "type": "Titles",
+      "authorid": "ur12089554",
+      "author": "mariojacobs",
+      "date": "2022/04/11",
+      "votes": 120,
+      "featured": "No",
+      "status": "Live"
+    },
+    {
+      "url": "https://www.imdb.com/poll/uHRnAhYRlbM/",
+      "title": "Two-Part Movies That Never Became Trilogies",
+      "type": "Titles",
+      "authorid": "ur34779915",
+      "author": "Paok-Kilkis",
+      "date": "2022/04/11",
+      "votes": 123,
+      "featured": "No",
+      "status": "Live"
+    },
+    {
+      "url": "https://www.imdb.com/poll/Sx9LhDNmi2w/",
+      "title": "Worst Reboot of the 21st Century?",
+      "type": "Titles",
+      "authorid": "ur137235941",
+      "author": "JackSlater4",
+      "date": "2022/04/10",
+      "votes": 209,
+      "featured": "No",
+      "status": "Live"
+    },
+    {
+      "url": "https://www.imdb.com/poll/xK2EgwjMa_g/",
+      "title": "Worldwide Box Office",
+      "type": "Titles",
+      "authorid": "ur23877502",
+      "author": "jafar413",
+      "date": "2022/04/10",
+      "votes": 167,
+      "featured": "No",
+      "status": "Live"
+    },
+    {
+      "url": "https://www.imdb.com/poll/3QRMAiJ-TJ0/",
+      "title": "Favorite \"Best Film of the Year 2021\" Winner",
+      "type": "Titles",
+      "authorid": "ur75779804",
+      "author": "BonaFideBOSS",
+      "date": "2022/04/10",
+      "votes": 120,
+      "featured": "No",
+      "status": "Live"
+    },
+    {
+      "url": "https://www.imdb.com/poll/4J1TzBf30rU/",
+      "title": "Moon Prism Power, Make Up",
+      "type": "Images",
+      "authorid": "ur46158148",
+      "author": "penchofifteenpolls",
+      "date": "2022/04/10",
+      "votes": 61,
+      "featured": "No",
+      "status": "Live"
+    },
+    {
+      "url": "https://www.imdb.com/poll/-eOejDQVXfg/",
+      "title": "Oscar-Nominated Bond Themes",
+      "type": "Titles",
+      "authorid": "ur0743304",
+      "author": "pbn",
+      "date": "2022/04/10",
+      "votes": 168,
+      "featured": "No",
+      "status": "Live"
+    },
+    {
+      "url": "https://www.imdb.com/poll/abAFQ4iqdYU/",
+      "title": "Best Jessica Chastain Movie",
+      "type": "Titles",
+      "authorid": "ur34779915",
+      "author": "Paok-Kilkis",
+      "date": "2022/04/10",
+      "votes": 168,
+      "featured": "No",
+      "status": "Live"
+    },
+    {
+      "url": "https://www.imdb.com/poll/zxRck0zlTnE/",
+      "title": "Wizarding World: The Most Magical Quotes",
+      "type": "Images",
+      "authorid": "ur111129375",
+      "author": "Master_Strange",
+      "date": "2022/04/10",
+      "votes": 91,
       "featured": "No",
       "status": "Live"
     }
