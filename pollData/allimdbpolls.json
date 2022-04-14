@@ -1,10 +1,10 @@
 {
-  "totalpolls": 11391,
-  "totalvotes": 20624410,
+  "totalpolls": 11398,
+  "totalvotes": 20624873,
   "totalauthors": 463,
-  "totalfeatures": 582,
-  "lastupdated": "Tuesday, April 12, 2022 - 00:32 EST",
-  "rawdate": "2022-04-12 00:32:09.483087-05:00",
+  "totalfeatures": 583,
+  "lastupdated": "Thursday, April 14, 2022 - 03:49 EST",
+  "rawdate": "2022-04-14 03:49:47.034338-05:00",
   "authors": [
     {
       "authorid": "ur50452813",
@@ -127158,6 +127158,83 @@
       "author": "Master_Strange",
       "date": "2022/04/10",
       "votes": 91,
+      "featured": "No",
+      "status": "Live"
+    },
+    {
+      "url": "https://www.imdb.com/poll/Feieqq8YXwc/",
+      "title": "Favorite Seth Rogen Movie",
+      "type": "Titles",
+      "authorid": "ur57704188",
+      "author": "brijeshmarand",
+      "date": "2022/04/14",
+      "votes": 13,
+      "featured": "No",
+      "status": "Live"
+    },
+    {
+      "url": "https://www.imdb.com/poll/vFMaI8PJvU0/",
+      "title": "The Best 1980s Villain",
+      "type": "Images",
+      "authorid": "ur34779915",
+      "author": "Paok-Kilkis",
+      "date": "2022/04/14",
+      "votes": 20,
+      "featured": "No",
+      "status": "Live"
+    },
+    {
+      "url": "https://www.imdb.com/poll/EFtuRKKphMA/",
+      "title": "American Film Institute Top 10 Movies of 2001",
+      "type": "Titles",
+      "authorid": "ur122799232",
+      "author": "ethangentle",
+      "date": "2022/04/14",
+      "votes": 18,
+      "featured": "No",
+      "status": "Live"
+    },
+    {
+      "url": "https://www.imdb.com/poll/jYPW_urITh0/",
+      "title": "The Best Final Girl in Horror Movies",
+      "type": "Images",
+      "authorid": "ur133744150",
+      "author": "BenWakizashi",
+      "date": "2022/04/14",
+      "votes": 14,
+      "featured": "No",
+      "status": "Live"
+    },
+    {
+      "url": "https://www.imdb.com/poll/pep99NyZ-iM/",
+      "title": "Longest Sci-Fi Movies",
+      "type": "Titles",
+      "authorid": "ur75779804",
+      "author": "BonaFideBOSS",
+      "date": "2022/04/13",
+      "votes": 160,
+      "featured": "No",
+      "status": "Live"
+    },
+    {
+      "url": "https://www.imdb.com/poll/2rJb1DZJTG0/",
+      "title": "Favorite Twin Movie",
+      "type": "Titles",
+      "authorid": "ur34779915",
+      "author": "Paok-Kilkis",
+      "date": "2022/04/13",
+      "votes": 131,
+      "featured": "No",
+      "status": "Live"
+    },
+    {
+      "url": "https://www.imdb.com/poll/inaLWRyFBRg/",
+      "title": "The Most Fascinating Killers",
+      "type": "Titles",
+      "authorid": "ur36448190",
+      "author": "Breumaster",
+      "date": "2022/04/13",
+      "votes": 107,
       "featured": "No",
       "status": "Live"
     }
