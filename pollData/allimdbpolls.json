@@ -1,10 +1,10 @@
 {
-  "totalpolls": 11417,
-  "totalvotes": 20633669,
+  "totalpolls": 11428,
+  "totalvotes": 20634686,
   "totalauthors": 463,
-  "totalfeatures": 583,
-  "lastupdated": "Wednesday, April 20, 2022 - 05:11 EST",
-  "rawdate": "2022-04-20 05:11:43.550769-05:00",
+  "totalfeatures": 584,
+  "lastupdated": "Saturday, April 23, 2022 - 10:38 EST",
+  "rawdate": "2022-04-23 10:38:59.216886-05:00",
   "authors": [
     {
       "authorid": "ur50452813",
@@ -127026,7 +127026,7 @@
       "author": "CyrilMartin",
       "date": "2022/04/12",
       "votes": 735,
-      "featured": "No",
+      "featured": "Yes",
       "status": "Live"
     },
     {
@@ -127444,6 +127444,127 @@
       "author": "mariojacobs",
       "date": "2022/04/15",
       "votes": 86,
+      "featured": "No",
+      "status": "Live"
+    },
+    {
+      "url": "https://www.imdb.com/poll/7n0I-xHTbe4/",
+      "title": "My Name Is \"Chris\"",
+      "type": "People",
+      "authorid": "ur23877502",
+      "author": "jafar413",
+      "date": "2022/04/23",
+      "votes": 62,
+      "featured": "No",
+      "status": "Live"
+    },
+    {
+      "url": "https://www.imdb.com/poll/qKEYKDJwdII/",
+      "title": "Favorite Andy Serkis Movie",
+      "type": "Titles",
+      "authorid": "ur75779804",
+      "author": "BonaFideBOSS",
+      "date": "2022/04/23",
+      "votes": 59,
+      "featured": "No",
+      "status": "Live"
+    },
+    {
+      "url": "https://www.imdb.com/poll/g3OofGbqSqw/",
+      "title": "Best Scrapped \"Game of Thrones\" Universe Pitch",
+      "type": "Images",
+      "authorid": "ur29755297",
+      "author": "urbanemovies",
+      "date": "2022/04/23",
+      "votes": 29,
+      "featured": "No",
+      "status": "Live"
+    },
+    {
+      "url": "https://www.imdb.com/poll/xeVQQvYlSvY/",
+      "title": "Face-Off: Young Leads of the 2022 Oscar Nominees",
+      "type": "Images",
+      "authorid": "ur46158148",
+      "author": "penchofifteenpolls",
+      "date": "2022/04/22",
+      "votes": 98,
+      "featured": "No",
+      "status": "Live"
+    },
+    {
+      "url": "https://www.imdb.com/poll/-ml8sgSgsns/",
+      "title": "Disney Films Set in France",
+      "type": "Titles",
+      "authorid": "ur4234119",
+      "author": "ElMaruecan82",
+      "date": "2022/04/22",
+      "votes": 110,
+      "featured": "No",
+      "status": "Live"
+    },
+    {
+      "url": "https://www.imdb.com/poll/Bf2i-wzCUq0/",
+      "title": "Favorite Vikings Series\n",
+      "type": "Titles",
+      "authorid": "ur111129375",
+      "author": "Master_Strange",
+      "date": "2022/04/22",
+      "votes": 62,
+      "featured": "No",
+      "status": "Live"
+    },
+    {
+      "url": "https://www.imdb.com/poll/IOqYcZ4KTjA/",
+      "title": "Lou Romano's Animated Acting",
+      "type": "Images",
+      "authorid": "ur57704188",
+      "author": "brijeshmarand",
+      "date": "2022/04/22",
+      "votes": 66,
+      "featured": "No",
+      "status": "Live"
+    },
+    {
+      "url": "https://www.imdb.com/poll/LIjRa3abrYE/",
+      "title": "Oscar-Winning Short Films Directed By Women",
+      "type": "Titles",
+      "authorid": "ur75779804",
+      "author": "BonaFideBOSS",
+      "date": "2022/04/21",
+      "votes": 63,
+      "featured": "No",
+      "status": "Live"
+    },
+    {
+      "url": "https://www.imdb.com/poll/JixA0MjDdsM/",
+      "title": "Which Will Be the Next $2 Billion Movie?",
+      "type": "Titles",
+      "authorid": "ur34779915",
+      "author": "Paok-Kilkis",
+      "date": "2022/04/21",
+      "votes": 186,
+      "featured": "No",
+      "status": "Live"
+    },
+    {
+      "url": "https://www.imdb.com/poll/UOt_mOMZ2lo/",
+      "title": "Best Action Adventure TV Series",
+      "type": "Titles",
+      "authorid": "ur91075537",
+      "author": "CyrilMartin",
+      "date": "2022/04/21",
+      "votes": 203,
+      "featured": "Yes",
+      "status": "Live"
+    },
+    {
+      "url": "https://www.imdb.com/poll/zzFbFoEqfKA/",
+      "title": "SXSW Gaming Awards \u2014 Favorite Game of the Year",
+      "type": "Titles",
+      "authorid": "ur75779804",
+      "author": "BonaFideBOSS",
+      "date": "2022/04/21",
+      "votes": 79,
       "featured": "No",
       "status": "Live"
     }
