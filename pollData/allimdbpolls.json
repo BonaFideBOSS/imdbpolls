@@ -1,10 +1,10 @@
 {
-  "totalpolls": 11455,
-  "totalvotes": 20674077,
-  "totalauthors": 465,
-  "totalfeatures": 585,
-  "lastupdated": "Sunday, May 01, 2022 - 03:11 EST",
-  "rawdate": "2022-05-01 03:11:57.196566-05:00",
+  "totalpolls": 11470,
+  "totalvotes": 20675679,
+  "totalauthors": 467,
+  "totalfeatures": 586,
+  "lastupdated": "Thursday, May 05, 2022 - 08:39 EST",
+  "rawdate": "2022-05-05 08:39:00.868716-05:00",
   "authors": [
     {
       "authorid": "ur50452813",
@@ -1865,6 +1865,14 @@
     {
       "authorid": "ur152253860",
       "avatar": "https://images-na.ssl-images-amazon.com/images/M/MV5BMjQ4MTY5NzU2M15BMl5BanBnXkFtZTgwNDc5NTgwMTI@._V1_SY100_SX100_.jpg"
+    },
+    {
+      "authorid": "ur148951298",
+      "avatar": "https://images-na.ssl-images-amazon.com/images/M/MV5BMjQ4MTY5NzU2M15BMl5BanBnXkFtZTgwNDc5NTgwMTI@._V1_SY100_SX100_.jpg"
+    },
+    {
+      "authorid": "ur56291258",
+      "avatar": "https://m.media-amazon.com/images/M/MV5BMjIzODgyMzcxN15BMl5BanBnXkFtZTgwMjU0OTYwMDI@._V1_SY100_SX100_.jpg"
     }
   ],
   "polls": [
@@ -127551,7 +127559,7 @@
       "author": "Paok-Kilkis",
       "date": "2022/04/21",
       "votes": 417,
-      "featured": "No",
+      "featured": "Yes",
       "status": "Live"
     },
     {
@@ -127870,6 +127878,171 @@
       "author": "galpojohn",
       "date": "2022/05/01",
       "votes": 17,
+      "featured": "No",
+      "status": "Live"
+    },
+    {
+      "url": "https://www.imdb.com/poll/WNJLL1L0igk/",
+      "title": "American Film Institute Top 10 Movies of 2004",
+      "type": "Titles",
+      "authorid": "ur122799232",
+      "author": "ethangentle",
+      "date": "2022/05/05",
+      "votes": 72,
+      "featured": "No",
+      "status": "Live"
+    },
+    {
+      "url": "https://www.imdb.com/poll/nzuHXwNHJdk/",
+      "title": "Favorite Comedy-Drama Movie",
+      "type": "Titles",
+      "authorid": "ur91075537",
+      "author": "CyrilMartin",
+      "date": "2022/05/05",
+      "votes": 70,
+      "featured": "No",
+      "status": "Live"
+    },
+    {
+      "url": "https://www.imdb.com/poll/daVOiSUJMEw/",
+      "title": "Blond Male Villains",
+      "type": "Images",
+      "authorid": "ur34779915",
+      "author": "Paok-Kilkis",
+      "date": "2022/05/05",
+      "votes": 60,
+      "featured": "No",
+      "status": "Live"
+    },
+    {
+      "url": "https://www.imdb.com/poll/UPIKdq2GDg4/",
+      "title": "Movies Sold by Villains",
+      "type": "Titles",
+      "authorid": "ur75779804",
+      "author": "BonaFideBOSS",
+      "date": "2022/05/05",
+      "votes": 67,
+      "featured": "No",
+      "status": "Live"
+    },
+    {
+      "url": "https://www.imdb.com/poll/mRqNpCbyXsA/",
+      "title": "Ladies Named Sara",
+      "type": "Images",
+      "authorid": "ur52829101",
+      "author": "Djesika",
+      "date": "2022/05/04",
+      "votes": 120,
+      "featured": "No",
+      "status": "Live"
+    },
+    {
+      "url": "https://www.imdb.com/poll/puy0iyvLb4U/",
+      "title": "Best 'Star Wars' Skywalker Saga Movie Chapter?",
+      "type": "Titles",
+      "authorid": "ur29755297",
+      "author": "urbanemovies",
+      "date": "2022/05/04",
+      "votes": 118,
+      "featured": "No",
+      "status": "Live"
+    },
+    {
+      "url": "https://www.imdb.com/poll/D0KT9X3owEs/",
+      "title": "May the 4th Be With These People",
+      "type": "People",
+      "authorid": "ur75779804",
+      "author": "BonaFideBOSS",
+      "date": "2022/05/04",
+      "votes": 100,
+      "featured": "No",
+      "status": "Live"
+    },
+    {
+      "url": "https://www.imdb.com/poll/a02r0xlxrhE/",
+      "title": "Favorite Petite & Powerful Woman in Hollywood",
+      "type": "People",
+      "authorid": "ur148951298",
+      "author": "erinwright2022",
+      "date": "2022/05/04",
+      "votes": 108,
+      "featured": "No",
+      "status": "Live"
+    },
+    {
+      "url": "https://www.imdb.com/poll/vXy_Bz1CpM0/",
+      "title": "Favorite Fantastic Beast",
+      "type": "Images",
+      "authorid": "ur12089554",
+      "author": "mariojacobs",
+      "date": "2022/05/03",
+      "votes": 80,
+      "featured": "No",
+      "status": "Live"
+    },
+    {
+      "url": "https://www.imdb.com/poll/TRORVwmdpfM/",
+      "title": "Bruce Willis Best Performances",
+      "type": "Titles",
+      "authorid": "ur56291258",
+      "author": "markok56",
+      "date": "2022/05/03",
+      "votes": 166,
+      "featured": "No",
+      "status": "Live"
+    },
+    {
+      "url": "https://www.imdb.com/poll/Drsf_TAh9aY/",
+      "title": "The Adventures of Dwayne Johnson",
+      "type": "Titles",
+      "authorid": "ur57704188",
+      "author": "brijeshmarand",
+      "date": "2022/05/03",
+      "votes": 113,
+      "featured": "No",
+      "status": "Live"
+    },
+    {
+      "url": "https://www.imdb.com/poll/d5KTh_Om38s/",
+      "title": "2022 Cannes Film Festival \u2014 Palme d'Or",
+      "type": "Titles",
+      "authorid": "ur133744150",
+      "author": "BenWakizashi",
+      "date": "2022/05/02",
+      "votes": 89,
+      "featured": "No",
+      "status": "Live"
+    },
+    {
+      "url": "https://www.imdb.com/poll/iahVyobGBiw/",
+      "title": "Favorite 'Doctor Strange in the Multiverse of Madness' Poster",
+      "type": "Images",
+      "authorid": "ur111129375",
+      "author": "Master_Strange",
+      "date": "2022/05/02",
+      "votes": 116,
+      "featured": "No",
+      "status": "Live"
+    },
+    {
+      "url": "https://www.imdb.com/poll/2YaafEfaPUQ/",
+      "title": "Best Score Oscar-Winning Sci-Fi Movies",
+      "type": "Titles",
+      "authorid": "ur75779804",
+      "author": "BonaFideBOSS",
+      "date": "2022/05/02",
+      "votes": 182,
+      "featured": "No",
+      "status": "Live"
+    },
+    {
+      "url": "https://www.imdb.com/poll/V10avDKUoGU/",
+      "title": "Characters Wearing Black and White",
+      "type": "Images",
+      "authorid": "ur34779915",
+      "author": "Paok-Kilkis",
+      "date": "2022/05/02",
+      "votes": 141,
       "featured": "No",
       "status": "Live"
     }
