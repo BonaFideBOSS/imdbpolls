@@ -1,10 +1,10 @@
 {
-  "totalpolls": 11470,
-  "totalvotes": 20675679,
-  "totalauthors": 467,
+  "totalpolls": 11499,
+  "totalvotes": 20679544,
+  "totalauthors": 469,
   "totalfeatures": 586,
-  "lastupdated": "Thursday, May 05, 2022 - 08:39 EST",
-  "rawdate": "2022-05-05 08:39:00.868716-05:00",
+  "lastupdated": "Saturday, May 14, 2022 - 14:27 EST",
+  "rawdate": "2022-05-14 14:27:56.939543-05:00",
   "authors": [
     {
       "authorid": "ur50452813",
@@ -1873,6 +1873,14 @@
     {
       "authorid": "ur56291258",
       "avatar": "https://m.media-amazon.com/images/M/MV5BMjIzODgyMzcxN15BMl5BanBnXkFtZTgwMjU0OTYwMDI@._V1_SY100_SX100_.jpg"
+    },
+    {
+      "authorid": "ur120377954",
+      "avatar": "https://images-na.ssl-images-amazon.com/images/M/MV5BMjQ4MTY5NzU2M15BMl5BanBnXkFtZTgwNDc5NTgwMTI@._V1_SY100_SX100_.jpg"
+    },
+    {
+      "authorid": "ur134781031",
+      "avatar": "https://images-na.ssl-images-amazon.com/images/M/MV5BMjQ4MTY5NzU2M15BMl5BanBnXkFtZTgwNDc5NTgwMTI@._V1_SY100_SX100_.jpg"
     }
   ],
   "polls": [
@@ -128043,6 +128051,325 @@
       "author": "Paok-Kilkis",
       "date": "2022/05/02",
       "votes": 141,
+      "featured": "No",
+      "status": "Live"
+    },
+    {
+      "url": "https://www.imdb.com/poll/mO2P6K8JXzo/",
+      "title": "Goodbye Scenes",
+      "type": "Images",
+      "authorid": "ur73331533",
+      "author": "maziarzirak",
+      "date": "2022/05/14",
+      "votes": 84,
+      "featured": "No",
+      "status": "Live"
+    },
+    {
+      "url": "https://www.imdb.com/poll/aW9Lm9yfyDA/",
+      "title": "Favorite Female Teacher",
+      "type": "Images",
+      "authorid": "ur23877502",
+      "author": "jafar413",
+      "date": "2022/05/14",
+      "votes": 69,
+      "featured": "No",
+      "status": "Live"
+    },
+    {
+      "url": "https://www.imdb.com/poll/-thPfplCw30/",
+      "title": "Blue Posters",
+      "type": "Images",
+      "authorid": "ur120377954",
+      "author": "Mehrad1383",
+      "date": "2022/05/14",
+      "votes": 67,
+      "featured": "No",
+      "status": "Live"
+    },
+    {
+      "url": "https://www.imdb.com/poll/f5a5x-TFfBQ/",
+      "title": "Most Evil \"Oz\" Character",
+      "type": "Images",
+      "authorid": "ur56291258",
+      "author": "markok56",
+      "date": "2022/05/14",
+      "votes": 31,
+      "featured": "No",
+      "status": "Live"
+    },
+    {
+      "url": "https://www.imdb.com/poll/tflzOux1nPA/",
+      "title": "Face-Off: Drive Me to Cannes",
+      "type": "Titles",
+      "authorid": "ur91650024",
+      "author": "thenolanfan",
+      "date": "2022/05/13",
+      "votes": 121,
+      "featured": "No",
+      "status": "Live"
+    },
+    {
+      "url": "https://www.imdb.com/poll/gDc-ygnH9WU/",
+      "title": "Face-Off: 'The Return of the King' vs. 'Return of the Jedi'",
+      "type": "Titles",
+      "authorid": "ur34779915",
+      "author": "Paok-Kilkis",
+      "date": "2022/05/13",
+      "votes": 130,
+      "featured": "No",
+      "status": "Live"
+    },
+    {
+      "url": "https://www.imdb.com/poll/hG21Usb5Teg/",
+      "title": "Face-Off: \"South Park\" vs. \"Family Guy\"",
+      "type": "Titles",
+      "authorid": "ur134781031",
+      "author": "collinm-15953",
+      "date": "2022/05/13",
+      "votes": 104,
+      "featured": "No",
+      "status": "Live"
+    },
+    {
+      "url": "https://www.imdb.com/poll/nAvTCJdfZ1Q/",
+      "title": "Fairies in Fiction",
+      "type": "Titles",
+      "authorid": "ur123279639",
+      "author": "jasminehsarah",
+      "date": "2022/05/12",
+      "votes": 141,
+      "featured": "No",
+      "status": "Live"
+    },
+    {
+      "url": "https://www.imdb.com/poll/OPnRsd0_vrI/",
+      "title": "Arnold Schwarzenegger's Nemesis",
+      "type": "Images",
+      "authorid": "ur56291258",
+      "author": "markok56",
+      "date": "2022/05/12",
+      "votes": 157,
+      "featured": "No",
+      "status": "Live"
+    },
+    {
+      "url": "https://www.imdb.com/poll/yS_uyKZNrCM/",
+      "title": "Pink & Black Posters",
+      "type": "Images",
+      "authorid": "ur73331533",
+      "author": "maziarzirak",
+      "date": "2022/05/12",
+      "votes": 129,
+      "featured": "No",
+      "status": "Live"
+    },
+    {
+      "url": "https://www.imdb.com/poll/2n_gIUkeT7g/",
+      "title": "Fictional School or Meeting Place For Peculiarly Gifted Individuals",
+      "type": "Images",
+      "authorid": "ur8857775",
+      "author": "dgranger",
+      "date": "2022/05/12",
+      "votes": 115,
+      "featured": "No",
+      "status": "Live"
+    },
+    {
+      "url": "https://www.imdb.com/poll/1hNP5AvEoSY/",
+      "title": "Favorite Biographical \"Father of ....\" Episodic Series?",
+      "type": "Titles",
+      "authorid": "ur29755297",
+      "author": "urbanemovies",
+      "date": "2022/05/11",
+      "votes": 88,
+      "featured": "No",
+      "status": "Live"
+    },
+    {
+      "url": "https://www.imdb.com/poll/bPWWP49uYqI/",
+      "title": "Asian Pacific American Filmmakers",
+      "type": "People",
+      "authorid": "ur12089554",
+      "author": "mariojacobs",
+      "date": "2022/05/10",
+      "votes": 109,
+      "featured": "No",
+      "status": "Live"
+    },
+    {
+      "url": "https://www.imdb.com/poll/umLc8tq7sFk/",
+      "title": "Favorite \"Moon Knight\" Poster",
+      "type": "Images",
+      "authorid": "ur111129375",
+      "author": "Master_Strange",
+      "date": "2022/05/10",
+      "votes": 117,
+      "featured": "No",
+      "status": "Live"
+    },
+    {
+      "url": "https://www.imdb.com/poll/N3kb1yiIwgg/",
+      "title": "Billboard's Top Artists of 2021",
+      "type": "People",
+      "authorid": "ur75779804",
+      "author": "BonaFideBOSS",
+      "date": "2022/05/10",
+      "votes": 113,
+      "featured": "No",
+      "status": "Live"
+    },
+    {
+      "url": "https://www.imdb.com/poll/p7aVVlabPSo/",
+      "title": "IMDb Poll Board: Favorite Movie Starting With \"D\"",
+      "type": "Titles",
+      "authorid": "ur75779804",
+      "author": "BonaFideBOSS",
+      "date": "2022/05/10",
+      "votes": 144,
+      "featured": "No",
+      "status": "Live"
+    },
+    {
+      "url": "https://www.imdb.com/poll/BRc8GDylWtY/",
+      "title": "Best Sam Raimi Movie",
+      "type": "Titles",
+      "authorid": "ur34779915",
+      "author": "Paok-Kilkis",
+      "date": "2022/05/09",
+      "votes": 323,
+      "featured": "No",
+      "status": "Live"
+    },
+    {
+      "url": "https://www.imdb.com/poll/DdtTQT3e1aU/",
+      "title": "Characters Who Have Suffered a Lot",
+      "type": "Images",
+      "authorid": "ur23877502",
+      "author": "jafar413",
+      "date": "2022/05/09",
+      "votes": 211,
+      "featured": "No",
+      "status": "Live"
+    },
+    {
+      "url": "https://www.imdb.com/poll/62peUZrBTUg/",
+      "title": "Favorite Non-Marvel/DC Superhero TV Show",
+      "type": "Titles",
+      "authorid": "ur75779804",
+      "author": "BonaFideBOSS",
+      "date": "2022/05/09",
+      "votes": 176,
+      "featured": "No",
+      "status": "Live"
+    },
+    {
+      "url": "https://www.imdb.com/poll/EzHtqhaICYw/",
+      "title": "Who Would Play Your Mother?",
+      "type": "People",
+      "authorid": "ur0743304",
+      "author": "pbn",
+      "date": "2022/05/08",
+      "votes": 242,
+      "featured": "No",
+      "status": "Live"
+    },
+    {
+      "url": "https://www.imdb.com/poll/bm4XK8AA-6o/",
+      "title": "Baby on Board the Red Carpet",
+      "type": "Images",
+      "authorid": "ur6008083",
+      "author": "yrnej",
+      "date": "2022/05/08",
+      "votes": 110,
+      "featured": "No",
+      "status": "Live"
+    },
+    {
+      "url": "https://www.imdb.com/poll/OzV4rdJy69w/",
+      "title": "Best \"How I Met Your Mother\" Episode",
+      "type": "Titles",
+      "authorid": "ur68129834",
+      "author": "Aman_Goyal",
+      "date": "2022/05/08",
+      "votes": 87,
+      "featured": "No",
+      "status": "Live"
+    },
+    {
+      "url": "https://www.imdb.com/poll/YyEeZnC33uI/",
+      "title": "Best of Asghar Farhadi",
+      "type": "Titles",
+      "authorid": "ur57704188",
+      "author": "brijeshmarand",
+      "date": "2022/05/07",
+      "votes": 100,
+      "featured": "No",
+      "status": "Live"
+    },
+    {
+      "url": "https://www.imdb.com/poll/CtbwkMVbguQ/",
+      "title": "IMDb Poll Board Most Rewatchable Movie",
+      "type": "Titles",
+      "authorid": "ur34779915",
+      "author": "Paok-Kilkis",
+      "date": "2022/05/07",
+      "votes": 305,
+      "featured": "No",
+      "status": "Live"
+    },
+    {
+      "url": "https://www.imdb.com/poll/eGQdqipuN0k/",
+      "title": "Favorite Roberto Rossellini Film",
+      "type": "Titles",
+      "authorid": "ur91650024",
+      "author": "thenolanfan",
+      "date": "2022/05/07",
+      "votes": 84,
+      "featured": "No",
+      "status": "Live"
+    },
+    {
+      "url": "https://www.imdb.com/poll/HiVQM3rGP1o/",
+      "title": "Viking Face-Off: Amleth vs. Floki",
+      "type": "Images",
+      "authorid": "ur0743304",
+      "author": "pbn",
+      "date": "2022/05/06",
+      "votes": 107,
+      "featured": "No",
+      "status": "Live"
+    },
+    {
+      "url": "https://www.imdb.com/poll/wz9yDokHzNk/",
+      "title": "Face-Off: Ideal Number of IMDb Polls Per Day",
+      "type": "Titles",
+      "authorid": "ur12089554",
+      "author": "mariojacobs",
+      "date": "2022/05/06",
+      "votes": 140,
+      "featured": "No",
+      "status": "Live"
+    },
+    {
+      "url": "https://www.imdb.com/poll/yydA5ezDhEA/",
+      "title": "Star Wars Face-Off: \"Book of Boba Fett\" vs. \"Bad Batch\" vs. \"Visions\"",
+      "type": "Titles",
+      "authorid": "ur75779804",
+      "author": "BonaFideBOSS",
+      "date": "2022/05/06",
+      "votes": 113,
+      "featured": "No",
+      "status": "Live"
+    },
+    {
+      "url": "https://www.imdb.com/poll/NeCgfYm6gQk/",
+      "title": "Face-Off: 'Encanto' vs. 'Coco'",
+      "type": "Titles",
+      "authorid": "ur46158148",
+      "author": "penchofifteenpolls",
+      "date": "2022/05/06",
+      "votes": 148,
       "featured": "No",
       "status": "Live"
     }
