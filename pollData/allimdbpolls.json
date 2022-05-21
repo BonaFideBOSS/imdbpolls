@@ -1,10 +1,10 @@
 {
-  "totalpolls": 11499,
-  "totalvotes": 20679544,
+  "totalpolls": 11523,
+  "totalvotes": 20682153,
   "totalauthors": 469,
   "totalfeatures": 586,
-  "lastupdated": "Saturday, May 14, 2022 - 14:27 EST",
-  "rawdate": "2022-05-14 14:27:56.939543-05:00",
+  "lastupdated": "Saturday, May 21, 2022 - 06:09 EST",
+  "rawdate": "2022-05-21 06:09:32.675293-05:00",
   "authors": [
     {
       "authorid": "ur50452813",
@@ -127952,7 +127952,7 @@
       "author": "urbanemovies",
       "date": "2022/05/04",
       "votes": 118,
-      "featured": "No",
+      "featured": "Yes",
       "status": "Live"
     },
     {
@@ -128238,7 +128238,7 @@
       "author": "Paok-Kilkis",
       "date": "2022/05/09",
       "votes": 323,
-      "featured": "No",
+      "featured": "Yes",
       "status": "Live"
     },
     {
@@ -128260,7 +128260,7 @@
       "author": "BonaFideBOSS",
       "date": "2022/05/09",
       "votes": 176,
-      "featured": "No",
+      "featured": "Yes",
       "status": "Live"
     },
     {
@@ -128370,6 +128370,270 @@
       "author": "penchofifteenpolls",
       "date": "2022/05/06",
       "votes": 148,
+      "featured": "No",
+      "status": "Live"
+    },
+    {
+      "url": "https://www.imdb.com/poll/3ZwfXn5DaKQ/",
+      "title": "Inspirational Movies About People Who Made a Difference",
+      "type": "Titles",
+      "authorid": "ur12089554",
+      "author": "mariojacobs",
+      "date": "2022/05/21",
+      "votes": 33,
+      "featured": "No",
+      "status": "Live"
+    },
+    {
+      "url": "https://www.imdb.com/poll/R3hn5L_ncDk/",
+      "title": "What Is Your Favorite Pizza Topping?",
+      "type": "Images",
+      "authorid": "ur75779804",
+      "author": "BonaFideBOSS",
+      "date": "2022/05/21",
+      "votes": 34,
+      "featured": "No",
+      "status": "Live"
+    },
+    {
+      "url": "https://www.imdb.com/poll/CwyFgEb-Cx8/",
+      "title": "Favorite ''Stranger Things'' Couple",
+      "type": "Images",
+      "authorid": "ur34779915",
+      "author": "Paok-Kilkis",
+      "date": "2022/05/21",
+      "votes": 38,
+      "featured": "No",
+      "status": "Live"
+    },
+    {
+      "url": "https://www.imdb.com/poll/6xriP1zFzBk/",
+      "title": "Face-Off: Thor vs. Star-Lord",
+      "type": "Images",
+      "authorid": "ur57704188",
+      "author": "brijeshmarand",
+      "date": "2022/05/21",
+      "votes": 59,
+      "featured": "No",
+      "status": "Live"
+    },
+    {
+      "url": "https://www.imdb.com/poll/aUgbJVecZmw/",
+      "title": "Face-Off: Northman vs. Northman",
+      "type": "Images",
+      "authorid": "ur0743304",
+      "author": "pbn",
+      "date": "2022/05/21",
+      "votes": 39,
+      "featured": "No",
+      "status": "Live"
+    },
+    {
+      "url": "https://www.imdb.com/poll/QLKPCzkCGh0/",
+      "title": "Favorite Villain From 'The Batman'",
+      "type": "Images",
+      "authorid": "ur75779804",
+      "author": "BonaFideBOSS",
+      "date": "2022/05/21",
+      "votes": 53,
+      "featured": "No",
+      "status": "Live"
+    },
+    {
+      "url": "https://www.imdb.com/poll/A6_aUSVPV78/",
+      "title": "Face-Off: Nicolas Cage 5 Favorite Buddy Movies",
+      "type": "Titles",
+      "authorid": "ur12089554",
+      "author": "mariojacobs",
+      "date": "2022/05/21",
+      "votes": 49,
+      "featured": "No",
+      "status": "Live"
+    },
+    {
+      "url": "https://www.imdb.com/poll/33vD-fWN8Uo/",
+      "title": "AFI's Top 25 Male Screen Legends",
+      "type": "People",
+      "authorid": "ur34779915",
+      "author": "Paok-Kilkis",
+      "date": "2022/05/19",
+      "votes": 187,
+      "featured": "No",
+      "status": "Live"
+    },
+    {
+      "url": "https://www.imdb.com/poll/DZ9XbwhJ4kw/",
+      "title": "Favorite British Comedian",
+      "type": "People",
+      "authorid": "ur75779804",
+      "author": "BonaFideBOSS",
+      "date": "2022/05/19",
+      "votes": 159,
+      "featured": "No",
+      "status": "Live"
+    },
+    {
+      "url": "https://www.imdb.com/poll/G-u5lQbEZQY/",
+      "title": "Best Genre Combination",
+      "type": "Titles",
+      "authorid": "ur56291258",
+      "author": "markok56",
+      "date": "2022/05/19",
+      "votes": 157,
+      "featured": "No",
+      "status": "Live"
+    },
+    {
+      "url": "https://www.imdb.com/poll/tmjWbCTMTds/",
+      "title": "Favorite Female Soldier",
+      "type": "Images",
+      "authorid": "ur23877502",
+      "author": "jafar413",
+      "date": "2022/05/19",
+      "votes": 129,
+      "featured": "No",
+      "status": "Live"
+    },
+    {
+      "url": "https://www.imdb.com/poll/jJ_MyT_vtS4/",
+      "title": "Longest Standing Ovations at Cannes",
+      "type": "Titles",
+      "authorid": "ur0594717",
+      "author": "TsarStepan",
+      "date": "2022/05/18",
+      "votes": 144,
+      "featured": "No",
+      "status": "Live"
+    },
+    {
+      "url": "https://www.imdb.com/poll/B4KupiXP3kA/",
+      "title": "AFI's Top 25 Female Screen Legends",
+      "type": "People",
+      "authorid": "ur34779915",
+      "author": "Paok-Kilkis",
+      "date": "2022/05/18",
+      "votes": 150,
+      "featured": "No",
+      "status": "Live"
+    },
+    {
+      "url": "https://www.imdb.com/poll/KCNK5uhAsMc/",
+      "title": "IMDb Poll Board: Favorite Movie Adapted From Book",
+      "type": "Titles",
+      "authorid": "ur57704188",
+      "author": "brijeshmarand",
+      "date": "2022/05/18",
+      "votes": 157,
+      "featured": "No",
+      "status": "Live"
+    },
+    {
+      "url": "https://www.imdb.com/poll/4RkxQ8QKpaE/",
+      "title": "2021 in the IMDb Top 250 \u2014 India",
+      "type": "Titles",
+      "authorid": "ur75779804",
+      "author": "BonaFideBOSS",
+      "date": "2022/05/18",
+      "votes": 35,
+      "featured": "No",
+      "status": "Live"
+    },
+    {
+      "url": "https://www.imdb.com/poll/ACUCGxkuDPg/",
+      "title": "Vanity Fair's 33 Best Romantic Comedies of All Time",
+      "type": "Titles",
+      "authorid": "ur0127678",
+      "author": "dan_dassow",
+      "date": "2022/05/17",
+      "votes": 186,
+      "featured": "No",
+      "status": "Live"
+    },
+    {
+      "url": "https://www.imdb.com/poll/Mz18o6EzTM4/",
+      "title": "Eurovision Song Contest 2022",
+      "type": "Titles",
+      "authorid": "ur36448190",
+      "author": "Breumaster",
+      "date": "2022/05/17",
+      "votes": 86,
+      "featured": "No",
+      "status": "Live"
+    },
+    {
+      "url": "https://www.imdb.com/poll/B0OigFDJDis/",
+      "title": "Giant Dresses 2022 Met Gala",
+      "type": "Images",
+      "authorid": "ur12089554",
+      "author": "mariojacobs",
+      "date": "2022/05/17",
+      "votes": 100,
+      "featured": "No",
+      "status": "Live"
+    },
+    {
+      "url": "https://www.imdb.com/poll/-CgPuZZb3uI/",
+      "title": "1940 Best Picture Nominees",
+      "type": "Titles",
+      "authorid": "ur122799232",
+      "author": "ethangentle",
+      "date": "2022/05/16",
+      "votes": 156,
+      "featured": "No",
+      "status": "Live"
+    },
+    {
+      "url": "https://www.imdb.com/poll/nu-9srn6fe4/",
+      "title": "A Tale of 'Tale'",
+      "type": "Titles",
+      "authorid": "ur57704188",
+      "author": "brijeshmarand",
+      "date": "2022/05/16",
+      "votes": 140,
+      "featured": "No",
+      "status": "Live"
+    },
+    {
+      "url": "https://www.imdb.com/poll/8CiiqK5xAG8/",
+      "title": "Characters Wearing All Star Shoes",
+      "type": "Images",
+      "authorid": "ur34779915",
+      "author": "Paok-Kilkis",
+      "date": "2022/05/16",
+      "votes": 136,
+      "featured": "No",
+      "status": "Live"
+    },
+    {
+      "url": "https://www.imdb.com/poll/GQeqJWdssrQ/",
+      "title": "Benedict Cumberbatch the Genius",
+      "type": "Titles",
+      "authorid": "ur75779804",
+      "author": "BonaFideBOSS",
+      "date": "2022/05/15",
+      "votes": 204,
+      "featured": "No",
+      "status": "Live"
+    },
+    {
+      "url": "https://www.imdb.com/poll/ZxqEMetDi_M/",
+      "title": "Shaw Brothers Kung Fu Movies",
+      "type": "Titles",
+      "authorid": "ur12089554",
+      "author": "mariojacobs",
+      "date": "2022/05/15",
+      "votes": 68,
+      "featured": "No",
+      "status": "Live"
+    },
+    {
+      "url": "https://www.imdb.com/poll/rKCLD1SH-is/",
+      "title": "Favorite Movie Posters \u2014 'Turning Red'",
+      "type": "Images",
+      "authorid": "ur123279639",
+      "author": "jasminehsarah",
+      "date": "2022/05/15",
+      "votes": 110,
       "featured": "No",
       "status": "Live"
     }
